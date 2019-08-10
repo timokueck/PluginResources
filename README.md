@@ -14,7 +14,8 @@ You are speaking a different language? Thats great because we need you to help u
 * Highlight the same words with ``** **``
 * Do not use Color Codes
 
-Sounds easy right?
+**... Sounds easy right?**
+
 ---
 
 ## How to contribute to the Permissions Database
