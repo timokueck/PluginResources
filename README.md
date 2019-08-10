@@ -13,14 +13,14 @@ Our Plugin Ultra Permissions simplifies the need to search for permissions by su
 
 To contribute, pick a plugin that has not been added yet and add all the permissions line by line to that file.
 
-### Format
 ---
+### Format
 
 Basic Format:
 
 * ``(PluginName)+(Permission)+(Description)``
 
-Basic Example:
+Example:
 
 * ``Essentials+essentials.fly+Allows the player to fly``
 
