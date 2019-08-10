@@ -16,13 +16,16 @@ To contribute, pick a plugin that has not been added yet and add all the permiss
 ### Format
 
 This is the format without a command:
+
 ``(PluginName)+(Permission)+(Description)``
 
 ..here an example:
+
 ``Essentials+essentials.fly+Allows the player to fly``
 
 
 This is an example with a command:
+
 ``Essentials+essentials.fly+Allows the player to fly+/fly``
 
 
