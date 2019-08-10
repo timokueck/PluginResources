@@ -3,12 +3,12 @@ A repository holding translations and other resources for Tech's Spigot Plugins
 
 ## How to contribute translations
 
-You are speaking a different language? Thats great because we need you to help us translate our work into other languages. The easiest way to contribute is to simply browse through the files [here](#) and replace the english phrases.
+You are speaking a different language? Thats great because we need you to help us translate our work into other languages. The easiest way to contribute is to simply browse through the files [here](https://github.com/TechsCode/PluginResources/tree/master/Translations) and replace the english phrases.
 
 ---
 ### Steps to Contribute
-1. Check for untranslated phrases in [these files](#)
-2. Replace them with the according translations
+1. Check for untranslated phrases in [these files](https://github.com/TechsCode/PluginResources/tree/master/Translations)
+2. Uncomment & replace the english phrase with the according translation
 
 ### Important Notice
 * Highlight the same words with ``** **``
@@ -20,7 +20,7 @@ You are speaking a different language? Thats great because we need you to help u
 
 ## How to contribute to the Permissions Database
 
-Our Plugin Ultra Permissions simplifies the need to search for permissions by suggesting them based on installed plugins. The permission suggestions will be retrieved from [this file](#).
+Our Plugin Ultra Permissions simplifies the need to search for permissions by suggesting them based on installed plugins. The permission suggestions will be retrieved from [this file](https://github.com/TechsCode/PluginResources/blob/master/Permissions%20Database/Database.updb).
 
 To contribute, pick a plugin that has not been added yet and add all the permissions line by line to that file.
 
