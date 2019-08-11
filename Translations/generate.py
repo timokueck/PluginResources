@@ -1,6 +1,6 @@
 import os
 
-languages = ["German", "French", "Italian", "Spanish", "Russian"]; # Exclude English because thats the default language
+languages = ["German", "French", "Italian", "Spanish", "Russian", "Serbian"]; # Exclude English because thats the default language
 
 # Filter all Template Files
 templateFiles = [];
