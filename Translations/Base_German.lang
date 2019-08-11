@@ -13,7 +13,7 @@ GUI_SETTINGS_MYSQL_SETUP_INFO: Dies erfordert eine externe MySQL Datenbank
 GUI_SETTINGS_MYSQL_RESTARTREQUIRED: Ein Restart wird nach der Einrichtung benötigt
 GUI_SETTINGS_LANGUAGE_NAME: Sprache
 COMMAND_NOCONSOLE: Dieser Command kann nicht mit Console ausgeführt werden
-COMMAND_NOPERMISSION: Du hast kein **Zugriff** auf diesen Command
+COMMAND_NOPERMISSION: Du hast keinen **Zugriff** auf diesen Command
 GUI_PAGEABLE_SEARCH_TYPEIN: Tippe eine Suchanfrage ein
 SETTINGS: Einstellungen
 ENABLE: aktivieren
@@ -28,7 +28,7 @@ GUI_SETTINGS_MYSQL_CANTCONNECT: Konnte nicht mit MySQL verbinden
 GUI_SETTINGS_MYSQL_SAVE_TITLE: Testen & Speichern
 GUI_SETTINGS_MYSQL_SETUP_TITLE_FIELDNAME: MySQL - %1
 GUI_PAGEABLE_PREVIOUS_ACTION: Navigiere zur vorherigen Seite
-GUI_SETTINGS_MYSQL_SAVE_ACTION: Klicke um zu **testen** und **speichern**
+GUI_SETTINGS_MYSQL_SAVE_ACTION: Klicke um zu **testen** und zu **speichern**
 GUI_SETTINGS_MYSQL_NAME: MySQL Datenbank
 GUI_SETTINGS_MYSQL_SETUP_ACTION: Klicke um MySQL zu aktivieren
 GUI_SETTINGS_MYSQL_SETUP_TITLE_TYPEINVALUE: Tippe Wert in Chat ein
