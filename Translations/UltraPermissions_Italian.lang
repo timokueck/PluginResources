@@ -1,138 +1,137 @@
-GUI_OVERVIEW_PERMISSIONLOG_ACTION: **Clicca** per aprire i Log dei Permessi
-GUI_OVERVIEW_GROUPS_ACTION: Clicca per vedere tutti i **Gruppi**
-GUI_GROUPBROWSER_LEFTCLICK_ACTION: **Tasto sinistro** per aprire
-EDITING: Modificando
-GUI_GROUPVIEW_EDITPREFIXSUFFIX_LEFTCLICK: **Tasto sinistro** per modificare il prefisso
-GUI_GROUPVIEW_INHERITANCE_ACTION: **Clicca** per modificare le ereditarietà
-GUI_OVERVIEW_DONATIONS_ACTION: Clicca per mostrare le donazioni
-GUI_GROUPVIEW_DEFAULT_UNDEFAULT_ACTION: **Clicca** per **levare** questo gruppo da **default**
-GUI_PERMEDITOR_SELECTED_EXPLANATION: Hai **selezionato** questo permesso
-COMMAND_PERMISSION_ADD_TIMED: Aggiunto il permesso **%1** a **%2** per **%3**
-EDITING_SUFFIX_TYPEINNONE: Non digitare **niente** per non avere il suffisso
-GUI_PERMEDITOR_ADDPERMISSION_TITLE: Aggiungi un permesso
-GUI_CHANGEORDER_TITLE: Modifica l'ordine
-GUI_GROUPBROWSER_SHOWALL_ACTION: Clicca per mostrare tutti i gruppi da tutti i Server & Mondi
-GUI_GROUPBROWSER_ADD_ACTION: Clicca per creare un gruppo
-EDITING_PREFIX_TYPEINNONE: Non digitare **niente** per non avere il prefisso
-GUI_OVERVIEW_REDUCE_TITLE: Ridurre
-GUI_GROUPVIEW_CHANGEICON_TITLE: Cambia icona
-PREFIX: Prefisso
-GUI_USERVIEW_EDITPREFIXSUFFIX_LEFTCLICK: **Tasto sinistro** per modificare il prefisso
-GUI_CHANGEORDER_INCREASE: Tasto destro** per aumentare
-GUI_GROUPBROWSER_TITLE_ALL: Mostrando tutti i gruppi
-CREATE_GROUP_NOSPACES: Il nome del gruppo non può contere spazi
-GUI_OVERVIEW_EXPAND_TITLE: Espandi
-GUI_OVERVIEW_REDUCE_EXPLANATION: Questo nasconderà le impostazioni avanzate
-GUI_PERMEDITOR_MANUAL_TITLE: Digita in Chat
-GUI_GROUPVIEW_DEFAULT_EXPLANATION: Se abilitato, ogni nuovo giocatore riceverà questo gruppo alla prima entrata
-RENAME_GROUP_SUBTITLE: Digita un nuovo nome
-GUI_GROUPBROWSER_REORDER_TITLE: Cambia L'ordine
-GUI_PERMEDITOR_SELECTALL_TITLE: Seleziona Tutto
-GUI_GROUPVIEW_EDITPREFIXSUFFIX_TITLE: Modifica prefisso e suffisso
-GUI_OVERVIEW_PERMISSIONLOG_EXPLANATION: Qui puoi dare un'occhiata a tutti i permessi recentemente controllati
-COMMAND_INVALID_ARGS: Argomento non valido
-GUI_USERVIEW_VIEWPERMISSIONS_ACTION: **Clicca** per vedere i Permessi
 #OVERVIEW: Overview
-CONFIRM_DELETION_OF: Conferma l'eliminazione di %1
-COMMAND_HINT_HELP: Digita **/upc** per avere la lista di tutti i comandi
-PERMISSIONLOG: Log dei Permessi
-GUI_PERMEDITOR_SELECTALL_ACTION: Clicca per **selezionare** tutti i permessi
-GUI_GROUPVIEW_DEFAULT_ACTION: **Clicca** per rendere questo gruppo quello di **default**
-COMMAND_PLAYER_SUPERADMIN_ALREADY: **%1** è già un superadmin
-EDITING_PREFIX_TYPEIN: Digita il nuovo prefisso
-COMMAND_PERMISSION_ADD: Aggiungi il permesso **%1** a **%2**
-GUI_GROUPBROWSER_DEFAULT_GROUP_INDICATOR: Questo è un gruppo default
-GUI_INHERITVIEW_REMOVE_EXPLANATION: Tutti i permessi di **%1** sono stati aggiunti a **%2**
-GUI_GROUPVIEW_VIEWPERMISSIONS_TITLE: Vedi i permessi
-GUI_PERMEDITOR_MANUAL_ACTION: **Clicca** per digitare il permesso
-COMMAND_PLAYER_NOTFOUND: Non è possibile trovare il giocatore **%1**
-GUI_PERMEDITOR_NORMAL_LEFTCLICK: **Tasto sinistro** per modificare
-GUI_PERMEDITOR_INHERITED_NEGATE_ACTION: **Tasto sinistro** per **negare** il permesso
-GUI_GROUPVIEW_DELETE_ACTION: **Clicca** per **eliminare** questo gruppo
-GUI_OVERVIEW_USERS_ACTION: Clicca per vedere tutti gli **Utenti**
-GUI_USERBROWSER_SHOWOFFLINE_ACTION: Clicca per mostrare gli **utenti offline**
-DEFAULT_PERMISSIONS: Permessi di default
-WORLD: Mondo
-CREATE_GROUP_NAMETAKEN: Il nome di questo gruppo è giù usato
-SUFFIX: Suffisso
-GUI_SETTINGS_MISC_NAME: Miscellaneous
-GUI_USERBROWSER_SHOWOFFLINE_TITLE: Mostra gli utenti offline
-COMMAND_GROUP_NOTFOUND: Non è stato possibile trovare il gruppo **%1**
-ADVANTAGES: Vantaggi
-COMMAND_PLAYER_INGROUP: Il giocatore **%1** è già in questo gruppo
-COMMAND_PLAYER_SUPERADMIN_REMOVE: Rimosso **%1** da superadmins con successo
-TIME: Tempo
-COMMAND_PLAYER_ADD_GROUP: Aggiunto il gruppo **%1** a **%2**
-GUI_GROUPVIEW_DEFAULT_TITLE: Gruppo default
 PERMISSION: Permesso
-GUI_PERMEDITOR_SELECTED_ACTION: **Clicca** per **deselezionare**
+PERMISSION_NODES: Nodi del permesso
+PERMISSIONS: Permessi
+DEFAULT_PERMISSIONS: Permessi di default
+GROUP: Gruppo
+GROUPS: Gruppi
+DEFAULT_GROUP: Gruppo Default
+INHERITED_GROUPS: Eredità dei Gruppi
+PLAYER: Giocatore
+SERVER: Server
+SELECTED: Selezionato
+WORLD: Mondo
+USERS: Utenti
+USER: Utente
+TIME: Tempo
+PREFIX: Prefisso
+SUFFIX: Suffisso
+OPTIONS: Opzioni
+SERVERNAME: Nome del Server
+DONATIONS: Donazioni
+ADVANTAGES: Vantaggi
+RECOMMENDED: Consigliato
+SETTINGS: Impostazioni
+PERMISSIONLOG: Log dei Permessi
+EDITING: Modificando
+ADD: Aggiungi
+TIME_FOR: per
+COMMAND_INVALID_ARGS: Argomento non valido
+COMMAND_NOTFOUND: Comando non trovato
+COMMAND_HINT_HELP: Digita **/upc** per avere la lista di tutti i comandi
+COMMAND_HELP_TITLE: Comandi di Ultra Permissions
+COMMAND_HELP_FOOTER: Visita **%1** per più info
+COMMAND_GROUP_NOTFOUND: Non è stato possibile trovare il gruppo **%1**
+COMMAND_PLAYER_NOTFOUND: Non è possibile trovare il giocatore **%1**
+COMMAND_PLAYER_NOTSUPERADMIN: **%1** non è un superadmin
+COMMAND_PLAYER_INGROUP: Il giocatore **%1** è già in questo gruppo
+COMMAND_PLAYER_SUPERADMIN_ALREADY: **%1** è già un superadmin
+COMMAND_PLAYER_SUPERADMIN_ADD: Aggiunto **%1** a superadmin con successo
+COMMAND_PLAYER_SUPERADMIN_REMOVE: Rimosso **%1** da superadmins con successo
+COMMAND_PLAYER_ADD_GROUP: Aggiunto il gruppo **%1** a **%2**
+COMMAND_PLAYER_ADD_GROUP_TIMED: Aggiunto il gruppo ***%1** a **%2** per **%3**
+COMMAND_PERMISSION_ADD: Aggiungi il permesso **%1** a **%2**
+COMMAND_PERMISSION_ADD_TIMED: Aggiunto il permesso **%1** a **%2** per **%3**
+GUI_OVERVIEW_USERS_ACTION: Clicca per vedere tutti gli **Utenti**
+GUI_OVERVIEW_GROUPS_ACTION: Clicca per vedere tutti i **Gruppi**
+GUI_OVERVIEW_DONATIONS_ACTION: Clicca per mostrare le donazioni
+GUI_OVERVIEW_REDUCE_TITLE: Ridurre
+GUI_OVERVIEW_REDUCE_ACTION: Clicca per nascondere le funzionalità avanzate
+GUI_OVERVIEW_REDUCE_EXPLANATION: Questo nasconderà le impostazioni avanzate
+GUI_OVERVIEW_EXPAND_TITLE: Espandi
+GUI_OVERVIEW_EXPAND_ACTION: **Clicca** per mostrare di più
 GUI_OVERVIEW_EXPAND_EXPLANATION: Questo ti mostrerà le opzioni avanzate
-GUI_PERMEDITOR_NORMAL_RIGHTCLICK: **Tasto destro** per **selezionare**
-GUI_PERMISSIONLOG_ACTION: Clicca per aggiungere questo permesso a un **gruppo **o  un **utente
+GUI_OVERVIEW_PERMISSIONLOG_ACTION: **Clicca** per aprire i Log dei Permessi
+GUI_OVERVIEW_PERMISSIONLOG_EXPLANATION: Qui puoi dare un'occhiata a tutti i permessi recentemente controllati
+GUI_OVERVIEW_SETTINGS_ACTION: **Clicca** per vedere le Impostazioni
+GUI_OVERVIEW_SETTINGS_EXPLANATION: Regola tutte le impostazioni del plugin
+GUI_GROUPBROWSER_TITLE_LIST: Lista
+GUI_GROUPBROWSER_TITLE_ALL: Mostrando tutti i gruppi
+GUI_GROUPBROWSER_TITLE_RANGE: Mostrando %1 / %2 Gruppi
+GUI_GROUPBROWSER_ADD_ACTION: Clicca per creare un gruppo
+GUI_GROUPBROWSER_REORDER_TITLE: Cambia L'ordine
+GUI_GROUPBROWSER_REORDER_ACTION: Clicca per modificare l'ordine
+GUI_GROUPBROWSER_LEFTCLICK_ACTION: **Tasto sinistro** per aprire
+GUI_GROUPBROWSER_Q_ACTION: **Premi Q** per visualizzare le Impostazioni di Archiviazione
+GUI_GROUPBROWSER_DEFAULT_GROUP_INDICATOR: Questo è un gruppo default
+GUI_GROUPBROWSER_SHOWALL_TITLE: Mostra Tutto
+GUI_GROUPBROWSER_SHOWALL_ACTION: Clicca per mostrare tutti i gruppi da tutti i Server & Mondi
+GUI_USERBROWSER_ACTION: **Clicca** per vedere
+GUI_USERBROWSER_DELETE_ACTION: **Premi Q** per **eliminare**
+GUI_USERBROWSER_SUPERADMIN_INDICATOR: Questo utente è un superadmin
+GUI_USERBROWSER_SHOWOFFLINE_TITLE: Mostra gli utenti offline
+GUI_USERBROWSER_HIDEOFFLINE_TITLE: Nascondi gli Utenti Offline
+GUI_USERBROWSER_SHOWOFFLINE_ACTION: Clicca per mostrare gli **utenti offline**
+GUI_USERBROWSER_HIDEOOFFLINE_ACTION: Clicca per nascondere gli **utenti offline**
+GUI_USERVIEW_VIEWPERMISSIONS_TITLE: Vedi i permessi
+GUI_USERVIEW_VIEWPERMISSIONS_ACTION: **Clicca** per vedere i Permessi
+GUI_USERVIEW_VIEWGROUPS_ACTION: **Clicca** per vedere i gruppi
+GUI_USERVIEW_EDITPREFIXSUFFIX_TITLE: Modifica Prefisso e Suffisso
+GUI_USERVIEW_EDITPREFIXSUFFIX_LEFTCLICK: **Tasto sinistro** per modificare il prefisso
+GUI_USERVIEW_EDITPREFIXSUFFIX_RIGHTCLICK: **Tasto destro** per modificare il suffisso
+GUI_GROUPVIEW_VIEWPERMISSIONS_TITLE: Vedi i permessi
+GUI_GROUPVIEW_VIEWPERMISSIONS_ACTION: **Clicca** per vedere i Permessi
+GUI_GROUPVIEW_CHANGEICON_TITLE: Cambia icona
+GUI_GROUPVIEW_CHANGEICON_ACTION: **Clicca** per cambiare
+GUI_GROUPVIEW_EDITPREFIXSUFFIX_TITLE: Modifica prefisso e suffisso
+GUI_GROUPVIEW_EDITPREFIXSUFFIX_LEFTCLICK: **Tasto sinistro** per modificare il prefisso
+GUI_GROUPVIEW_EDITPREFIXSUFFIX_RIGHTCLICK: **Tasto destro** per modificare il suffisso
 GUI_GROUPVIEW_RENAME_ACTION: **Clicca** per rinominare un gruppo
 GUI_GROUPVIEW_DELETE_TITLE: Elimina gruppo
-GUI_OVERVIEW_EXPAND_ACTION: **Clicca** per mostrare di più
+GUI_GROUPVIEW_DELETE_ACTION: **Clicca** per **eliminare** questo gruppo
 GUI_GROUPVIEW_DELETE_PERMANENT: Questa azione è **permanente**
-GUI_OVERVIEW_SETTINGS_EXPLANATION: Regola tutte le impostazioni del plugin
-GUI_INHERITVIEW_ADD_EXPLANATION: Aggiungerà tutti i permessi da **%1** a **%2**
-DONATIONS: Donazioni
-PERMISSIONS: Permessi
-COMMAND_PLAYER_NOTSUPERADMIN: **%1** non è un superadmin
-GUI_USERVIEW_VIEWGROUPS_ACTION: **Clicca** per vedere i gruppi
-COMMAND_HELP_TITLE: Comandi di Ultra Permissions
-OPTIONS: Opzioni
-GUI_CHANGEORDER_DECREASE: Tasto sinistro** per decrementare
-CREATE_GROUP_NOCOLORS: Non puoi usare i colori nei nomi dei gruppi
-GUI_PERMEDITOR_INHERITED_EXPLANATION: Permesso aggiunto da **%1**
-GUI_OVERVIEW_SETTINGS_ACTION: **Clicca** per vedere le Impostazioni
-RECOMMENDED: Consigliato
-GUI_PERMEDITOR_NORMAL_PRESSQ: **Premi Q** per eliminare
-SETTINGS: Impostazioni
-EDITING_SUFFIX_TYPEIN: Digita il nuovo Suffisso
-GUI_GROUPBROWSER_TITLE_LIST: Lista
-GUI_GROUPBROWSER_TITLE_RANGE: Mostrando %1 / %2 Gruppi
-GUI_USERVIEW_EDITPREFIXSUFFIX_RIGHTCLICK: **Tasto destro** per modificare il suffisso
-EDITING_PREFIX_EDIT: **Modifica il Prefisso
-USERS: Utenti
-COMMAND_NOTFOUND: Comando non trovato
-EDITING_SUFFIX_EDIT: **Modifica il Suffisso
-GUI_GROUPVIEW_EDITPREFIXSUFFIX_RIGHTCLICK: **Tasto destro** per modificare il suffisso
-PERMISSION_NODES: Nodi del permesso
-GUI_INHERITVIEW_ADD_ACTION: Clicca per **aggiungere**
-DEFAULT_GROUP: Gruppo Default
-GUI_GROUPBROWSER_REORDER_ACTION: Clicca per modificare l'ordine
-GUI_OVERVIEW_REDUCE_ACTION: Clicca per nascondere le funzionalità avanzate
-GUI_PERMEDITOR_MANUAL_DIALOG_TITLE: Permesso
-CREATE_GROUP_SUBTITLE: Digita il nome del gruppo
-GROUPS: Gruppi
-GUI_PERMEDITOR_MANUAL_DIALOG_SUBTITLE: Digita un permesso
-ADD: Aggiungi
-GUI_PERMEDITOR_PLUGIN_ACTION: Clicca per vedere i permessi di **%1**
+GUI_GROUPVIEW_DEFAULT_TITLE: Gruppo default
+GUI_GROUPVIEW_DEFAULT_ACTION: **Clicca** per rendere questo gruppo quello di **default**
+GUI_GROUPVIEW_DEFAULT_UNDEFAULT_ACTION: **Clicca** per **levare** questo gruppo da **default**
+GUI_GROUPVIEW_DEFAULT_EXPLANATION: Se abilitato, ogni nuovo giocatore riceverà questo gruppo alla prima entrata
 GUI_GROUPVIEW_INHERITANCE_TITLE: Eredità
-GUI_GROUPBROWSER_SHOWALL_TITLE: Mostra Tutto
-SERVER: Server
-GUI_USERBROWSER_SUPERADMIN_INDICATOR: Questo utente è un superadmin
-GROUP: Gruppo
-GUI_USERVIEW_EDITPREFIXSUFFIX_TITLE: Modifica Prefisso e Suffisso
-USER: Utente
-SELECTED: Selezionato
-GUI_USERBROWSER_DELETE_ACTION: **Premi Q** per **eliminare**
-GUI_USERVIEW_VIEWPERMISSIONS_TITLE: Vedi i permessi
-CREATE_GROUP_TITLE: Crea un Gruppo
-PLAYER: Giocatore
-TIME_FOR: per
-GUI_USERBROWSER_HIDEOOFFLINE_ACTION: Clicca per nascondere gli **utenti offline**
-INHERITED_GROUPS: Eredità dei Gruppi
-SERVERNAME: Nome del Server
-COMMAND_HELP_FOOTER: Visita **%1** per più info
-COMMAND_PLAYER_SUPERADMIN_ADD: Aggiunto **%1** a superadmin con successo
-GUI_GROUPVIEW_VIEWPERMISSIONS_ACTION: **Clicca** per vedere i Permessi
-RENAME_GROUP_TITLE: **Rinomina gruppo
-GUI_GROUPBROWSER_Q_ACTION: **Premi Q** per visualizzare le Impostazioni di Archiviazione
-GUI_USERBROWSER_HIDEOFFLINE_TITLE: Nascondi gli Utenti Offline
-COMMAND_PLAYER_ADD_GROUP_TIMED: Aggiunto il gruppo ***%1** a **%2** per **%3**
-GUI_GROUPVIEW_CHANGEICON_ACTION: **Clicca** per cambiare
+GUI_GROUPVIEW_INHERITANCE_ACTION: **Clicca** per modificare le ereditarietà
+GUI_PERMEDITOR_SELECTALL_TITLE: Seleziona Tutto
+GUI_PERMEDITOR_SELECTALL_ACTION: Clicca per **selezionare** tutti i permessi
+GUI_PERMEDITOR_INHERITED_NEGATE_ACTION: **Tasto sinistro** per **negare** il permesso
 GUI_PERMEDITOR_INHERITED_JUMP_ACTION: **Tasto destro** per andare a **%1**
+GUI_PERMEDITOR_INHERITED_EXPLANATION: Permesso aggiunto da **%1**
+GUI_PERMEDITOR_SELECTED_ACTION: **Clicca** per **deselezionare**
+GUI_PERMEDITOR_SELECTED_EXPLANATION: Hai **selezionato** questo permesso
+GUI_PERMEDITOR_NORMAL_LEFTCLICK: **Tasto sinistro** per modificare
+GUI_PERMEDITOR_NORMAL_RIGHTCLICK: **Tasto destro** per **selezionare**
+GUI_PERMEDITOR_NORMAL_PRESSQ: **Premi Q** per eliminare
+GUI_PERMEDITOR_ADDPERMISSION_TITLE: Aggiungi un permesso
+GUI_PERMEDITOR_PLUGIN_ACTION: Clicca per vedere i permessi di **%1**
+GUI_PERMEDITOR_MANUAL_TITLE: Digita in Chat
+GUI_PERMEDITOR_MANUAL_ACTION: **Clicca** per digitare il permesso
+GUI_PERMEDITOR_MANUAL_DIALOG_SUBTITLE: Digita un permesso
+GUI_INHERITVIEW_ADD_ACTION: Clicca per **aggiungere**
+GUI_INHERITVIEW_ADD_EXPLANATION: Aggiungerà tutti i permessi da **%1** a **%2**
 GUI_INHERITVIEW_REMOVE_ACTION: Clicca per **rimuovere**
+GUI_INHERITVIEW_REMOVE_EXPLANATION: Tutti i permessi di **%1** sono stati aggiunti a **%2**
+GUI_CHANGEORDER_TITLE: Modifica l'ordine
+GUI_CHANGEORDER_INCREASE: Tasto destro** per aumentare
+GUI_CHANGEORDER_DECREASE: Tasto sinistro** per decrementare
+GUI_PERMISSIONLOG_ACTION: Clicca per aggiungere questo permesso a un **gruppo **o  un **utente
 GUI_SETTINGS_FORMAT_NAME: Formato Chat & Tab
-GUI_USERBROWSER_ACTION: **Clicca** per vedere
+GUI_SETTINGS_MISC_NAME: Miscellaneous
+EDITING_PREFIX_EDIT: **Modifica il Prefisso
+EDITING_PREFIX_TYPEIN: Digita il nuovo prefisso
+EDITING_PREFIX_TYPEINNONE: Non digitare **niente** per non avere il prefisso
+EDITING_SUFFIX_EDIT: **Modifica il Suffisso
+EDITING_SUFFIX_TYPEIN: Digita il nuovo Suffisso
+EDITING_SUFFIX_TYPEINNONE: Non digitare **niente** per non avere il suffisso
+CREATE_GROUP_TITLE: Crea un Gruppo
+CREATE_GROUP_SUBTITLE: Digita il nome del gruppo
+CREATE_GROUP_NOSPACES: Il nome del gruppo non può contere spazi
+CREATE_GROUP_NOCOLORS: Non puoi usare i colori nei nomi dei gruppi
+CREATE_GROUP_NAMETAKEN: Il nome di questo gruppo è giù usato
+RENAME_GROUP_TITLE: **Rinomina gruppo
+RENAME_GROUP_SUBTITLE: Digita un nuovo nome
+CONFIRM_DELETION_OF: Conferma l'eliminazione di %1
