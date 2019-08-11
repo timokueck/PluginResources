@@ -44,4 +44,4 @@ GUI_PLAYERVIEW_EXCLUDE_EXPLANATION: Dieser Spieler kann nicht bestraft werden
 OVERVIEW: Übersicht
 TEMPLATE: Vorlage
 MUTE: Stummschalten
-#GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS_ENTRY: %1 auf **%2** mit **%3
+GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS_ENTRY: %1 auf **%2** mit **%3
