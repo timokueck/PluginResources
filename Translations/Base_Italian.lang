@@ -4,7 +4,7 @@
 #DISABLED: disattivato
 #GUI_SETTINGS_MYSQL_DISABLE_ACTION: Clicca per disattivare MySQL
 #GUI_BACK_NAME: Indietro
-#GUI_PAGEABLE_SEARCH_CLOSE_ACTION: Clicca per **close** la ricerca
+#GUI_PAGEABLE_SEARCH_CLOSE_ACTION: Clicca per **chiudere** la ricerca
 #GUI_PAGEABLE_SEARCH_TITLE: Ricerca
 #GUI_PAGEABLE_NEXT_TITLE: Successivo
 #GUI_PAGEABLE_NEXT_ACTION: Clicca per andare alla pagina successiva
@@ -12,24 +12,55 @@
 #GUI_SETTINGS_MYSQL_SETUP_INFO: Questo richiede un database esterno MySQL al quale connettersi
 #GUI_SETTINGS_MYSQL_RESTARTREQUIRED: Dovrai riavviare per applicare le modifiche
 #GUI_SETTINGS_LANGUAGE_NAME: Lingua
-#COMMAND_NOCONSOLE: Questo comando non può essere avviato dalla **console**
-#COMMAND_NOPERMISSION: Non hai **access** a quel comando
+#COMMAND_NOCONSOLE: Questo comando non può essere avviato dalla console
+#COMMAND_NOPERMISSION: Non hai **accesso** a quel comando
 #GUI_PAGEABLE_SEARCH_TYPEIN: Digitare il termine da cercare
 #SETTINGS: Impostazioni
 #ENABLE: abilita
 #NONE: niente
 #ENABLED: abilitato
+#GUI_SETTINGS_MYSQL_EDITVALUE_ACTION: Clicca per modificare questo valore
+#DISABLE: Disattiva
+#GUI_SETTINGS_MYSQL_DISABLE_TITLE: Disattiva MySQL
+#DISABLED: Disattivato
+#GUI_SETTINGS_MYSQL_DISABLE_ACTION: Clicca per disattivare MySQL
+#GUI_BACK_NAME: Indietro
+#GUI_PAGEABLE_SEARCH_CLOSE_ACTION: Clicca per **chiudere** la ricerca
+#GUI_PAGEABLE_SEARCH_TITLE: Cerca
+#GUI_PAGEABLE_NEXT_TITLE: Avanti
+#GUI_PAGEABLE_NEXT_ACTION: Clicca per andare alla prossima pagina
+#GUI_BACK_ACTION: Clicca per tornare indietro
+#GUI_SETTINGS_MYSQL_SETUP_INFO: Richiede un Database MySQL esterno per connettersi a
+#GUI_SETTINGS_MYSQL_RESTARTREQUIRED: Richiede un riavvio per applicare le modifiche
+#GUI_SETTINGS_LANGUAGE_NAME: Lingua
+#COMMAND_NOCONSOLE: Questo comando non può essere eseguito dalla console
+#COMMAND_NOPERMISSION: Non hai **accesso** a questo comando
+#GUI_PAGEABLE_SEARCH_TYPEIN: Digita un termine di ricerca
+#SETTINGS: Impostazioni
+#ENABLE: attivo
+#NONE: Niente
+#ENABLED: attivato
 #GUI_PAGEABLE_PREVIOUS_TITLE: Precedente
 #GUI_SETTINGS_MYSQL_CURRENTVALUE: Valore attuale:
 #GUI_PAGEABLE_SEARCH_ACTION: Clicca per cercare
 #GUI_SETTINGS_SELECTPAGE: Clicca per mostrare le impostazioni
-#GUI_SETTINGS_PAGESELECTED: Questa pagina è attualmente **selected**
+#GUI_SETTINGS_PAGESELECTED: Questa pagina è attualmente **selezionata**
 #GUI_SETTINGS_MYSQL_CANTCONNECT: Impossibile connettersi al tuo MySQL
 #GUI_SETTINGS_MYSQL_SAVE_TITLE: Testa & Salva
 #GUI_SETTINGS_MYSQL_SETUP_TITLE_FIELDNAME: MySQL - %1
 #GUI_PAGEABLE_PREVIOUS_ACTION: Clicca per andare alla pagina precedente
-#GUI_SETTINGS_MYSQL_SAVE_ACTION: Clicca per **test** e **save**
-#GUI_SETTINGS_MYSQL_NAME: MySQL **Database**
+#GUI_SETTINGS_MYSQL_SAVE_ACTION: Clicca per **testare** e **salvare**
+#GUI_SETTINGS_MYSQL_NAME: MySQL Database
 #GUI_SETTINGS_MYSQL_SETUP_ACTION: Clicca per abilitare MySQL
 #GUI_SETTINGS_MYSQL_SETUP_TITLE_TYPEINVALUE: Digita il valore
-#GUI_SETTINGS_MYSQL_SETUP_TITLE: **Setup** MySQL
+#GUI_SETTINGS_MYSQL_SETUP_TITLE: Setup MySQL
+#GUI_SETTINGS_PAGESELECTED: Questa pagina è attualmente **selezionata**
+#GUI_SETTINGS_MYSQL_CANTCONNECT: Non è stato possibile connettersi al tuo MySQL
+#GUI_SETTINGS_MYSQL_SAVE_TITLE: Prova & Salva
+#GUI_SETTINGS_MYSQL_SETUP_TITLE_FIELDNAME: MySQL - %1
+#GUI_PAGEABLE_PREVIOUS_ACTION: Clicca per andare alla pagina precedente
+#GUI_SETTINGS_MYSQL_SAVE_ACTION: Clicca per **provare** e **salvare**
+#GUI_SETTINGS_MYSQL_NAME: MySQL Database
+#GUI_SETTINGS_MYSQL_SETUP_ACTION: Clicca per attivare MySQL
+#GUI_SETTINGS_MYSQL_SETUP_TITLE_TYPEINVALUE: Digita il valore
+#GUI_SETTINGS_MYSQL_SETUP_TITLE: Imposta MySQL
