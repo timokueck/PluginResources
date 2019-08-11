@@ -23,10 +23,10 @@ GUI_SETTINGS_MYSQL_RESTARTREQUIRED: Ein Restart wird nach der Einrichtung benöt
 GUI_SETTINGS_MYSQL_CANTCONNECT: Konnte nicht mit MySQL verbinden
 GUI_SETTINGS_MYSQL_SAVE_TITLE: Überprüfen & Speichern
 GUI_SETTINGS_MYSQL_SAVE_ACTION: Klicke um zu **überprüfen** und zu **speichern**
-#GUI_SETTINGS_LANG_ACTION: Click to **select **this language
-#GUI_SETTINGS_LANG_SELECTED: This language is **currently** selected
-#GUI_SETTINGS_LANG_PHRASES: Phrases
-#GUI_SETTINGS_LANG_COVERAGE: Coverage
+#GUI_SETTINGS_LANG_ACTION: Klicke um diese Sprache **auszuwählen**
+#GUI_SETTINGS_LANG_SELECTED: Diese Sprache wurde **aktuell** ausgewählt
+#GUI_SETTINGS_LANG_PHRASES: Sätze
+#GUI_SETTINGS_LANG_COVERAGE: Abdeckung
 GUI_PAGEABLE_SEARCH_TITLE: Suche
 GUI_PAGEABLE_SEARCH_ACTION: Klicke um zu Suchen
 GUI_PAGEABLE_NEXT_TITLE: Nächste Seite
