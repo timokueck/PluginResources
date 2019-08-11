@@ -2,7 +2,7 @@ GUI_OVERVIEW_PERMISSIONLOG_ACTION: **Klicke** um den Permission Log zu öffnen
 GUI_OVERVIEW_GROUPS_ACTION: Klicke um **Gruppen** anzuzeigen
 GUI_GROUPBROWSER_LEFTCLICK_ACTION: **Links Klick** um zu öffnen
 EDITING: Editieren
-GUI_GROUPVIEW_EDITPREFIXSUFFIX_LEFTCLICK: **Links Klick** um prefix zu editieren
+GUI_GROUPVIEW_EDITPREFIXSUFFIX_LEFTCLICK: **Links Klick** um Prefix zu editieren
 GUI_GROUPVIEW_INHERITANCE_ACTION: **Klicke** um Vererbungen zu bearbeiten
 GUI_OVERVIEW_DONATIONS_ACTION: Klicke um Spenden anzuzeigen
 GUI_GROUPVIEW_DEFAULT_UNDEFAULT_ACTION: **Klicke** um diese Gruppe zu **entstandardisieren**
@@ -67,13 +67,13 @@ GUI_GROUPVIEW_DEFAULT_TITLE: Standard Gruppe
 PERMISSION: Berechtigung
 GUI_PERMEDITOR_SELECTED_ACTION: **Klicke** um die Auswahl **aufzuheben**
 GUI_OVERVIEW_EXPAND_EXPLANATION: Klicke um erweiterte Features anzuzeigen
-GUI_PERMEDITOR_NORMAL_RIGHTCLICK: **Rechts Klickk** um Auswahl **aufzuheben**
+GUI_PERMEDITOR_NORMAL_RIGHTCLICK: **Rechts Klick** um Auswahl **aufzuheben**
 GUI_PERMISSIONLOG_ACTION: Klicke um Berechtigung einer **Gruppe** oder **Spieler** hinzuzufügen
 GUI_GROUPVIEW_RENAME_ACTION: **Klicke** um Gruppe umzubennen
 GUI_GROUPVIEW_DELETE_TITLE: Lösche Gruppe
 GUI_OVERVIEW_EXPAND_ACTION: **Klicke** um mehr anzuzeigen
 GUI_GROUPVIEW_DELETE_PERMANENT: Diese Aktion ist **permanent**
-GUI_OVERVIEW_SETTINGS_EXPLANATION: Passe alle Einstellungen ein
+GUI_OVERVIEW_SETTINGS_EXPLANATION: Passe alle Einstellungen an
 GUI_INHERITVIEW_ADD_EXPLANATION: Dies fügt alle Berechtigungen von **%1** zu **%2**
 DONATIONS: Spenden
 PERMISSIONS: Berechtigungen
