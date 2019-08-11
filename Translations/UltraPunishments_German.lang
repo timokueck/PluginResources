@@ -3,27 +3,27 @@
 #OR: oder
 #REPORTS: Meldungen
 #GUI_OVERVIEW_REPORTS_ACTION: Klicke um offene Meldungen anzuzeigen
-#GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS_NONE: Spieler hat keine aktiven Bestrafungen
+#GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS_NONE: Spieler hat keine aktiven Meldungen
 #GUI_PLAYERVIEW_PUNISHMENTS_ACTIVE: Aktive Bestrafungen
 #REPORT: Melden
 #GUI_PLAYERVIEW_EXCLUDE_ACTION: Klicke um %1 Bestrafungen für diesen Spieler
 #GUI_OVERVIEW_TEMPLATES_ACTION: Klicke um die Vorlagen anzuzeigen
 #GUI_PLAYERVIEW_PUNISH_UNPUNISHABLE: Bestrafungen für diesen Spieler wurden deaktiviert
-#TYPE_IN_MESSAGE: Gebe eine Nachricht ein
-#SET_A_DURATION: Klicke um die Dauer zu setzen
+#TYPE_IN_MESSAGE: Gib eine Nachricht ein
+#SET_A_DURATION: Klicke um die Dauer festzulegen
 #PLAYERS: Spieler
 #REASON: Grund
 #TEMPLATES: Vorlagen
 #GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS: Aktive Meldungen von
 #EVIDENCE: Beweise
 #GUI_OVERVIEW_SETTINGS_ACTION: Klicke um die Einstellungen anzuzeigen
-#SET_A_REASON: Klicke um den Grund zu setzen
+#SET_A_REASON: Klicke um den Grund festzulegen
 #GUI_PLAYERVIEW_EXCLUDE_TITLE: Von Bestrafungen ausschließen
 #MESSAGE: Nachricht
 #GUI_PLAYERVIEW_PUNISHMENTS_ACTION: Klicke um die Bestrafungen anzuzeigen
 #GUI_OVERVIEW_PLAYERS_ACTION: Klicke um die Spieler anzuzeigen
 #SETTINGS: Einstellungen
-#TYPE_IN_REASON: Gebe einen Grund ein
+#TYPE_IN_REASON: Gib einen Grund ein
 #GUI_PLAYERVIEW_WARNINGS_ACTION: Klicke um Verwarnungen anzuzeigen
 #GUI_PLAYERVIEW_WARNINGS_NOWARNING: Der Spieler wurde noch nie verwarnt
 #WARNINGS: Verwarnungen
