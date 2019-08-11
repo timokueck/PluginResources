@@ -55,84 +55,84 @@ DEFAULT_PERMISSIONS: Početna Dozvole
 WORLD: Svet
 CREATE_GROUP_NAMETAKEN: Ovaj naziv grupe sve već koristi
 SUFFIX: Suffix
-#GUI_SETTINGS_MISC_NAME: Ostalo
-#GUI_USERBROWSER_SHOWOFFLINE_TITLE: Prikažite Offline Korisnike
-#COMMAND_GROUP_NOTFOUND: Nemoguće pronaći grupu **%1**
-#ADVANTAGES: Prednosti
-#COMMAND_PLAYER_INGROUP: Igrač **%1** je već u ovoj grupi
-#COMMAND_PLAYER_SUPERADMIN_REMOVE: Uspešno uklonjen/a **%1** iz superadmina
-#TIME: Vreme
-#COMMAND_PLAYER_ADD_GROUP: Dodata Grupa **%1** **%2**
-#GUI_GROUPVIEW_DEFAULT_TITLE: Početna Grupa
-#PERMISSION: Dozvola
-#GUI_PERMEDITOR_SELECTED_ACTION: **Kliknite** da **poništite izbor**
-#GUI_OVERVIEW_EXPAND_EXPLANATION: Ovim ćete prikazati napredna podešavanja
-#GUI_PERMEDITOR_NORMAL_RIGHTCLICK: **Desni Klik** da **izaberete**
-#GUI_PERMISSIONLOG_ACTION: Kliknite da dodate ovu dozvolu grupi **group **ili **user
-#GUI_GROUPVIEW_RENAME_ACTION: **Kliknite** da preimenujete grupu
-#GUI_GROUPVIEW_DELETE_TITLE: Obrišite Grupu
-#GUI_OVERVIEW_EXPAND_ACTION: **Kliknite** za opširniji prikaz
-#GUI_GROUPVIEW_DELETE_PERMANENT: Ova akcija je **trajna**
-#GUI_OVERVIEW_SETTINGS_EXPLANATION: Podesite sva podešavanja ovog plugina
-#GUI_INHERITVIEW_ADD_EXPLANATION: Ovo će dodati sve dozvole od **%1** **%2**
-#DONATIONS: Donacije
-#PERMISSIONS: Dozvole
-#COMMAND_PLAYER_NOTSUPERADMIN: **%1** nije superadmin
-#GUI_USERVIEW_VIEWGROUPS_ACTION: **Kliknite** da vidite sve Grupe
-#COMMAND_HELP_TITLE: Ultra Permissions Komande
-#OPTIONS: Opcije
-#GUI_CHANGEORDER_DECREASE: Levi Klik** da smanjite
-#CREATE_GROUP_NOCOLORS: Ne možete koristiti kodove boja u nazivu grupe
-#GUI_PERMEDITOR_INHERITED_EXPLANATION: Dozvola dodata od **%1**
-#GUI_OVERVIEW_SETTINGS_ACTION: **Kliknite** za prikaz Podešavanja
-#RECOMMENDED: Preporučeno
-#GUI_PERMEDITOR_NORMAL_PRESSQ: **Stisnite Q** za Brisanje
-#SETTINGS: Podešavanja
-#EDITING_SUFFIX_TYPEIN: Ukucajte novi suffix
-#GUI_GROUPBROWSER_TITLE_LIST: Lista
-#GUI_GROUPBROWSER_TITLE_RANGE: Prikazivanje %1 / %2 Grupa
-#GUI_USERVIEW_EDITPREFIXSUFFIX_RIGHTCLICK: **Desni Klik** za menjanje suffixa
-#EDITING_PREFIX_EDIT: **Promenite Prefix
-#USERS: Korisnici
-#COMMAND_NOTFOUND: Komanda nije pronađena
-#EDITING_SUFFIX_EDIT: **Promenite Suffix
-#GUI_GROUPVIEW_EDITPREFIXSUFFIX_RIGHTCLICK: **Desni Klik** za promenu suffixa
-#PERMISSION_NODES: Dozvole
-#GUI_INHERITVIEW_ADD_ACTION: Kliknite da **dodate**
-#DEFAULT_GROUP: Početna Grupa
-#GUI_GROUPBROWSER_REORDER_ACTION: Kliknite za promenu redosleda
-#GUI_OVERVIEW_REDUCE_ACTION: Kliknite da sakrijete napredna podešavanja
-#GUI_PERMEDITOR_MANUAL_DIALOG_TITLE: Dozvola
-#CREATE_GROUP_SUBTITLE: Ukucajte naziv grupe
-#GROUPS: Grupe
-#GUI_PERMEDITOR_MANUAL_DIALOG_SUBTITLE: Ukucajte dozvolu
-#ADD: Dodajte
-#GUI_PERMEDITOR_PLUGIN_ACTION: Kliknite za prikaz Dozvola **%1**
-#GUI_GROUPVIEW_INHERITANCE_TITLE: Nasleđa
-#GUI_GROUPBROWSER_SHOWALL_TITLE: Prikažite sve
-#SERVER: Server
-#GUI_USERBROWSER_SUPERADMIN_INDICATOR: Ovaj korisnik je superadmin
-#GROUP: Grupa
-#GUI_USERVIEW_EDITPREFIXSUFFIX_TITLE: Promenite Prefix i Suffix
-#USER: Korisnik
-#SELECTED: Izabrano
-#GUI_USERBROWSER_DELETE_ACTION: **Stisnite Q** da **obrišete**
-#GUI_USERVIEW_VIEWPERMISSIONS_TITLE: Pogledajte Dozvole
-#CREATE_GROUP_TITLE: Napravite Grupu
-#PLAYER: Igrač
-#TIME_FOR: za
-#GUI_USERBROWSER_HIDEOOFFLINE_ACTION: Kliknite da sakrijete **offline korisnike**
-#INHERITED_GROUPS: Nasleđene Grupe
-#SERVERNAME: Naziv Servera
-#COMMAND_HELP_FOOTER: Posetite **%1** za više informacija
-#COMMAND_PLAYER_SUPERADMIN_ADD: Uspešno dodat **%1** u superadmine
-#GUI_GROUPVIEW_VIEWPERMISSIONS_ACTION: **Kliknite** da vidite Dozvole
-#RENAME_GROUP_TITLE: **Preimenujte Grupu
-#GUI_GROUPBROWSER_Q_ACTION: **Stisnite Q** za prikaz Podešavanja Skladišta
-#GUI_USERBROWSER_HIDEOFFLINE_TITLE: Sakrijte Offline Korisnike
-#COMMAND_PLAYER_ADD_GROUP_TIMED: Dodata Grupa ***%1** **%2** za **%3**
-#GUI_GROUPVIEW_CHANGEICON_ACTION: **Kliknite** za promenu
-#GUI_PERMEDITOR_INHERITED_JUMP_ACTION: **Desni Klik** da skočite do **%1**
-#GUI_INHERITVIEW_REMOVE_ACTION: Kliknite da **uklonite**
-#GUI_SETTINGS_FORMAT_NAME: Format Četa i Tabliste
-#GUI_USERBROWSER_ACTION: **Kliknite** da vidite
+GUI_SETTINGS_MISC_NAME: Ostalo
+GUI_USERBROWSER_SHOWOFFLINE_TITLE: Prikažite Offline Korisnike
+COMMAND_GROUP_NOTFOUND: Nemoguće pronaći grupu **%1**
+ADVANTAGES: Prednosti
+COMMAND_PLAYER_INGROUP: Igrač **%1** je već u ovoj grupi
+COMMAND_PLAYER_SUPERADMIN_REMOVE: Uspešno uklonjen/a **%1** iz superadmina
+TIME: Vreme
+COMMAND_PLAYER_ADD_GROUP: Dodata Grupa **%1** **%2**
+GUI_GROUPVIEW_DEFAULT_TITLE: Početna Grupa
+PERMISSION: Dozvola
+GUI_PERMEDITOR_SELECTED_ACTION: **Kliknite** da **poništite izbor**
+GUI_OVERVIEW_EXPAND_EXPLANATION: Ovim ćete prikazati napredna podešavanja
+GUI_PERMEDITOR_NORMAL_RIGHTCLICK: **Desni Klik** da **izaberete**
+GUI_PERMISSIONLOG_ACTION: Kliknite da dodate ovu dozvolu grupi **group **ili **user
+GUI_GROUPVIEW_RENAME_ACTION: **Kliknite** da preimenujete grupu
+GUI_GROUPVIEW_DELETE_TITLE: Obrišite Grupu
+GUI_OVERVIEW_EXPAND_ACTION: **Kliknite** za opširniji prikaz
+GUI_GROUPVIEW_DELETE_PERMANENT: Ova akcija je **trajna**
+GUI_OVERVIEW_SETTINGS_EXPLANATION: Podesite sva podešavanja ovog plugina
+GUI_INHERITVIEW_ADD_EXPLANATION: Ovo će dodati sve dozvole od **%1** **%2**
+DONATIONS: Donacije
+PERMISSIONS: Dozvole
+COMMAND_PLAYER_NOTSUPERADMIN: **%1** nije superadmin
+GUI_USERVIEW_VIEWGROUPS_ACTION: **Kliknite** da vidite sve Grupe
+COMMAND_HELP_TITLE: Ultra Permissions Komande
+OPTIONS: Opcije
+GUI_CHANGEORDER_DECREASE: Levi Klik** da smanjite
+CREATE_GROUP_NOCOLORS: Ne možete koristiti kodove boja u nazivu grupe
+GUI_PERMEDITOR_INHERITED_EXPLANATION: Dozvola dodata od **%1**
+GUI_OVERVIEW_SETTINGS_ACTION: **Kliknite** za prikaz Podešavanja
+RECOMMENDED: Preporučeno
+GUI_PERMEDITOR_NORMAL_PRESSQ: **Stisnite Q** za Brisanje
+SETTINGS: Podešavanja
+EDITING_SUFFIX_TYPEIN: Ukucajte novi suffix
+GUI_GROUPBROWSER_TITLE_LIST: Lista
+GUI_GROUPBROWSER_TITLE_RANGE: Prikazivanje %1 / %2 Grupa
+GUI_USERVIEW_EDITPREFIXSUFFIX_RIGHTCLICK: **Desni Klik** za menjanje suffixa
+EDITING_PREFIX_EDIT: **Promenite Prefix
+USERS: Korisnici
+COMMAND_NOTFOUND: Komanda nije pronađena
+EDITING_SUFFIX_EDIT: **Promenite Suffix
+GUI_GROUPVIEW_EDITPREFIXSUFFIX_RIGHTCLICK: **Desni Klik** za promenu suffixa
+PERMISSION_NODES: Dozvole
+GUI_INHERITVIEW_ADD_ACTION: Kliknite da **dodate**
+DEFAULT_GROUP: Početna Grupa
+GUI_GROUPBROWSER_REORDER_ACTION: Kliknite za promenu redosleda
+GUI_OVERVIEW_REDUCE_ACTION: Kliknite da sakrijete napredna podešavanja
+GUI_PERMEDITOR_MANUAL_DIALOG_TITLE: Dozvola
+CREATE_GROUP_SUBTITLE: Ukucajte naziv grupe
+GROUPS: Grupe
+GUI_PERMEDITOR_MANUAL_DIALOG_SUBTITLE: Ukucajte dozvolu
+ADD: Dodajte
+GUI_PERMEDITOR_PLUGIN_ACTION: Kliknite za prikaz Dozvola **%1**
+GUI_GROUPVIEW_INHERITANCE_TITLE: Nasleđa
+GUI_GROUPBROWSER_SHOWALL_TITLE: Prikažite sve
+SERVER: Server
+GUI_USERBROWSER_SUPERADMIN_INDICATOR: Ovaj korisnik je superadmin
+GROUP: Grupa
+GUI_USERVIEW_EDITPREFIXSUFFIX_TITLE: Promenite Prefix i Suffix
+USER: Korisnik
+SELECTED: Izabrano
+GUI_USERBROWSER_DELETE_ACTION: **Stisnite Q** da **obrišete**
+GUI_USERVIEW_VIEWPERMISSIONS_TITLE: Pogledajte Dozvole
+CREATE_GROUP_TITLE: Napravite Grupu
+PLAYER: Igrač
+TIME_FOR: za
+GUI_USERBROWSER_HIDEOOFFLINE_ACTION: Kliknite da sakrijete **offline korisnike**
+INHERITED_GROUPS: Nasleđene Grupe
+SERVERNAME: Naziv Servera
+COMMAND_HELP_FOOTER: Posetite **%1** za više informacija
+COMMAND_PLAYER_SUPERADMIN_ADD: Uspešno dodat **%1** u superadmine
+GUI_GROUPVIEW_VIEWPERMISSIONS_ACTION: **Kliknite** da vidite Dozvole
+RENAME_GROUP_TITLE: **Preimenujte Grupu
+GUI_GROUPBROWSER_Q_ACTION: **Stisnite Q** za prikaz Podešavanja Skladišta
+GUI_USERBROWSER_HIDEOFFLINE_TITLE: Sakrijte Offline Korisnike
+COMMAND_PLAYER_ADD_GROUP_TIMED: Dodata Grupa ***%1** **%2** za **%3**
+GUI_GROUPVIEW_CHANGEICON_ACTION: **Kliknite** za promenu
+GUI_PERMEDITOR_INHERITED_JUMP_ACTION: **Desni Klik** da skočite do **%1**
+GUI_INHERITVIEW_REMOVE_ACTION: Kliknite da **uklonite**
+GUI_SETTINGS_FORMAT_NAME: Format Četa i Tabliste
+GUI_USERBROWSER_ACTION: **Kliknite** da vidite
