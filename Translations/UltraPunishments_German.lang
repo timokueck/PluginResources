@@ -1,47 +1,47 @@
-#SERVER: Server
-#PUNISH: Bestrafen
-#OR: oder
-#REPORTS: Meldungen
-#GUI_OVERVIEW_REPORTS_ACTION: Klicke um offene Meldungen anzuzeigen
-#GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS_NONE: Spieler hat keine aktiven Meldungen
-#GUI_PLAYERVIEW_PUNISHMENTS_ACTIVE: Aktive Bestrafungen
-#REPORT: Melden
-#GUI_PLAYERVIEW_EXCLUDE_ACTION: Klicke um %1 Bestrafungen für diesen Spieler
-#GUI_OVERVIEW_TEMPLATES_ACTION: Klicke um die Vorlagen anzuzeigen
-#GUI_PLAYERVIEW_PUNISH_UNPUNISHABLE: Bestrafungen für diesen Spieler wurden deaktiviert
-#TYPE_IN_MESSAGE: Gib eine Nachricht ein
-#SET_A_DURATION: Klicke um die Dauer festzulegen
-#PLAYERS: Spieler
-#REASON: Grund
-#TEMPLATES: Vorlagen
-#GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS: Aktive Meldungen von
-#EVIDENCE: Beweise
-#GUI_OVERVIEW_SETTINGS_ACTION: Klicke um die Einstellungen anzuzeigen
-#SET_A_REASON: Klicke um den Grund festzulegen
-#GUI_PLAYERVIEW_EXCLUDE_TITLE: Von Bestrafungen ausschließen
-#MESSAGE: Nachricht
-#GUI_PLAYERVIEW_PUNISHMENTS_ACTION: Klicke um die Bestrafungen anzuzeigen
-#GUI_OVERVIEW_PLAYERS_ACTION: Klicke um die Spieler anzuzeigen
-#SETTINGS: Einstellungen
-#TYPE_IN_REASON: Gib einen Grund ein
-#GUI_PLAYERVIEW_WARNINGS_ACTION: Klicke um Verwarnungen anzuzeigen
-#GUI_PLAYERVIEW_WARNINGS_NOWARNING: Der Spieler wurde noch nie verwarnt
-#WARNINGS: Verwarnungen
-#BAN: Sperren
-#DURATION: Dauer
-#GUI_OVERVIEW_TEMPLATES_MUTETEMPLATES: Stummschaltungs-Vorlagen
-#GUI_PLAYERVIEW_PUNISH_LEFTACTION: **Linksklick** zum %1
-#PUNISHMENTS: Bestrafungen
-#NONE: None
-#GUI_PLAYERVIEW_PUNISHMENTS_PREVIOUS: Vorherige Bestrafungen
-#PERMANENT: Permanent
-#GUI_PLAYERBROWSER_ACTION: Klicke um die Spieler anzuzeigen
-#GUI_PLAYERVIEW_REPORTS_ACTION: Klicke um die Meldungen anzuzeigen
-#GUI_OVERVIEW_TEMPLATES_BANTEMPLATES: Sperrungs-Vorlagen
-#GUI_PLAYERVIEW_PUNISH_RIGHTACTION: **Rechtsklick** zum **Verwarnen (+ Kicken)**
-#GUI_PLAYERVIEW_PUNISHMENTS_NOPUNISHMENT: Dieser Spieler wurde noch nie bestraft
-#GUI_PLAYERVIEW_EXCLUDE_EXPLANATION: Dieser Spieler kann nicht bestraft werden
-#OVERVIEW: Übersicht
-#TEMPLATE: Vorlage
-#MUTE: Stummschalten
-#GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS_ENTRY: %1 auf **%2** mit **%3
+OVERVIEW: Übersicht
+REPORT: Melden
+SERVER: Server
+PLAYERS: Spieler
+REPORTS: Meldungen
+SETTINGS: Einstellungen
+TEMPLATE: Vorlage
+PERMANENT: Permanent
+DURATION: Dauer
+REASON: Grund
+TEMPLATES: Vorlagen
+PUNISH: Bestrafen
+WARNINGS: Verwarnungen
+PUNISHMENTS: Bestrafungen
+MESSAGE: Nachricht
+EVIDENCE: Beweise
+BAN: Sperren
+MUTE: Stummschalten
+OR: oder
+NONE: None
+GUI_OVERVIEW_PLAYERS_ACTION: Klicke um die Spieler anzuzeigen
+GUI_OVERVIEW_REPORTS_ACTION: Klicke um offene Meldungen anzuzeigen
+GUI_OVERVIEW_SETTINGS_ACTION: Klicke um die Einstellungen anzuzeigen
+GUI_OVERVIEW_TEMPLATES_ACTION: Klicke um die Vorlagen anzuzeigen
+GUI_OVERVIEW_TEMPLATES_BANTEMPLATES: Sperrungs-Vorlagen
+GUI_OVERVIEW_TEMPLATES_MUTETEMPLATES: Stummschaltungs-Vorlagen
+TYPE_IN_REASON: Gib einen Grund ein
+TYPE_IN_MESSAGE: Gib eine Nachricht ein
+SET_A_REASON: Klicke um den Grund festzulegen
+SET_A_DURATION: Klicke um die Dauer festzulegen
+GUI_PLAYERBROWSER_ACTION: Klicke um die Spieler anzuzeigen
+GUI_PLAYERVIEW_PUNISH_LEFTACTION: **Linksklick** zum %1
+GUI_PLAYERVIEW_PUNISH_RIGHTACTION: **Rechtsklick** zum **Verwarnen (+ Kicken)**
+GUI_PLAYERVIEW_PUNISH_UNPUNISHABLE: Bestrafungen für diesen Spieler wurden deaktiviert
+GUI_PLAYERVIEW_WARNINGS_ACTION: Klicke um Verwarnungen anzuzeigen
+GUI_PLAYERVIEW_WARNINGS_NOWARNING: Der Spieler wurde noch nie verwarnt
+GUI_PLAYERVIEW_PUNISHMENTS_ACTION: Klicke um die Bestrafungen anzuzeigen
+GUI_PLAYERVIEW_PUNISHMENTS_ACTIVE: Aktive Bestrafungen
+GUI_PLAYERVIEW_PUNISHMENTS_PREVIOUS: Vorherige Bestrafungen
+GUI_PLAYERVIEW_PUNISHMENTS_NOPUNISHMENT: Dieser Spieler wurde noch nie bestraft
+GUI_PLAYERVIEW_REPORTS_ACTION: Klicke um die Meldungen anzuzeigen
+GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS: Aktive Meldungen von
+GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS_ENTRY: %1 auf **%2** mit **%3
+GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS_NONE: Spieler hat keine aktiven Meldungen
+GUI_PLAYERVIEW_EXCLUDE_TITLE: Von Bestrafungen ausschließen
+GUI_PLAYERVIEW_EXCLUDE_ACTION: Klicke um %1 Bestrafungen für diesen Spieler
+GUI_PLAYERVIEW_EXCLUDE_EXPLANATION: Dieser Spieler kann nicht bestraft werden

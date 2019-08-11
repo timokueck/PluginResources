@@ -1,35 +1,39 @@
-GUI_SETTINGS_MYSQL_EDITVALUE_ACTION: Klicke um den Wert zu ändern
-DISABLE: deaktivieren
-GUI_SETTINGS_MYSQL_DISABLE_TITLE: Deaktiviere MySQL
-DISABLED: deaktiviert
-GUI_SETTINGS_MYSQL_DISABLE_ACTION: Klicke um MySQL zu deaktivieren
-GUI_BACK_NAME: Zurück
-GUI_PAGEABLE_SEARCH_CLOSE_ACTION: Klicke um die Suche zu **schließen**
-GUI_PAGEABLE_SEARCH_TITLE: Suche
-GUI_PAGEABLE_NEXT_TITLE: Nächste Seite
-GUI_PAGEABLE_NEXT_ACTION: Navigiere zur nächsten Seite
-GUI_BACK_ACTION: Klicke um zurück zu kommen
-GUI_SETTINGS_MYSQL_SETUP_INFO: Dies erfordert eine externe MySQL Datenbank
-GUI_SETTINGS_MYSQL_RESTARTREQUIRED: Ein Restart wird nach der Einrichtung benötigt
-GUI_SETTINGS_LANGUAGE_NAME: Sprache
-COMMAND_NOCONSOLE: Dieser Befehl kann nicht in der Konsole ausgeführt werden
-COMMAND_NOPERMISSION: Du hast keinen **Zugriff** auf diesen Befehl
-GUI_PAGEABLE_SEARCH_TYPEIN: Tippe eine Suchanfrage ein
-SETTINGS: Einstellungen
 ENABLE: aktivieren
-NONE: None
 ENABLED: aktiviert
-GUI_PAGEABLE_PREVIOUS_TITLE: Vorherige Seite
-GUI_SETTINGS_MYSQL_CURRENTVALUE: Aktueller Wert:
-GUI_PAGEABLE_SEARCH_ACTION: Klicke um zu Suchen
+DISABLE: deaktivieren
+DISABLED: deaktiviert
+SETTINGS: Einstellungen
+NONE: None
+COMMAND_NOPERMISSION: Du hast keinen **Zugriff** auf diesen Befehl
+COMMAND_NOCONSOLE: Dieser Befehl kann nicht in der Konsole ausgeführt werden
 GUI_SETTINGS_SELECTPAGE: Klicke um Einstellungen anzuzeigen
 GUI_SETTINGS_PAGESELECTED: Diese Seite ist aktuell **ausgewählt**
-GUI_SETTINGS_MYSQL_CANTCONNECT: Konnte nicht mit MySQL verbinden
-GUI_SETTINGS_MYSQL_SAVE_TITLE: Überprüfen & Speichern
-GUI_SETTINGS_MYSQL_SETUP_TITLE_FIELDNAME: MySQL - %1
-GUI_PAGEABLE_PREVIOUS_ACTION: Navigiere zur vorherigen Seite
-GUI_SETTINGS_MYSQL_SAVE_ACTION: Klicke um zu **überprüfen** und zu **speichern**
+GUI_SETTINGS_LANGUAGE_NAME: Sprache
 GUI_SETTINGS_MYSQL_NAME: MySQL Datenbank
-GUI_SETTINGS_MYSQL_SETUP_ACTION: Klicke um MySQL zu aktivieren
+GUI_SETTINGS_MYSQL_EDITVALUE_ACTION: Klicke um den Wert zu ändern
+GUI_SETTINGS_MYSQL_CURRENTVALUE: Aktueller Wert:
+GUI_SETTINGS_MYSQL_SETUP_TITLE_FIELDNAME: MySQL - %1
 GUI_SETTINGS_MYSQL_SETUP_TITLE_TYPEINVALUE: Gib den Wert im Chat ein
 GUI_SETTINGS_MYSQL_SETUP_TITLE: Einrichtung MySQL
+GUI_SETTINGS_MYSQL_SETUP_ACTION: Klicke um MySQL zu aktivieren
+GUI_SETTINGS_MYSQL_SETUP_INFO: Dies erfordert eine externe MySQL Datenbank
+GUI_SETTINGS_MYSQL_DISABLE_TITLE: Deaktiviere MySQL
+GUI_SETTINGS_MYSQL_DISABLE_ACTION: Klicke um MySQL zu deaktivieren
+GUI_SETTINGS_MYSQL_RESTARTREQUIRED: Ein Restart wird nach der Einrichtung benötigt
+GUI_SETTINGS_MYSQL_CANTCONNECT: Konnte nicht mit MySQL verbinden
+GUI_SETTINGS_MYSQL_SAVE_TITLE: Überprüfen & Speichern
+GUI_SETTINGS_MYSQL_SAVE_ACTION: Klicke um zu **überprüfen** und zu **speichern**
+#GUI_SETTINGS_LANG_ACTION: Click to **select **this language
+#GUI_SETTINGS_LANG_SELECTED: This language is **currently** selected
+#GUI_SETTINGS_LANG_PHRASES: Phrases
+#GUI_SETTINGS_LANG_COVERAGE: Coverage
+GUI_PAGEABLE_SEARCH_TITLE: Suche
+GUI_PAGEABLE_SEARCH_ACTION: Klicke um zu Suchen
+GUI_PAGEABLE_NEXT_TITLE: Nächste Seite
+GUI_PAGEABLE_NEXT_ACTION: Navigiere zur nächsten Seite
+GUI_PAGEABLE_PREVIOUS_TITLE: Vorherige Seite
+GUI_PAGEABLE_PREVIOUS_ACTION: Navigiere zur vorherigen Seite
+GUI_PAGEABLE_SEARCH_CLOSE_ACTION: Klicke um die Suche zu **schließen**
+GUI_PAGEABLE_SEARCH_TYPEIN: Tippe eine Suchanfrage ein
+GUI_BACK_NAME: Zurück
+GUI_BACK_ACTION: Klicke um zurück zu kommen
