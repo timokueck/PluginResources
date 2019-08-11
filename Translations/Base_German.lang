@@ -24,7 +24,7 @@ GUI_SETTINGS_MYSQL_CANTCONNECT: Konnte nicht mit MySQL verbinden
 GUI_SETTINGS_MYSQL_SAVE_TITLE: Überprüfen & Speichern
 GUI_SETTINGS_MYSQL_SAVE_ACTION: Klicke um zu **überprüfen** und zu **speichern**
 #GUI_SETTINGS_LANG_ACTION: Klicke um diese Sprache **auszuwählen**
-#GUI_SETTINGS_LANG_SELECTED: Diese Sprache ist **derzeit** ausgewählt
+#GUI_SETTINGS_LANG_SELECTED: Diese Sprache wurde **zurzeit** ausgewählt
 #GUI_SETTINGS_LANG_PHRASES: Sätze
 #GUI_SETTINGS_LANG_COVERAGE: Abdeckung
 GUI_PAGEABLE_SEARCH_TITLE: Suche
