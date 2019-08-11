@@ -60,7 +60,7 @@ GUI_USERBROWSER_SHOWOFFLINE_TITLE: Zeige Offline Spieler
 COMMAND_GROUP_NOTFOUND: Konnte die Gruppe **%1** nicht finden
 ADVANTAGES: Vorteile
 COMMAND_PLAYER_INGROUP: Der Spieler **%1** ist bereits in der Gruppe
-COMMAND_PLAYER_SUPERADMIN_REMOVE: Der Spieler **%1** ist nun kein Super Admin mehr
+COMMAND_PLAYER_SUPERADMIN_REMOVE: Der Spieler **%1** ist nun kein Superadmin mehr
 TIME: Zeit
 COMMAND_PLAYER_ADD_GROUP: Erfolgreich die Gruppe **%1** zu **%2** hinzugefügt
 GUI_GROUPVIEW_DEFAULT_TITLE: Standard Gruppe
@@ -77,7 +77,7 @@ GUI_OVERVIEW_SETTINGS_EXPLANATION: Passe alle Einstellungen ein
 GUI_INHERITVIEW_ADD_EXPLANATION: Dies fügt alle Berechtigungen von **%1** zu **%2**
 DONATIONS: Spenden
 PERMISSIONS: Berechtigungen
-COMMAND_PLAYER_NOTSUPERADMIN: **%1** ist kein Super Admin
+COMMAND_PLAYER_NOTSUPERADMIN: **%1** ist kein Superadmin
 GUI_USERVIEW_VIEWGROUPS_ACTION: **Klicke** um Gruppen zu zeigen
 COMMAND_HELP_TITLE: Ultra Permissions Commands
 OPTIONS: Optionen
@@ -111,7 +111,7 @@ GUI_PERMEDITOR_PLUGIN_ACTION: Klicke um Berechtigungen von **%1** zu zeigen
 GUI_GROUPVIEW_INHERITANCE_TITLE: Vererbungen
 GUI_GROUPBROWSER_SHOWALL_TITLE: Zeige alle
 SERVER: Server
-GUI_USERBROWSER_SUPERADMIN_INDICATOR: Dieser Spieler ist ein Super Admin
+GUI_USERBROWSER_SUPERADMIN_INDICATOR: Dieser Spieler ist ein Superdmin
 GROUP: Gruppe
 GUI_USERVIEW_EDITPREFIXSUFFIX_TITLE: Editiere Prefix und Suffix
 USER: Spieler
@@ -125,7 +125,7 @@ GUI_USERBROWSER_HIDEOOFFLINE_ACTION: Klicke um **Offline Spieler** zu verbergen
 INHERITED_GROUPS: Vererbte Gruppen
 SERVERNAME: Server Name
 COMMAND_HELP_FOOTER: Besuche **%1** für mehr Informationen
-COMMAND_PLAYER_SUPERADMIN_ADD: Erfolgreich **%1** als Super Admin hinzugefügt
+COMMAND_PLAYER_SUPERADMIN_ADD: Erfolgreich **%1** als Superamin hinzugefügt
 GUI_GROUPVIEW_VIEWPERMISSIONS_ACTION: **Klicke** um Permissions anzuzeigen
 RENAME_GROUP_TITLE: Rename Group
 GUI_GROUPBROWSER_Q_ACTION: **Drücke Q** um Speicher Optionen anzuzeigen
