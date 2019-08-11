@@ -1,47 +1,47 @@
 #SERVER: Server
-#PUNISH: Punish
-#OR: or
-#REPORTS: Reports
-#GUI_OVERVIEW_REPORTS_ACTION: Click to show opened reports
-#GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS_NONE: Player has no active reports
-#GUI_PLAYERVIEW_PUNISHMENTS_ACTIVE: Active Punishments
+#PUNISH: Punire
+#OR: o
+#REPORTS: Report
+#GUI_OVERVIEW_REPORTS_ACTION: Clicca per mostrare i report attivi
+#GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS_NONE: Il giocatore non ha report attivi
+#GUI_PLAYERVIEW_PUNISHMENTS_ACTIVE: Attiva la punizione
 #REPORT: Report
-#GUI_PLAYERVIEW_EXCLUDE_ACTION: Click to %1 punishments for this player
-#GUI_OVERVIEW_TEMPLATES_ACTION: Click to show templates
-#GUI_PLAYERVIEW_PUNISH_UNPUNISHABLE: Punishments for this player have been disabled.
-#TYPE_IN_MESSAGE: Type in a message
-#SET_A_DURATION: Click to set duration
-#PLAYERS: Players
-#REASON: Reason
+#GUI_PLAYERVIEW_EXCLUDE_ACTION: Fai click su %1 per punire questo giocatore
+#GUI_OVERVIEW_TEMPLATES_ACTION: Clicca per mostrare i template
+#GUI_PLAYERVIEW_PUNISH_UNPUNISHABLE: Le punizioni per questo giocatore sono disabilitate.
+#TYPE_IN_MESSAGE: Digita un messaggio
+#SET_A_DURATION: Clicca per impostare la durata
+#PLAYERS: Giocatori
+#REASON: Motivazione
 #TEMPLATES: Templates
-#GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS: Active Reports by
-#EVIDENCE: Evidence
-#GUI_OVERVIEW_SETTINGS_ACTION: Click to show Settings
-#SET_A_REASON: Click to set reason
-#GUI_PLAYERVIEW_EXCLUDE_TITLE: Exclude from Punishments
-#MESSAGE: Message
-#GUI_PLAYERVIEW_PUNISHMENTS_ACTION: Click to show punishments
-#GUI_OVERVIEW_PLAYERS_ACTION: Click to show players
-#SETTINGS: Settings
-#TYPE_IN_REASON: Type in a reason
-#GUI_PLAYERVIEW_WARNINGS_ACTION: Click to show warnings
-#GUI_PLAYERVIEW_WARNINGS_NOWARNING: Player has never been warned
-#WARNINGS: Warnings
+#GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS: Report attivato da
+#EVIDENCE: Prova
+#GUI_OVERVIEW_SETTINGS_ACTION: Clicca per mostrare le Impostazioni
+#SET_A_REASON: Clicca per impostare la motivazione
+#GUI_PLAYERVIEW_EXCLUDE_TITLE: Escludi dalle Punizioni
+#MESSAGE: Messaggio
+#GUI_PLAYERVIEW_PUNISHMENTS_ACTION: Clicca per mostrare le punizioni
+#GUI_OVERVIEW_PLAYERS_ACTION: Clicca per mostrare i giocatori
+#SETTINGS: Impostazioni
+#TYPE_IN_REASON: Digita un motivo
+#GUI_PLAYERVIEW_WARNINGS_ACTION: Clicca per mostrare gli ammonimenti
+#GUI_PLAYERVIEW_WARNINGS_NOWARNING: Il giocatore non è stato mai ammonito
+#WARNINGS: Ammonizioni
 #BAN: Ban
-#DURATION: Duration
-#GUI_OVERVIEW_TEMPLATES_MUTETEMPLATES: Mute Templates
-#GUI_PLAYERVIEW_PUNISH_LEFTACTION: **Left Click** to %1
-#PUNISHMENTS: Punishments
-#NONE: None
-#GUI_PLAYERVIEW_PUNISHMENTS_PREVIOUS: Previous Punishments
-#PERMANENT: Permanent
-#GUI_PLAYERBROWSER_ACTION: Click to view player
-#GUI_PLAYERVIEW_REPORTS_ACTION: Click to show reports
-#GUI_OVERVIEW_TEMPLATES_BANTEMPLATES: Ban Templates
-#GUI_PLAYERVIEW_PUNISH_RIGHTACTION: **Right Click**to **Warn (+ Kick)**
-#GUI_PLAYERVIEW_PUNISHMENTS_NOPUNISHMENT: Player has never been punished
-#GUI_PLAYERVIEW_EXCLUDE_EXPLANATION: This player cannot be punished by anyone
+#DURATION: Durata
+#GUI_OVERVIEW_TEMPLATES_MUTETEMPLATES: Template dei mute
+#GUI_PLAYERVIEW_PUNISH_LEFTACTION: **Tasto sinistro** per %1
+#PUNISHMENTS: Punizioni
+#NONE: Niente
+#GUI_PLAYERVIEW_PUNISHMENTS_PREVIOUS: Punizioni precedenti
+#PERMANENT: Permanente
+#GUI_PLAYERBROWSER_ACTION: Clicca per vedere il giocatore
+#GUI_PLAYERVIEW_REPORTS_ACTION: Clicca per mostrare i report
+#GUI_OVERVIEW_TEMPLATES_BANTEMPLATES: Template dei ban
+#GUI_PLAYERVIEW_PUNISH_RIGHTACTION: **Tasto destro** per **ammore (+ Kick)**
+#GUI_PLAYERVIEW_PUNISHMENTS_NOPUNISHMENT: Il giocatore non è stato mai punito
+#GUI_PLAYERVIEW_EXCLUDE_EXPLANATION: Questo giocatore non può essere punito da nessuno
 #OVERVIEW: Overview
 #TEMPLATE: Template
 #MUTE: Mute
-#GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS_ENTRY: %1 on **%2** with **%3
+#GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS_ENTRY: %1 su **%2** con **%3
