@@ -22,7 +22,7 @@ DONATIONS: Spenden
 ADVANTAGES: Vorteile
 RECOMMENDED: Empfohlen
 SETTINGS: Einstellungen
-PERMISSIONLOG: Berechtigungs-Log
+PERMISSIONLOG: Berechtigungs-Verlauf
 EDITING: Bearbeiten
 ADD: Hinzufügen
 TIME_FOR: für
@@ -51,7 +51,7 @@ GUI_OVERVIEW_REDUCE_EXPLANATION: Dies wird erweiterte Funktionen ausblenden
 GUI_OVERVIEW_EXPAND_TITLE: Ausklappen
 GUI_OVERVIEW_EXPAND_ACTION: **Klicke** um mehr anzuzeigen
 GUI_OVERVIEW_EXPAND_EXPLANATION: Klicke um erweiterte Funktionen anzuzeigen
-GUI_OVERVIEW_PERMISSIONLOG_ACTION: **Klicke** um den Berechtigungs-Log zu öffnen
+GUI_OVERVIEW_PERMISSIONLOG_ACTION: **Klicke** um den Berechtigungs-Verlauf zu öffnen
 GUI_OVERVIEW_PERMISSIONLOG_EXPLANATION: Hier kannst du alle Berechtigungs-Checks einsehen
 GUI_OVERVIEW_SETTINGS_ACTION: **Klicke** um Einstellungen zu öffnen
 GUI_OVERVIEW_SETTINGS_EXPLANATION: Passe alle Einstellungen an
