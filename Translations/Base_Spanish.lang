@@ -1,39 +1,39 @@
-#ENABLE: activar
-#ENABLED: activado
-#DISABLE: desactivar
-#DISABLED: desactivado
-#SETTINGS: Configuracion
-#NONE: Ninguno
-#COMMAND_NOPERMISSION: No tienes **permiso** para hacer ese comando
-#COMMAND_NOCONSOLE: Este comando no se puede hacer en la consola
-#GUI_SETTINGS_SELECTPAGE: Has clic para ver la configuracion
-#GUI_SETTINGS_PAGESELECTED: Esta pagina esta **selectada**
-#GUI_SETTINGS_LANGUAGE_NAME: Idioma
-#GUI_SETTINGS_MYSQL_NAME: Base de datos MySQL
-#GUI_SETTINGS_MYSQL_EDITVALUE_ACTION: Has clic para editar este valor
-#GUI_SETTINGS_MYSQL_CURRENTVALUE: Valor actual:
-#GUI_SETTINGS_MYSQL_SETUP_TITLE_FIELDNAME: MySQL - %1
-#GUI_SETTINGS_MYSQL_SETUP_TITLE_TYPEINVALUE: Escriba el valor
-#GUI_SETTINGS_MYSQL_SETUP_TITLE: Configurar MySQL
-#GUI_SETTINGS_MYSQL_SETUP_ACTION: Has clic para activar MySQL
-#GUI_SETTINGS_MYSQL_SETUP_INFO: Esto necesita una base de datos MySQL externa para conectarse a
-#GUI_SETTINGS_MYSQL_DISABLE_TITLE: Desactivar MySQL
-#GUI_SETTINGS_MYSQL_DISABLE_ACTION: Has clic para desactivar MySQL
-#GUI_SETTINGS_MYSQL_RESTARTREQUIRED: Se le pedira que reinicie el servidor para aplicar los cambios
-#GUI_SETTINGS_MYSQL_CANTCONNECT: No se pudo conectar a tu MySQL
-#GUI_SETTINGS_MYSQL_SAVE_TITLE: Probar y guardar
-#GUI_SETTINGS_MYSQL_SAVE_ACTION: Has clic para **probar** y **guardar**
-#GUI_SETTINGS_LANG_ACTION: Has clic para **selectar** este idioma
-#GUI_SETTINGS_LANG_SELECTED: Este idioma esta selectado **actualmente**
-#GUI_SETTINGS_LANG_PHRASES: Frases
-#GUI_SETTINGS_LANG_COVERAGE: Cobertura
-#GUI_PAGEABLE_SEARCH_TITLE: Buscar
-#GUI_PAGEABLE_SEARCH_ACTION: Has clic para buscar
-#GUI_PAGEABLE_NEXT_TITLE: Proximo
-#GUI_PAGEABLE_NEXT_ACTION: Has clic para ir a la pagina siguiente
-#GUI_PAGEABLE_PREVIOUS_TITLE: Anterior
-#GUI_PAGEABLE_PREVIOUS_ACTION: Has clic para ir a la pagina anterior
-#GUI_PAGEABLE_SEARCH_CLOSE_ACTION: Has clic para **cerrar** la buscada
-#GUI_PAGEABLE_SEARCH_TYPEIN: Escribe un termino de busqueda
-#GUI_BACK_NAME: Anterior
-#GUI_BACK_ACTION: Haga clic para volver
+ENABLE: activar
+ENABLED: activado
+DISABLE: desactivar
+DISABLED: desactivado
+SETTINGS: Configuracion
+NONE: Ninguno
+COMMAND_NOPERMISSION: No tienes **permiso** para hacer ese comando
+COMMAND_NOCONSOLE: Este comando no se puede hacer en la consola
+GUI_SETTINGS_SELECTPAGE: Has clic para ver la configuracion
+GUI_SETTINGS_PAGESELECTED: Esta pagina esta **selectada**
+GUI_SETTINGS_LANGUAGE_NAME: Idioma
+GUI_SETTINGS_MYSQL_NAME: Base de datos MySQL
+GUI_SETTINGS_MYSQL_EDITVALUE_ACTION: Has clic para editar este valor
+GUI_SETTINGS_MYSQL_CURRENTVALUE: Valor actual:
+GUI_SETTINGS_MYSQL_SETUP_TITLE_FIELDNAME: MySQL - %1
+GUI_SETTINGS_MYSQL_SETUP_TITLE_TYPEINVALUE: Escriba el valor
+GUI_SETTINGS_MYSQL_SETUP_TITLE: Configurar MySQL
+GUI_SETTINGS_MYSQL_SETUP_ACTION: Has clic para activar MySQL
+GUI_SETTINGS_MYSQL_SETUP_INFO: Esto necesita una base de datos MySQL externa para conectarse a
+GUI_SETTINGS_MYSQL_DISABLE_TITLE: Desactivar MySQL
+GUI_SETTINGS_MYSQL_DISABLE_ACTION: Has clic para desactivar MySQL
+GUI_SETTINGS_MYSQL_RESTARTREQUIRED: Se le pedira que reinicie el servidor para aplicar los cambios
+GUI_SETTINGS_MYSQL_CANTCONNECT: No se pudo conectar a tu MySQL
+GUI_SETTINGS_MYSQL_SAVE_TITLE: Probar y guardar
+GUI_SETTINGS_MYSQL_SAVE_ACTION: Has clic para **probar** y **guardar**
+GUI_SETTINGS_LANG_ACTION: Has clic para **selectar** este idioma
+GUI_SETTINGS_LANG_SELECTED: Este idioma esta selectado **actualmente**
+GUI_SETTINGS_LANG_PHRASES: Frases
+GUI_SETTINGS_LANG_COVERAGE: Cobertura
+GUI_PAGEABLE_SEARCH_TITLE: Buscar
+GUI_PAGEABLE_SEARCH_ACTION: Has clic para buscar
+GUI_PAGEABLE_NEXT_TITLE: Proximo
+GUI_PAGEABLE_NEXT_ACTION: Has clic para ir a la pagina siguiente
+GUI_PAGEABLE_PREVIOUS_TITLE: Anterior
+GUI_PAGEABLE_PREVIOUS_ACTION: Has clic para ir a la pagina anterior
+GUI_PAGEABLE_SEARCH_CLOSE_ACTION: Has clic para **cerrar** la buscada
+GUI_PAGEABLE_SEARCH_TYPEIN: Escribe un termino de busqueda
+GUI_BACK_NAME: Anterior
+GUI_BACK_ACTION: Haga clic para volver
