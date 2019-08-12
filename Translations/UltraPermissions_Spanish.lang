@@ -54,7 +54,7 @@
 #GUI_OVERVIEW_PERMISSIONLOG_ACTION: Haga **clic** para abrir el registro de permisos
 #GUI_OVERVIEW_PERMISSIONLOG_EXPLANATION: Aqui puedes ver todos los cheques de permisos recientes
 #GUI_OVERVIEW_SETTINGS_ACTION: Haga **clic** para ver la configuracion
-#GUI_OVERVIEW_SETTINGS_EXPLANATION: Ajustar todos los ajustes del plugin 
+#GUI_OVERVIEW_SETTINGS_EXPLANATION: Ajustar todos los ajustes del plugin
 #GUI_GROUPBROWSER_TITLE_LIST: Lista
 #GUI_GROUPBROWSER_TITLE_ALL: Ensenando todos los grupos
 #GUI_GROUPBROWSER_TITLE_RANGE: Ensenando %1 / %2 grupos
