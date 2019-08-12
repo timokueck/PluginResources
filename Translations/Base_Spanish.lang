@@ -4,9 +4,9 @@
 #DISABLED: desactivado
 #SETTINGS: Configuracion
 #NONE: Ninguno
-#COMMAND_NOPERMISSION: No tienes **permiso** para hacer ese comando.
-#COMMAND_NOCONSOLE: Este comando no se puede hacer en la consola.
-#GUI_SETTINGS_SELECTPAGE: Has clic para ver la configuracion.
+#COMMAND_NOPERMISSION: No tienes **permiso** para hacer ese comando
+#COMMAND_NOCONSOLE: Este comando no se puede hacer en la consola
+#GUI_SETTINGS_SELECTPAGE: Has clic para ver la configuracion
 #GUI_SETTINGS_PAGESELECTED: Esta pagina esta **selectada**
 #GUI_SETTINGS_LANGUAGE_NAME: Idioma
 #GUI_SETTINGS_MYSQL_NAME: Base de datos MySQL
