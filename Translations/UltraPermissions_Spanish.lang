@@ -6,7 +6,7 @@ DEFAULT_PERMISSIONS: Permisos predeterminados
 GROUP: Grupo
 GROUPS: Grupos
 DEFAULT_GROUP: Grupo predeterminado
-INHERITED_GROUPS: Gropos heredados
+INHERITED_GROUPS: Grupos heredados
 PLAYER: Jugador
 SERVER: Servidor
 SELECTED: Selectado
