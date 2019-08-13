@@ -1,23 +1,23 @@
-#SHOP: Shop
-#SHOPS: Shops
-#BUY: Buy
-#SELL: Sell
-#REVENUE: Revenue
-#TRANSACTIONS: Transactions
-#PURCHASING: Purchasing
-#BUYING: Buying
-#SELLING: Selling
-#PRICE: Price
-#AMOUNT: Amount
-#SELL_FOR: Sell for
-#AVAILABLE: Available
-#PRICE_PER_ITEM: Price per Item
-#STOCKED_ITEMS: Stocked Items
-#GUI_SHOPSETTINGS_BUY_LEFTACTION: **Left Click** to **change** buy price
-#GUI_SHOPSETTINGS_BUY_QACTION: **Press Q** to disable buying
-#GUI_SHOPSETTINGS_BUY_OTHERACTION: **Click** to enable **buying**
-#GUI_SHOPSETTINGS_BUY_EXPLANATION: Will buy at **%1** each
-#GUI_SHOPSETTINGS_SELL_LEFTACTION: **Left Click** to **change** sell price
-#GUI_SHOPSETTINGS_SELL_QACTION: **Press Q** to disable selling
-#GUI_SHOPSETTINGS_SELL_OTHERACTION: **Click** to enable **selling**
-#GUI_SHOPSETTINGS_SELL_EXPLANATION: Will sell for **%1** each
+SHOP: Shop
+SHOPS: Shops
+BUY: Kaufen
+SELL: Verkaufen
+REVENUE: Erlös
+TRANSACTIONS: Transaktionen
+PURCHASING: Kaufen
+BUYING: Kaufen
+SELLING: Verkaufen
+PRICE: Preis
+AMOUNT: Anzahl
+SELL_FOR: Verkaufen für
+AVAILABLE: Verfügbar
+PRICE_PER_ITEM: Preis pro Item
+STOCKED_ITEMS: Stocked Items
+GUI_SHOPSETTINGS_BUY_LEFTACTION: **Links Klick** um den Kaufpreis zu **ändern**
+GUI_SHOPSETTINGS_BUY_QACTION: **Drücke Q** um den Ankauf zu deaktivieren
+GUI_SHOPSETTINGS_BUY_OTHERACTION: **Klicke** um den **buying** zu erlauben
+GUI_SHOPSETTINGS_BUY_EXPLANATION: Kauft für **%1** pro Item an
+GUI_SHOPSETTINGS_SELL_LEFTACTION: **Links Klick** um den Verkaufpreis zu **ändern**
+GUI_SHOPSETTINGS_SELL_QACTION: **Drücke Q** um den Verkauf zu deaktivieren
+GUI_SHOPSETTINGS_SELL_OTHERACTION: **Klicke** um den **Verkauf** zu erlauben
+GUI_SHOPSETTINGS_SELL_EXPLANATION: Verkauft für **%1** pro Item
