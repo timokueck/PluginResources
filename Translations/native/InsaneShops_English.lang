@@ -28,4 +28,4 @@ GUI_SHOPSETTINGS_BUY_EXPLANATION: Will buy at **%1** each
 GUI_SHOPSETTINGS_SELL_LEFTACTION: **Left Click** to **change** sell price
 GUI_SHOPSETTINGS_SELL_QACTION: **Press Q** to disable selling
 GUI_SHOPSETTINGS_SELL_OTHERACTION: **Click** to enable **selling**
-GUI_SHOPSETTINGS_SELL_EXPLANATION: Will sell for **%1** each
+GUI_SHOPSETTINGS_SELL_EXPLANATION: Selling for **%1** each
