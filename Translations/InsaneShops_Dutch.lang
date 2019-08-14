@@ -1,23 +1,23 @@
-#SHOP: Shop
-#SHOPS: Shops
-#BUY: Buy
-#SELL: Sell
-#REVENUE: Revenue
-#TRANSACTIONS: Transactions
-#PURCHASING: Purchasing
-#BUYING: Buying
-#SELLING: Selling
-#PRICE: Price
-#AMOUNT: Amount
-#SELL_FOR: Sell for
-#AVAILABLE: Available
-#PRICE_PER_ITEM: Price per Item
-#STOCKED_ITEMS: Stocked Items
-#GUI_SHOPSETTINGS_BUY_LEFTACTION: **Left Click** to **change** buy price
-#GUI_SHOPSETTINGS_BUY_QACTION: **Press Q** to disable buying
-#GUI_SHOPSETTINGS_BUY_OTHERACTION: **Click** to enable **buying**
-#GUI_SHOPSETTINGS_BUY_EXPLANATION: Will buy at **%1** each
-#GUI_SHOPSETTINGS_SELL_LEFTACTION: **Left Click** to **change** sell price
-#GUI_SHOPSETTINGS_SELL_QACTION: **Press Q** to disable selling
-#GUI_SHOPSETTINGS_SELL_OTHERACTION: **Click** to enable **selling**
-#GUI_SHOPSETTINGS_SELL_EXPLANATION: Selling for **%1** each
+#SHOP: Winkel
+#SHOPS: Winkels
+#BUY: Koop
+#SELL: Verkoop
+#REVENUE: Omzet
+#TRANSACTIONS: Transacties
+#PURCHASING: Inkoop
+#BUYING: Kopen
+#SELLING: Verkopen
+#PRICE: Prijs
+#AMOUNT: Aantal
+#SELL_FOR: Verkopen voor
+#AVAILABLE: Beschikbaar
+#PRICE_PER_ITEM: Prijs per artikel
+#STOCKED_ITEMS: Voorradige artikelen
+#GUI_SHOPSETTINGS_BUY_LEFTACTION: **Klik met de linkermuisknop** om **te wijzigen** koopprijs
+#GUI_SHOPSETTINGS_BUY_QACTION: **Druk op Q** om het kopen uit te schakelen
+#GUI_SHOPSETTINGS_BUY_OTHERACTION: **Klik** om **kopen in te schakelen**
+#GUI_SHOPSETTINGS_BUY_EXPLANATION: Zal kopen bij **%1** elk
+#GUI_SHOPSETTINGS_SELL_LEFTACTION: **Klik met de linkermuisknop** om **te wijzigen** verkoopprijs
+#GUI_SHOPSETTINGS_SELL_QACTION: **Druk op Q** om de verkoop uit te schakelen
+#GUI_SHOPSETTINGS_SELL_OTHERACTION: **Klik** om ** verkopen in te schakelen**
+#GUI_SHOPSETTINGS_SELL_EXPLANATION: Verkopen voor **%1** elk
