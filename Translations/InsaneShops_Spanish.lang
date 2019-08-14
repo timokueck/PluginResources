@@ -1,23 +1,23 @@
-#SHOP: Tienda
-#SHOPS: Tiendas
-#BUY: Comprar
-#SELL: Vender
-#REVENUE: Ingreso
-#TRANSACTIONS: Transacciones
-#PURCHASING: Comprando
-#BUYING: Comprando
-#SELLING: Vendiendo
-#PRICE: Precio
-#AMOUNT: Cantidad
-#SELL_FOR: Vender para
-#AVAILABLE: Disponible
-#PRICE_PER_ITEM: Precio por producto
-#STOCKED_ITEMS: Productos abastecido
-#GUI_SHOPSETTINGS_BUY_LEFTACTION: Haga **clic izquierdo** para **cambiar** el precio de compra
-#GUI_SHOPSETTINGS_BUY_QACTION: **Pulsa Q** para desactivar compras
-#GUI_SHOPSETTINGS_BUY_OTHERACTION: Haga **clic** para activar **compras**
-#GUI_SHOPSETTINGS_BUY_EXPLANATION: Se van a comprar a **%1** cada una
-#GUI_SHOPSETTINGS_SELL_LEFTACTION: **Clic izquierdo** para **cambiar** el precio de vender
-#GUI_SHOPSETTINGS_SELL_QACTION: **Pulsa Q** para desactivar vender
-#GUI_SHOPSETTINGS_SELL_OTHERACTION: Haga **clic** para activar **vender**
-#GUI_SHOPSETTINGS_SELL_EXPLANATION: Se va a vender para **%1** cada una
+SHOP: Tienda
+SHOPS: Tiendas
+BUY: Comprar
+SELL: Vender
+REVENUE: Ingreso
+TRANSACTIONS: Transacciones
+PURCHASING: Comprando
+BUYING: Comprando
+SELLING: Vendiendo
+PRICE: Precio
+AMOUNT: Cantidad
+SELL_FOR: Vender para
+AVAILABLE: Disponible
+PRICE_PER_ITEM: Precio por producto
+STOCKED_ITEMS: Productos abastecido
+GUI_SHOPSETTINGS_BUY_LEFTACTION: Haga **clic izquierdo** para **cambiar** el precio de compra
+GUI_SHOPSETTINGS_BUY_QACTION: **Pulsa Q** para desactivar compras
+GUI_SHOPSETTINGS_BUY_OTHERACTION: Haga **clic** para activar **compras**
+GUI_SHOPSETTINGS_BUY_EXPLANATION: Se van a comprar a **%1** cada una
+GUI_SHOPSETTINGS_SELL_LEFTACTION: **Clic izquierdo** para **cambiar** el precio de vender
+GUI_SHOPSETTINGS_SELL_QACTION: **Pulsa Q** para desactivar vender
+GUI_SHOPSETTINGS_SELL_OTHERACTION: Haga **clic** para activar **vender**
+GUI_SHOPSETTINGS_SELL_EXPLANATION: Se va a vender para **%1** cada una
