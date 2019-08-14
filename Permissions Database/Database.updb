@@ -3676,6 +3676,14 @@ PlotSquared+plots.flag.notify_enter.bypass+An unknown description
 PlotSquared+plots.flag.notify_leave.bypass+An unknown description
 PlotSquared+plots.use+Allows user to use commands.
 PlotSquared+plots.worldedit.bypass+Bypass Worldedit restriction.
+PluginManager+pluginmanager.enable+Enables a plugin+/plm enable <plugin>
+PluginManager+pluginmanager.disable+Disables a plugin+/plm disable <plugin>
+PluginManager+pluginmanager.load+Load a plugin's .jar to the server+/plm load <file>
+PluginManager+pluginmanager.unload+Disables a plugin, then unloads it from the server+/plm unload <plugin>
+PluginManager+pluginmanager.reload+Unloads and then loads the plugin+/plm reload <plugin>
+PluginManager+pluginmanager.sreload+Disables and then enables the plugin+/plm sreload <plugin>
+PluginManager+pluginmanager.show+Show's detailed information about the plugin+/plm show <plugin>
+PluginManager+pluginmanager.list+Lists plugins based on arguments below.+/plm list [options]
 ProVotes+provotes.backup+Allows the player to use the backup command.+/pvotes backup
 ProVotes+provotes.command+Allows the player to use the default vote command.+/vote
 ProVotes+provotes.forcemonth+Allows the player to use the force month command.+/pvotes forcemonth
