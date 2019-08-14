@@ -119,6 +119,7 @@ GUI_CHANGEORDER_TITLE: Editar orden
 GUI_CHANGEORDER_INCREASE: Haga **clic derecho** para incrementar
 GUI_CHANGEORDER_DECREASE: Haga **clic izquierdo** para reducir
 GUI_PERMISSIONLOG_ACTION: Has clic para agregar este permiso a un **grupo** o **usario**
+GUI_PERMISSIONLOG_RESULT: Resulto: %1
 GUI_SETTINGS_FORMAT_NAME: Formato del chat y tablist
 GUI_SETTINGS_MISC_NAME: Miscelaneos
 EDITING_PREFIX_EDIT: **Editar prefijo
