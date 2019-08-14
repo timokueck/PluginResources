@@ -9,7 +9,7 @@ COMMAND_NOCONSOLE: Questo comando non può essere eseguito dalla console
 GUI_SETTINGS_SELECTPAGE: Clicca per mostrare le impostazioni
 GUI_SETTINGS_PAGESELECTED: Questa pagina è attualmente **selezionata**
 GUI_SETTINGS_LANGUAGE_NAME: Lingua
-GUI_SETTINGS_MYSQL_NAME: MySQL Database
+GUI_SETTINGS_MYSQL_NAME: Database MySQL
 GUI_SETTINGS_MYSQL_EDITVALUE_ACTION: Clicca per modificare questo valore
 GUI_SETTINGS_MYSQL_CURRENTVALUE: Valore attuale:
 GUI_SETTINGS_MYSQL_SETUP_TITLE_FIELDNAME: MySQL - %1
@@ -23,10 +23,10 @@ GUI_SETTINGS_MYSQL_RESTARTREQUIRED: Richiede un riavvio per applicare le modific
 GUI_SETTINGS_MYSQL_CANTCONNECT: Non è stato possibile connettersi al tuo MySQL
 GUI_SETTINGS_MYSQL_SAVE_TITLE: Prova & Salva
 GUI_SETTINGS_MYSQL_SAVE_ACTION: Clicca per **provare** e **salvare**
-#GUI_SETTINGS_LANG_ACTION: Click to **select **this language
-#GUI_SETTINGS_LANG_SELECTED: This language is **currently** selected
-#GUI_SETTINGS_LANG_PHRASES: Phrases
-#GUI_SETTINGS_LANG_COVERAGE: Coverage
+#GUI_SETTINGS_LANG_ACTION: Clicca per **selezionare **questa lingua
+#GUI_SETTINGS_LANG_SELECTED: Questa lingua è **momentaneamente** in uso
+#GUI_SETTINGS_LANG_PHRASES: Frasi
+#GUI_SETTINGS_LANG_COVERAGE: Completa al
 GUI_PAGEABLE_SEARCH_TITLE: Cerca
 GUI_PAGEABLE_SEARCH_ACTION: Clicca per cercare
 GUI_PAGEABLE_NEXT_TITLE: Avanti
