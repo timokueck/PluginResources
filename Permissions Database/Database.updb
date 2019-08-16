@@ -2702,133 +2702,133 @@ ItemFrameShops+ifs.user.useBuyAll+Non command: Buy All for one item.
 ItemFrameShops+ifs.user.useSellAll+Non command: Sell one stack for a item.
 ItemRestrict+ItemRestrict.admin+Bypass the item restrictions and access to the /itemrestrict reload command. Default to OP
 ItemRestrict+ItemRestrict.bypass+Bypass all the restrictions
-Jessentials+jessentials.heal+Allows player to heal themself+/heal
-Jessentials+jessentials.heal.others+Allows player to heal others+/heal player
-Jessentials+jessentials.feed+Allows player to fedd themself+/feed
-Jessentials+jessentials.feed.others+Allows player to feed themself+/feed player
-Jessentials+jessentials.clear+Allows player to clear their Inventory+/clear
-Jessentials+jessentials.clear.othersAllows player to clear others Inventory+/clear player
-Jessentials+jessentials.fly+Allow enable flying for player+/fly
-Jessentials+jessentials.fly.others+Allow enable flying for other players+/fly player
-Jessentials+jessentials.gmc+Allow enable Creative gamemode+/gmc
-Jessentials+jessentials.gmc.others+Allow enable Creative gamemode for others+/gmc player
-Jessentials+jessentials.gms+Allow enable Survival gamemode+/gms
-Jessentials+jessentials.gms.others+Allow enable Survival gamemode for others+/gms player
-Jessentials+jessentials.gma+Allow enable Adventure gamemode+/gma
-Jessentials+jessentials.gma.others+Allow enable Adventure gamemode for others+/gma player
-Jessentials+jessentials.gmsp+Allow enable Spectator gamemode+/gmsp
-Jessentials+jessentials.gmsp.others+Allow enable Spectator gamemode for others+/gmsp player
-Jessentials+jessentials.workbench+Allow enable a crafting table interface+/workbench
-Jessentials+jessentials.god+Allow enable god mode+/god
-Jessentials+jessentials.god.others+Allow enable god mode for other players+/god player
-Jessentials+jessentials.enchant.*+Allows enchanting of the item the player is holding+/enchant enchantment level
-Jessentials+jessentials.info+Allows player to view information on the Plugin+/info
-Jessentials+jessentials.reload+Allow player to reload config+/jessentials reload
-Jessentials+jessentials.broadcast+Allows a message to be publicly displayed to the entire server+/broadcast
-Jessentials+jessentials.chatclear+Allow clearing the chat of the entire Server+/chatclear
-Jessentials+jessentials.chatclear.others+Allow clearing the chat for other players+/chatclear player 
-Jessentials+jessentials.enderchest+Opens the players enderchest+/enderchest
-Jessentials+jessentials.enderchest.others+Opens other players enderchest+/enderchest player
-Jessentials+jessentials.motd+Allows viewing of the servers motd+/motd
-Jessentials+jessentials.motd.set+Allows setting of the servers motd+/motd set
-Jessentials+jessentials.motd.enable++Allows Enable/Disable of the servers motd+/motd enable
-Jessentials+jessentials.exp+Allows the player to give themself exp+/exp
-Jessentials+jessentials.exp.others+Allows the player to give others exp+/exp player
-Jessentials+jessentials.sethome+Allows a player to set their home+/sethome
-Jessentials+jessentials.sethome.multiple+Allows a player to set multiple homes+/sethome
-Jessentials+jessentials.delhome+Allows a player to delete their home+/delhome
-Jessentials+jessentials.home+Allows a player to tp to a home+/home
-Jessentials+jessentials.hat+Allows a player to set the item in their hand into their helmet slot+/hat
-Jessentials+jessentials.back+Allows a player to teleport to their last death/teleport location+/back
-Jessentials+jessentials.back.others+Allows a player to teleport others to their last death/teleport location+/back player
-Jessentials+jessentials.invsee+Allows a player to view another players inventory+/invsee player
-Jessentials+jessentials.item+Gives the player the specified item+/item itemID amount
-Jessentials+jessentials.kick+Allows the player to kick another player, unless they have the jessentials.kick.exempt permission node+/kick player msg
-Jessentials+jessentials.kick.exempt+Bypass kick command
-Jessentials+jessentials.kit+Allows access to the use of user defined kits+/kit
-Jessentials+jessentials.kit*+Allows access to all kits in the /kit command
-Jessentials+jessentials.msg+Allows the player to message a private message to another player+/msg play message
-Jessentials+jessentials.msg.color+Allows the use of color and formatting codes in messages
-Jessentials+jessentials.reply+Replys to the last person who send the player a message.+/reply
-Jessentials+jessentials.mute+Allows the player to mute another player of communication+/mute
-Jessentials+jessentials.mute.exempt+Bypass mute Command
-Jessentials+jessentials.nick+Grants ability to set a custom display name that will be displayed in chat etc+/nick
-Jessentials+jessentials.nick.color+Grants ability to set a custom display name with color
-Jessentials+jessentials.nick.others+Grants ability to set other players custom display name that will be displayed in chat etc+/nick player
-Jessentials+jessentials.realname+Allows the player to check what a nicked player's IGN is+/realname player
-Jessentials+jessentials.getpos+Allows a player to view their coordinates+/getpos
-Jessentials+jessentials.getpos.others+Allows a player to view coordinates of other players+/getpos player
-Jessentials+jessentials.repair+Allows the player to set the item they are holding to full durability+/repair
-Jessentials+jessentials.repair.all+Allow the player to repair everything in thier inventory+/repair all
-Jessentials+jessentials.setspawn+Allows the player to define the spawn location+/setspawn
-Jessentials+jessentials.spawn+Allows the player to teleport themselves to spawn+/spawn
-Jessentials+jessentials.spawn.others+Allows the player to teleport others to spawn+/spawn player
-Jessentials+jessentials.setwarp+Allows the player to set a warp which can be remotely teleported to+/setwarp
-Jessentials+jessentials.setwarp.overwrite+Allow overwriteing a warp location+/setwarp warpname
-Jessentials+jessentials.delwarp+Allows deleting warps+/delwarp warpname
-Jessentials+jessentials.warp+Allows the player to teleport to a warp+/warp
-Jessentials+jessentials.warp.list+Allows the player to list all available warps+/warp list
-Jessentials+jessentials.warp.*+Allows the player to teleport to all warp locations and list all warps+/warp
-Jessentials+jessentials.setworldspawn+Allows access to setting the worlds spawnpoint. Not to be confused with /setspawn+/setworldspawn
-Jessentials+jessentials.tpa+Allows sending a teleport request to another player+/tpa player
-Jessentials+jessentials.tpahere+Allows sending a teleport request to another player that teleports them to the player+/tpahere player
-Jessentials+jessentials.tpaccept+Accepts a teleport request+/tpaccept
-Jessentials+jessentials.tpdeny+Rejects a teleport request+/tpdeny
-Jessentials+jessentials.tptoggle+Allows a player to enable or disable teleportation to them+/tptoggle
-Jessentials+jessentials.tp+Allows teleporting to another player without request+/tp
-Jessentials+jessentials.tp.others+Allows teleporting other player to another player without request+/tp
-Jessentials+jessentials.tpo+Allows teleporting to another player no matter what conditions+/tpo
-Jessentials+jessentials.tpo.others+Allows teleporting other players to another player no matter what conditions+/tpo
-Jessentials+jessentials.tppos+Allows teleporting to direct coordinates+/tpposition 
-Jessentials+jessentials.kill+Allows killing themself+/kill
-Jessentials+jessentials.kill.others+Allows killing another player+/kill player
-Jessentials+jessentials.suicide+Kills the player, and broadcasts it+/suicide
-Jessentials+jessentials.time+Allows changing of the world time+/time
-Jessentials+jessentials.ptime+Allows changing of a players time+/ptime
-Jessentials+jessentials.weather+Allows changing of the world weather+/weather
-Jessentials+jessentials.vanish+Allows the player to vanish from the view of other players+/vanish
-Jessentials+jessentials.ignore+Allows a player to block most forms of communication from other players+/ignore player
-Jessentials+jessentials.ignore.bypass+Bypass any Ignore command
-Jessentials+jessentials.ban+Bans the player from the server+/ban player reason
-Jessentials+jessentials.ban.exempt+Prevents the player from being banned
-Jessentials+jessentials.banip+Bans the player's IP from the server+/banip player
-Jessentials+jessentials.tempban+Bans the player from the server for a specified amount of time+/tempban
-Jessentials+jessentials.unban+Unbans the specified player. (Also unbans IP)+/unban player
-Jessentials+jessentials.afk+Marks the player as afk until they move/interact in-game+/afk
-Jessentials+jessentials.afk.auto+Marks the player as afk until they move/interact in-game
-Jessentials+jessentials.afk.others+Marks other players as afk until they move/interact in-game+/afk player
-Jessentials+jessentials.afk.kickexempt+Bypass afk kick
-Jessentials+jessentials.list+Shows all player currently online+/list
-Jessentials+jessentials.list.hidden+Shows all vanished players currently online+/list
-Jessentials+jessentials.sudo+Puts the submitted string in the target player's chat bar and executes it+/sudo player string
-Jessentials+jessentials.sudo.exempt+Bypass any Sudo Command
-Jessentials+jessentials.me+Allow Broadcast a player's action+/me
-Jessentials+jessentials.mail+Allow access to read your mailbox+/mail
-Jessentials+jessentials.mail.send+Allow to send mail to others+/mail
-Jessentials+jessentials.mail.sendall+Allow to send mail to all+/mail
-Jessentials+jessentials.socialspy+Allow ability to see other players private messages/mail+/socialspy player
-Jessentials+jessentials.socialspy.others+Allow ability to see other players private messages/mail+/socialspy player
-Jessentials+jessentials.balance+Allow ability to see balance+/balance
-Jessentials+jessentials.balance.others+Allow ability to see others balance+/balance player
-Jessentials+jessentials.baltop+Allow ability to see the highest balances on the server+/baltop
-Jessentials+jessentials.pay+Allow ability to pay other players+/pay
-Jessentials+jessentials.pay.multiple+Allow ability to pay other players+/pay
-Jessentials+jessentials.economy+Allow ability to manipulate the economy on the server+/economy
-Jessentials+jessentials.speed+Allow ability to change your speed+/speed
-Jessentials+jessentials.speed.walk+Allow ability to change your walk speed+/speed
-Jessentials+jessentials.speed.fly+Allow ability to change your fly speed+/speed
-Jessentials+jessentials.speed.others+Allow ability to change other players walk or fly speed+/speed
-Jessentials+jessentials.seen+Allow display when a player was last online+/seen player
-Jessentials+jessentials.more+Allow you to give the max stack size of the item you are holding+/more
-Jessentials+jessentials.createcommand+Allows access to custom command creation wizard+/createcommand
-Jessentials+jessentials.listcommands+Allow list all custom commands+/listcommands
-Jessentials+jessentials.deletecommand+Allow removing a custom command+/deletecommand
-Jessentials+jessentials.kit+Allow list all kits+/kit
-Jessentials+jessentials.kit.add+Allow creating a new kit, your inventory becomes its contents+/kitadd name
-Jessentials+jessentials.kit.delete+Allow deleting a kit+/kitdelete name
-Jessentials+jessentials.kit.firstjoin+Allow Manipulate the meta of a kit+/kitoptions
-Jessentials+jessentials.kit.setdelay+Allow seting delays or enable first join+/kitoptions
-Jessentials+jessentials.kit.give+Allow giving another player a kit+/kitgive player kit
+JEssentials+jessentials.heal+Allows player to heal themself+/heal
+JEssentials+jessentials.heal.others+Allows player to heal others+/heal player
+JEssentials+jessentials.feed+Allows player to fedd themself+/feed
+JEssentials+jessentials.feed.others+Allows player to feed themself+/feed player
+JEssentials+jessentials.clear+Allows player to clear their Inventory+/clear
+JEssentials+jessentials.clear.othersAllows player to clear others Inventory+/clear player
+JEssentials+jessentials.fly+Allow enable flying for player+/fly
+JEssentials+jessentials.fly.others+Allow enable flying for other players+/fly player
+JEssentials+jessentials.gmc+Allow enable Creative gamemode+/gmc
+JEssentials+jessentials.gmc.others+Allow enable Creative gamemode for others+/gmc player
+JEssentials+jessentials.gms+Allow enable Survival gamemode+/gms
+JEssentials+jessentials.gms.others+Allow enable Survival gamemode for others+/gms player
+JEssentials+jessentials.gma+Allow enable Adventure gamemode+/gma
+JEssentials+jessentials.gma.others+Allow enable Adventure gamemode for others+/gma player
+JEssentials+jessentials.gmsp+Allow enable Spectator gamemode+/gmsp
+JEssentials+jessentials.gmsp.others+Allow enable Spectator gamemode for others+/gmsp player
+JEssentials+jessentials.workbench+Allow enable a crafting table interface+/workbench
+JEssentials+jessentials.god+Allow enable god mode+/god
+JEssentials+jessentials.god.others+Allow enable god mode for other players+/god player
+JEssentials+jessentials.enchant.*+Allows enchanting of the item the player is holding+/enchant enchantment level
+JEssentials+jessentials.info+Allows player to view information on the Plugin+/info
+JEssentials+jessentials.reload+Allow player to reload config+/jessentials reload
+JEssentials+jessentials.broadcast+Allows a message to be publicly displayed to the entire server+/broadcast
+JEssentials+jessentials.chatclear+Allow clearing the chat of the entire Server+/chatclear
+JEssentials+jessentials.chatclear.others+Allow clearing the chat for other players+/chatclear player 
+JEssentials+jessentials.enderchest+Opens the players enderchest+/enderchest
+JEssentials+jessentials.enderchest.others+Opens other players enderchest+/enderchest player
+JEssentials+jessentials.motd+Allows viewing of the servers motd+/motd
+JEssentials+jessentials.motd.set+Allows setting of the servers motd+/motd set
+JEssentials+jessentials.motd.enable++Allows Enable/Disable of the servers motd+/motd enable
+JEssentials+jessentials.exp+Allows the player to give themself exp+/exp
+JEssentials+jessentials.exp.others+Allows the player to give others exp+/exp player
+JEssentials+jessentials.sethome+Allows a player to set their home+/sethome
+JEssentials+jessentials.sethome.multiple+Allows a player to set multiple homes+/sethome
+JEssentials+jessentials.delhome+Allows a player to delete their home+/delhome
+JEssentials+jessentials.home+Allows a player to tp to a home+/home
+JEssentials+jessentials.hat+Allows a player to set the item in their hand into their helmet slot+/hat
+JEssentials+jessentials.back+Allows a player to teleport to their last death/teleport location+/back
+JEssentials+jessentials.back.others+Allows a player to teleport others to their last death/teleport location+/back player
+JEssentials+jessentials.invsee+Allows a player to view another players inventory+/invsee player
+JEssentials+jessentials.item+Gives the player the specified item+/item itemID amount
+JEssentials+jessentials.kick+Allows the player to kick another player, unless they have the jessentials.kick.exempt permission node+/kick player msg
+JEssentials+jessentials.kick.exempt+Bypass kick command
+JEssentials+jessentials.kit+Allows access to the use of user defined kits+/kit
+JEssentials+jessentials.kit*+Allows access to all kits in the /kit command
+JEssentials+jessentials.msg+Allows the player to message a private message to another player+/msg play message
+JEssentials+jessentials.msg.color+Allows the use of color and formatting codes in messages
+JEssentials+jessentials.reply+Replys to the last person who send the player a message.+/reply
+JEssentials+jessentials.mute+Allows the player to mute another player of communication+/mute
+JEssentials+jessentials.mute.exempt+Bypass mute Command
+JEssentials+jessentials.nick+Grants ability to set a custom display name that will be displayed in chat etc+/nick
+JEssentials+jessentials.nick.color+Grants ability to set a custom display name with color
+JEssentials+jessentials.nick.others+Grants ability to set other players custom display name that will be displayed in chat etc+/nick player
+JEssentials+jessentials.realname+Allows the player to check what a nicked player's IGN is+/realname player
+JEssentials+jessentials.getpos+Allows a player to view their coordinates+/getpos
+JEssentials+jessentials.getpos.others+Allows a player to view coordinates of other players+/getpos player
+JEssentials+jessentials.repair+Allows the player to set the item they are holding to full durability+/repair
+JEssentials+jessentials.repair.all+Allow the player to repair everything in thier inventory+/repair all
+JEssentials+jessentials.setspawn+Allows the player to define the spawn location+/setspawn
+JEssentials+jessentials.spawn+Allows the player to teleport themselves to spawn+/spawn
+JEssentials+jessentials.spawn.others+Allows the player to teleport others to spawn+/spawn player
+JEssentials+jessentials.setwarp+Allows the player to set a warp which can be remotely teleported to+/setwarp
+JEssentials+jessentials.setwarp.overwrite+Allow overwriteing a warp location+/setwarp warpname
+JEssentials+jessentials.delwarp+Allows deleting warps+/delwarp warpname
+JEssentials+jessentials.warp+Allows the player to teleport to a warp+/warp
+JEssentials+jessentials.warp.list+Allows the player to list all available warps+/warp list
+JEssentials+jessentials.warp.*+Allows the player to teleport to all warp locations and list all warps+/warp
+JEssentials+jessentials.setworldspawn+Allows access to setting the worlds spawnpoint. Not to be confused with /setspawn+/setworldspawn
+JEssentials+jessentials.tpa+Allows sending a teleport request to another player+/tpa player
+JEssentials+jessentials.tpahere+Allows sending a teleport request to another player that teleports them to the player+/tpahere player
+JEssentials+jessentials.tpaccept+Accepts a teleport request+/tpaccept
+JEssentials+jessentials.tpdeny+Rejects a teleport request+/tpdeny
+JEssentials+jessentials.tptoggle+Allows a player to enable or disable teleportation to them+/tptoggle
+JEssentials+jessentials.tp+Allows teleporting to another player without request+/tp
+JEssentials+jessentials.tp.others+Allows teleporting other player to another player without request+/tp
+JEssentials+jessentials.tpo+Allows teleporting to another player no matter what conditions+/tpo
+JEssentials+jessentials.tpo.others+Allows teleporting other players to another player no matter what conditions+/tpo
+JEssentials+jessentials.tppos+Allows teleporting to direct coordinates+/tpposition 
+JEssentials+jessentials.kill+Allows killing themself+/kill
+JEssentials+jessentials.kill.others+Allows killing another player+/kill player
+JEssentials+jessentials.suicide+Kills the player, and broadcasts it+/suicide
+JEssentials+jessentials.time+Allows changing of the world time+/time
+JEssentials+jessentials.ptime+Allows changing of a players time+/ptime
+JEssentials+jessentials.weather+Allows changing of the world weather+/weather
+JEssentials+jessentials.vanish+Allows the player to vanish from the view of other players+/vanish
+JEssentials+jessentials.ignore+Allows a player to block most forms of communication from other players+/ignore player
+JEssentials+jessentials.ignore.bypass+Bypass any Ignore command
+JEssentials+jessentials.ban+Bans the player from the server+/ban player reason
+JEssentials+jessentials.ban.exempt+Prevents the player from being banned
+JEssentials+jessentials.banip+Bans the player's IP from the server+/banip player
+JEssentials+jessentials.tempban+Bans the player from the server for a specified amount of time+/tempban
+JEssentials+jessentials.unban+Unbans the specified player. (Also unbans IP)+/unban player
+JEssentials+jessentials.afk+Marks the player as afk until they move/interact in-game+/afk
+JEssentials+jessentials.afk.auto+Marks the player as afk until they move/interact in-game
+JEssentials+jessentials.afk.others+Marks other players as afk until they move/interact in-game+/afk player
+JEssentials+jessentials.afk.kickexempt+Bypass afk kick
+JEssentials+jessentials.list+Shows all player currently online+/list
+JEssentials+jessentials.list.hidden+Shows all vanished players currently online+/list
+JEssentials+jessentials.sudo+Puts the submitted string in the target player's chat bar and executes it+/sudo player string
+JEssentials+jessentials.sudo.exempt+Bypass any Sudo Command
+JEssentials+jessentials.me+Allow Broadcast a player's action+/me
+JEssentials+jessentials.mail+Allow access to read your mailbox+/mail
+JEssentials+jessentials.mail.send+Allow to send mail to others+/mail
+JEssentials+jessentials.mail.sendall+Allow to send mail to all+/mail
+JEssentials+jessentials.socialspy+Allow ability to see other players private messages/mail+/socialspy player
+JEssentials+jessentials.socialspy.others+Allow ability to see other players private messages/mail+/socialspy player
+JEssentials+jessentials.balance+Allow ability to see balance+/balance
+JEssentials+jessentials.balance.others+Allow ability to see others balance+/balance player
+JEssentials+jessentials.baltop+Allow ability to see the highest balances on the server+/baltop
+JEssentials+jessentials.pay+Allow ability to pay other players+/pay
+JEssentials+jessentials.pay.multiple+Allow ability to pay other players+/pay
+JEssentials+jessentials.economy+Allow ability to manipulate the economy on the server+/economy
+JEssentials+jessentials.speed+Allow ability to change your speed+/speed
+JEssentials+jessentials.speed.walk+Allow ability to change your walk speed+/speed
+JEssentials+jessentials.speed.fly+Allow ability to change your fly speed+/speed
+JEssentials+jessentials.speed.others+Allow ability to change other players walk or fly speed+/speed
+JEssentials+jessentials.seen+Allow display when a player was last online+/seen player
+JEssentials+jessentials.more+Allow you to give the max stack size of the item you are holding+/more
+JEssentials+jessentials.createcommand+Allows access to custom command creation wizard+/createcommand
+JEssentials+jessentials.listcommands+Allow list all custom commands+/listcommands
+JEssentials+jessentials.deletecommand+Allow removing a custom command+/deletecommand
+JEssentials+jessentials.kit+Allow list all kits+/kit
+JEssentials+jessentials.kit.add+Allow creating a new kit, your inventory becomes its contents+/kitadd name
+JEssentials+jessentials.kit.delete+Allow deleting a kit+/kitdelete name
+JEssentials+jessentials.kit.firstjoin+Allow Manipulate the meta of a kit+/kitoptions
+JEssentials+jessentials.kit.setdelay+Allow seting delays or enable first join+/kitoptions
+JEssentials+jessentials.kit.give+Allow giving another player a kit+/kitgive player kit
 Jobs+jobs.join.[jobname]+Grants access to join particular job (will be added in most case, but if not, then add them manually)
 Jobs+jobs.autojoin.[jobname]+Grants access to auto join job on logging in.
 Jobs+jobs.*+Grants access to all Jobs commands (only for admins!)
