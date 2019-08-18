@@ -2,11 +2,11 @@ ENABLE: inschakelen
 ENABLED: ingeschakeld
 DISABLE: uitschakelen
 DISABLED: uitgeschakeld
-SETTINGS: Instelling
-NONE: None
-COMMAND_NOPERMISSION: Je hebt geen **Toegang** tot dat command
-COMMAND_NOCONSOLE: Dit command kan niet worden uitgevoerd via de console
-GUI_SETTINGS_SELECTPAGE: Klik voor de Settings
+SETTINGS: Instellingen
+NONE: Geen
+COMMAND_NOPERMISSION: Je hebt geen **toegang** tot dat command
+COMMAND_NOCONSOLE: Dit command kan niet uitgevoerd worden via de console
+GUI_SETTINGS_SELECTPAGE: Klik voor de Instellingen
 GUI_SETTINGS_PAGESELECTED: Deze pagina is geselecteerd **geselecteerd**
 GUI_SETTINGS_LANGUAGE_NAME: Taal
 GUI_SETTINGS_MYSQL_NAME: MySQL Database
@@ -20,15 +20,15 @@ GUI_SETTINGS_MYSQL_SETUP_INFO: Dit vereist een externe MySQL-database om verbind
 GUI_SETTINGS_MYSQL_DISABLE_TITLE: Schakel MySQL uit
 GUI_SETTINGS_MYSQL_DISABLE_ACTION: Klik om MySQL uit te schakelen
 GUI_SETTINGS_MYSQL_RESTARTREQUIRED: U wordt gevraagd opnieuw op te starten om de wijzigingen toe te passen
-GUI_SETTINGS_MYSQL_CANTCONNECT: Kon geen verbinding maken met uw MySQL
+GUI_SETTINGS_MYSQL_CANTCONNECT: Kon geen verbinding maken met uw MySQL Database
 GUI_SETTINGS_MYSQL_SAVE_TITLE: Test en bewaar
-GUI_SETTINGS_MYSQL_SAVE_ACTION: Klik om te **testen** en **laten opslaan**
+GUI_SETTINGS_MYSQL_SAVE_ACTION: Klik om te **testen** en **op te slaan**
 GUI_SETTINGS_LANG_ACTION: Klik om **deze taal** te selecteren
 GUI_SETTINGS_LANG_SELECTED: Deze taal is ** momenteel ** geselecteerd
-GUI_SETTINGS_LANG_PHRASES: Phrases
-GUI_SETTINGS_LANG_COVERAGE: Coverage
+GUI_SETTINGS_LANG_PHRASES: Zinnen
+GUI_SETTINGS_LANG_COVERAGE: Dekking
 GUI_PAGEABLE_SEARCH_TITLE: Zoeken
-GUI_PAGEABLE_SEARCH_ACTION: Click to search
+GUI_PAGEABLE_SEARCH_ACTION: Klik om te zoeken
 GUI_PAGEABLE_NEXT_TITLE: Volgende
 GUI_PAGEABLE_NEXT_ACTION: Klik om naar de volgende pagina te gaan
 GUI_PAGEABLE_PREVIOUS_TITLE: Vorige
