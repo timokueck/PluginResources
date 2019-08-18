@@ -1,0 +1,39 @@
+ENABLE: aktif et
+ENABLED: aktif edilmiş
+DISABLE: deaktif et
+DISABLED: deaktif edilmiş
+SETTINGS: Ayarlar
+NONE: Boş
+COMMAND_NOPERMISSION: Bu komuta **erişme** izniniz bulunmamakta
+COMMAND_NOCONSOLE: Bu komut konsoldan kullanılamaz!
+GUI_SETTINGS_SELECTPAGE: Ayarları göstermek için tıkla
+GUI_SETTINGS_PAGESELECTED: Bu sayfa şu anda **seçili**
+GUI_SETTINGS_LANGUAGE_NAME: Dil
+GUI_SETTINGS_MYSQL_NAME: MySQL Veri Tabanı
+GUI_SETTINGS_MYSQL_EDITVALUE_ACTION: Bu değeri ayarlamak için Tıkla
+GUI_SETTINGS_MYSQL_CURRENTVALUE: Şu anki Değer:
+GUI_SETTINGS_MYSQL_SETUP_TITLE_FIELDNAME: MySQL - %1
+GUI_SETTINGS_MYSQL_SETUP_TITLE_TYPEINVALUE: Değeri Girin
+GUI_SETTINGS_MYSQL_SETUP_TITLE: MySQL Kurulumu
+GUI_SETTINGS_MYSQL_SETUP_ACTION: MySQL i aktif etmek için Tıkla
+GUI_SETTINGS_MYSQL_SETUP_INFO: Bu işlem size ait bir MySQL Veri Tabanı gerektirir
+GUI_SETTINGS_MYSQL_DISABLE_TITLE: MySQL i kapat
+GUI_SETTINGS_MYSQL_DISABLE_ACTION: MySQL i kapatmak için Tıkla
+GUI_SETTINGS_MYSQL_RESTARTREQUIRED: Değişiklikleri uygulamak için sunucunuz kapatılacak!
+GUI_SETTINGS_MYSQL_CANTCONNECT: MySQL e bağlanılamadı
+GUI_SETTINGS_MYSQL_SAVE_TITLE: Test et & Kaydet
+GUI_SETTINGS_MYSQL_SAVE_ACTION: **test etmek** ve **kaydetmek** için Tıkla
+GUI_SETTINGS_LANG_ACTION: Bu dili **seçmek ** için Tıkla
+GUI_SETTINGS_LANG_SELECTED: Bu dil **zaten** seçili
+GUI_SETTINGS_LANG_PHRASES: İfadeler
+GUI_SETTINGS_LANG_COVERAGE: Kapsama
+GUI_PAGEABLE_SEARCH_TITLE: Ara
+GUI_PAGEABLE_SEARCH_ACTION: Aramak için Tıkla
+GUI_PAGEABLE_NEXT_TITLE: Sonraki
+GUI_PAGEABLE_NEXT_ACTION: Sonraki sayfaya gitmek için Tıkla
+GUI_PAGEABLE_PREVIOUS_TITLE: Önceki
+GUI_PAGEABLE_PREVIOUS_ACTION: Önceki sayfaya gitmek için Tıkla
+GUI_PAGEABLE_SEARCH_CLOSE_ACTION: Aramayı **kapatmak** için Tıkla
+GUI_PAGEABLE_SEARCH_TYPEIN: Aramak istediğiniz öğeyi girin
+GUI_BACK_NAME: Geri
+GUI_BACK_ACTION: Geri gitmek için Tıkla

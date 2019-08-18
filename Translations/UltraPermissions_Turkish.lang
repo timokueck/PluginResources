@@ -1,0 +1,138 @@
+OVERVIEW: Önbakış
+PERMISSION: Yetki
+PERMISSION_NODES: Permission Nodes
+PERMISSIONS: Yetkiler
+DEFAULT_PERMISSIONS: Varsayılan Yetkiler
+GROUP: Grup
+GROUPS: Grup
+DEFAULT_GROUP: Varsayılan Grup
+INHERITED_GROUPS: Alt Gruplar
+PLAYER: Oyuncu
+SERVER: Sunucu
+SELECTED: Seçilmiş
+WORLD: Dünya
+USERS: Oyuncular
+USER: Oyuncu
+TIME: Zaman
+PREFIX: Prefix
+SUFFIX: Suffix
+OPTIONS: Ayarlar
+SERVERNAME: Sunucu İsmi
+DONATIONS: Bağışlar
+ADVANTAGES: Avantajlar
+RECOMMENDED: Önerilen
+SETTINGS: Ayarkar
+PERMISSIONLOG: Yetki Geçmişi
+EDITING: Değiştiriliyor
+ADD: Ekle
+TIME_FOR: için
+COMMAND_INVALID_ARGS: Geçersiz Argüman
+COMMAND_NOTFOUND: Komut bulunamadı
+COMMAND_HINT_HELP: Komut listesini görmek için **/upc** yazın.
+COMMAND_HELP_TITLE: Ultra Permissions Komutları
+COMMAND_HELP_FOOTER: Daha çok bilgi için **%1** ziyaret edin.
+COMMAND_GROUP_NOTFOUND: Böyle bir grup bulunamadı **%1**
+COMMAND_PLAYER_NOTFOUND: Böyle bir oyuncu bulunamadı **%1**
+COMMAND_PLAYER_NOTSUPERADMIN: **%1** süperadmin değil!
+COMMAND_PLAYER_INGROUP: The player **%1** zaten bu grupta
+COMMAND_PLAYER_SUPERADMIN_ALREADY: **%1** zaten süperadmin
+COMMAND_PLAYER_SUPERADMIN_ADD: **%1** artık bir süperadmin.
+COMMAND_PLAYER_SUPERADMIN_REMOVE: **%1** adlı oyuncu artık süperadmin değil!
+COMMAND_PLAYER_ADD_GROUP: **%1** adlı oyuncuya **%2** grubu eklendi.
+COMMAND_PLAYER_ADD_GROUP_TIMED: **%1** adlı oyuncuya **%2** grubu **%3** süresi için eklendi!
+COMMAND_PERMISSION_ADD: **%1** adlı oyuncuya **%2** yetkisi eklendi.
+COMMAND_PERMISSION_ADD_TIMED: **%1** adlı oyuncuya **%2** yetkisi **%3** süresi için eklendi!
+GUI_OVERVIEW_USERS_ACTION: Tüm **Kullanıcıları** görmek için Tıkla
+GUI_OVERVIEW_GROUPS_ACTION: Tüm **Grupları** görmek için Tıkla
+GUI_OVERVIEW_DONATIONS_ACTION: Bağışları görmek için Tıkla
+GUI_OVERVIEW_REDUCE_TITLE: Küçült
+GUI_OVERVIEW_REDUCE_ACTION: Gelişmiş özellikleri gizlemek için Tıkla.
+GUI_OVERVIEW_REDUCE_EXPLANATION: Gelişmiş ayarları gizlemek için Tıkla.
+GUI_OVERVIEW_EXPAND_TITLE: Büyült
+GUI_OVERVIEW_EXPAND_ACTION: Daha fazlası için**Tıkla**
+GUI_OVERVIEW_EXPAND_EXPLANATION: Bu size daha fazla gelişmiş ayar gösterir.
+GUI_OVERVIEW_PERMISSIONLOG_ACTION: Yetki geçmişini açmak için **Tıkla**
+GUI_OVERVIEW_PERMISSIONLOG_EXPLANATION: Burada tüm yetki kontrollerinin geçmişine bakabilirsin.
+GUI_OVERVIEW_SETTINGS_ACTION: Ayarları görmek için **Tıkla**
+GUI_OVERVIEW_SETTINGS_EXPLANATION: Eklentinin tüm özelliklerini ayarlayın!
+GUI_GROUPBROWSER_TITLE_LIST: Liste
+GUI_GROUPBROWSER_TITLE_ALL: Tüm gruplar gösteriliyor
+GUI_GROUPBROWSER_TITLE_RANGE: Gösterilen %1 / %2 Grup
+GUI_GROUPBROWSER_ADD_ACTION: Grup oluşturmak için Tıkla
+GUI_GROUPBROWSER_REORDER_TITLE: Sıralamayı değiştir
+GUI_GROUPBROWSER_REORDER_ACTION: Sıralamayı değiştirmek için Tıkla
+GUI_GROUPBROWSER_LEFTCLICK_ACTION: Açmak için **Sol Tıkla**
+GUI_GROUPBROWSER_Q_ACTION: **Q ya basarak** depolama ayarlarına bak
+GUI_GROUPBROWSER_DEFAULT_GROUP_INDICATOR: Bu bir varsayılan Grup
+GUI_GROUPBROWSER_SHOWALL_TITLE: Hepsini Göster
+GUI_GROUPBROWSER_SHOWALL_ACTION: Tıkla ve Tüm sunuculardaki ve tüm dünyalardaki grupları göster
+GUI_USERBROWSER_ACTION: Görmek için **Tıkla**
+GUI_USERBROWSER_DELETE_ACTION:  **Silmek** için **Q ya Tıkla**
+GUI_USERBROWSER_SUPERADMIN_INDICATOR: Bu kullanıcı bir süperadmin
+GUI_USERBROWSER_SHOWOFFLINE_TITLE: Çevrimdışı oyuncuları göster
+GUI_USERBROWSER_HIDEOFFLINE_TITLE: Çevrimdışı oyuncuları gizle
+GUI_USERBROWSER_SHOWOFFLINE_ACTION: **çevrimdışı kullanıcıları** göstermek için Tıkla
+GUI_USERBROWSER_HIDEOOFFLINE_ACTION: **çevrimdışı kullanıcıları** gizlemek için Tıkla
+GUI_USERVIEW_VIEWPERMISSIONS_TITLE: Yetkileri Göster
+GUI_USERVIEW_VIEWPERMISSIONS_ACTION: Yetkileri görmek için **Tıkla**
+GUI_USERVIEW_VIEWGROUPS_ACTION: Grupları görmek için **Tıkla**
+GUI_USERVIEW_EDITPREFIXSUFFIX_TITLE: Prefix ve Suffix i ayarla
+GUI_USERVIEW_EDITPREFIXSUFFIX_LEFTCLICK: Prefix i değiştirmek için **Sol Tıkla**
+GUI_USERVIEW_EDITPREFIXSUFFIX_RIGHTCLICK: Suffix i değiştirmek için **Sağ Tıkla**
+GUI_GROUPVIEW_VIEWPERMISSIONS_TITLE: Yetkileri Göster
+GUI_GROUPVIEW_VIEWPERMISSIONS_ACTION: Yetkileri görmek için **Tıkla**
+GUI_GROUPVIEW_CHANGEICON_TITLE: Simgeyi Değiştir
+GUI_GROUPVIEW_CHANGEICON_ACTION: Değiştirmek için **Tıkla**
+GUI_GROUPVIEW_EDITPREFIXSUFFIX_TITLE: Prefix ve Suffix i ayarla
+GUI_GROUPVIEW_EDITPREFIXSUFFIX_LEFTCLICK: Prefix i değiştirmek için **Sol Tıkla**
+GUI_GROUPVIEW_EDITPREFIXSUFFIX_RIGHTCLICK: Suffix i değiştirmek için **Sağ Tıkla**
+GUI_GROUPVIEW_RENAME_ACTION: Grubu yeniden adlandırmak için **Tıkla**
+GUI_GROUPVIEW_DELETE_TITLE: Grubu Sil
+GUI_GROUPVIEW_DELETE_ACTION: Grubu **silmek** için **Tıkla**
+GUI_GROUPVIEW_DELETE_PERMANENT: Bu eylem **geri alınamaz**
+GUI_GROUPVIEW_DEFAULT_TITLE: Varsayılan Grup
+GUI_GROUPVIEW_DEFAULT_ACTION: Bu **Grubu** varsayılan yapmak için **Tıkla**
+GUI_GROUPVIEW_DEFAULT_UNDEFAULT_ACTION: Bu **Grubu** özel yapmak için **Tıkla**
+GUI_GROUPVIEW_DEFAULT_EXPLANATION: Aktif edilirse oyuna yeni katılan tüm oyuncular bu gruplara sahip olur!
+GUI_GROUPVIEW_INHERITANCE_TITLE: Alt Gruplar
+GUI_GROUPVIEW_INHERITANCE_ACTION: Alt Grupları ayarlamak için **Tıkla**
+GUI_PERMEDITOR_SELECTALL_TITLE: Hepsini Seç
+GUI_PERMEDITOR_SELECTALL_ACTION: Tüm yetkileri **seçmek** için Tıkla
+GUI_PERMEDITOR_INHERITED_NEGATE_ACTION: **Negatif** yetki vermek için **Sol Tıkla**
+GUI_PERMEDITOR_INHERITED_JUMP_ACTION:  **%1** e atlamak için **Sağ Tıkla**
+GUI_PERMEDITOR_INHERITED_EXPLANATION: **%1** tarafından Yetki Eklendi
+GUI_PERMEDITOR_SELECTED_ACTION: **Seçimi Kaldırmak** için **Tıkla**
+GUI_PERMEDITOR_SELECTED_EXPLANATION: Bu yetkiyi **seçtiniz**
+GUI_PERMEDITOR_NORMAL_LEFTCLICK: Ayarlamak için **Sol Tıkla**
+GUI_PERMEDITOR_NORMAL_RIGHTCLICK: **Seçmek** için **Sağ Tıkla**
+GUI_PERMEDITOR_NORMAL_PRESSQ: Silmek için **Q ya bas**
+GUI_PERMEDITOR_ADDPERMISSION_TITLE: Yetki Ekle
+GUI_PERMEDITOR_PLUGIN_ACTION: **%1** in yetkilerini görmek için Tıkla
+GUI_PERMEDITOR_MANUAL_TITLE: Sohbete Gir
+GUI_PERMEDITOR_MANUAL_ACTION: Yetkiyi elle girmek için **Tıkla**
+GUI_PERMEDITOR_MANUAL_DIALOG_SUBTITLE: Yetkiyi gir
+GUI_INHERITVIEW_ADD_ACTION: **Eklemek** için Tıkla
+GUI_INHERITVIEW_ADD_EXPLANATION: Bu **%1** deki tüm yetkileri **%2** yede ekleyecektir
+GUI_INHERITVIEW_REMOVE_ACTION: **Silmek** için Tıkla
+GUI_INHERITVIEW_REMOVE_EXPLANATION: **%1** deki tüm yetkiler **%2** ye aktarılacaktır
+GUI_CHANGEORDER_TITLE: Sıralamayı Ayarla
+GUI_CHANGEORDER_INCREASE: Arttırmak için **Sağ Tıkla**
+GUI_CHANGEORDER_DECREASE: Azaltmak için **Sol Tıkla**
+GUI_PERMISSIONLOG_ACTION: Bu yetkiyi bir **gruba** veya **oyuncuya** eklemek için Tıkla
+GUI_PERMISSIONLOG_RESULT: Sonuç: %1
+GUI_SETTINGS_FORMAT_NAME: Sohbet & Tab Formatı
+GUI_SETTINGS_MISC_NAME: Çeşitli
+EDITING_PREFIX_EDIT: **Prefixi ayarla
+EDITING_PREFIX_TYPEIN: Yeni Prefixi gir
+EDITING_PREFIX_TYPEINNONE: Silmek için **none** yaz
+EDITING_SUFFIX_EDIT: **Suffixi ayarla
+EDITING_SUFFIX_TYPEIN: Yeni Suffixi gir
+EDITING_SUFFIX_TYPEINNONE: Silmek için **none** yaz
+CREATE_GROUP_TITLE: Grup Oluştur
+CREATE_GROUP_SUBTITLE: Grup ismi gir
+CREATE_GROUP_NOSPACES: Grup ismi boşluk içermemelidir!
+CREATE_GROUP_NOCOLORS: Grup isminde renk kodları kullanılmamalıdır
+CREATE_GROUP_NAMETAKEN: Bu grup zaten mevcut
+RENAME_GROUP_TITLE: Grubu Yeniden Adlandır
+RENAME_GROUP_SUBTITLE: Yeni ismi gir
+CONFIRM_DELETION_OF: Silmeyi onayla %1
