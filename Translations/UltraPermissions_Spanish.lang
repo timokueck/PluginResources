@@ -11,8 +11,8 @@ PLAYER: Jugador
 SERVER: Servidor
 SELECTED: Selectado
 WORLD: Mundo
-USERS: Usarios
-USER: Usario
+USERS: Usuarios
+USER: Usuario
 TIME: Tiempo
 PREFIX: Prefijo
 SUFFIX: Sufijo
@@ -42,7 +42,7 @@ COMMAND_PLAYER_ADD_GROUP: Agregado grupo **%1** a **%2**
 COMMAND_PLAYER_ADD_GROUP_TIMED: Agregado grupo **%1** a **%2** para **%3**
 COMMAND_PERMISSION_ADD: Agregado permiso **%1** a **%2**
 COMMAND_PERMISSION_ADD_TIMED: Agregado permiso **%1** a **%2** para **%3**
-GUI_OVERVIEW_USERS_ACTION: Haga clic para ver todos los **usarios**
+GUI_OVERVIEW_USERS_ACTION: Haga clic para ver todos los **usuarios**
 GUI_OVERVIEW_GROUPS_ACTION: Haga clic para ver todos los **grupos**
 GUI_OVERVIEW_DONATIONS_ACTION: Haga clic para ver las donaciones
 GUI_OVERVIEW_REDUCE_TITLE: Reducir
@@ -118,7 +118,7 @@ GUI_INHERITVIEW_REMOVE_EXPLANATION: Todos los permisos de **%1** se van a agrega
 GUI_CHANGEORDER_TITLE: Editar orden
 GUI_CHANGEORDER_INCREASE: Haga **clic derecho** para incrementar
 GUI_CHANGEORDER_DECREASE: Haga **clic izquierdo** para reducir
-GUI_PERMISSIONLOG_ACTION: Has clic para agregar este permiso a un **grupo** o **usario**
+GUI_PERMISSIONLOG_ACTION: Has clic para agregar este permiso a un **grupo** o **usuario**
 GUI_PERMISSIONLOG_RESULT: Resulto: %1
 GUI_SETTINGS_FORMAT_NAME: Formato del chat y tablist
 GUI_SETTINGS_MISC_NAME: Miscelaneos
