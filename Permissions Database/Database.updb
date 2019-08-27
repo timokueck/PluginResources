@@ -4023,6 +4023,7 @@ ProtocolLib+protocol.admin+Specifies if a hex representation of provided packets
 ProtocolLib+protocol.info+Specifies the users that are notified when there is a new plugin version and that are able to see error reports
 ProtocolVanish+protocolvanish.see.level[number]+Ability to see vanished players (set by level)
 ProtocolVanish+protocolvanish.use.level[number]+Ability to use vanish (set by level)
+ProtocolVanish+protocolvanish.bypass.itempickup+Ability to toggle item pickup by executing command+/vanish tipu
 PvPLevels+pvplevels.command.add+Allow to add the Kills/Deaths/Level on an User
 PvPLevels+pvplevels.command.help+Allow to use the /pvplevels help command
 PvPLevels+pvplevels.command.message+Allow to use the /pvplevels message <player> <text> command
