@@ -119,7 +119,6 @@ GUI_CHANGEORDER_TITLE: Volgorde bewerken
 GUI_CHANGEORDER_INCREASE: **Klik met de rechtermuisknop** om te vergroten
 GUI_CHANGEORDER_DECREASE: **Klik met de linkermuisknop** om te verlagen
 GUI_PERMISSIONLOG_ACTION: Klik om deze toestemming toe te voegen aan een **groep** of **gebruiker**
-GUI_PERMISSIONLOG_RESULT: Resultaat: %1
 GUI_SETTINGS_FORMAT_NAME: Chat- en tablijstindeling
 GUI_SETTINGS_MISC_NAME: Diversen
 EDITING_PREFIX_EDIT: **Voorvoegsel bewerken
