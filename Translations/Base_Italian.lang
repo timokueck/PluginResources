@@ -23,10 +23,10 @@ GUI_SETTINGS_MYSQL_RESTARTREQUIRED: Richiede un riavvio per applicare le modific
 GUI_SETTINGS_MYSQL_CANTCONNECT: Non è stato possibile connettersi al tuo MySQL
 GUI_SETTINGS_MYSQL_SAVE_TITLE: Prova & Salva
 GUI_SETTINGS_MYSQL_SAVE_ACTION: Clicca per **provare** e **salvare**
-#GUI_SETTINGS_LANG_ACTION: Click to **select **this language
-#GUI_SETTINGS_LANG_SELECTED: This language is **currently** selected
-#GUI_SETTINGS_LANG_PHRASES: Phrases
-#GUI_SETTINGS_LANG_COVERAGE: Coverage
+GUI_SETTINGS_LANG_ACTION: Clicca per **selezionare **questa lingua
+GUI_SETTINGS_LANG_SELECTED: Questa è la lingua in uso **in questo momento**
+GUI_SETTINGS_LANG_PHRASES: Frasi
+GUI_SETTINGS_LANG_COVERAGE: Copertura
 GUI_PAGEABLE_SEARCH_TITLE: Cerca
 GUI_PAGEABLE_SEARCH_ACTION: Clicca per cercare
 GUI_PAGEABLE_NEXT_TITLE: Avanti
