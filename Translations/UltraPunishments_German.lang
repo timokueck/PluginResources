@@ -18,6 +18,8 @@ BAN: Sperren
 MUTE: Stummschalten
 OR: oder
 NONE: None
+#ISSUER: Issuer
+#CREATE_REPORT: Create Report
 GUI_OVERVIEW_PLAYERS_ACTION: Klicke um die Spieler anzuzeigen
 GUI_OVERVIEW_REPORTS_ACTION: Klicke um offene Meldungen anzuzeigen
 GUI_OVERVIEW_SETTINGS_ACTION: Klicke um die Einstellungen anzuzeigen
@@ -28,7 +30,15 @@ TYPE_IN_REASON: Gib einen Grund ein
 TYPE_IN_MESSAGE: Gib eine Nachricht ein
 SET_A_REASON: Klicke um den Grund festzulegen
 SET_A_DURATION: Klicke um die Dauer festzulegen
+#GUI_REPORTCREATION_ADDMESSAGE_TITLE: Add Message
+#GUI_REPORTCREATION_ADDMESSAGE_ACTION: Click to add **message** and **continue**
+#GUI_REPORTCREATION_ADDMESSAGE_EXPLANATION: Add a detailed message to the report
+#GUI_REPORTCREATION_ADDEVIDENCE_TITLE: Add Evidence
+#GUI_REPORTCREATION_ADDEVIDENCE_ACTION: Click to add **evidence** and **continue**
+#GUI_REPORTCREATION_ADDEVIDENCE_EXPLANATION: Add **Chat Messages**, **Kill Feed** and other actions to the report
 GUI_PLAYERBROWSER_ACTION: Klicke um die Spieler anzuzeigen
+#GUI_WARNINGSBROWSER_ACTION: Click to **remove**
+#GUI_WARNINGSBROWSER_NOPERM: You dont have permissions to remove this warning
 GUI_PLAYERVIEW_PUNISH_LEFTACTION: **Linksklick** zum %1
 GUI_PLAYERVIEW_PUNISH_RIGHTACTION: **Rechtsklick** zum **Verwarnen (+ Kicken)**
 GUI_PLAYERVIEW_PUNISH_UNPUNISHABLE: Bestrafungen für diesen Spieler wurden deaktiviert
@@ -45,3 +55,4 @@ GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS_NONE: Spieler hat keine aktiven Meldungen
 GUI_PLAYERVIEW_EXCLUDE_TITLE: Von Bestrafungen ausschließen
 GUI_PLAYERVIEW_EXCLUDE_ACTION: Klicke um %1 Bestrafungen für diesen Spieler
 GUI_PLAYERVIEW_EXCLUDE_EXPLANATION: Dieser Spieler kann nicht bestraft werden
+#MESSAGE_CREATED_REPORT: Thanks for reporting **%1**

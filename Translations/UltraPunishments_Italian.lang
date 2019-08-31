@@ -18,6 +18,8 @@ BAN: Ban
 MUTE: Mute
 OR: o
 NONE: Niente
+#ISSUER: Issuer
+#CREATE_REPORT: Create Report
 GUI_OVERVIEW_PLAYERS_ACTION: Clicca per mostrare i giocatori
 GUI_OVERVIEW_REPORTS_ACTION: Clicca per mostrare i report attivi
 GUI_OVERVIEW_SETTINGS_ACTION: Clicca per mostrare le Impostazioni
@@ -28,7 +30,15 @@ TYPE_IN_REASON: Digita un motivo
 TYPE_IN_MESSAGE: Digita un messaggio
 SET_A_REASON: Clicca per impostare la motivazione
 SET_A_DURATION: Clicca per impostare la durata
+#GUI_REPORTCREATION_ADDMESSAGE_TITLE: Add Message
+#GUI_REPORTCREATION_ADDMESSAGE_ACTION: Click to add **message** and **continue**
+#GUI_REPORTCREATION_ADDMESSAGE_EXPLANATION: Add a detailed message to the report
+#GUI_REPORTCREATION_ADDEVIDENCE_TITLE: Add Evidence
+#GUI_REPORTCREATION_ADDEVIDENCE_ACTION: Click to add **evidence** and **continue**
+#GUI_REPORTCREATION_ADDEVIDENCE_EXPLANATION: Add **Chat Messages**, **Kill Feed** and other actions to the report
 GUI_PLAYERBROWSER_ACTION: Clicca per vedere il giocatore
+#GUI_WARNINGSBROWSER_ACTION: Click to **remove**
+#GUI_WARNINGSBROWSER_NOPERM: You dont have permissions to remove this warning
 GUI_PLAYERVIEW_PUNISH_LEFTACTION: **Tasto sinistro** per %1
 GUI_PLAYERVIEW_PUNISH_RIGHTACTION: **Tasto destro** per **ammore (+ Kick)**
 GUI_PLAYERVIEW_PUNISH_UNPUNISHABLE: Le punizioni per questo giocatore sono disabilitate
@@ -45,3 +55,4 @@ GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS_NONE: Il giocatore non ha report attivi
 GUI_PLAYERVIEW_EXCLUDE_TITLE: Escludi dalle Punizioni
 GUI_PLAYERVIEW_EXCLUDE_ACTION: Fai click su %1 per punire questo giocatore
 GUI_PLAYERVIEW_EXCLUDE_EXPLANATION: Questo giocatore non può essere punito da nessuno
+#MESSAGE_CREATED_REPORT: Thanks for reporting **%1**
