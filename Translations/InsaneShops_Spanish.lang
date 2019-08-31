@@ -1,8 +1,8 @@
 SHOP: Tienda
 SHOPS: Tiendas
 BUY: Comprar
-#TYPEIN: Escriba
-#ITEMS: Items
+TYPEIN: Escriba
+ITEMS: Items
 SELL: Vender
 REVENUE: Ingreso
 TRANSACTIONS: Transacciones
@@ -10,24 +10,24 @@ PURCHASING: Comprando
 BUYING: Comprando
 SELLING: Vendiendo
 PRICE: Precio
-#UNITS: Units
+UNITS: Units
 AMOUNT: Cantidad
-#BUY_FOR: Compra para
+BUY_FOR: Compra para
 SELL_FOR: Vender para
 AVAILABLE: Disponible
 PRICE_PER_ITEM: Precio por producto
 STOCKED_ITEMS: Productos abastecido
-#INCREASE: Incrementar
-#DECREASE: Reducir
-#QUANTITY: Cantidad
-#CONFIRM: Confirmar
-#FOR: para
-#YOU_WILL_RECEIVE: Usted va a recivir
-#ENCHANTED: Encantado
-#ITEMS_AVAILABLE: Items disponible
-#CONTINUE: Continuar
-#GUI_OVERVIEW_OPENSHOPS_ACTION: Haga clic para abir las tiendas
-#GUI_OVERVIEW_OPENSETTINGS_ACTION: Haga clic para abrir la configuracion
+INCREASE: Incrementar
+DECREASE: Reducir
+QUANTITY: Cantidad
+CONFIRM: Confirmar
+FOR: para
+YOU_WILL_RECEIVE: Usted va a recivir
+ENCHANTED: Encantado
+ITEMS_AVAILABLE: Items disponible
+CONTINUE: Continuar
+GUI_OVERVIEW_OPENSHOPS_ACTION: Haga clic para abir las tiendas
+GUI_OVERVIEW_OPENSETTINGS_ACTION: Haga clic para abrir la configuracion
 GUI_SHOPSETTINGS_BUY_LEFTACTION: Haga **clic izquierdo** para **cambiar** el precio de compra
 GUI_SHOPSETTINGS_BUY_QACTION: **Pulsa Q** para desactivar compras
 GUI_SHOPSETTINGS_BUY_OTHERACTION: Haga **clic** para activar **compras**
@@ -36,43 +36,43 @@ GUI_SHOPSETTINGS_SELL_LEFTACTION: Haga **Clic izquierdo** para **cambiar** el pr
 GUI_SHOPSETTINGS_SELL_QACTION: **Pulsa Q** para desactivar vender
 GUI_SHOPSETTINGS_SELL_OTHERACTION: Haga **clic** para activar **vender**
 GUI_SHOPSETTINGS_SELL_EXPLANATION: Se va a vender para **%1** cada una
-#GUI_MONEYSELECTOR_TYPEIN_ACTION: Haga **clic** para escribar un precio
-#GUI_SHOP_NAV_SELECT_ACTION: Haga clic para selectar esta opcion
-#GUI_SHOP_NAV_SELECTED: Esta opcion esta selectada
-#GUI_SHOP_NOSELLABLEITEMS_TITLE: No items encontrado
-#GUI_SHOP_NOSELLABLEITEMS_EXPLANATION: No se pudo encontrar ningun item para vender en tu inventario
-#GUI_SHOP_OUTOFSTOCK_TITLE: Fuera de stock
-#GUI_SHOP_OUTOFSTOCK_EXPLANATION: Por favor espera hasta que **%1** a reabastecido la tienda
-#GUI_SHOP_REDUCE_TITLE: Reducir cantidad
-#GUI_SHOP_REDUCE_LEFTACTION: Haga **clic izquierdo** para eliminar **%1**
-#GUI_SHOP_REDUCE_RIGHTACTION: Haga **clic derecho** para eliminar **10**
-#GUI_SHOP_REDUCE_LIMIT: No puedes reducir la cantidad mas
-#GUI_SHOP_INCREASE_TITLE: Incrementar cantidad
-#GUI_SHOP_INCREASE_LEFTACTION: Haga **clic izquierdo** para agregar **%1**
-#GUI_SHOP_INCREASE_RIGHTACTION: Haga **clic izquierdo** para agregar **10**
-#GUI_SHOP_INCREASE_LIMIT: No puedes **incrementar** la cantidad mas
-#GUI_SHOPBROWSER_SETTINGSACTION: Haga **clic** para ver la configuracion
-#GUI_SHOPBROWSER_LEFTACTION: Haga **clic izquierdo** para **comprar**
-#GUI_SHOPBROWSER_RIGHTACTION: Haga **clic derecho** para ver las opciones
-#GUI_SHOPBROWSER_YOURSHOPINDICATOR: Usted esta vendiendo este item
-#GUI_SHOPCREATION_TITLE: Crear una tienda
-#GUI_SHOPCREATION_TITLEWITHAMOUNT: Vender %1x este item
-#GUI_SHOPCREATION_INCREASE_ACTION: Haga clic para incrementar la cantidad
-#GUI_SHOPCREATION_REDUCE_ACTION: Haga clic para reducir la cantidad
-#GUI_SHOPCREATION_UNAVAILABLE_EXPLANATION: Esta opcion no esta disponible
-#GUI_SHOPCREATION_CONTINUE_EXPLANATION: Haga clic para continuar
-#GUI_SHOPSETTINGS_CONVERTADMINSHOP_TITLE: Convertir a una tienda de administrador
-#GUI_SHOPSETTINGS_CONVERTADMINSHOP_ACTION: Haga **clic** para convertir
-#GUI_SHOPSETTINGS_STOCK_ACTION: Haga clic para **administar** los items
-#GUI_SHOPSETTINGS_STOCK_REVENUE_IF_SOLD: Ingresos totales si lo vendes
-#GUI_SHOPSETTINGS_TRANSACTIONS_ACTION: Haga clic para **ver** transacciones
-#GUI_SHOPSETTINGS_DELETE_TITLE: Cerrar tienda
-#GUI_SHOPSETTINGS_DELETE_ACTION: Haga clic para cerrar la tienda
-#GUI_SHOPSETTINGS_DELETE_NEEDWITHDRAWING: Por favor, retire todos los items abastectos primero
-#SHOP_CREATION_NOPERMISSION: No tienes permiso para crear una tienda
-#SHOP_CREATION_INVALID_ITEM: No puedes vender este item
-#SHOP_CREATION_REACHED_LIMIT: No tienes permiso para crear mas que **%1** tiendas
-#ACTIONBAR_NOTICES_OPENSHOP: Haga **clic izquierdo** para abrir esta **tienda**
-#ACTIONBAR_NOTICES_CREATESHOP: Presiona **Tecla de mayuscula y haga clic izquierdo** para crear una nueva tienda
-#MESSAGE_BUY_INVFULL: No se pudo comprar **%1**. Tu invetario esta lleno.
-#MESSAGE_BUY_COMPLETED: Se compro **%1x %2 **para
+GUI_MONEYSELECTOR_TYPEIN_ACTION: Haga **clic** para escribar un precio
+GUI_SHOP_NAV_SELECT_ACTION: Haga clic para selectar esta opcion
+GUI_SHOP_NAV_SELECTED: Esta opcion esta selectada
+GUI_SHOP_NOSELLABLEITEMS_TITLE: No items encontrado
+GUI_SHOP_NOSELLABLEITEMS_EXPLANATION: No se pudo encontrar ningun item para vender en tu inventario
+GUI_SHOP_OUTOFSTOCK_TITLE: Fuera de stock
+GUI_SHOP_OUTOFSTOCK_EXPLANATION: Por favor espera hasta que **%1** a reabastecido la tienda
+GUI_SHOP_REDUCE_TITLE: Reducir cantidad
+GUI_SHOP_REDUCE_LEFTACTION: Haga **clic izquierdo** para eliminar **%1**
+GUI_SHOP_REDUCE_RIGHTACTION: Haga **clic derecho** para eliminar **10**
+GUI_SHOP_REDUCE_LIMIT: No puedes reducir la cantidad mas
+GUI_SHOP_INCREASE_TITLE: Incrementar cantidad
+GUI_SHOP_INCREASE_LEFTACTION: Haga **clic izquierdo** para agregar **%1**
+GUI_SHOP_INCREASE_RIGHTACTION: Haga **clic izquierdo** para agregar **10**
+GUI_SHOP_INCREASE_LIMIT: No puedes **incrementar** la cantidad mas
+GUI_SHOPBROWSER_SETTINGSACTION: Haga **clic** para ver la configuracion
+GUI_SHOPBROWSER_LEFTACTION: Haga **clic izquierdo** para **comprar**
+GUI_SHOPBROWSER_RIGHTACTION: Haga **clic derecho** para ver las opciones
+GUI_SHOPBROWSER_YOURSHOPINDICATOR: Usted esta vendiendo este item
+GUI_SHOPCREATION_TITLE: Crear una tienda
+GUI_SHOPCREATION_TITLEWITHAMOUNT: Vender %1x este item
+GUI_SHOPCREATION_INCREASE_ACTION: Haga clic para incrementar la cantidad
+GUI_SHOPCREATION_REDUCE_ACTION: Haga clic para reducir la cantidad
+GUI_SHOPCREATION_UNAVAILABLE_EXPLANATION: Esta opcion no esta disponible
+GUI_SHOPCREATION_CONTINUE_EXPLANATION: Haga clic para continuar
+GUI_SHOPSETTINGS_CONVERTADMINSHOP_TITLE: Convertir a una tienda de administrador
+GUI_SHOPSETTINGS_CONVERTADMINSHOP_ACTION: Haga **clic** para convertir
+GUI_SHOPSETTINGS_STOCK_ACTION: Haga clic para **administar** los items
+GUI_SHOPSETTINGS_STOCK_REVENUE_IF_SOLD: Ingresos totales si lo vendes
+GUI_SHOPSETTINGS_TRANSACTIONS_ACTION: Haga clic para **ver** transacciones
+GUI_SHOPSETTINGS_DELETE_TITLE: Cerrar tienda
+GUI_SHOPSETTINGS_DELETE_ACTION: Haga clic para cerrar la tienda
+GUI_SHOPSETTINGS_DELETE_NEEDWITHDRAWING: Por favor, retire todos los items abastectos primero
+SHOP_CREATION_NOPERMISSION: No tienes permiso para crear una tienda
+SHOP_CREATION_INVALID_ITEM: No puedes vender este item
+SHOP_CREATION_REACHED_LIMIT: No tienes permiso para crear mas que **%1** tiendas
+ACTIONBAR_NOTICES_OPENSHOP: Haga **clic izquierdo** para abrir esta **tienda**
+ACTIONBAR_NOTICES_CREATESHOP: Presiona **Tecla de mayuscula y haga clic izquierdo** para crear una nueva tienda
+MESSAGE_BUY_INVFULL: No se pudo comprar **%1**. Tu invetario esta lleno.
+MESSAGE_BUY_COMPLETED: Se compro **%1x %2 **para
