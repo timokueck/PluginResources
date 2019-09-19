@@ -23,6 +23,8 @@ You are speaking a different language? Thats great because we need you to help u
 Our Plugin Ultra Permissions simplifies the need to search for permissions by suggesting them based on installed plugins. The permission suggestions will be retrieved from [this file](https://github.com/TechsCode/PluginResources/blob/master/Permissions%20Database/Database.updb).
 
 To contribute, pick a plugin that has not been added yet and add all the permissions line by line to that file.
+Please make a new comment for each plugin, it makes it easier to review.
+Please also include a link to the plugin page/the page that shows the permissions.
 
 ---
 ### Format
