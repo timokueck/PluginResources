@@ -1,137 +1,135 @@
-#OVERVIEW: Overview
-#PERMISSION: Permission
-#PERMISSION_NODES: Permission Nodes
-#PERMISSIONS: Permissions
-#DEFAULT_PERMISSIONS: Default Permissions
-#GROUP: Group
-#GROUPS: Groups
-#DEFAULT_GROUP: Default Group
-#INHERITED_GROUPS: Inherited Groups
-#PLAYER: Player
-#SERVER: Server
-#SELECTED: Selected
-#WORLD: World
-#USERS: Users
-#USER: User
-#TIME: Time
-#PREFIX: Prefix
-#SUFFIX: Suffix
-#OPTIONS: Options
-#SERVERNAME: Server Name
-#DONATIONS: Donations
-#ADVANTAGES: Advantages
-#RECOMMENDED: Recommended
-#SETTINGS: Settings
-#PERMISSIONLOG: Permission Log
-#EDITING: Editing
-#ADD: Add
-#TIME_FOR: for
-#COMMAND_INVALID_ARGS: Invalid Arguments
-#COMMAND_NOTFOUND: Command not found
-#COMMAND_HINT_HELP: Type in **/upc** to get a list of commands
-#COMMAND_HELP_TITLE: Ultra Permissions Commands
-#COMMAND_HELP_FOOTER: Visit **%1** for more info
-#COMMAND_GROUP_NOTFOUND: Cannot find the group **%1**
-#COMMAND_PLAYER_NOTFOUND: Cannot find the player **%1**
-#COMMAND_PLAYER_NOTSUPERADMIN: **%1** is not a superadmin
-#COMMAND_PLAYER_INGROUP: The player **%1** is already in this group
-#COMMAND_PLAYER_SUPERADMIN_ALREADY: **%1** is already a superadmin
-#COMMAND_PLAYER_SUPERADMIN_ADD: Successfully added **%1** as a superadmin
-#COMMAND_PLAYER_SUPERADMIN_REMOVE: Successfully removed **%1** from the superadmins
-#COMMAND_PLAYER_ADD_GROUP: Added Group **%1** to **%2**
-#COMMAND_PLAYER_ADD_GROUP_TIMED: Added Group **%1** to **%2** for **%3**
-#COMMAND_PERMISSION_ADD: Added permission **%1** to **%2**
-#COMMAND_PERMISSION_ADD_TIMED: Added permission **%1** to **%2** for **%3**
-#GUI_OVERVIEW_USERS_ACTION: Click to view all **Users**
-#GUI_OVERVIEW_GROUPS_ACTION: Click to view all **Groups**
-#GUI_OVERVIEW_DONATIONS_ACTION: Click to show Donations
-#GUI_OVERVIEW_REDUCE_TITLE: Reduce
-#GUI_OVERVIEW_REDUCE_ACTION: Click to hide advanced features
-#GUI_OVERVIEW_REDUCE_EXPLANATION: This will hide the advanced options
-#GUI_OVERVIEW_EXPAND_TITLE: Expand
-#GUI_OVERVIEW_EXPAND_ACTION: **Click** to show more
-#GUI_OVERVIEW_EXPAND_EXPLANATION: This will show you more advanced options
-#GUI_OVERVIEW_PERMISSIONLOG_ACTION: **Click** to open the Permission Log
-#GUI_OVERVIEW_PERMISSIONLOG_EXPLANATION: Here you can take a look at all recent permission checks
-#GUI_OVERVIEW_SETTINGS_ACTION: **Click** to view Settings
-#GUI_OVERVIEW_SETTINGS_EXPLANATION: Adjust all settings of the plugin
-#GUI_GROUPBROWSER_TITLE_LIST: List
-#GUI_GROUPBROWSER_TITLE_ALL: Showing all Groups
-#GUI_GROUPBROWSER_TITLE_RANGE: Showing %1 / %2 Groups
-#GUI_GROUPBROWSER_ADD_ACTION: Click to create group
-#GUI_GROUPBROWSER_REORDER_TITLE: Change Order
-#GUI_GROUPBROWSER_REORDER_ACTION: Click to modify the order
-#GUI_GROUPBROWSER_LEFTCLICK_ACTION: **Left Click** to open
-#GUI_GROUPBROWSER_Q_ACTION: **Press Q** to view Storage Settings
-#GUI_GROUPBROWSER_DEFAULT_GROUP_INDICATOR: This is a default group
-#GUI_GROUPBROWSER_SHOWALL_TITLE: Show all
-#GUI_GROUPBROWSER_SHOWALL_ACTION: Click to show all groups from all Servers & Worlds
-#GUI_USERBROWSER_ACTION: **Click** to view
-#GUI_USERBROWSER_DELETE_ACTION: **Press Q** to **delete**
-#GUI_USERBROWSER_SUPERADMIN_INDICATOR: This user is a superadmin
-#GUI_USERBROWSER_SHOWOFFLINE_TITLE: Show Offline Users
-#GUI_USERBROWSER_HIDEOFFLINE_TITLE: Hide Offline Users
-#GUI_USERBROWSER_SHOWOFFLINE_ACTION: Click to show **offline users**
-#GUI_USERBROWSER_HIDEOOFFLINE_ACTION: Click to hide **offline users**
-#GUI_USERVIEW_VIEWPERMISSIONS_TITLE: View Permissions
-#GUI_USERVIEW_VIEWPERMISSIONS_ACTION: **Click** to view Permissions
-#GUI_USERVIEW_VIEWGROUPS_ACTION: **Click** to view Groups
-#GUI_USERVIEW_EDITPREFIXSUFFIX_TITLE: Edit Prefix and Suffix
-#GUI_USERVIEW_EDITPREFIXSUFFIX_LEFTCLICK: **Left Click** to edit prefix
-#GUI_USERVIEW_EDITPREFIXSUFFIX_RIGHTCLICK: **Right Click** to edit suffix
-#GUI_GROUPVIEW_VIEWPERMISSIONS_TITLE: View Permissions
-#GUI_GROUPVIEW_VIEWPERMISSIONS_ACTION: **Click** to view Permissions
-#GUI_GROUPVIEW_CHANGEICON_TITLE: Change Icon
-#GUI_GROUPVIEW_CHANGEICON_ACTION: **Click** to change
-#GUI_GROUPVIEW_EDITPREFIXSUFFIX_TITLE: Edit Prefix and Suffix
-#GUI_GROUPVIEW_EDITPREFIXSUFFIX_LEFTCLICK: **Left Click** to edit prefix
-#GUI_GROUPVIEW_EDITPREFIXSUFFIX_RIGHTCLICK: **Right Click** to edit suffix
-#GUI_GROUPVIEW_RENAME_ACTION: **Click** to rename group
-#GUI_GROUPVIEW_DELETE_TITLE: Delete Group
-#GUI_GROUPVIEW_DELETE_ACTION: **Click** to **delete** this Group
-#GUI_GROUPVIEW_DELETE_PERMANENT: This action is **permanent**
-#GUI_GROUPVIEW_DEFAULT_TITLE: Default Group
-#GUI_GROUPVIEW_DEFAULT_ACTION: **Click** to make this group **default**
-#GUI_GROUPVIEW_DEFAULT_UNDEFAULT_ACTION: **Click** to **undefault** this group
-#GUI_GROUPVIEW_DEFAULT_EXPLANATION: If enabled, every new player will receive this group on the first join
-#GUI_GROUPVIEW_INHERITANCE_TITLE: Inheritances
-#GUI_GROUPVIEW_INHERITANCE_ACTION: **Click** to edit inheritances
-#GUI_PERMEDITOR_SELECTALL_TITLE: Select All
-#GUI_PERMEDITOR_SELECTALL_ACTION: Click to **select** all permissions
-#GUI_PERMEDITOR_INHERITED_NEGATE_ACTION: **Left Click** to **negate** permission
-#GUI_PERMEDITOR_INHERITED_JUMP_ACTION: **Right Click** to jump to **%1**
-#GUI_PERMEDITOR_INHERITED_EXPLANATION: Permission added from **%1**
-#GUI_PERMEDITOR_SELECTED_ACTION: **Click** to **unselect**
-#GUI_PERMEDITOR_SELECTED_EXPLANATION: You **selected** this permission
-#GUI_PERMEDITOR_NORMAL_LEFTCLICK: **Left Click** to edit
-#GUI_PERMEDITOR_NORMAL_RIGHTCLICK: **Right Click** to **select**
-#GUI_PERMEDITOR_NORMAL_PRESSQ: **Press Q** to delete
-#GUI_PERMEDITOR_ADDPERMISSION_TITLE: Add Permission
-#GUI_PERMEDITOR_PLUGIN_ACTION: Click to view Permissions of **%1**
-#GUI_PERMEDITOR_MANUAL_TITLE: Type in Chat
-#GUI_PERMEDITOR_MANUAL_ACTION: **Click** to type in the Permission
-#GUI_PERMEDITOR_MANUAL_DIALOG_SUBTITLE: Type in a permission
-#GUI_INHERITVIEW_ADD_ACTION: Click to **add**
-#GUI_INHERITVIEW_ADD_EXPLANATION: This will add all permissions from **%1** to **%2**
-#GUI_INHERITVIEW_REMOVE_ACTION: Click to **remove**
-#GUI_INHERITVIEW_REMOVE_EXPLANATION: All Permissions from **%1** will be added to **%2**
-#GUI_CHANGEORDER_TITLE: Edit Order
-#GUI_CHANGEORDER_INCREASE: **Right Click** to increase
-#GUI_CHANGEORDER_DECREASE: **Left Click** to decrease
-#GUI_PERMISSIONLOG_ACTION: Click to add this permission to a **group** or **user**
-#GUI_SETTINGS_FORMAT_NAME: Chat & Tablist Format
-#GUI_SETTINGS_MISC_NAME: Miscellaneous
-#EDITING_PREFIX_EDIT: **Edit Prefix
-#EDITING_PREFIX_TYPEIN: Type in a new prefix
-#EDITING_PREFIX_TYPEINNONE: Type in **none** to have no prefix
-#EDITING_SUFFIX_EDIT: **Edit Suffix
-#EDITING_SUFFIX_TYPEIN: Type in a new suffix
-#EDITING_SUFFIX_TYPEINNONE: Type in **none** to have no suffix
-#CREATE_GROUP_TITLE: Create Group
-#CREATE_GROUP_SUBTITLE: Type in a group name
-#CREATE_GROUP_NOSPACES: The Group Name shouldnt contain spaces
-#CREATE_GROUP_NOCOLORS: You should not use chatcolors in the group name
-#CREATE_GROUP_NAMETAKEN: This group name is already in use
-#RENAME_GROUP_TITLE: Rename Group
-#RENAME_GROUP_SUBTITLE: Type in a new name
-#CONFIRM_DELETION_OF: Confirm deletion of %1
+OVERVIEW: Обзор
+PERMISSION: Право
+PERMISSION_NODES: Узлы прав
+PERMISSIONS: Права
+DEFAULT_PERMISSIONS: Стандартные права
+GROUP: Группа
+GROUPS: Группы
+DEFAULT_GROUP: Стандартная группа
+INHERITED_GROUPS: Унаследованные группы
+PLAYER: Игрок
+SERVER: Сервер
+SELECTED: Выбран
+WORLD: Мир
+USERS: Игроки
+USER: Игрок
+TIME: Время
+PREFIX: Префикс
+SUFFIX: Суффикс
+OPTIONS: Настройки
+SERVERNAME: Название сервера
+DONATIONS: Пожертвования
+ADVANTAGES: Приемущества
+RECOMMENDED: Рекомендован
+SETTINGS: Настройки
+PERMISSIONLOG: Журнал прав
+EDITING: Изменение
+ADD: Добавить
+TIME_FOR: на
+COMMAND_INVALID_ARGS: Неверные агрументы
+COMMAND_NOTFOUND: Команда не найдена
+COMMAND_HINT_HELP: Введите **/upc**, чтобы получить список команд
+COMMAND_HELP_TITLE: Команды плагина Ultra Permissions
+COMMAND_HELP_FOOTER: Посетите **%1**, для получения большей информации
+COMMAND_GROUP_NOTFOUND: Не удалось найти группу **%1**
+COMMAND_PLAYER_NOTFOUND: Не удалось найти игрока **%1**
+COMMAND_PLAYER_NOTSUPERADMIN: **%1** не является суперадминистратором
+COMMAND_PLAYER_INGROUP: The player **%1** уже в данной группе
+COMMAND_PLAYER_SUPERADMIN_ALREADY: **%1** уже суперадминистратор
+COMMAND_PLAYER_SUPERADMIN_ADD: Игрок **%1** теперь суперадминистратор
+COMMAND_PLAYER_SUPERADMIN_REMOVE: Игрок **%1** больше не суперадминистратор
+COMMAND_PLAYER_ADD_GROUP: Группа **%1** добавлена **%2**
+COMMAND_PLAYER_ADD_GROUP_TIMED: Группа **%1** добавлена **%2** на **%3**
+COMMAND_PERMISSION_ADD: Право **%1** добавлено **%2**
+COMMAND_PERMISSION_ADD_TIMED: Право **%1** добавлено **%2** на **%3**
+GUI_OVERVIEW_USERS_ACTION: Щёлкните, чтобы просмотреть всех **Игроков**
+GUI_OVERVIEW_GROUPS_ACTION: Щёлкните, чтобы просмотреть все **Группы**
+GUI_OVERVIEW_DONATIONS_ACTION: Щёлкните, чтобы просмотреть пожертвования
+GUI_OVERVIEW_REDUCE_TITLE: Скрыть
+GUI_OVERVIEW_REDUCE_ACTION: Щёлкните, чтобы скрыть расширенные функции
+GUI_OVERVIEW_EXPAND_ACTION: **Щёлкните**, чтобы показать расширенные функции
+GUI_OVERVIEW_EXPAND_EXPLANATION: Показать расширенные функции
+GUI_OVERVIEW_PERMISSIONLOG_ACTION: **Щёлкните**, чтобы открыть журнал прав
+GUI_OVERVIEW_PERMISSIONLOG_EXPLANATION: Здесь вы можете увидеть все недавние проверки прав
+GUI_OVERVIEW_SETTINGS_ACTION: **Щёлкните**, чтобы просмотреть настройки
+GUI_OVERVIEW_SETTINGS_EXPLANATION: Установите настройки плагина
+GUI_GROUPBROWSER_TITLE_LIST: Список
+GUI_GROUPBROWSER_TITLE_ALL: Просмотр всех групп
+GUI_GROUPBROWSER_TITLE_RANGE: Просмотр %1 / %2 групп
+GUI_GROUPBROWSER_ADD_ACTION: Щёлкните, чтобы создать группу
+GUI_GROUPBROWSER_REORDER_TITLE: Изменить порядок
+GUI_GROUPBROWSER_REORDER_ACTION: Щёлкните, чтобы изменить порядок
+GUI_GROUPBROWSER_LEFTCLICK_ACTION: **ЛКМ** для открытия
+GUI_GROUPBROWSER_Q_ACTION: **Нажмите Q**, чтобы просмотреть настройки хранилища
+GUI_GROUPBROWSER_DEFAULT_GROUP_INDICATOR: Стандартная группа
+GUI_GROUPBROWSER_SHOWALL_TITLE: Просмотреть все
+GUI_GROUPBROWSER_SHOWALL_ACTION: Щёлкните, чтобы просмотреть все группы со всех серверов и миров
+GUI_USERBROWSER_ACTION: **Щёлкните**, чтобы просмотреть
+GUI_USERBROWSER_DELETE_ACTION: **Нажмите Q**, чтобы **удалить**
+GUI_USERBROWSER_SUPERADMIN_INDICATOR: Суперадминистратор
+GUI_USERBROWSER_SHOWOFFLINE_TITLE: Показать игроков не в сети
+GUI_USERBROWSER_HIDEOFFLINE_TITLE: Скрыть игроков не в сети
+GUI_USERBROWSER_SHOWOFFLINE_ACTION: Щёлкните, чтобы показать **игроков не в сети**
+GUI_USERBROWSER_HIDEOOFFLINE_ACTION: Щёлкните, чтобы скрыть **игроков не в сети**
+GUI_USERVIEW_VIEWPERMISSIONS_TITLE: Просмотреть права
+GUI_USERVIEW_VIEWPERMISSIONS_ACTION: **Щёлкните**, чтобы просмотреть права
+GUI_USERVIEW_VIEWGROUPS_ACTION: **Щёлкните**, чтобы просмотреть группы
+GUI_USERVIEW_EDITPREFIXSUFFIX_TITLE: Изменить префикс и суффикс
+GUI_USERVIEW_EDITPREFIXSUFFIX_LEFTCLICK: **ЛКМ**, чтобы изменить префикс
+GUI_USERVIEW_EDITPREFIXSUFFIX_RIGHTCLICK: **ПКМ**, чтобы изменить суффикс
+GUI_GROUPVIEW_VIEWPERMISSIONS_TITLE: Просмотреть права
+GUI_GROUPVIEW_VIEWPERMISSIONS_ACTION: **Щёлкните**, чтобы просмотреть права
+GUI_GROUPVIEW_CHANGEICON_TITLE: Изменить иконку
+GUI_GROUPVIEW_CHANGEICON_ACTION: **Щёлкните**, чтобы изменить
+GUI_GROUPVIEW_EDITPREFIXSUFFIX_TITLE: Изменить префикс и суффикс
+GUI_GROUPVIEW_EDITPREFIXSUFFIX_LEFTCLICK: **ЛКМ**, чтобы изменить префикс
+GUI_GROUPVIEW_EDITPREFIXSUFFIX_RIGHTCLICK: **ПКМ**, чтобы изменить суффикс
+GUI_GROUPVIEW_RENAME_ACTION: **Щёлкните**, чтобы переименовать группу
+GUI_GROUPVIEW_DELETE_TITLE: Удалить группу
+GUI_GROUPVIEW_DELETE_ACTION: **Щёлкните**, чтобы **удалить** данную группу
+GUI_GROUPVIEW_DELETE_PERMANENT: Данное действие **необратимо**
+GUI_GROUPVIEW_DEFAULT_TITLE: Стандартная группа
+GUI_GROUPVIEW_DEFAULT_ACTION: **Щёлкните**, чтобы сделать данную группу **стандартной**
+GUI_GROUPVIEW_DEFAULT_UNDEFAULT_ACTION: **Щёлкните**, чтобы сделать данную группу **обычной** 
+GUI_GROUPVIEW_DEFAULT_EXPLANATION: Если включено, каждый новый игрок будет получать эту группу при первом входе
+GUI_GROUPVIEW_INHERITANCE_TITLE: Наследование
+GUI_GROUPVIEW_INHERITANCE_ACTION: **Щёлкните**, чтобы изменить наследование групп
+GUI_PERMEDITOR_SELECTALL_TITLE: Выбрать все
+GUI_PERMEDITOR_SELECTALL_ACTION: Щёлкните, чтобы **выбрать** все права
+GUI_PERMEDITOR_INHERITED_NEGATE_ACTION: **ЛКМ**, чтобы **отозвать** право
+GUI_PERMEDITOR_INHERITED_JUMP_ACTION: **ПКМ**, чтобы перейти к **%1**
+GUI_PERMEDITOR_INHERITED_EXPLANATION: Добавлены права из **%1**
+GUI_PERMEDITOR_SELECTED_ACTION: **Щёлкните**, чтобы **отменить выделение**
+GUI_PERMEDITOR_SELECTED_EXPLANATION: Вы **выбрали** данное право
+GUI_PERMEDITOR_NORMAL_LEFTCLICK: **ЛКМ**, чтобы изменить
+GUI_PERMEDITOR_NORMAL_RIGHTCLICK: **ПКМ**, чтобы **выбрать**
+GUI_PERMEDITOR_NORMAL_PRESSQ: **Нажмите Q** удалить
+GUI_PERMEDITOR_ADDPERMISSION_TITLE: Добавить право
+GUI_PERMEDITOR_PLUGIN_ACTION: Щёлкните, чтобы просмотреть права **%1**
+GUI_PERMEDITOR_MANUAL_TITLE: Введите в чат
+GUI_PERMEDITOR_MANUAL_ACTION: **Щёлкните**, чтобы ввести право
+GUI_PERMEDITOR_MANUAL_DIALOG_SUBTITLE: Введите право
+GUI_INHERITVIEW_ADD_ACTION: Щёлкните, чтобы **добавить**
+GUI_INHERITVIEW_ADD_EXPLANATION: Добавить все права от **%1** до **%2**
+GUI_INHERITVIEW_REMOVE_ACTION: Щёлкните, чтобы **удалить**
+GUI_INHERITVIEW_REMOVE_EXPLANATION: Все права от **%1** будут добавлены **%2**
+GUI_CHANGEORDER_TITLE: Изменить порядок
+GUI_CHANGEORDER_INCREASE: **ПКМ**, чтобы повысить
+GUI_CHANGEORDER_DECREASE: **ЛКМ**, чтобы понизить
+GUI_PERMISSIONLOG_ACTION: Щёлкните, чтобы добавить это право **группе** или **игроку**
+GUI_SETTINGS_FORMAT_NAME: Формат чата и списка игроков
+GUI_SETTINGS_MISC_NAME: Смешанный
+EDITING_PREFIX_EDIT: **Изменить префикс
+EDITING_PREFIX_TYPEIN: Введите новый префикс
+EDITING_PREFIX_TYPEINNONE: Введите **none**, если не хотите добавлять префикс
+EDITING_SUFFIX_EDIT: **Изменить суффикс
+EDITING_SUFFIX_TYPEIN: Введите новый суффикс
+EDITING_SUFFIX_TYPEINNONE: Введите **none**, если не хотите добавлять суффикс
+CREATE_GROUP_TITLE: Создать группу
+CREATE_GROUP_SUBTITLE: Введите название группы
+CREATE_GROUP_NOSPACES: Название группы не может иметь пробелов
+CREATE_GROUP_NOCOLORS: Название группы не может содержать цветовые коды
+CREATE_GROUP_NAMETAKEN: Название группы занято
+RENAME_GROUP_TITLE: Переименовать группу
+RENAME_GROUP_SUBTITLE: Введите новое название
+CONFIRM_DELETION_OF: Подтвердите удаление %1
