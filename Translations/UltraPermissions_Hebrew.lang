@@ -119,6 +119,7 @@
 #GUI_CHANGEORDER_INCREASE: **Right Click** to increase
 #GUI_CHANGEORDER_DECREASE: **Left Click** to decrease
 #GUI_PERMISSIONLOG_ACTION: Click to add this permission to a **group** or **user**
+#GUI_PERMISSIONLOG_RESULT: Result: %1
 #GUI_SETTINGS_FORMAT_NAME: Chat & Tablist Format
 #GUI_SETTINGS_MISC_NAME: Miscellaneous
 #EDITING_PREFIX_EDIT: **Edit Prefix

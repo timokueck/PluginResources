@@ -119,6 +119,7 @@ GUI_CHANGEORDER_TITLE: Sıralamayı Ayarla
 GUI_CHANGEORDER_INCREASE: Arttırmak için **Sağ Tıkla**
 GUI_CHANGEORDER_DECREASE: Azaltmak için **Sol Tıkla**
 GUI_PERMISSIONLOG_ACTION: Bu yetkiyi bir **gruba** veya **oyuncuya** eklemek için Tıkla
+GUI_PERMISSIONLOG_RESULT: Sonuç: %1
 GUI_SETTINGS_FORMAT_NAME: Sohbet & Tab Formatı
 GUI_SETTINGS_MISC_NAME: Çeşitli
 EDITING_PREFIX_EDIT: **Prefixi ayarla

@@ -1,7 +1,6 @@
 import os
 
 languages = ["German", "French", "Italian", "Spanish", "Russian", "Serbian", "Hebrew", "Dutch", "Turkish"]; # Exclude English because thats the default language
-
 # Filter all Template Files
 templateFiles = [];
 for file in os.listdir("native"):
@@ -32,7 +31,7 @@ for templateFile in templateFiles:
         try:
             fileReader = open(fileName, "r+")
             for line in fileReader.readlines():
-                split = line.split(": ");
+                split = line.split(": ",1);
                 existingPhrases.append(split[0].replace("#", ""));
 
                 if "#" in line:
@@ -47,7 +46,7 @@ for templateFile in templateFiles:
         fileWriter = open(fileName, "w+");
 
         for line in templateLines:
-            split = line.split(": ");
+            split = line.split(": ",1);
 
             if len(split) != 2:
                 continue;
@@ -65,5 +64,6 @@ for templateFile in templateFiles:
                 fileWriter.write("#"+phraseName+": "+value);
 
         fileWriter.close();
+        print("["+fileName+"] Done!");
 
 print("Done!");

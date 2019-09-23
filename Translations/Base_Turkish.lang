@@ -3,6 +3,14 @@ ENABLED: aktif edilmiş
 DISABLE: deaktif et
 DISABLED: deaktif edilmiş
 SETTINGS: Ayarlar
+#DAY: Day
+#DAYS: Days
+#HOUR: Hour
+#HOURS: Hours
+#MINUTE: Minute
+#MINUTES: Minutes
+#SECOND: Second
+#SECONDS: Seconds
 NONE: Boş
 COMMAND_NOPERMISSION: Bu komuta **erişme** izniniz bulunmamakta
 COMMAND_NOCONSOLE: Bu komut konsoldan kullanılamaz!
