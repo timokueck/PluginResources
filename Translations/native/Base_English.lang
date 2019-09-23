@@ -11,6 +11,14 @@ ENABLED: enabled
 DISABLE: disable
 DISABLED: disabled
 SETTINGS: Settings
+DAY: Day
+DAYS: Days
+HOUR: Hour
+HOURS: Hours
+MINUTE: Minute
+MINUTES: Minutes
+SECOND: Second
+SECONDS: Seconds
 NONE: None
 COMMAND_NOPERMISSION: You don't have **access** to that command
 COMMAND_NOCONSOLE: This command cannot be run through the console
