@@ -1,4 +1,4 @@
-#OVERVIEW: Overview
+OVERVIEW: Panoramica
 PERMISSION: Permesso
 PERMISSION_NODES: Nodi del permesso
 PERMISSIONS: Permessi
@@ -119,7 +119,7 @@ GUI_CHANGEORDER_TITLE: Modifica l'ordine
 GUI_CHANGEORDER_INCREASE: Tasto destro** per aumentare
 GUI_CHANGEORDER_DECREASE: Tasto sinistro** per decrementare
 GUI_PERMISSIONLOG_ACTION: Clicca per aggiungere questo permesso a un **gruppo **o  un **utente
-#GUI_PERMISSIONLOG_RESULT: Result: %1
+GUI_PERMISSIONLOG_RESULT: Risultato: %1
 GUI_SETTINGS_FORMAT_NAME: Formato Chat & Tab
 GUI_SETTINGS_MISC_NAME: Miscellaneous
 EDITING_PREFIX_EDIT: **Modifica il Prefisso
