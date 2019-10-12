@@ -3,14 +3,14 @@ ENABLED: activado
 DISABLE: desactivar
 DISABLED: desactivado
 SETTINGS: Configuracion
-#DAY: Dia
-#DAYS: Dias
-#HOUR: Hora
-#HOURS: Horas
-#MINUTE: Minuto
-#MINUTES: Minutos
-#SECOND: Segundo
-#SECONDS: Segundos
+DAY: Dia
+DAYS: Dias
+HOUR: Hora
+HOURS: Horas
+MINUTE: Minuto
+MINUTES: Minutos
+SECOND: Segundo
+SECONDS: Segundos
 NONE: Ninguno
 COMMAND_NOPERMISSION: No tienes **permiso** para hacer ese comando
 COMMAND_NOCONSOLE: Este comando no se puede hacer en la consola
