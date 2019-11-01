@@ -4752,8 +4752,25 @@ VoidSpawn+vs.player.toggle+Permission for /vs toggle command.+/vs toggle
 VoteSend+votesend.admin+Allow the player to reload the plugin and send a test vote to a player.+/votesend reload,/votesend send
 Voter+Voter.Create+Permission to Start a voting.+/vote
 Vouchers+voucher.admin+Access To All Commands+/Voucher Help,/Voucher Redeem <Code>,/Voucher <Give> [Amount] [Player] [Argument],/Voucher Reload
-Vouchers+voucher.bypass+Buypass Voucher Limiter+NONE
-Vouchers+voucher.redeem+Redeem vouchers+NONE
+Vouchers+voucher.bypass+Buypass Voucher Limiter
+Vouchers+voucher.redeem+Redeem vouchers
+WarpsGUI+warps.sethome+Alows player to set a home/sethome
+WarpsGUI+warps.homelimit.[limit]+Sets the number of homes a player can have
+WarpsGUI+warps.edithome+Alows player to edit homes+/edithome
+WarpsGUI+warps.home+Allows player to warp to home+/home
+WarpsGUI+warps.removehome+allows player to remove home+/removehome
+WarpsGUI+warps.homelimit.unlimited+Allows player to set unlimited homes
+WarpsGUI+warps.bypass.countdown+Used for bypassing countdowns
+WarpsGUI+warps.bypass.cooldown+Used for bypassing coldowns
+WarpsGUI+warps.setwarp+Allows player to set warp+s/setwarp
+WarpsGUI+warps.setwarp.private+Allows player to set private warps+/setwarp [warp] private
+WarpsGUI+warps.warp+Allows players to warp+/warp
+WarpsGUI+warps.editwarp+Allows player to edit warps+/editwarp
+WarpsGUI+warps.removewarp+Allows player to remove a warp+/removewarp
+WarpsGUI+warps.private+Allows player to see private warps
+WarpsGUI+warps.setspwawn+Allows player to set spawn point+/setspawn
+WarpsGUI+warps.removespawn+Allows player to remove spawn point+/removespawn
+WarpsGUI+warps.warpsreload+Allows player to reload WarpsGUI+/warpsreload
 WarpSystem+WarpSystem.ByPass.Maintenance+Use GUI while in maintenance mode
 WarpSystem+WarpSystem.ByPass.Teleport.Delay+Bypass teleport delay
 WarpSystem+WarpSystem.Modify+Edit the GUI and Portals
