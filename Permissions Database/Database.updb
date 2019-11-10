@@ -1688,6 +1688,14 @@ EZStaff+ezstaff.tools+Use the tools menu.
 EZStaff+ezstaff.update+Get update notifications on join.
 EZStaff+ezstaff.use+Use commands.+/ezstaff use
 EZStaff+ezstaff.whitelist+Use the whitelist menu.
+EasyBackup+easybackup.command.cancel+Cancels a backup in progress+/backup cancel
+EasyBackup+easybackup.command.clean+Deletes old Logs and Playerdata+/backup clean
+EasyBackup+easybackup.command.create+Creates a backup+/backup create
+EasyBackup+easybackup.command.create.name+Creates a backup with the given name+/backup create (NAME)
+EasyBackup+easybackup.command.disk+Get disk information regarding file count and server size+/backup disk
+EasyBackup+easybackup.command.reload+Reloads the config+/backup reload
+EasyBackup+easybackup.command.restore+Restores a previously created backup. Could be with a password too.+/backup restore (BACKUP NAME),/baackup restore (BACKUP NAME) (PASSWORD)
+EasyBackup+easybackup.command.upload+Uploads the latest backup to all enabled backup types+/backup upload
 EasyMaintenance+em.bypass+You will not be kicked and can join back while in maintenance.
 EasyMaintenance+em.use+Use all Easy Maintenance Commands+[Aliases: em, maitenance],/easymaintenance help,/easymaintenance toggle,/easymaintenance toggle [Time],/easymaintenance cancel,/easymaintenance skip [Time],/easymaintenance info,/easymaintenance reload
 EasyWarp+easywarp.command.delwarp+Delete a specified warp.+/delwarp
