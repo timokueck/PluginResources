@@ -5208,6 +5208,11 @@ iDisguise+iDisguise.visibility.permission+use visibility=only-permission and vis
 pStaffList+staff.fake+Toggle faking offline or not (if faking offline you will always show offline)+/staff fake
 pStaffList+staff.modify+Add a staff member to the GUI, Remove the specified staff member from the GUI, Add the item in your hand as a spacer, Remove the specified spacer and Open the GUI and allow for editing of all the positions.+/staff add,/staff remove,/staff delete,/staff addSpacer,/staff removeSpacer,/staff modify
 pStaffList+staff.reload+Force save of all files and reload the config+/staff reload
+UltimateShops+ushops.user+Gives perms to use shops
+UltimateShops+ushops.make+Gives perms to make shops
+UltimateShops+ushops.makeshops.[number]+Gives perms to make a maximum of # shops (requires ushops.make). Without this permission users can make unlimited shops.
+UltimateShops+ushops.admin+Gives perms for admin features
+UltimateShops+ushops.tag.[tag]+Gives perms to use shops that have that TAG
 uSkyBlock+usb.admin+To make use of any the /usb commands
 uSkyBlock+usb.admin.**+Controls player-cooldowns+/usb cooldown,/usb cd clear,/usb cd c [player] <command>
 uSkyBlock+usb.admin.addmember+Adds the player to the island+/usb is addmember [player] [islandleader]
