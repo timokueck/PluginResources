@@ -1,6 +1,8 @@
 import os
 
-languages = ["German", "French", "Italian", "Spanish", "Russian", "Serbian", "Hebrew", "Dutch", "Turkish"]; # Exclude English because thats the default language
+#languages = ["German", "French", "Italian", "Spanish", "Russian", "Serbian", "Hebrew", "Dutch", "Turkish"]; # Exclude English because thats the default language
+#Russian and Serbian have issues due to special characters
+languages = ["German", "French", "Italian", "Spanish", "Hebrew", "Dutch", "Turkish"]; # Exclude English because thats the default language
 # Filter all Template Files
 templateFiles = [];
 for file in os.listdir("native"):

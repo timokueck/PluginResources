@@ -26,6 +26,7 @@
 #ENCHANTED: Enchanted
 #ITEMS_AVAILABLE: Items available
 #CONTINUE: Continue
+#MONEY_PAID: Money Paid
 #GUI_OVERVIEW_OPENSHOPS_ACTION: Click to open Shops
 #GUI_OVERVIEW_OPENSETTINGS_ACTION: Click to open Settings
 #GUI_SHOPSETTINGS_BUY_LEFTACTION: **Left Click** to **change** buy price
@@ -37,6 +38,11 @@
 #GUI_SHOPSETTINGS_SELL_OTHERACTION: **Click** to enable **selling**
 #GUI_SHOPSETTINGS_SELL_EXPLANATION: Will sell for **%1** each
 #GUI_MONEYSELECTOR_TYPEIN_ACTION: **Click** to type in a price
+#GUI_MONEYSELECTOR_INCREASE_ACTION: **Left Click **to add **%1**
+#GUI_MONEYSELECTOR_DECREASE_ACTION: **Left Click **to remove **%1**
+#GUI_MONEYSELECTOR_SWITCHUNIT: **Press **[**Drop Key**]** to switch unit
+#GUI_MONEYSELECTOR_CONFIRM_ACTION: Click to confirm
+#GUI_MONEYSELECTOR_TYPEIN: Type in a price in chat
 #GUI_SHOP_NAV_SELECT_ACTION: Click to select this option
 #GUI_SHOP_NAV_SELECTED: This option is currently selected
 #GUI_SHOP_NOSELLABLEITEMS_TITLE: No Items Found
@@ -51,6 +57,9 @@
 #GUI_SHOP_INCREASE_LEFTACTION: **Left Click** to add **1**
 #GUI_SHOP_INCREASE_RIGHTACTION: **Right Click** to add **10**
 #GUI_SHOP_INCREASE_LIMIT: You cant **increase** the amount further
+#GUI_SHOP_PURCHASE_TITLE: Purchase
+#GUI_SHOP_PURCHASE_ACTION: Click to **purchase**
+#GUI_SHOP_PURCHASE_NOFUNDS: You dont have enough funds to purchase it
 #GUI_SHOPBROWSER_SETTINGSACTION: **Click** to view Settings
 #GUI_SHOPBROWSER_LEFTACTION: **Left Click** to **purchase**
 #GUI_SHOPBROWSER_RIGHTACTION: **Right Click** to view Settings
@@ -69,6 +78,10 @@
 #GUI_SHOPSETTINGS_DELETE_TITLE: Close Shop
 #GUI_SHOPSETTINGS_DELETE_ACTION: Click to close shop
 #GUI_SHOPSETTINGS_DELETE_NEEDWITHDRAWING: Please withdraw all stocked items first
+#GUI_STOCKEDVIEW_TITLE: Items in Stock
+#GUI_STOCKEDVIEW_ACTION: Click to **move** into your Inventory
+#GUI_STOCKEDVIEW_INSTRUCTION: Add items by clicking on them in your Inventory
+#GUI_TRANSACTIONS_PURCHASETIME: Purchased **%1** ago
 #SHOP_CREATION_NOPERMISSION: You are not allowed to create a Shop
 #SHOP_CREATION_INVALID_ITEM: You cant sell this item
 #SHOP_CREATION_REACHED_LIMIT: You are not allowed to create more than **%1** Shops
