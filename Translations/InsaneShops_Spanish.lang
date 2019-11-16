@@ -10,7 +10,7 @@ PURCHASING: Comprando
 BUYING: Comprando
 SELLING: Vendiendo
 PRICE: Precio
-UNITS: Units
+UNITS: Unidos
 AMOUNT: Cantidad
 BUY_FOR: Compra para
 SELL_FOR: Vender para
@@ -26,7 +26,7 @@ YOU_WILL_RECEIVE: Usted va a recivir
 ENCHANTED: Encantado
 ITEMS_AVAILABLE: Items disponible
 CONTINUE: Continuar
-#MONEY_PAID: Money Paid
+MONEY_PAID: Dinero Pagado
 GUI_OVERVIEW_OPENSHOPS_ACTION: Haga clic para abir las tiendas
 GUI_OVERVIEW_OPENSETTINGS_ACTION: Haga clic para abrir la configuracion
 GUI_SHOPSETTINGS_BUY_LEFTACTION: Haga **clic izquierdo** para **cambiar** el precio de compra
@@ -38,11 +38,11 @@ GUI_SHOPSETTINGS_SELL_QACTION: **Pulsa Q** para desactivar vender
 GUI_SHOPSETTINGS_SELL_OTHERACTION: Haga **clic** para activar **vender**
 GUI_SHOPSETTINGS_SELL_EXPLANATION: Se va a vender para **%1** cada una
 GUI_MONEYSELECTOR_TYPEIN_ACTION: Haga **clic** para escribar un precio
-#GUI_MONEYSELECTOR_INCREASE_ACTION: **Left Click **to add **%1**
-#GUI_MONEYSELECTOR_DECREASE_ACTION: **Left Click **to remove **%1**
-#GUI_MONEYSELECTOR_SWITCHUNIT: **Press **[**Drop Key**]** to switch unit
-#GUI_MONEYSELECTOR_CONFIRM_ACTION: Click to confirm
-#GUI_MONEYSELECTOR_TYPEIN: Type in a price in chat
+GUI_MONEYSELECTOR_INCREASE_ACTION: Haga **Clic izquierdo** para agregar **%1**
+GUI_MONEYSELECTOR_DECREASE_ACTION: Haga **Clic izquierdo** para eliminar **%1**
+GUI_MONEYSELECTOR_SWITCHUNIT: **Pulsa **[**Tecla de soltar**]** para cambiar unidad
+GUI_MONEYSELECTOR_CONFIRM_ACTION: Haga clic para confirmar
+GUI_MONEYSELECTOR_TYPEIN: Escribe un precio en el chat
 GUI_SHOP_NAV_SELECT_ACTION: Haga clic para selectar esta opcion
 GUI_SHOP_NAV_SELECTED: Esta opcion esta selectada
 GUI_SHOP_NOSELLABLEITEMS_TITLE: No items encontrado
@@ -57,9 +57,9 @@ GUI_SHOP_INCREASE_TITLE: Incrementar cantidad
 GUI_SHOP_INCREASE_LEFTACTION: Haga **clic izquierdo** para agregar **%1**
 GUI_SHOP_INCREASE_RIGHTACTION: Haga **clic izquierdo** para agregar **10**
 GUI_SHOP_INCREASE_LIMIT: No puedes **incrementar** la cantidad mas
-#GUI_SHOP_PURCHASE_TITLE: Purchase
-#GUI_SHOP_PURCHASE_ACTION: Click to **purchase**
-#GUI_SHOP_PURCHASE_NOFUNDS: You dont have enough funds to purchase it
+GUI_SHOP_PURCHASE_TITLE: Comprar
+GUI_SHOP_PURCHASE_ACTION: Haga clic para **comprar**
+GUI_SHOP_PURCHASE_NOFUNDS: Usted no tiene fondos suficientes para comprarlo
 GUI_SHOPBROWSER_SETTINGSACTION: Haga **clic** para ver la configuracion
 GUI_SHOPBROWSER_LEFTACTION: Haga **clic izquierdo** para **comprar**
 GUI_SHOPBROWSER_RIGHTACTION: Haga **clic derecho** para ver las opciones
@@ -78,10 +78,10 @@ GUI_SHOPSETTINGS_TRANSACTIONS_ACTION: Haga clic para **ver** transacciones
 GUI_SHOPSETTINGS_DELETE_TITLE: Cerrar tienda
 GUI_SHOPSETTINGS_DELETE_ACTION: Haga clic para cerrar la tienda
 GUI_SHOPSETTINGS_DELETE_NEEDWITHDRAWING: Por favor, retire todos los items abastectos primero
-#GUI_STOCKEDVIEW_TITLE: Items in Stock
-#GUI_STOCKEDVIEW_ACTION: Click to **move** into your Inventory
-#GUI_STOCKEDVIEW_INSTRUCTION: Add items by clicking on them in your Inventory
-#GUI_TRANSACTIONS_PURCHASETIME: Purchased **%1** ago
+GUI_STOCKEDVIEW_TITLE: Items en Stock
+GUI_STOCKEDVIEW_ACTION: Haga clic para **mover** a tu inventario
+GUI_STOCKEDVIEW_INSTRUCTION: Agregue items por haciendo clic en ellos en su inventario
+GUI_TRANSACTIONS_PURCHASETIME: Comprado hace **%1**
 SHOP_CREATION_NOPERMISSION: No tienes permiso para crear una tienda
 SHOP_CREATION_INVALID_ITEM: No puedes vender este item
 SHOP_CREATION_REACHED_LIMIT: No tienes permiso para crear mas que **%1** tiendas
