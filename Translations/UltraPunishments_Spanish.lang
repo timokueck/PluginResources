@@ -1,58 +1,58 @@
-#OVERVIEW: Overview
-#REPORT: Report
-#SERVER: Server
-#PLAYERS: Players
-#REPORTS: Reports
-#SETTINGS: Settings
-#TEMPLATE: Template
-#PERMANENT: Permanent
-#DURATION: Duration
-#REASON: Reason
-#TEMPLATES: Templates
-#PUNISH: Punish
-#WARNINGS: Warnings
-#PUNISHMENTS: Punishments
-#MESSAGE: Message
-#EVIDENCE: Evidence
-#BAN: Ban
-#MUTE: Mute
-#OR: or
-#NONE: None
-#ISSUER: Issuer
-#CREATE_REPORT: Create Report
-#GUI_OVERVIEW_PLAYERS_ACTION: Click to show players
-#GUI_OVERVIEW_REPORTS_ACTION: Click to show opened reports
-#GUI_OVERVIEW_SETTINGS_ACTION: Click to show Settings
-#GUI_OVERVIEW_TEMPLATES_ACTION: Click to show templates
-#GUI_OVERVIEW_TEMPLATES_BANTEMPLATES: Ban Templates
-#GUI_OVERVIEW_TEMPLATES_MUTETEMPLATES: Mute Templates
-#TYPE_IN_REASON: Type in a reason
-#TYPE_IN_MESSAGE: Type in a message
-#SET_A_REASON: Click to set reason
-#SET_A_DURATION: Click to set duration
-#GUI_REPORTCREATION_ADDMESSAGE_TITLE: Add Message
-#GUI_REPORTCREATION_ADDMESSAGE_ACTION: Click to add **message** and **continue**
-#GUI_REPORTCREATION_ADDMESSAGE_EXPLANATION: Add a detailed message to the report
-#GUI_REPORTCREATION_ADDEVIDENCE_TITLE: Add Evidence
-#GUI_REPORTCREATION_ADDEVIDENCE_ACTION: Click to add **evidence** and **continue**
-#GUI_REPORTCREATION_ADDEVIDENCE_EXPLANATION: Add **Chat Messages**, **Kill Feed** and other actions to the report
-#GUI_PLAYERBROWSER_ACTION: Click to view player
-#GUI_WARNINGSBROWSER_ACTION: Click to **remove**
-#GUI_WARNINGSBROWSER_NOPERM: You dont have permissions to remove this warning
-#GUI_PLAYERVIEW_PUNISH_LEFTACTION: **Left Click** to %1
-#GUI_PLAYERVIEW_PUNISH_RIGHTACTION: **Right Click**to **Warn (+ Kick)**
-#GUI_PLAYERVIEW_PUNISH_UNPUNISHABLE: Punishments for this player have been disabled.
-#GUI_PLAYERVIEW_WARNINGS_ACTION: Click to show warnings
-#GUI_PLAYERVIEW_WARNINGS_NOWARNING: Player has never been warned
-#GUI_PLAYERVIEW_PUNISHMENTS_ACTION: Click to show punishments
-#GUI_PLAYERVIEW_PUNISHMENTS_ACTIVE: Active Punishments
-#GUI_PLAYERVIEW_PUNISHMENTS_PREVIOUS: Previous Punishments
-#GUI_PLAYERVIEW_PUNISHMENTS_NOPUNISHMENT: Player has never been punished
-#GUI_PLAYERVIEW_REPORTS_ACTION: Click to show reports
-#GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS: Active Reports by
-#GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS_ENTRY: %1 on **%2** with **%3
-#GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS_NONE: Player has no active reports
-#GUI_PLAYERVIEW_EXCLUDE_TITLE: Exclude from Punishments
-#GUI_PLAYERVIEW_EXCLUDE_ACTION: Click to %1 punishments for this player
-#GUI_PLAYERVIEW_EXCLUDE_EXPLANATION: This player cannot be punished by anyone
-#MESSAGE_CREATED_REPORT: Thanks for reporting **%1**
+OVERVIEW: Vista Previa
+REPORT: Reporte
+SERVER: Servidor
+PLAYERS: Jugadores
+REPORTS: Reportes
+SETTINGS: Configuracion
+TEMPLATE: Plantilla
+PERMANENT: Permanente
+DURATION: Duracion
+REASON: Razon
+TEMPLATES: Plantillas
+PUNISH: Castigar
+WARNINGS: Advertencias
+PUNISHMENTS: Castigos
+MESSAGE: Mensaje
+EVIDENCE: Evidencia
+BAN: Banear
+MUTE: Mutear
+OR: o
+NONE: Ninguno
+ISSUER: Editor
+CREATE_REPORT: Crear reporte
+GUI_OVERVIEW_PLAYERS_ACTION: Clic para mostrar los jugadores
+GUI_OVERVIEW_REPORTS_ACTION: Clic para mostrar reportes Abiertos
+GUI_OVERVIEW_SETTINGS_ACTION: Clic para mostrar la Configuracion
+GUI_OVERVIEW_TEMPLATES_ACTION: Clic para mostrar Plantillas
+GUI_OVERVIEW_TEMPLATES_BANTEMPLATES: PLantillas de Baneo
+GUI_OVERVIEW_TEMPLATES_MUTETEMPLATES: Plantillas de Muteo
+TYPE_IN_REASON: Escribe una razon
+TYPE_IN_MESSAGE: Escribe un Mensaje
+SET_A_REASON: Clic para cambiar la Razon
+SET_A_DURATION: Clic para cambiar la duracion
+GUI_REPORTCREATION_ADDMESSAGE_TITLE: Agregar Mensaje
+GUI_REPORTCREATION_ADDMESSAGE_ACTION: Clic para agregar **mensaje** y **continuar**
+GUI_REPORTCREATION_ADDMESSAGE_EXPLANATION: Agrega un mensaje detallado al reporte
+GUI_REPORTCREATION_ADDEVIDENCE_TITLE: Agregar evidencia
+GUI_REPORTCREATION_ADDEVIDENCE_ACTION: Clic para agregar **evidencia** y **continuar**
+GUI_REPORTCREATION_ADDEVIDENCE_EXPLANATION: Agregar **Mensajes de Chat**, **Asesinatos** y otras acciones al reporte
+GUI_PLAYERBROWSER_ACTION: Clic para mostrar jugador
+GUI_WARNINGSBROWSER_ACTION: Clic para **remover**
+GUI_WARNINGSBROWSER_NOPERM: No tienes permisos para remover esta Advertencia
+GUI_PLAYERVIEW_PUNISH_LEFTACTION: **Clic Izquierdo** para %1
+GUI_PLAYERVIEW_PUNISH_RIGHTACTION: **Clic Derecho** para **Advertir (+ Expulsar)**
+GUI_PLAYERVIEW_PUNISH_UNPUNISHABLE: Castigos a este jugador desactivados
+GUI_PLAYERVIEW_WARNINGS_ACTION: Clic para mostrar advertencias
+GUI_PLAYERVIEW_WARNINGS_NOWARNING: El jugador nunca ha sido advertido
+GUI_PLAYERVIEW_PUNISHMENTS_ACTION: Clic para mostrar Castigos
+GUI_PLAYERVIEW_PUNISHMENTS_ACTIVE: Castigos Activos
+GUI_PLAYERVIEW_PUNISHMENTS_PREVIOUS: Castigos Anteriores
+GUI_PLAYERVIEW_PUNISHMENTS_NOPUNISHMENT: Este jugador nunca fue Castigado
+GUI_PLAYERVIEW_REPORTS_ACTION: Clic para mostrar los Reportes
+GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS: Reportes activos de
+GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS_ENTRY: %1 en **%2** con **%3
+GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS_NONE: EL jugador no tiene reportes activos
+GUI_PLAYERVIEW_EXCLUDE_TITLE: Excluir de los Castigos
+GUI_PLAYERVIEW_EXCLUDE_ACTION: Clic para %1 castigos de este jugador
+GUI_PLAYERVIEW_EXCLUDE_EXPLANATION: Este jugador no puede ser castigado!
+MESSAGE_CREATED_REPORT: Gracias por Reportar **%1**
