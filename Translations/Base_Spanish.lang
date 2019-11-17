@@ -15,7 +15,7 @@ NONE: Ninguno
 COMMAND_NOPERMISSION: No tienes **permiso** para hacer ese comando
 COMMAND_NOCONSOLE: Este comando no se puede hacer en la consola
 GUI_SETTINGS_SELECTPAGE: Haga clic para ver la configuracion
-GUI_SETTINGS_PAGESELECTED: Esta pagina esta **selectada**
+GUI_SETTINGS_PAGESELECTED: Esta pagina esta **seleccionada**
 GUI_SETTINGS_LANGUAGE_NAME: Idioma
 GUI_SETTINGS_MYSQL_NAME: Base de datos MySQL
 GUI_SETTINGS_MYSQL_EDITVALUE_ACTION: Haga clic para editar este valor
@@ -31,8 +31,8 @@ GUI_SETTINGS_MYSQL_RESTARTREQUIRED: Se le pedira que reinicie el servidor para a
 GUI_SETTINGS_MYSQL_CANTCONNECT: No se pudo conectar a tu MySQL
 GUI_SETTINGS_MYSQL_SAVE_TITLE: Probar y guardar
 GUI_SETTINGS_MYSQL_SAVE_ACTION: Haga clic para **probar** y **guardar**
-GUI_SETTINGS_LANG_ACTION: Haga clic para **selectar** este idioma
-GUI_SETTINGS_LANG_SELECTED: Este idioma esta selectado **actualmente**
+GUI_SETTINGS_LANG_ACTION: Haga clic para **seleccionar** este idioma
+GUI_SETTINGS_LANG_SELECTED: Este idioma esta seleccionado **actualmente**
 GUI_SETTINGS_LANG_PHRASES: Frases
 GUI_SETTINGS_LANG_COVERAGE: Cobertura
 GUI_PAGEABLE_SEARCH_TITLE: Buscar
