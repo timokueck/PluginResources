@@ -22,7 +22,7 @@ DECREASE: Reducir
 QUANTITY: Cantidad
 CONFIRM: Confirmar
 FOR: para
-YOU_WILL_RECEIVE: Usted va a recivir
+YOU_WILL_RECEIVE: Usted va a recibir
 ENCHANTED: Encantado
 ITEMS_AVAILABLE: Items disponible
 CONTINUE: Continuar
@@ -87,5 +87,5 @@ SHOP_CREATION_INVALID_ITEM: No puedes vender este item
 SHOP_CREATION_REACHED_LIMIT: No tienes permiso para crear mas que **%1** tiendas
 ACTIONBAR_NOTICES_OPENSHOP: Haga **clic izquierdo** para abrir esta **tienda**
 ACTIONBAR_NOTICES_CREATESHOP: Presiona **Tecla de mayuscula y haga clic izquierdo** para crear una nueva tienda
-MESSAGE_BUY_INVFULL: No se pudo comprar **%1**. Tu invetario esta lleno.
+MESSAGE_BUY_INVFULL: No se pudo comprar **%1**. Tu inventario esta lleno.
 MESSAGE_BUY_COMPLETED: Se compro **%1x %2 **para
