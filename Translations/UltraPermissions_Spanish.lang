@@ -25,7 +25,7 @@ SETTINGS: Configuracion
 PERMISSIONLOG: Registro de permisos
 EDITING: Editando
 ADD: Agregar
-TIME_FOR: para
+TIME_FOR: tiempo para
 COMMAND_INVALID_ARGS: Argumentos invalidos
 COMMAND_NOTFOUND: Comando no encontrado
 COMMAND_HINT_HELP: Escriba **/upc** para agarar una lista de comandos
