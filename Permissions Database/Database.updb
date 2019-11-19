@@ -5306,3 +5306,93 @@ ReportManager+reportmanager.admin+Admin access
 ReportManager+reportmanager.dev+Access to all commands
 AskMe+askme.ask+Ask sth online staff+/ask
 AskMe+askme.ans+Access to /ans command+/ans
+Train_Carts+train.command.globalproperties+The player can edit the properties of all carts
+Train_Carts+train.command.properties+The player can edit the properties of carts he owns
+Train_Carts+train.command.destroy+The player can destroy owned carts through commands
+Train_Carts+train.command.destroyall+The player can destroy all trains on the server
+Train_Carts+train.command.fixbugged+The player can destroy all bugged minecarts on the server
+Train_Carts+train.command.upgradesavedtrains+The player can upgrade all saved trains model positions to the new TC version
+Train_Carts+train.command.reroute+The player can force path finding to re-calculate
+Train_Carts+train.command.reload+The player can reload the configuration
+Train_Carts+train.command.break+The player can set blocks the cart can break from a set list
+Train_Carts+train.command.breakblock.admin+The player can set blocks the cart can break, any type
+Train_Carts+train.command.setpublic+The player can make his owned carts open for the public
+Train_Carts+train.command.setowners+The player can set the owners of his owned carts
+Train_Carts+train.command.settags+The player can set the tags of his owned carts
+Train_Carts+train.command.mobenter+The player can set if mobs can enter his owned carts
+Train_Carts+train.command.setdestination+The player can set destinations for his owned carts
+Train_Carts+train.command.playerenter+The player can set if players can enter his owned carts
+Train_Carts+train.command.playerexit+The player can set if players can exit his owned carts
+Train_Carts+train.command.pickup+The player can set if his owned storage carts pick up items
+Train_Carts+train.command.setlinking+The player can set if his owned trains can link to other trains
+Train_Carts+train.command.keepchunksloaded+The player can set if his owned trains keep nearby chunks loaded
+Train_Carts+train.command.invincible+The player can set if his owned trains are invincible
+Train_Carts+train.command.pushing+The player can set if his owned trains push away certain entities
+Train_Carts+train.command.slowdown+The player can set if his owned trains slow down over time
+Train_Carts+train.command.setcollide+The player can set if his owned trains can collide
+Train_Carts+train.command.setspeedlimit+The player can set the maximum speed for his trains
+Train_Carts+train.command.setpoweredcartrequirement+The player can set if a powered minecart is needed for his train to stay alive
+Train_Carts+train.command.rename+The player can rename his owned trains
+Train_Carts+train.command.displayname+The player can change the display name of his owned trains
+Train_Carts+train.command.manualmove+Whether the player can change if trains can be moved by damaging them
+Train_Carts+train.command.saveall+Whether the player can save all TrainCarts stored information to file
+Train_Carts+train.command.message+Whether the player can add message shortcuts
+Train_Carts+train.command.pathinfo+Whether the player can view the route the train is following to reach the destination
+Train_Carts+train.command.playertake+Whether the player can change if players take Minecarts with them when they leave
+Train_Carts+train.command.soundenabled+Whether the player can turn Minecart sound on or off
+Train_Carts+train.command.teleport+Whether the player can teleport to where trains are
+Train_Carts+train.command.changeblock+Whether the player can alter the type of block displayed in a minecart
+Train_Carts+train.command.changetick+Whether the player can alter the global update tick rate of TrainCarts (debug!)
+Train_Carts+train.command.issue+Whether the player can report problems with TrainCarts
+Train_Carts+train.command.editor+Whether the player can use commands to give himself editors for trains (models) and signs
+Train_Carts+train.command.chest+Whether the player can use a chest item that can store and spawn trains
+Train_Carts+train.command.save+Whether the player can use a command to save a train under a name
+Train_Carts+train.command.enter+Whether the player can use a command to enter the train/cart being
+Train_Carts+train.command.launch+Whether the player can use a command to launch the train being edited
+Train_Carts+train.command.animate+Whether the player can use a command to play an animation
+Train_Carts+train.build.station+The player can build train stations
+Train_Carts+train.build.spawner+The player can build train spawners
+Train_Carts+train.build.trigger+The player can build train triggers
+Train_Carts+train.build.destination+The player can build destinations
+Train_Carts+train.build.switcher+The player can build track switchers
+Train_Carts+train.build.destructor+The player can build train destructors
+Train_Carts+train.build.detector+The player can build train detectors
+Train_Carts+train.build.ejector+The player can build train ejectors
+Train_Carts+train.build.ejector.absolute+The player can build train ejectors that teleport to absolute world coordinates
+Train_Carts+train.build.property+The player can build train property setters
+Train_Carts+train.build.collector+The player can build systems to let trains collect from storage
+Train_Carts+train.build.depositor+The player can build systems to fill storage blocks with items from trains
+Train_Carts+train.build.elevator+The player can build systems to teleport trains vertically
+Train_Carts+train.build.teleporter+The player can build train teleporters (portals)
+Train_Carts+train.build.blocker+The player can build train blockers
+Train_Carts+train.build.wait+The player can build train wait signs
+Train_Carts+train.build.crafter+The player can build item crafter signs
+Train_Carts+train.build.ticket+The player can build a sign that will charge money or ejects a player if he can't pay
+Train_Carts+train.build.announcer+The player can build a sign that sends a message to all the players in a train
+Train_Carts+train.build.effect+The player can build a sign that can play an effect
+Train_Carts+train.build.sound+The player can build a sign that can play a sound
+Train_Carts+train.build.blockchanger+The player can build a sign that alters the block displayed in minecarts
+Train_Carts+train.build.jumper+The player can build a sign that can cause a train to jump in a certain direction
+Train_Carts+train.build.launcher+The player can build a sign that can launch trains
+Train_Carts+train.build.enter+The player can build a sign that can make nearby players/mobs enter a train
+Train_Carts+train.build.skipper+The player can build a sign that can tell a train or minecart to skip upcoming signs
+Train_Carts+train.build.mutex+The player can build a sign that defines a mutual exclusion zone, where only one train can be at
+Train_Carts+train.build.flip+The player can build a sign that flips the orientation of a Minecart 180 degrees
+Train_Carts+train.build.animator+The player can build a sign that plays train animations
+Train_Carts+train.spawner.automatic+The player can build spawners which automatically create carts
+Train_Carts+train.spawner.regular+The player can build spawners which create regular minecarts
+Train_Carts+train.spawner.powered+The player can build spawners which create powered minecarts
+Train_Carts+train.spawner.storage+The player can build spawners which create minecarts with chests
+Train_Carts+train.spawner.tnt+The player can build spawners which create minecarts with TNT
+Train_Carts+train.spawner.hopper+The player can build spawners which create minecarts with hoppers
+Train_Carts+train.spawner.command+The player can build spawners which create minecarts with command blocks
+Train_Carts+train.spawner.spawner+The player can build spawners which create minecarts with spawners
+Train_Carts+train.place.minecart+The player can place minecarts
+Train_Carts+train.place.traincart+The player can place TrainCarts minecarts
+Train_Carts+train.break.self+The player can break their own minecarts
+Train_Carts+train.break.other+The player can break any cart except for invincible ones
+Train_Carts+train.break.any+The player can break all carts in the game
+Train_Carts+train.properties.admin+Carts placed by this player get the admin properties
+Train_Carts+train.ticket.manage+The player can edit the details of existing tickets or create new tickets
+Train_Carts+train.debug+The player can use special commands useful for debugging the plugin
+
