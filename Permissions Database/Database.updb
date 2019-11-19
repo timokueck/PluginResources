@@ -12,24 +12,6 @@ AAC+AAC.kick+Kill, kick and broadcast a message.+/aackick
 AAC+AAC.notify+Send/recieve staff chat and aac's notifications. ( Send a message to all people with the AAC.notify permission. Will be called by the staff chat prefix.)+/aacstaffnotify
 AAC+AAC.unban+Unban players banned by AAC.+/aacunban
 AAC+AAC.verbose+Receive detailed information on suspected players.
-AdvancedHelp+help.use+for normal players to use /help+/help,/help <page number>,/help <categoryName>,/help <categoryName> <page number>
-AdvancedHelp+help.reload+for admins to reload config+/ahelp reload
-AdvancedHelp+help.[categoryName]+allows players to view a specific category, only need this permission if the 'default' is set to false.
-AdvancedHelp+help.override+when using /? it will show bukkit help pages not AdvancedHelp's help pages.
-AntiVPN+avpn.admin+Allows access to the commands+/avpn reload,/avpn test,/avpn check,/avpn score
-AntiVPN+avpn.bypass+Players with this node bypass the filter entirely
-ArmorStandTools+astools.command+Permission for the /astools command+/astools,/ast
-ArmorStandTools+astools.reload+Permission to reload the plugin+/astools reload
-ArmorStandTools+astools.use+Permission for using any of the tools (except for the ones listed below that have their own separate permissions)
-ArmorStandTools+astools.clone+Permission to use the clone tool
-ArmorStandTools+astools.summon+Permission to use the summon tool (Summons an armor stand without requiring the materials)
-ArmorStandTools+astools.head+Permission to use the player head tool (Ability to specify a player head for an armor stand)
-ArmorStandTools+astools.cmdblock+Permission to use the save tool (Create a command block)
-ArmorStandTools+astools.ascmd.assign.console+Permission to assign a console command to an armor stand+/ascmd assign console <command>
-ArmorStandTools+astools.ascmd.assign.player+Permission to assign a player command to an armor stand+/ascmd assign player <command>
-ArmorStandTools+astools.ascmd.remove+Permission to remove a command from an armor stand+/ascmd remove
-ArmorStandTools+astools.ascmd.view+Permission to view the command assigned to an armor stand+/ascmd view
-ArmorStandTools+astools.ascmd.execute+Permission to execute a command assigned to an armor stand by (on right click)
 ASkyBlock+askyblock.*+This will give every admin and mod permission, but also permissions like exclusion from the top ten.
 ASkyBlock+askyblock.admin.*+Allow all permissions of the Admin permissions
 ASkyBlock+askyblock.admin.clearresetall+Allow clearing of island reset limit of all players+/asadmin clearreset
@@ -221,6 +203,10 @@ AdvancedBan+ab.warn.undo+To use the command.+/unwarn
 AdvancedBan+ab.warns.other+See your own or a player's warnings.+/warns
 AdvancedBan+ab.warns.own+See your own warnings.+/warns
 AdvancedCraftingTable+advancedcraftingtable.admin+ to maintain the base Command /advancedcraftingtable+/advancedcraftingtable
+AdvancedHelp+help.[categoryName]+allows players to view a specific category, only need this permission if the 'default' is set to false.
+AdvancedHelp+help.override+when using /? it will show bukkit help pages not AdvancedHelp's help pages.
+AdvancedHelp+help.reload+for admins to reload config+/ahelp reload
+AdvancedHelp+help.use+for normal players to use /help+/help,/help <page number>,/help <categoryName>,/help <categoryName> <page number>
 AdvancedPortals+AdvancedPortals.CreatePortal+This command is used to create a portal and set where it will teleport you to, although you will have to create a destination for the portal to actually let anyone through! After /portal create you can list the variables for the portal in any order but you can not have any spaces in variables or between the variable type the string so name:testportal is read ok but name:test portal will make a portal called test and name testportal will just ignore the name altogether.+/portal,/portal portalblock,/portal select,/portal selector,/portal create name:<name> desti:<destination>,/destination create <name>
 AdvancedPortals+advancedportals.*+Gives access to all commands.
 AdvancedPortals+advancedportals.build+Allows you to build in the portal regions.
@@ -253,6 +239,8 @@ AntiAuraMessages+antiauramessages.notify+Here you can change the notification pe
 AntiBotDeluxeEX+antibotdeluxe.perform.command+Spigot Command Permission+/ab,/antibotdeluxe
 AntiBotDeluxeEX+antibotdeluxebungee.perform.command+BungeeCord Command Permission+/ab,/antibotdeluxe
 AntiPhysics+antiphysics.admin+to maintain the base Command /antiphysics
+AntiVPN+avpn.admin+Allows access to the commands+/avpn reload,/avpn test,/avpn check,/avpn score
+AntiVPN+avpn.bypass+Players with this node bypass the filter entirely
 AntiWorldFly+antiworldfly.*+Star notation of permissions, includes all of them.+/awf reload
 AntiWorldFly+antiworldfly.fly+Allows to fly even if player is in a world blocked by the plugin.
 AntiWorldFly+antiworldfly.use+Allows to use the enable, disable, add and remove commands.+/awf enable,/awf disable,/awf add,/awf remove
@@ -324,6 +312,20 @@ AreaShop+areashop.teleportsignall+To the sign of all regions+/as tp <region>
 AreaShop+areashop.unrent+All regions+/as unrent [region]
 AreaShop+areashop.unrentown+Only regions you own+/as unrent [region]
 ArmedArmorStands+armedarmorstands.admin+to maintain the base Command /armedarmorstands+/armedarmorstands
+ArmorStandTools+astools.ascmd.assign.console+Permission to assign a console command to an armor stand+/ascmd assign console <command>
+ArmorStandTools+astools.ascmd.assign.player+Permission to assign a player command to an armor stand+/ascmd assign player <command>
+ArmorStandTools+astools.ascmd.execute+Permission to execute a command assigned to an armor stand by (on right click)
+ArmorStandTools+astools.ascmd.remove+Permission to remove a command from an armor stand+/ascmd remove
+ArmorStandTools+astools.ascmd.view+Permission to view the command assigned to an armor stand+/ascmd view
+ArmorStandTools+astools.clone+Permission to use the clone tool
+ArmorStandTools+astools.cmdblock+Permission to use the save tool (Create a command block)
+ArmorStandTools+astools.command+Permission for the /astools command+/astools,/ast
+ArmorStandTools+astools.head+Permission to use the player head tool (Ability to specify a player head for an armor stand)
+ArmorStandTools+astools.reload+Permission to reload the plugin+/astools reload
+ArmorStandTools+astools.summon+Permission to use the summon tool (Summons an armor stand without requiring the materials)
+ArmorStandTools+astools.use+Permission for using any of the tools (except for the ones listed below that have their own separate permissions)
+AskMe+askme.ans+Access to /ans command+/ans
+AskMe+askme.ask+Ask sth online staff+/ask
 AsyncWorldEdit+AWE.admin.blockaccess.bypass.blockshub+bypass the BlocksHub bloack access control
 AsyncWorldEdit+AWE.admin.blockaccess.bypass.whitelist+bypass the AsyncWorldEdit block whitelist
 AsyncWorldEdit+AWE.admin.cancel+this node allows the use of Cancel command on another user
@@ -1436,6 +1438,10 @@ ChestProtect+chestprotect.setting.protection.player_trust+Ability to toggle the 
 ChestProtect+chestprotect.setting.protection.player_untrust+Ability to toggle the player untrust setting
 ChestSort+chestsort.use+Defines if automatic chest sorting is enabled and grants the ability to use the chestsort command+/chestsort, /sort
 ChestSort+chestsort.use.inventory+Ability to use the invsort command+/invsort, /isort, /invsort hotbar, /isort hotbar, /invsort all, /isort all
+ChunkBuster+chunkbuster.admin+Chunk Buster Admin+/chunkbuster
+ChunkBuster+chunkbuster.give+Gives a chunkbuster+/cb give
+ChunkBuster+chunkbuster.reload+Reloads the plugin+/cb reload
+ChunkBuster+chunkbuster.use+use a chunkbuster
 CityRP+cityrp.*+All CityRP commands+/namechange,/delchar,/setday,/settime,/edit,/addvm,/removevm,/y,/999,/911,/me,/chat,//,/gr,/w,/r,/addmoney,/config
 CityRP+cityrp.addmoney+Allows you to add money to player's bank accounts+/addmoney
 CityRP+cityrp.addvm+Allows you to add a vending machine+/addvm
@@ -1570,10 +1576,9 @@ CreditCard+creditcard.use.loan.ranktwo+Permission to owe $2000 or less debt.
 CreditCard+creditcard.use.owe+Permission to see the amount you owe.+/CreditCard owe
 CreditCard+creditcard.use.pay+Permission to pay back the amount you owe.+/CreditCard pay
 CreditCard+creditcard.use.reg+Permission to createUser for a credit-card.+/CreditCard createUser
-ChunkBuster+chunkbuster.admin+Chunk Buster Admin+/chunkbuster
-ChunkBuster+chunkbuster.give+Gives a chunkbuster+/cb give
-ChunkBuster+chunkbuster.reload+Reloads the plugin+/cb reload
-ChunkBuster+chunkbuster.use+use a chunkbuster
+Custom-Images+image.manage.create+To create an image then right click the top left of where you want the image to be+/image create <file name>
+Custom-Images+image.manage.delete+To delete an image then just right click the image to delete+/image delete
+Custom-Images+image.manage.options+To see all the file options of images that you can click to create+/image options
 CustomEnderChest+CustomEnderChest.admin+Access to administration command to open and edit or delete other players enderchests, and reload the plugin config.+/ec reload,/ec open,/ec delete
 CustomEnderChest+CustomEnderChest.commands+Allows players to open the EnderChest with command /customec open.+/customec open,/ec open
 CustomEnderChest+CustomEnderChest.level.0+For 9 slots (1 raw) EnderChest size.
@@ -1582,9 +1587,6 @@ CustomEnderChest+CustomEnderChest.level.2+For 27 slots (3 raw's) EnderChest size
 CustomEnderChest+CustomEnderChest.level.3+For 36 slots (4 raw's) EnderChest size.
 CustomEnderChest+CustomEnderChest.level.4+For 45 slots (5 raw's) EnderChest size.
 CustomEnderChest+CustomEnderChest.level.5+For 54 slots (6 raw's) EnderChest size.
-Custom-Images+image.manage.create+To create an image then right click the top left of where you want the image to be+/image create <file name>
-Custom-Images+image.manage.delete+To delete an image then just right click the image to delete+/image delete
-Custom-Images+image.manage.options+To see all the file options of images that you can click to create+/image options
 CustomRecipe+anvil.colorize+ability to colorize name using anvil
 CustomRecipe+anvil.command+ability to add command to an item using anvil
 CustomRecipe+customrecipe.clear+ability to clear recipes+/customrecipe clear
@@ -1743,31 +1745,31 @@ EnchantmentBookTool+enchantmentbooktool.admin+Issue an EBook to <player> without
 EnchantmentBookTool+enchantmentbooktool.debug+Turn on / off the debug mode+/ebtool debug
 EnchantmentBookTool+enchantmentbooktool.get+allows you to use /ebtool get command+/ebtool get
 EnchantmentBookTool+enchantmentbooktool.reload+Allows you to use /ebtool reload command+/ebtool reload
-Enjin-Minecraft-Plugin+enjin.setkey+Allows the player to set the key for the plugin
-Enjin-Minecraft-Plugin+enjin.report+Allows the player to generate a debug report for submitting to enjin or other plugin authors
-Enjin-Minecraft-Plugin+enjin.debug+Turns debugging on/off for this session
-Enjin-Minecraft-Plugin+enjin.push+Allows the player to use the /enjin push command+/enjin push
 Enjin-Minecraft-Plugin+enjin.broadcast+Allows the player to use the /enjin broadcast command+/enjin broadcast
+Enjin-Minecraft-Plugin+enjin.debug+Turns debugging on/off for this session
+Enjin-Minecraft-Plugin+enjin.give+Allows the player to give items to players using the /enjin give command+/enjin give
 Enjin-Minecraft-Plugin+enjin.inform+Allows the player to use the /enjin inform command+/enjin inform
 Enjin-Minecraft-Plugin+enjin.lag+Allows the player to use the /enjin lag command+/enjin lag
-Enjin-Minecraft-Plugin+enjin.give+Allows the player to give items to players using the /enjin give command+/enjin give
 Enjin-Minecraft-Plugin+enjin.notify.*+Player gets all notifications from the plugin
 Enjin-Minecraft-Plugin+enjin.notify.connectionstatus+Player gets informed at login and real time if the plugin loses connection or regains connection to Enjin
-Enjin-Minecraft-Plugin+enjin.notify.update+Player gets informed of pending updates to the Enjin Minecraft Plugin
+Enjin-Minecraft-Plugin+enjin.notify.econoutdated+Player gets informed if your economy plugin doesn't support the new UUID methods in Vault 1.4.1
 Enjin-Minecraft-Plugin+enjin.notify.failedupdate+Player gets informed of any failed updates
 Enjin-Minecraft-Plugin+enjin.notify.invalidauthkey+Player gets informed if the auth key is invalid
-Enjin-Minecraft-Plugin+enjin.notify.permissionsnotworking+Player gets informed if the permissions plugin isn't working correctly
-Enjin-Minecraft-Plugin+enjin.notify.econoutdated+Player gets informed if your economy plugin doesn't support the new UUID methods in Vault 1.4.1
 Enjin-Minecraft-Plugin+enjin.notify.mcmmooutdated+Player gets informed if your version of mcMMO is not supported.
-Enjin-Minecraft-Plugin+enjin.updateheads+Allows the player to force a sync of the heads/sign stats
-Enjin-Minecraft-Plugin+enjin.sign.set+Allows the player to create an enjin stats sign
-Enjin-Minecraft-Plugin+enjin.sign.remove+Allows the player to remove an enjin stats sign/headen
+Enjin-Minecraft-Plugin+enjin.notify.permissionsnotworking+Player gets informed if the permissions plugin isn't working correctly
+Enjin-Minecraft-Plugin+enjin.notify.update+Player gets informed of pending updates to the Enjin Minecraft Plugin
 Enjin-Minecraft-Plugin+enjin.points.add+Allows the player to add points to players
-Enjin-Minecraft-Plugin+enjin.points.remove+Allows the player to remove points from a player
-Enjin-Minecraft-Plugin+enjin.points.set+Allows the player to set the points of a player to a specific amount
 Enjin-Minecraft-Plugin+enjin.points.getothers+Allows the player to see the amount of points another player has
 Enjin-Minecraft-Plugin+enjin.points.getself+Allows the player to see how many points they have (this defaults to everyone)
+Enjin-Minecraft-Plugin+enjin.points.remove+Allows the player to remove points from a player
+Enjin-Minecraft-Plugin+enjin.points.set+Allows the player to set the points of a player to a specific amount
+Enjin-Minecraft-Plugin+enjin.push+Allows the player to use the /enjin push command+/enjin push
+Enjin-Minecraft-Plugin+enjin.report+Allows the player to generate a debug report for submitting to enjin or other plugin authors
+Enjin-Minecraft-Plugin+enjin.setkey+Allows the player to set the key for the plugin
+Enjin-Minecraft-Plugin+enjin.sign.remove+Allows the player to remove an enjin stats sign/headen
+Enjin-Minecraft-Plugin+enjin.sign.set+Allows the player to create an enjin stats sign
 Enjin-Minecraft-Plugin+enjin.tags.view+Allows the player to see the tags of a player
+Enjin-Minecraft-Plugin+enjin.updateheads+Allows the player to force a sync of the heads/sign stats
 EpicDispensers+EpicDispensers.Upgrade.ECO+Allows the player to upgrade the dispensers level with economy
 EpicDispensers+EpicDispensers.Upgrade.XP+Allows the player to upgrade the dispensers level with XP
 EpicDispensers+EpicDispensers.admin+Gives the player access to all commands
@@ -1782,6 +1784,10 @@ EpicFurnaces+EpicFurnaces.Upgrade.ECO+Upgrading of furnaces with economy
 EpicFurnaces+EpicFurnaces.Upgrade.XP+Upgrading of furnaces with experience
 EpicFurnaces+EpicFurnaces.bypass+Giving this permission to a player will allow them to bypass build/interact restrictions within EpicFurnaces
 EpicFurnaces+EpicFurnaces.overview+Will allow players to access the EpicFurnaces furnace features
+EpicSkyblock+EpicSkyblock.fly+Allows a player to fly.+/is fly
+EpicSkyblock+EpicSkyblock.givecrystals+Gives a player crystals.
+EpicSkyblock+EpicSkyblock.reload+Reloads ES Config+/is reload
+EpicSkyblock+EpicSkyblock.removecrystals+Removes Crystals from player
 EpicSpawners+epicspawners.Killcounter+This will allow EpicSpawners to drop spawners for specific players after reaching their goal. A spawner will only drop if the player meets the goal for killing X amount of a specific NATURAL spawning entity
 EpicSpawners+epicspawners.admin+This will allow a player to execute admin commands
 EpicSpawners+epicspawners.bypass+This will allow a player to bypass all permissions
@@ -1800,10 +1806,6 @@ EpicSpawners+epicspawners.shop.*+This will depict what spawners players will see
 EpicSpawners+epicspawners.silkdrop.*+This will allow players to receive a spawner when they mine it with a silk touch pickaxe. You can configure the plugin to only allow specific spawners to be mined. You can make any preferred changes in the configuration file, or add them as a permission. (Example: epicspawners.silkdrop.pig)
 EpicSpawners+epicspawners.stack.*+Permission to stack spawners
 EpicSpawners+epicspawners.stats+This will allow a player to access the /spawnerstats command, so that they may view their EpicSpawner stats, including but not limited to, how many kills they must get to receive a specific spawner as a drop.
-EpicSkyblock+EpicSkyblock.reload+Reloads ES Config+/is reload
-EpicSkyblock+EpicSkyblock.givecrystals+Gives a player crystals.
-EpicSkyblock+EpicSkyblock.removecrystals+Removes Crystals from player
-EpicSkyblock+EpicSkyblock.fly+Allows a player to fly.+/is fly
 Essentials+essentials.afk+Allow access to the /afk command.+/afk
 Essentials+essentials.afk.auto+Players with this permission will be set to afk after a period of inaction as defined in the config file.
 Essentials+essentials.afk.kickexempt+Exempts the user from being auto kicked for AFK
@@ -2154,80 +2156,29 @@ Essentials+essentials.whois+Allow access to the /whois command.+/whois
 Essentials+essentials.workbench+Allow access to the /workbench command.+/workbench
 Essentials+essentials.world+Allow access to the /world command.+/world
 Essentials+essentials.worth+Allow access to the /worth command.+worth
-FabledSkyBlock+fabledskyblock.island.visit+Opens GUI to visit islands.+/island visit
-FabledSkyBlock+fabledskyblock.island.vote+Allows the user to vote or remove a vote.+/island vote
-FabledSkyBlock+fabledskyblock.island.controlpanel+Opens island control panel.+/island controlpanel
-FabledSkyBlock+fabledskyblock.island.upgrade+Opens a menu that allows you to upgrade.+/island upgrade
-FabledSkyBlock+fabledskyblock.island.leaderboard+Displays the top islands in the server.+/island leaderboard
-FabledSkyBlock+fabledskyblock.island.create+Permission to create an island.+/island create
-FabledSkyBlock+fabledskyblock.island.delete+Allows for users to remove their island.+/island delete
-FabledSkyBlock+fabledskyblock.island.teleport+Allows the user to teleport to islands.+/island teleport
-FabledSkyBlock+fabledskyblock.island.setspawn+Allows the user to set the island spawnpoint.+/island setspawn
-FabledSkyBlock+fabledskyblock.island.accept+Allows the user to accept island invites.+/island accept
-FabledSkyBlock+fabledskyblock.island.deny+Allows user to deny island invites.+/island deny
-FabledSkyBlock+fabledskyblock.island.cancel+Allows the player to cancel an invitation.+/island cancel
-FabledSkyBlock+fabledskyblock.island.leave+Allows user to leave an island.+/island leave
-FabledSkyBlock+fabledskyblock.island.promote+Allows a user to promote someone on their island.+/island promote
-FabledSkyBlock+fabledskyblock.island.demote+Allows a user to demote someone on their island.+/island demote
-FabledSkyBlock+fabledskyblock.island.kick+Allows the user to kick a specific person on their island.+/island kick
-FabledSkyBlock+fabledskyblock.island.expel+Allows a user to kick everyone on their island.+/island kickall
-FabledSkyBlock+fabledskyblock.island.ban+Allows the user to ban a specific person on their island.+/island ban
-FabledSkyBlock+fabledskyblock.island.bans+Allows the user to open the ban menu.+/island bans
-FabledSkyBlock+fabledskyblock.island.unban+Allows the user to unban a specific person.+/island unban
-FabledSkyBlock+fabledskyblock.island.border+Allows user to open island border menu.+/island border
-FabledSkyBlock+fabledskyblock.island.biome+Allows the user to specify their island biome.+/island biome
-FabledSkyBlock+fabledskyblock.island.weather+Allows user to change weather on island.+/island weather
-FabledSkyBlock+fabledskyblock.island.level+Allows the user to open their island level menu.+/island level
-FabledSkyBlock+fabledskyblock.island.value+Allows user to get value data of item in hand.+/island value
-FabledSkyBlock+fabledskyblock.island.settings+Allows the user to open the island settings menu.+/island settings
-FabledSkyBlock+fabledskyblock.island.information+Opens the island information panel.+/island information
-FabledSkyBlock+fabledskyblock.island.coop+Allows co-op with another player on their island.+/island coop
-FabledSkyBlock+fabledskyblock.island.members+Opens the menu to manage your island members.+/island members
-FabledSkyBlock+fabledskyblock.island.owner+Opens the ownership menu for your island.+/island owner
-FabledSkyBlock+fabledskyblock.island.confirm+Confirmation for certain alterations.+/island confirm
-FabledSkyBlock+fabledskyblock.island.invite+Allows the user to invite another player to their island.+/island invite
-FabledSkyBlock+fabledskyblock.island.chat+Communicate privately with other island members.+/island chat
-FabledSkyBlock+fabledskyblock.island.visitors+Opens the island menu for visitors.+/island visitors
-FabledSkyBlock+fabledskyblock.island.current+Displays current island you are on.+/island current
-FabledSkyBlock+fabledskyblock.island.public+Make your island public or private.+/island public
-FabledSkyBlock+fabledskyblock.island.open+Allows opening island.+/island open
-FabledSkyBlock+fabledskyblock.island.close+Allows closing island.+/island close
-FabledSkyBlock+fabledskyblock.island.bank+Opens the bank of your island.+/island bank
-FabledSkyBlock+fabledskyblock.island.unlock+Opens the unlock menu.+/island unlock
-FabledSkyBlock+fabledskyblock.island.help+Opens help menu.+/island
-FabledSkyBlock+fabledskyblock.bypass+Permission to access a closed island.
-FabledSkyBlock+fabledskyblock.bypass.cooldown+Permission to bypass biome, island creation or deletion cooldown time.
-FabledSkyBlock+fabledskyblock.bypass.ban+Prevents a player from being banned from islands.
-FabledSkyBlock+fabledskyblock.fly+Gives permission to fly at their island.
-FabledSkyBlock+fabledskyblock.fly.*+Gives permission to fly at any island.
-FabledSkyBlock+fabledskyblock.island.OriSky+Orisky.
-FabledSkyBlock+fabledskyblock.island.OriSky.structure+Orisky.
-FabledSkyBlock+fabledskyblock.top.exempt+Exempts user from appearing on top list.
-FabledSkyBlock+fabledskyblock.limit.block.*+Allows player to bypass all block limits.
-FabledSkyBlock+fabledskyblock.stackable+Allows players to create stacks from stackables if permission is required.
-FabledSkyBlock+fabledskyblock.island*+Grants access to every default island permission.
-FabledSkyBlock+fabledskyblock.admin.delete+Allows an admin to delete another player’s island.+/island admin delete
-FabledSkyBlock+fabledskyblock.admin.owner+Allows an admin to set ownership of another player's island.+/island admin owner
-FabledSkyBlock+fabledskyblock.admin.setspawn+Allows an admin to set the spawnpoint of the server.+/island admin setspawn
-FabledSkyBlock+fabledskyblock.admin.sethologram+Allows admins to set a hologram showing top islands.+/island admin sethologram
-FabledSkyBlock+fabledskyblock.admin.removehologram+Allows an admin to remove a hologram.+/island admin removehologram
-FabledSkyBlock+fabledskyblock.admin.create+Allows admin to create an island template using island creator.+/island admin create
-FabledSkyBlock+fabledskyblock.admin.setsize+Allows an admin to set the size of a player’s island.+/island admin setsize
+FabledSkyBlock+fabledskyblock.*+Grants every permission and command.
+FabledSkyBlock+fabledskyblock.admin.*+Grants every admin permission and command.
 FabledSkyBlock+fabledskyblock.admin.addupgrade+Allows admin to add an upgrade to a player's island.+/island admin addupgrade
-FabledSkyBlock+fabledskyblock.admin.removeupgrade+Allows an admin to add an upgrade to a player’s island.+/island admin removeupgrade
-FabledSkyBlock+fabledskyblock.admin.level+Allows admin to open the level menu to alter values for levelling.+/island admin level
+FabledSkyBlock+fabledskyblock.admin.create+Allows admin to create an island template using island creator.+/island admin create
+FabledSkyBlock+fabledskyblock.admin.delete+Allows an admin to delete another player’s island.+/island admin delete
 FabledSkyBlock+fabledskyblock.admin.generator+ Allows an admin to open a menu to create new generators.+/island admin generator
-FabledSkyBlock+fabledskyblock.admin.upgrade+Allows admin to open a menu to change the upgrades a player can access.+/island admin upgrade
+FabledSkyBlock+fabledskyblock.admin.help+Displays help menu for admins.+/island admin
+FabledSkyBlock+fabledskyblock.admin.level+Allows admin to open the level menu to alter values for levelling.+/island admin level
+FabledSkyBlock+fabledskyblock.admin.owner+Allows an admin to set ownership of another player's island.+/island admin owner
+FabledSkyBlock+fabledskyblock.admin.refreshholograms+Allows admin to refresh holograms.+/is admin refreshholograms
+FabledSkyBlock+fabledskyblock.admin.reload+Allows admin to reload FSB's config.+/is admin reload
+FabledSkyBlock+fabledskyblock.admin.removehologram+Allows an admin to remove a hologram.+/island admin removehologram
+FabledSkyBlock+fabledskyblock.admin.removeupgrade+Allows an admin to add an upgrade to a player’s island.+/island admin removeupgrade
+FabledSkyBlock+fabledskyblock.admin.setbiome+Allows admin to set an islands biome.+/is admin setbiome
+FabledSkyBlock+fabledskyblock.admin.sethologram+Allows admins to set a hologram showing top islands.+/island admin sethologram
+FabledSkyBlock+fabledskyblock.admin.setsize+Allows an admin to set the size of a player’s island.+/island admin setsize
+FabledSkyBlock+fabledskyblock.admin.setspawn+Allows an admin to set the spawnpoint of the server.+/island admin setspawn
+FabledSkyBlock+fabledskyblock.admin.settings+Gives access to the admin help menu.+/island admin settings
+FabledSkyBlock+fabledskyblock.admin.structure+ Allows an admin to save a structure by name.+/island admin structure save
 FabledSkyBlock+fabledskyblock.admin.structure+Allows an admin to create structures for islands.+/island admin structure
 FabledSkyBlock+fabledskyblock.admin.structure+Gives admin the tool to create, and define structures.+/island admin structure tool
-FabledSkyBlock+fabledskyblock.admin.structure+ Allows an admin to save a structure by name.+/island admin structure save
-FabledSkyBlock+fabledskyblock.admin.help+Displays help menu for admins.+/island admin
-FabledSkyBlock+fabledskyblock.admin.settings+Gives access to the admin help menu.+/island admin settings
-FabledSkyBlock+fabledskyblock.admin.refreshholograms+Allows admin to refresh holograms.+/is admin refreshholograms
-FabledSkyBlock+fabledskyblock.admin.setbiome+Allows admin to set an islands biome.+/is admin setbiome
-FabledSkyBlock+fabledskyblock.admin.reload+Allows admin to reload FSB's config.+/is admin reload
-FabledSkyBlock+fabledskyblock.admin.*+Grants every admin permission and command.
-FabledSkyBlock+fabledskyblock.*+Grants every permission and command.
+FabledSkyBlock+fabledskyblock.admin.upgrade+Allows admin to open a menu to change the upgrades a player can access.+/island admin upgrade
+FabledSkyBlock+fabledskyblock.biome.*+Grants ALL biomes.
 FabledSkyBlock+fabledskyblock.biome.badlands+Badlands
 FabledSkyBlock+fabledskyblock.biome.dark_forest+Dark Forest
 FabledSkyBlock+fabledskyblock.biome.forest+Forest
@@ -2242,9 +2193,58 @@ FabledSkyBlock+fabledskyblock.biome.taiga+Taiga
 FabledSkyBlock+fabledskyblock.biome.the_end+The End
 FabledSkyBlock+fabledskyblock.biome.the_void+The Void
 FabledSkyBlock+fabledskyblock.biome.warm_ocean+Warm Ocean
-FabledSkyBlock+fabledskyblock.biome.*+Grants ALL biomes.
-Factions+factions.map+show the territory map, and set optional auto update+/f map
-Factions+factions.mod+give or revoke moderator rights+/f mod
+FabledSkyBlock+fabledskyblock.bypass+Permission to access a closed island.
+FabledSkyBlock+fabledskyblock.bypass.ban+Prevents a player from being banned from islands.
+FabledSkyBlock+fabledskyblock.bypass.cooldown+Permission to bypass biome, island creation or deletion cooldown time.
+FabledSkyBlock+fabledskyblock.fly+Gives permission to fly at their island.
+FabledSkyBlock+fabledskyblock.fly.*+Gives permission to fly at any island.
+FabledSkyBlock+fabledskyblock.island*+Grants access to every default island permission.
+FabledSkyBlock+fabledskyblock.island.OriSky+Orisky.
+FabledSkyBlock+fabledskyblock.island.OriSky.structure+Orisky.
+FabledSkyBlock+fabledskyblock.island.accept+Allows the user to accept island invites.+/island accept
+FabledSkyBlock+fabledskyblock.island.ban+Allows the user to ban a specific person on their island.+/island ban
+FabledSkyBlock+fabledskyblock.island.bank+Opens the bank of your island.+/island bank
+FabledSkyBlock+fabledskyblock.island.bans+Allows the user to open the ban menu.+/island bans
+FabledSkyBlock+fabledskyblock.island.biome+Allows the user to specify their island biome.+/island biome
+FabledSkyBlock+fabledskyblock.island.border+Allows user to open island border menu.+/island border
+FabledSkyBlock+fabledskyblock.island.cancel+Allows the player to cancel an invitation.+/island cancel
+FabledSkyBlock+fabledskyblock.island.chat+Communicate privately with other island members.+/island chat
+FabledSkyBlock+fabledskyblock.island.close+Allows closing island.+/island close
+FabledSkyBlock+fabledskyblock.island.confirm+Confirmation for certain alterations.+/island confirm
+FabledSkyBlock+fabledskyblock.island.controlpanel+Opens island control panel.+/island controlpanel
+FabledSkyBlock+fabledskyblock.island.coop+Allows co-op with another player on their island.+/island coop
+FabledSkyBlock+fabledskyblock.island.create+Permission to create an island.+/island create
+FabledSkyBlock+fabledskyblock.island.current+Displays current island you are on.+/island current
+FabledSkyBlock+fabledskyblock.island.delete+Allows for users to remove their island.+/island delete
+FabledSkyBlock+fabledskyblock.island.demote+Allows a user to demote someone on their island.+/island demote
+FabledSkyBlock+fabledskyblock.island.deny+Allows user to deny island invites.+/island deny
+FabledSkyBlock+fabledskyblock.island.expel+Allows a user to kick everyone on their island.+/island kickall
+FabledSkyBlock+fabledskyblock.island.help+Opens help menu.+/island
+FabledSkyBlock+fabledskyblock.island.information+Opens the island information panel.+/island information
+FabledSkyBlock+fabledskyblock.island.invite+Allows the user to invite another player to their island.+/island invite
+FabledSkyBlock+fabledskyblock.island.kick+Allows the user to kick a specific person on their island.+/island kick
+FabledSkyBlock+fabledskyblock.island.leaderboard+Displays the top islands in the server.+/island leaderboard
+FabledSkyBlock+fabledskyblock.island.leave+Allows user to leave an island.+/island leave
+FabledSkyBlock+fabledskyblock.island.level+Allows the user to open their island level menu.+/island level
+FabledSkyBlock+fabledskyblock.island.members+Opens the menu to manage your island members.+/island members
+FabledSkyBlock+fabledskyblock.island.open+Allows opening island.+/island open
+FabledSkyBlock+fabledskyblock.island.owner+Opens the ownership menu for your island.+/island owner
+FabledSkyBlock+fabledskyblock.island.promote+Allows a user to promote someone on their island.+/island promote
+FabledSkyBlock+fabledskyblock.island.public+Make your island public or private.+/island public
+FabledSkyBlock+fabledskyblock.island.setspawn+Allows the user to set the island spawnpoint.+/island setspawn
+FabledSkyBlock+fabledskyblock.island.settings+Allows the user to open the island settings menu.+/island settings
+FabledSkyBlock+fabledskyblock.island.teleport+Allows the user to teleport to islands.+/island teleport
+FabledSkyBlock+fabledskyblock.island.unban+Allows the user to unban a specific person.+/island unban
+FabledSkyBlock+fabledskyblock.island.unlock+Opens the unlock menu.+/island unlock
+FabledSkyBlock+fabledskyblock.island.upgrade+Opens a menu that allows you to upgrade.+/island upgrade
+FabledSkyBlock+fabledskyblock.island.value+Allows user to get value data of item in hand.+/island value
+FabledSkyBlock+fabledskyblock.island.visit+Opens GUI to visit islands.+/island visit
+FabledSkyBlock+fabledskyblock.island.visitors+Opens the island menu for visitors.+/island visitors
+FabledSkyBlock+fabledskyblock.island.vote+Allows the user to vote or remove a vote.+/island vote
+FabledSkyBlock+fabledskyblock.island.weather+Allows user to change weather on island.+/island weather
+FabledSkyBlock+fabledskyblock.limit.block.*+Allows player to bypass all block limits.
+FabledSkyBlock+fabledskyblock.stackable+Allows players to create stacks from stackables if permission is required.
+FabledSkyBlock+fabledskyblock.top.exempt+Exempts user from appearing on top list.
 Factions+factions.*+This is just an alias for factions.kit.admin
 Factions+factions.admin+hand over your admin rights+/f admin
 Factions+factions.admin.any+give or revoke admin status for any player in any faction+/f admin
@@ -2280,6 +2280,8 @@ Factions+factions.leave+leave your faction+/f leave
 Factions+factions.list+see a list of the factions+/f list
 Factions+factions.managesafezone+claimclaim land as a safe zone and build/destroy within safe zones+/f claim safezone
 Factions+factions.managewarzone+claim land as a war zone and build/destroy within war zones+/f claim warzone
+Factions+factions.map+show the territory map, and set optional auto update+/f map
+Factions+factions.mod+give or revoke moderator rights+/f mod
 Factions+factions.mod.any+give or revoke moderator rights for any player in any faction+/f mod
 Factions+factions.modifypower+modify other player's power+/f power
 Factions+factions.money.balance+show your factions current money balance+/f money
@@ -2453,13 +2455,13 @@ Hawn+hawn.adminpanel+Allows the player to edit the config ingame+/ap,/adminpanel
 Hawn+hawn.antiswear.benotified+Allows the player to get notifications when a player swears
 Hawn+hawn.betweenservers.keepvanish+Allows the player to stay vanished when switching servers
 Hawn+hawn.betweenservers.tplastposition+Allows the player to teleport to their last location instead of teleporting to spawn on server change
+Hawn+hawn.bypass.HagingBreakByEntity+Allows the player to break items (such as item frames)
 Hawn+hawn.bypass.PlayerInteractEntity+Allows the player to interact with entities
 Hawn+hawn.bypass.antidamage+Allows the player to bypass the damage restrictions
 Hawn+hawn.bypass.antiswear+Allows the player to swear
 Hawn+hawn.bypass.foodkeep+Allows the player to bypass maintaining hunger restrictions
 Hawn+hawn.bypass.foodrestore+Disables full hunger on server join (they will have the hunger that they logged out with)
 Hawn+hawn.bypass.gamemodeonjoin+Allows the player to bypass the default gamemode
-Hawn+hawn.bypass.HagingBreakByEntity+Allows the player to break items (such as item frames)
 Hawn+hawn.bypass.healthrestore+Disables full health on server join (they will have the health that they logged out with)
 Hawn+hawn.bypass.keepgamemode+Allows the player to keep their gamemode
 Hawn+hawn.bypass.voidtp+Allows the player to fall into the void instead of being teleported to the spawn
@@ -2589,12 +2591,12 @@ HeadsGuiPlus+headguiplus.gui
 HeadsPlus+headsplus.head+Spawns in a head+/head
 HeadsPlus+headsplus.maincommand+Displays the help menu+/headsplus
 HeadsPlus+headsplus.sellhead+Sells a head in a player's inventory+/sellhead
-HelperBot+helperbot.*+Grants all permissions from the plugin
-HelperBot+helperbot.set+Ability to use the setname command (sets the bot name)+/helperbot setname,/hb setname
-HelperBot+helperbot.answer+Specifies the users that are allowed to receive an answer by the bot
-HelperBot+helperbot.reload+Ability to use the reload command (reloads the plugin configuration)+/helperbot reload,/hb reload
 HelpGUI+helpgui.admin+Gives access to all /helpgui [/hgui] commands+/helpgui help,/helpgui reload
 HelpGUI+helpgui.disablehelp+Disables the command /help [/h] for players/groups
+HelperBot+helperbot.*+Grants all permissions from the plugin
+HelperBot+helperbot.answer+Specifies the users that are allowed to receive an answer by the bot
+HelperBot+helperbot.reload+Ability to use the reload command (reloads the plugin configuration)+/helperbot reload,/hb reload
+HelperBot+helperbot.set+Ability to use the setname command (sets the bot name)+/helperbot setname,/hb setname
 HoloBlock+holoblock.admin+to bypass hologram and open /holoblock admin.+/holoblock admin
 HoloBlock+holoblock.give+to give holoblock for self.+/holoblock give
 HoloBlock+holoblock.give.other+to give holoblock for other player.+/holoblock give [<player>],/holoblock give [<player>] [<amount>]
@@ -2838,111 +2840,111 @@ JEssentials+jessentials.warp.*+Allows the player to teleport to all warp locatio
 JEssentials+jessentials.warp.list+Allows the player to list all available warps+/warp list
 JEssentials+jessentials.weather+Allows changing of the world weather+/weather
 JEssentials+jessentials.workbench+Allow enable a crafting table interface+/workbench
+Jobs+jobs.*+Grants access to all Jobs commands (only for admins!)
+Jobs+jobs.*+Grants access to all Jobs commands (only for admins!)
+Jobs+jobs.[jobname].vipmaxlevel+Give access to different max jobs level
+Jobs+jobs.[jobname].vipmaxlevel+Give access to different max jobs level
+Jobs+jobs.[jobname].vipmaxlevel.[amount]+Give access to different max jobs levels. Uses biggest one.
+Jobs+jobs.[jobname].vipmaxlevel.[amount]+Give access to different max jobs levels. Uses biggest one.
+Jobs+jobs.admin+Grants permissions as an admin (only for admins!)
+Jobs+jobs.admin+Grants permissions as an admin (only for admins!)
+Jobs+jobs.area.add+allows to add new restricted area
+Jobs+jobs.area.add+allows to add new restricted area
+Jobs+jobs.area.remove+allows to remove old restricted area
+Jobs+jobs.area.remove+allows to remove old restricted area
+Jobs+jobs.area.select+allows to use selection tool
+Jobs+jobs.area.select+allows to use selection tool
+Jobs+jobs.autojoin.[jobname]+Grants access to auto join job on logging in.
+Jobs+jobs.autojoin.[jobname]+Grants access to auto join job on logging in.
+Jobs+jobs.boost.[jobname].all.[amount]+Boosts money/exp/points for specific job
+Jobs+jobs.boost.[jobname].all.[amount]+Boosts money/exp/points for specific job
+Jobs+jobs.boost.[jobname].exp.[amount]+Boosts exp for specific job by defined amount. Example: Jobs+jobs.boost.miner.exp.-0.5
+Jobs+jobs.boost.[jobname].exp.[amount]+Boosts exp for specific job by defined amount. Example: Jobs+jobs.boost.miner.exp.-0.5
+Jobs+jobs.boost.[jobname].money.[amount]+Boosts money for specific job by defined amount. Example: Jobs+jobs.boost.miner.money.0.5
+Jobs+jobs.boost.[jobname].money.[amount]+Boosts money for specific job by defined amount. Example: Jobs+jobs.boost.miner.money.0.5
+Jobs+jobs.boost.[jobname].points.[amount]+Boosts exp for specific job by defined amount. Example: Jobs+jobs.boost.minet.points.1.5
+Jobs+jobs.boost.[jobname].points.[amount]+Boosts exp for specific job by defined amount. Example: Jobs+jobs.boost.minet.points.1.5
+Jobs+jobs.boost.all.all.[amount]+Boosts money/exp/points for all jobs by defined amount
+Jobs+jobs.boost.all.all.[amount]+Boosts money/exp/points for all jobs by defined amount
+Jobs+jobs.boost.all.exp.[amount]+Boosts exp for all jobs by defined amount
+Jobs+jobs.boost.all.exp.[amount]+Boosts exp for all jobs by defined amount
+Jobs+jobs.boost.all.money.[amount]+Boosts money for all jobs by defined amount
+Jobs+jobs.boost.all.money.[amount]+Boosts money for all jobs by defined amount
+Jobs+jobs.command.*+Grants player access to all commands
+Jobs+jobs.command.*+Grants player access to all commands
+Jobs+jobs.command.admin.archive+Grants access to the archive command on other players
+Jobs+jobs.command.admin.archive+Grants access to the archive command on other players
+Jobs+jobs.command.admin.clearownership+Allows to clear ownership for another player
+Jobs+jobs.command.admin.clearownership+Allows to clear ownership for another player
+Jobs+jobs.command.admin.points+Give access to check players points
+Jobs+jobs.command.admin.points+Give access to check players points
+Jobs+jobs.command.admin.quests+Allows to check quest progression for another player
+Jobs+jobs.command.admin.quests+Allows to check quest progression for another player
+Jobs+jobs.command.admin.stats+Grants access to the stats command on other players
+Jobs+jobs.command.admin.stats+Grants access to the stats command on other players
+Jobs+jobs.command.archive+Grants access to the archive command
+Jobs+jobs.command.archive+Grants access to the archive command
+Jobs+jobs.command.boost+Grants access to the boost command
+Jobs+jobs.command.boost+Grants access to the boost command
+Jobs+jobs.command.browse+Grants access to the browse command
+Jobs+jobs.command.browse+Grants access to the browse command
+Jobs+jobs.command.demote+Grants access to the demote command
+Jobs+jobs.command.demote+Grants access to the demote command
+Jobs+jobs.command.editjobs+Grants access to the editjobs command
+Jobs+jobs.command.editjobs+Grants access to the editjobs command
+Jobs+jobs.command.employ+Grants access to the employ command
+Jobs+jobs.command.employ+Grants access to the employ command
+Jobs+jobs.command.fire+Grants access to the fire command
+Jobs+jobs.command.fire+Grants access to the fire command
+Jobs+jobs.command.fireall+Grants access to the fireall command
+Jobs+jobs.command.fireall+Grants access to the fireall command
+Jobs+jobs.command.give+Grants access to the give command
+Jobs+jobs.command.give+Grants access to the give command
+Jobs+jobs.command.grantxp+Grants access to the grantxp command
+Jobs+jobs.command.grantxp+Grants access to the grantxp command
+Jobs+jobs.command.help+Grants access to the help command
+Jobs+jobs.command.help+Grants access to the help command
+Jobs+jobs.command.info+Grants access to the info command
+Jobs+jobs.command.info+Grants access to the info command
+Jobs+jobs.command.join+Grants access to the join command
+Jobs+jobs.command.join+Grants access to the join command
+Jobs+jobs.command.leave+Grants access to the leave command
+Jobs+jobs.command.leave+Grants access to the leave command
+Jobs+jobs.command.leaveall+Grants access to the leaveall command
+Jobs+jobs.command.leaveall+Grants access to the leaveall command
+Jobs+jobs.command.limit+Grants access to the limit command
+Jobs+jobs.command.limit+Grants access to the limit command
+Jobs+jobs.command.playerinfo+Grants access to the playerinfo command
+Jobs+jobs.command.playerinfo+Grants access to the playerinfo command
+Jobs+jobs.command.promote+Grants access to the promote command
+Jobs+jobs.command.promote+Grants access to the promote command
+Jobs+jobs.command.reload+Grants access to the reload command
+Jobs+jobs.command.reload+Grants access to the reload command
+Jobs+jobs.command.removexp+Grants access to the removexp command
+Jobs+jobs.command.removexp+Grants access to the removexp command
+Jobs+jobs.command.signupdate+Grants access to the signupdate
+Jobs+jobs.command.signupdate+Grants access to the signupdate
+Jobs+jobs.command.stats+Grants access to the stats command
+Jobs+jobs.command.stats+Grants access to the stats command
+Jobs+jobs.command.toggle+Grants access to the toggle command
+Jobs+jobs.command.toggle+Grants access to the toggle command
+Jobs+jobs.command.top+Grants access to the top command
+Jobs+jobs.command.top+Grants access to the top command
+Jobs+jobs.command.transfer+Grants access to the transfer command
+Jobs+jobs.command.transfer+Grants access to the transfer command
 Jobs+jobs.join.[jobname]+Grants access to join particular job (will be added in most case, but if not, then add them manually)
-Jobs+jobs.autojoin.[jobname]+Grants access to auto join job on logging in.
-Jobs+jobs.*+Grants access to all Jobs commands (only for admins!)
-Jobs+jobs.admin+Grants permissions as an admin (only for admins!)
-Jobs+jobs.use+Grants ability to use this plugin
-Jobs+jobs.command.*+Grants player access to all commands
-Jobs+jobs.command.browse+Grants access to the browse command
-Jobs+jobs.command.top+Grants access to the top command
-Jobs+jobs.command.stats+Grants access to the stats command
-Jobs+jobs.command.archive+Grants access to the archive command
-Jobs+jobs.command.admin.archive+Grants access to the archive command on other players
-Jobs+jobs.command.admin.stats+Grants access to the stats command on other players
-Jobs+jobs.command.join+Grants access to the join command
-Jobs+jobs.command.leave+Grants access to the leave command
-Jobs+jobs.command.leaveall+Grants access to the leaveall command
-Jobs+jobs.command.info+Grants access to the info command
-Jobs+jobs.command.playerinfo+Grants access to the playerinfo command
-Jobs+jobs.command.editjobs+Grants access to the editjobs command
-Jobs+jobs.command.fire+Grants access to the fire command
-Jobs+jobs.command.fireall+Grants access to the fireall command
-Jobs+jobs.command.employ+Grants access to the employ command
-Jobs+jobs.command.promote+Grants access to the promote command
-Jobs+jobs.command.demote+Grants access to the demote command
-Jobs+jobs.command.grantxp+Grants access to the grantxp command
-Jobs+jobs.command.removexp+Grants access to the removexp command
-Jobs+jobs.command.transfer+Grants access to the transfer command
-Jobs+jobs.command.reload+Grants access to the reload command
-Jobs+jobs.command.give+Grants access to the give command
-Jobs+jobs.command.boost+Grants access to the boost command
-Jobs+jobs.command.help+Grants access to the help command
-Jobs+jobs.command.toggle+Grants access to the toggle command
-Jobs+jobs.command.signupdate+Grants access to the signupdate
-Jobs+jobs.command.limit+Grants access to the limit command
 Jobs+jobs.max.[numer]+Grants permission to have more than default max jobs
-Jobs+jobs.vipspawner+Grants access to get paid from spawners ignoring global multiplayer
-Jobs+jobs.petpay+Grants access to get paid when pet kills monster
-Jobs+jobs.boost.[jobname].money.[amount]+Boosts money for specific job by defined amount. Example: Jobs+jobs.boost.miner.money.0.5
-Jobs+jobs.boost.[jobname].exp.[amount]+Boosts exp for specific job by defined amount. Example: Jobs+jobs.boost.miner.exp.-0.5
-Jobs+jobs.boost.[jobname].points.[amount]+Boosts exp for specific job by defined amount. Example: Jobs+jobs.boost.minet.points.1.5
-Jobs+jobs.boost.[jobname].all.[amount]+Boosts money/exp/points for specific job
-Jobs+jobs.boost.all.money.[amount]+Boosts money for all jobs by defined amount
-Jobs+jobs.boost.all.exp.[amount]+Boosts exp for all jobs by defined amount
-Jobs+jobs.boost.all.all.[amount]+Boosts money/exp/points for all jobs by defined amount
-Jobs+jobs.[jobname].vipmaxlevel+Give access to different max jobs level
-Jobs+jobs.[jobname].vipmaxlevel.[amount]+Give access to different max jobs levels. Uses biggest one.
-Jobs+jobs.command.admin.points+Give access to check players points
-Jobs+jobs.area.select+allows to use selection tool
-Jobs+jobs.area.add+allows to add new restricted area
-Jobs+jobs.area.remove+allows to remove old restricted area
-Jobs+jobs.command.admin.quests+Allows to check quest progression for another player
-Jobs+jobs.command.admin.clearownership+Allows to clear ownership for another player
+Jobs+jobs.max.[numer]+Grants permission to have more than default max jobs
 Jobs+jobs.maxbrewingstands.[amount]+Defines max amount of brewing stands player can have
-Jobs+jobs.maxfurnaces.[amount]+Defines max amount of funaces player can haveJobs+jobs.join.[jobname]+Grants access to join particular job (will be added in most case, but if not, then add them manually)
-Jobs+jobs.autojoin.[jobname]+Grants access to auto join job on logging in.
-Jobs+jobs.*+Grants access to all Jobs commands (only for admins!)
-Jobs+jobs.admin+Grants permissions as an admin (only for admins!)
-Jobs+jobs.use+Grants ability to use this plugin
-Jobs+jobs.command.*+Grants player access to all commands
-Jobs+jobs.command.browse+Grants access to the browse command
-Jobs+jobs.command.top+Grants access to the top command
-Jobs+jobs.command.stats+Grants access to the stats command
-Jobs+jobs.command.archive+Grants access to the archive command
-Jobs+jobs.command.admin.archive+Grants access to the archive command on other players
-Jobs+jobs.command.admin.stats+Grants access to the stats command on other players
-Jobs+jobs.command.join+Grants access to the join command
-Jobs+jobs.command.leave+Grants access to the leave command
-Jobs+jobs.command.leaveall+Grants access to the leaveall command
-Jobs+jobs.command.info+Grants access to the info command
-Jobs+jobs.command.playerinfo+Grants access to the playerinfo command
-Jobs+jobs.command.editjobs+Grants access to the editjobs command
-Jobs+jobs.command.fire+Grants access to the fire command
-Jobs+jobs.command.fireall+Grants access to the fireall command
-Jobs+jobs.command.employ+Grants access to the employ command
-Jobs+jobs.command.promote+Grants access to the promote command
-Jobs+jobs.command.demote+Grants access to the demote command
-Jobs+jobs.command.grantxp+Grants access to the grantxp command
-Jobs+jobs.command.removexp+Grants access to the removexp command
-Jobs+jobs.command.transfer+Grants access to the transfer command
-Jobs+jobs.command.reload+Grants access to the reload command
-Jobs+jobs.command.give+Grants access to the give command
-Jobs+jobs.command.boost+Grants access to the boost command
-Jobs+jobs.command.help+Grants access to the help command
-Jobs+jobs.command.toggle+Grants access to the toggle command
-Jobs+jobs.command.signupdate+Grants access to the signupdate
-Jobs+jobs.command.limit+Grants access to the limit command
-Jobs+jobs.max.[numer]+Grants permission to have more than default max jobs
-Jobs+jobs.vipspawner+Grants access to get paid from spawners ignoring global multiplayer
-Jobs+jobs.petpay+Grants access to get paid when pet kills monster
-Jobs+jobs.boost.[jobname].money.[amount]+Boosts money for specific job by defined amount. Example: Jobs+jobs.boost.miner.money.0.5
-Jobs+jobs.boost.[jobname].exp.[amount]+Boosts exp for specific job by defined amount. Example: Jobs+jobs.boost.miner.exp.-0.5
-Jobs+jobs.boost.[jobname].points.[amount]+Boosts exp for specific job by defined amount. Example: Jobs+jobs.boost.minet.points.1.5
-Jobs+jobs.boost.[jobname].all.[amount]+Boosts money/exp/points for specific job
-Jobs+jobs.boost.all.money.[amount]+Boosts money for all jobs by defined amount
-Jobs+jobs.boost.all.exp.[amount]+Boosts exp for all jobs by defined amount
-Jobs+jobs.boost.all.all.[amount]+Boosts money/exp/points for all jobs by defined amount
-Jobs+jobs.[jobname].vipmaxlevel+Give access to different max jobs level
-Jobs+jobs.[jobname].vipmaxlevel.[amount]+Give access to different max jobs levels. Uses biggest one.
-Jobs+jobs.command.admin.points+Give access to check players points
-Jobs+jobs.area.select+allows to use selection tool
-Jobs+jobs.area.add+allows to add new restricted area
-Jobs+jobs.area.remove+allows to remove old restricted area
-Jobs+jobs.command.admin.quests+Allows to check quest progression for another player
-Jobs+jobs.command.admin.clearownership+Allows to clear ownership for another player
 Jobs+jobs.maxbrewingstands.[amount]+Defines max amount of brewing stands player can have
 Jobs+jobs.maxfurnaces.[amount]+Defines max amount of funaces player can have
+Jobs+jobs.maxfurnaces.[amount]+Defines max amount of funaces player can haveJobs+jobs.join.[jobname]+Grants access to join particular job (will be added in most case, but if not, then add them manually)
+Jobs+jobs.petpay+Grants access to get paid when pet kills monster
+Jobs+jobs.petpay+Grants access to get paid when pet kills monster
+Jobs+jobs.use+Grants ability to use this plugin
+Jobs+jobs.use+Grants ability to use this plugin
+Jobs+jobs.vipspawner+Grants access to get paid from spawners ignoring global multiplayer
+Jobs+jobs.vipspawner+Grants access to get paid from spawners ignoring global multiplayer
 JoinEventsPro+jep.cfirstjoincommands+If a player does not have this permission, the Console First Join Commands will not be run for that player​.
 JoinEventsPro+jep.cjoincommands+If a player does not have this permission, the Console Join Commands will not be run for that player​.
 JoinEventsPro+jep.cleavecommands+If a player does not have this permission, the Console Leave Commands will not be run for that player​.
@@ -3057,8 +3059,6 @@ KitPreview+previewkit.use+View a specific kit.+/previewkit
 KiteBoard+kiteboard.about+This will show the current version of KiteBoard you are running.+/kiteboard about,/kb about
 KiteBoard+kiteboard.debug+his will generate a link/code to a debug report+/kiteboard debug,/kb debug
 KiteBoard+kiteboard.help+This will display a list of commands.+/kiteboard help,/kb help
-KiteBoard+kiteboard.toggle+This allows players to turn on/off the scoreboard.+/kiteboard on,/kb on,/kiteboard off,/kb off
-KiteBoard+kiteboard.toggle.other+This allows players to turn on/off the scoreboard for other players.+/kiteboard toggle,/kb toggle
 KiteBoard+kiteboard.reload+This will reload the KiteBoard configuration files from the disk (including scoreboards).+/kiteboard reload,/kb reload
 KiteBoard+kiteboard.reset+Resets <board> from you.+/kiteboard reset <board>,/kb reset
 KiteBoard+kiteboard.send+Sends a title/actionbar to a player.+/kb send,/kiteboard send
@@ -3067,6 +3067,8 @@ KiteBoard+kiteboard.set+Allows a player to set the board of himself to whatever 
 KiteBoard+kiteboard.set.other+Allows a player to set the board of others to whatever he wants.+/kb set,/kiteboard set
 KiteBoard+kiteboard.setall+Allows a player to set the board of everyone to whatever he wants.+/kb setall,/kiteboard setall
 KiteBoard+kiteboard.status+This will show enabled, disabled or unavailable features.+/kb status,/kiteboard status
+KiteBoard+kiteboard.toggle+This allows players to turn on/off the scoreboard.+/kiteboard on,/kb on,/kiteboard off,/kb off
+KiteBoard+kiteboard.toggle.other+This allows players to turn on/off the scoreboard for other players.+/kiteboard toggle,/kb toggle
 LagMeter+lagmeter.*+Full Access to all LagMeter Commands+/lag,/mem,/lagmem,/lm,/uptime,/ping,/Iping
 LagMeter+lagmeter.command.lag+Gives access to the /lag command+/lag
 LagMeter+lagmeter.command.lagmem+Gives access to the combination /lagmem command+/lagmem,/lm
@@ -3356,6 +3358,15 @@ Marriage+marry.seen+Check your partner's last online.+/marry seen
 Marriage+marry.sethome+Set your shared home.+/marry sethome
 Marriage+marry.tp+Teleport to your partner.+/marry tp
 Marriage+marry.update+Download updates if available.+/marry update
+Matrix+matrix.bypass+Bypass the anti-cheat
+Matrix+matrix.command+Use the /matrix command+/matrix
+Matrix+matrix.gui+Use the GUI command+/matrix gui
+Matrix+matrix.kick+Use the kick command+/matrix kick
+Matrix+matrix.notify+See the notify message
+Matrix+matrix.reload+Use the reload command+/matrix reload
+Matrix+matrix.togglechecks+Opening toggling checks GUI
+Matrix+matrix.verbose+Use the verbose command and see the verbose output+/matrix verbose
+Matrix+matrix.warn+Use the /matrix msg command+/matrix msg
 MaxBans+maxbans.ban+Allow the player to ban+/ban
 MaxBans+maxbans.checkban+Allow the player to checkban+/checkban
 MaxBans+maxbans.checkban.self+check your own bans/warns/mutes
@@ -3482,33 +3493,33 @@ Multiverse-Core+multiverse.core.spawn.set+Sets the respawn point for the current
 Multiverse-Core+multiverse.core.unload+Unloads a world from the Bukkit server.+/mv unload,/mvunload
 Multiverse-Core+multiverse.help+Displays the Multiverse help pages.+/mv,/mvh,/mvhelp,/mv help,/mvsearch,/mv search
 Multiverse-Core+multiverse.sleep+WARNING THIS COMMAND IS CURRENTLY BROKEN!!! Takes you to the last bed you slept in.+/mv sleep
-Multiverse-Inventories+multiverse.inventories.info+Displays information about a world or group+/mvinv info {WORLD|GROUP}
 Multiverse-Inventories+multiverse.inventories.import+Imports data from MultiInv/WorldInventories+/mvinv import {MultiInv|WorldInventories}
+Multiverse-Inventories+multiverse.inventories.info+Displays information about a world or group+/mvinv info {WORLD|GROUP}
 Multiverse-Inventories+multiverse.inventories.list+Displays a list of groups+/mvinv list
 Multiverse-Inventories+multiverse.inventories.reload+Reloads config file+/mvinv reload
-Multiverse-Inventories+mvinv.bypass.group.[Group]+Allows a player to bypass group settings for the specified group
-Multiverse-Inventories+mvinv.bypass.world.[World]+Allows a player to bypass group settings for the specified world
-Multiverse-Inventories+mvinv.bypass.group.*+Allows a player to bypass group settings for all groups
-Multiverse-Inventories+mvinv.bypass.world.*+Allows a player to bypass group settings for all worlds
 Multiverse-Inventories+mvinv.bypass.*+Allows a player to bypass group settings for all groups and worlds
-Multiverse-Portals+multiverse.portal.access.*+Allows a player to use all portals
+Multiverse-Inventories+mvinv.bypass.group.*+Allows a player to bypass group settings for all groups
+Multiverse-Inventories+mvinv.bypass.group.[Group]+Allows a player to bypass group settings for the specified group
+Multiverse-Inventories+mvinv.bypass.world.*+Allows a player to bypass group settings for all worlds
+Multiverse-Inventories+mvinv.bypass.world.[World]+Allows a player to bypass group settings for the specified world
+Multiverse-NetherPortals+multiverse.netherportals.link+Sets the destination world of nether portals in another.+/mvnp link,/mvnpl,/mvnplink
+Multiverse-NetherPortals+multiverse.netherportals.show+Displays all Nether Portal Links that exist.+/mvnp show,/mvnps,/mvnpshow,/mvnp list,/mvnpli,/mvnplist
+Multiverse-NetherPortals+multiverse.netherportals.unlink+Removes a NetherPortal world link.+/mvnp unlink,/mvnpu,/mvnpunlink
 Multiverse-Portals+multiverse.portal.access.(PORTALNAME)+Allows a player to use a portal
+Multiverse-Portals+multiverse.portal.access.*+Allows a player to use all portals
 Multiverse-Portals+multiverse.portal.config+Allows you to set global MV portal values.
 Multiverse-Portals+multiverse.portal.create+Allows a player to create a portal
 Multiverse-Portals+multiverse.portal.debug+ Extra information regarding protal use is sent to consule for error checking
-Multiverse-Portals+multiverse.portal.exempt.*+Allows a player to use all portals free of charge
 Multiverse-Portals+multiverse.portal.exempt.(PORTALNAME)+Allows a player to use a portal free of charge
-Multiverse-Portals+multiverse.portal.fill.*+Allows player to fill all portals with lava/water
+Multiverse-Portals+multiverse.portal.exempt.*+Allows a player to use all portals free of charge
 Multiverse-Portals+multiverse.portal.fill.(PORTALNAME)+Allows player to fill a portal with lava/water
+Multiverse-Portals+multiverse.portal.fill.*+Allows player to fill all portals with lava/water
 Multiverse-Portals+multiverse.portal.givewand+Allows the player to spawn a wand (if WorldEdit is installed, will use Worldedit wand)
 Multiverse-Portals+multiverse.portal.info+Displays Information about a portal
 Multiverse-Portals+multiverse.portal.list+Lists portals on the server created with Multiverse-Portals
 Multiverse-Portals+multiverse.portal.modify+Allows you to modify set portal values
 Multiverse-Portals+multiverse.portal.remove+Allows you to remove a portal
 Multiverse-Portals+multiverse.portal.select+Allows you to select a portal (If using world edit use wooden Axe or any other form of /pos)
-Multiverse-NetherPortals+multiverse.netherportals.link+Sets the destination world of nether portals in another.+/mvnp link,/mvnpl,/mvnplink
-Multiverse-NetherPortals+multiverse.netherportals.show+Displays all Nether Portal Links that exist.+/mvnp show,/mvnps,/mvnpshow,/mvnp list,/mvnpli,/mvnplist
-Multiverse-NetherPortals+multiverse.netherportals.unlink+Removes a NetherPortal world link.+/mvnp unlink,/mvnpu,/mvnpunlink
 MusicalBiomes+musicalbiomes.admin+Ability to use the /musicalbiomes command
 MusicalBiomesLite+musicalbiomes.admin+Ability to use the /musicalbiomes command
 MyCommand+mycommand.block.set+Launch a command by block.+/mycmd-blockset
@@ -3531,6 +3542,13 @@ MysqlPlayerDataBridge+MPDB.moderator+Allow the use of inventory, armor and ender
 MysqlPlayerDataBridge+MPDB.moderator.armor+Allows to open and edit others armor.
 MysqlPlayerDataBridge+MPDB.moderator.enderchest+Allows to open and edit others enderchest.
 MysqlPlayerDataBridge+MPDB.moderator.inventory+Allows to open and edit others inventory.
+NamelessMC+namelessmc.admin.setgroup+setgroup command
+NamelessMC+namelessmc.admin.userinfo+get user info+/userinfo
+NamelessMC+namelessmc.command.getnotifications+Gets Notifications From Website+/Webite GetNotifications
+NamelessMC+namelessmc.command.nameless+Reload Nameless+/nameless reload)
+NamelessMC+namelessmc.command.register+Registers on Website+/Website Register
+NamelessMC+namelessmc.command.report+Reposts a player to the Website+/Website Report
+NamelessMC+namelessmc.command.validate
 NaturalTorch+naturaltorch.bypass+to be still able to place normal torches
 NexusWarps+nw.createsign
 NexusWarps+nw.delwarp
@@ -3540,13 +3558,6 @@ NexusWarps+nw.warp
 NexusWarps+nw.warplist
 NexusWarps+nw.warplist.gui
 NightVisionReloaded+nightvision.use+Allows User To Toggle Night Vision+/nv
-NamelessMC+namelessmc.command.getnotifications+Gets Notifications From Website+/Webite GetNotifications
-NamelessMC+namelessmc.command.register+Registers on Website+/Website Register
-NamelessMC+namelessmc.command.report+Reposts a player to the Website+/Website Report
-NamelessMC+namelessmc.admin.setgroup+setgroup command
-NamelessMC+namelessmc.admin.userinfo+get user info+/userinfo
-NamelessMC+namelessmc.command.validate
-NamelessMC+namelessmc.command.nameless+Reload Nameless+/nameless reload)
 NoCheatPlus+nocheatplus.admin+Gives access to all NoCheatPlus commands including Auxiliary ones
 NoCheatPlus+nocheatplus.command.allowlogin+Can remove temporary kicked players with /ncp allowlogin+/ncp allowlogin
 NoCheatPlus+nocheatplus.command.ban+Can ban players with /ncp ban+/ncp ban
@@ -3812,14 +3823,14 @@ PlotSquared+plots.flag.notify_enter.bypass+An unknown description
 PlotSquared+plots.flag.notify_leave.bypass+An unknown description
 PlotSquared+plots.use+Allows user to use commands.
 PlotSquared+plots.worldedit.bypass+Bypass Worldedit restriction.
-PluginManager+pluginmanager.enable+Enables a plugin+/plm enable <plugin>
 PluginManager+pluginmanager.disable+Disables a plugin+/plm disable <plugin>
-PluginManager+pluginmanager.load+Load a plugin's .jar to the server+/plm load <file>
-PluginManager+pluginmanager.unload+Disables a plugin, then unloads it from the server+/plm unload <plugin>
-PluginManager+pluginmanager.reload+Unloads and then loads the plugin+/plm reload <plugin>
-PluginManager+pluginmanager.sreload+Disables and then enables the plugin+/plm sreload <plugin>
-PluginManager+pluginmanager.show+Show's detailed information about the plugin+/plm show <plugin>
+PluginManager+pluginmanager.enable+Enables a plugin+/plm enable <plugin>
 PluginManager+pluginmanager.list+Lists plugins based on arguments below.+/plm list [options]
+PluginManager+pluginmanager.load+Load a plugin's .jar to the server+/plm load <file>
+PluginManager+pluginmanager.reload+Unloads and then loads the plugin+/plm reload <plugin>
+PluginManager+pluginmanager.show+Show's detailed information about the plugin+/plm show <plugin>
+PluginManager+pluginmanager.sreload+Disables and then enables the plugin+/plm sreload <plugin>
+PluginManager+pluginmanager.unload+Disables a plugin, then unloads it from the server+/plm unload <plugin>
 ProVotes+provotes.backup+Allows the player to use the backup command.+/pvotes backup
 ProVotes+provotes.command+Allows the player to use the default vote command.+/vote
 ProVotes+provotes.forcemonth+Allows the player to use the force month command.+/pvotes forcemonth
@@ -4029,9 +4040,9 @@ ProtectionStones+protectionstones.view+Allows players the use of /ps view comman
 ProtocolLib+protocol.*+Grants all permissions from the plugin
 ProtocolLib+protocol.admin+Specifies if a hex representation of provided packets should be logged to a file or to console+/packetlog config,/packetlog check,/packetlog version,/packetlog timings,/packetlog listeners
 ProtocolLib+protocol.info+Specifies the users that are notified when there is a new plugin version and that are able to see error reports
+ProtocolVanish+protocolvanish.bypass.itempickup+Ability to toggle item pickup by executing command+/vanish tipu
 ProtocolVanish+protocolvanish.see.level[number]+Ability to see vanished players (set by level)
 ProtocolVanish+protocolvanish.use.level[number]+Ability to use vanish (set by level)
-ProtocolVanish+protocolvanish.bypass.itempickup+Ability to toggle item pickup by executing command+/vanish tipu
 PvPLevels+pvplevels.command.add+Allow to add the Kills/Deaths/Level on an User
 PvPLevels+pvplevels.command.help+Allow to use the /pvplevels help command
 PvPLevels+pvplevels.command.message+Allow to use the /pvplevels message <player> <text> command
@@ -4123,6 +4134,11 @@ RegionGui+region.manage.open+Required permission to open the management interfac
 RegionGui+region.mod+Allow to open the management interface on all regions. Manage regions of other players. 
 RegionGui+region.purge+Lists regions with owners not being logged in for [months] +/land purge [months],/land confirm [months]
 RegionGui+region.reload+Reload the configuration files. +/land reload
+ReportManager+reportmanager.admin+Admin access
+ReportManager+reportmanager.dev+Access to all commands
+ReportManager+reportmanager.usr.get+Access to own reports+/report -get
+ReportManager+reportmanager.usr.list+Access to /report -mylist command+/report -mylist
+ReportManager+reportmanager.usr.report+Access to creating report+/report
 ReportPlus+ReportPlus.find+Allows to use command /find.+/find
 ReportPlus+ReportPlus.help+Allows to use command /rpp help.+/rpp help
 ReportPlus+ReportPlus.nodelay+Allow to see the reports alert on join.
@@ -4137,13 +4153,14 @@ ReportPlus+ReportPlus.reports.see+Allow to see all reports messages.
 ReportPlus+ReportPlus.server+Allows to use command /rpp server.+/rpp server
 ReportPlus+ReportPlus.vanish+Allows to use command /invs.+/invs
 ReportPlus+ReportPlus.vanish.see+Allow to see vanished players.
+Reputation+reputation.admin+Show help, give/take/reset points, reload plugin
 RunAsConsole+rac.info+Allow Use Of The /runasconsole command+/runasconsole
 RunAsConsole+rac.use+Allow Use Of The /console command+/console
 Secrets+secret.admin+Needed for sign creation.
-ServerRestart+srt.reload+Reload configuration+/srt reload
 ServerRestart+srt.check+See next scheduled restart time+/srt check
-ServerRestart+srt.skip+Skips scheduled restart to next one+/srt skip
 ServerRestart+srt.frestart+Schedule force restart in N seconds (or immediately if not specified)+/srt frestart [seconds]
+ServerRestart+srt.reload+Reload configuration+/srt reload
+ServerRestart+srt.skip+Skips scheduled restart to next one+/srt skip
 ServerRestorer+serverrestorer.*+Grants all permissions from the plugin
 ServerRestorer+serverrestorer.restore+Ability to use the restore command (restores the server)+/sr restore
 ServerRestorer+serverrestorer.save+Ability to use the save command (saves the server)+/sr save
@@ -4332,19 +4349,19 @@ SpawnJoin+SpawnJoin.tp.other+TP an other to the spawn+/spawntp [playername]
 StaffChat+staff.chat+Allow players to use the Staff Chat.
 StaffChat+staff.chat.enable+Allow players to disable the plugin.+/staffchat
 StaffChat+staff.chat.reload+Allow players to reload the config.+/staffchat reload
+StaffChatReloaded+staffchat.*+It gives player all the mentioned permissions
+StaffChatReloaded+staffchat.about+Allows player to see the help screen+/schelp
+StaffChatReloaded+staffchat.ac.receive+Allows player to receive the AdminChat messages
+StaffChatReloaded+staffchat.ac.send+Allows player to send messages to amin chat+/adminchat [message]
+StaffChatReloaded+staffchat.hc.receive+Allows player to receive the HelperChat messages
+StaffChatReloaded+staffchat.hc.send+Allows player to send messages to helper chat+/helperchat [message]
+StaffChatReloaded+staffchat.mc.receive+Allows player to receive the ModChat messages
+StaffChatReloaded+staffchat.mc.send+Allows player to send messages to mod chat+/modchat [message]
+StaffChatReloaded+staffchat.receive+Allows player to receive the StaffChat messages
+StaffChatReloaded+staffchat.reload+Allows player to reload the plugin+/screload
 StaffChatReloaded+staffchat.send+Allows player to send messages to staff chat+/staffchat [message]
 StaffChatReloaded+staffchat.toggle+Allows player to toggle the StaffChat
-StaffChatReloaded+staffchat.receive+Allows player to receive the StaffChat messages
-StaffChatReloaded+staffchat.mc.send+Allows player to send messages to mod chat+/modchat [message]
-StaffChatReloaded+staffchat.mc.receive+Allows player to receive the ModChat messages
-StaffChatReloaded+staffchat.ac.send+Allows player to send messages to amin chat+/adminchat [message]
-StaffChatReloaded+staffchat.ac.receive+Allows player to receive the AdminChat messages
-StaffChatReloaded+staffchat.hc.send+Allows player to send messages to helper chat+/helperchat [message]
-StaffChatReloaded+staffchat.hc.receive+Allows player to receive the HelperChat messages
-StaffChatReloaded+staffchat.reload+Allows player to reload the plugin+/screload
-StaffChatReloaded+staffchat.about+Allows player to see the help screen+/schelp
 StaffChatReloaded+staffchat.version+Allows player to type /scversion New!
-StaffChatReloaded+staffchat.*+It gives player all the mentioned permissions
 StaffCore+staffcore.addnote+Allows staff to add notes to a player.
 StaffCore+staffcore.adminchat+Allows the player to use the admin chat.
 StaffCore+staffcore.alts+Allows staff to see the alts of a player.
@@ -4544,6 +4561,95 @@ TradeMe+trademe.shiftoffer+allow to give trade offer by shift clicking
 TradeMe+trademe.trade+gives access to trade offer and accept in general.
 TradeMe+trademe.vanishtrade+Allows to trade while vanished
 TradeMe+trademe.worldbypass+Bypasses blocked trade worlds
+Train_Carts+train.break.any+The player can break all carts in the game
+Train_Carts+train.break.other+The player can break any cart except for invincible ones
+Train_Carts+train.break.self+The player can break their own minecarts
+Train_Carts+train.build.animator+The player can build a sign that plays train animations
+Train_Carts+train.build.announcer+The player can build a sign that sends a message to all the players in a train
+Train_Carts+train.build.blockchanger+The player can build a sign that alters the block displayed in minecarts
+Train_Carts+train.build.blocker+The player can build train blockers
+Train_Carts+train.build.collector+The player can build systems to let trains collect from storage
+Train_Carts+train.build.crafter+The player can build item crafter signs
+Train_Carts+train.build.depositor+The player can build systems to fill storage blocks with items from trains
+Train_Carts+train.build.destination+The player can build destinations
+Train_Carts+train.build.destructor+The player can build train destructors
+Train_Carts+train.build.detector+The player can build train detectors
+Train_Carts+train.build.effect+The player can build a sign that can play an effect
+Train_Carts+train.build.ejector+The player can build train ejectors
+Train_Carts+train.build.ejector.absolute+The player can build train ejectors that teleport to absolute world coordinates
+Train_Carts+train.build.elevator+The player can build systems to teleport trains vertically
+Train_Carts+train.build.enter+The player can build a sign that can make nearby players/mobs enter a train
+Train_Carts+train.build.flip+The player can build a sign that flips the orientation of a Minecart 180 degrees
+Train_Carts+train.build.jumper+The player can build a sign that can cause a train to jump in a certain direction
+Train_Carts+train.build.launcher+The player can build a sign that can launch trains
+Train_Carts+train.build.mutex+The player can build a sign that defines a mutual exclusion zone, where only one train can be at
+Train_Carts+train.build.property+The player can build train property setters
+Train_Carts+train.build.skipper+The player can build a sign that can tell a train or minecart to skip upcoming signs
+Train_Carts+train.build.sound+The player can build a sign that can play a sound
+Train_Carts+train.build.spawner+The player can build train spawners
+Train_Carts+train.build.station+The player can build train stations
+Train_Carts+train.build.switcher+The player can build track switchers
+Train_Carts+train.build.teleporter+The player can build train teleporters (portals)
+Train_Carts+train.build.ticket+The player can build a sign that will charge money or ejects a player if he can't pay
+Train_Carts+train.build.trigger+The player can build train triggers
+Train_Carts+train.build.wait+The player can build train wait signs
+Train_Carts+train.command.animate+Whether the player can use a command to play an animation
+Train_Carts+train.command.break+The player can set blocks the cart can break from a set list
+Train_Carts+train.command.breakblock.admin+The player can set blocks the cart can break, any type
+Train_Carts+train.command.changeblock+Whether the player can alter the type of block displayed in a minecart
+Train_Carts+train.command.changetick+Whether the player can alter the global update tick rate of TrainCarts (debug!)
+Train_Carts+train.command.chest+Whether the player can use a chest item that can store and spawn trains
+Train_Carts+train.command.destroy+The player can destroy owned carts through commands
+Train_Carts+train.command.destroyall+The player can destroy all trains on the server
+Train_Carts+train.command.displayname+The player can change the display name of his owned trains
+Train_Carts+train.command.editor+Whether the player can use commands to give himself editors for trains (models) and signs
+Train_Carts+train.command.enter+Whether the player can use a command to enter the train/cart being
+Train_Carts+train.command.fixbugged+The player can destroy all bugged minecarts on the server
+Train_Carts+train.command.globalproperties+The player can edit the properties of all carts
+Train_Carts+train.command.invincible+The player can set if his owned trains are invincible
+Train_Carts+train.command.issue+Whether the player can report problems with TrainCarts
+Train_Carts+train.command.keepchunksloaded+The player can set if his owned trains keep nearby chunks loaded
+Train_Carts+train.command.launch+Whether the player can use a command to launch the train being edited
+Train_Carts+train.command.manualmove+Whether the player can change if trains can be moved by damaging them
+Train_Carts+train.command.message+Whether the player can add message shortcuts
+Train_Carts+train.command.mobenter+The player can set if mobs can enter his owned carts
+Train_Carts+train.command.pathinfo+Whether the player can view the route the train is following to reach the destination
+Train_Carts+train.command.pickup+The player can set if his owned storage carts pick up items
+Train_Carts+train.command.playerenter+The player can set if players can enter his owned carts
+Train_Carts+train.command.playerexit+The player can set if players can exit his owned carts
+Train_Carts+train.command.playertake+Whether the player can change if players take Minecarts with them when they leave
+Train_Carts+train.command.properties+The player can edit the properties of carts he owns
+Train_Carts+train.command.pushing+The player can set if his owned trains push away certain entities
+Train_Carts+train.command.reload+The player can reload the configuration
+Train_Carts+train.command.rename+The player can rename his owned trains
+Train_Carts+train.command.reroute+The player can force path finding to re-calculate
+Train_Carts+train.command.save+Whether the player can use a command to save a train under a name
+Train_Carts+train.command.saveall+Whether the player can save all TrainCarts stored information to file
+Train_Carts+train.command.setcollide+The player can set if his owned trains can collide
+Train_Carts+train.command.setdestination+The player can set destinations for his owned carts
+Train_Carts+train.command.setlinking+The player can set if his owned trains can link to other trains
+Train_Carts+train.command.setowners+The player can set the owners of his owned carts
+Train_Carts+train.command.setpoweredcartrequirement+The player can set if a powered minecart is needed for his train to stay alive
+Train_Carts+train.command.setpublic+The player can make his owned carts open for the public
+Train_Carts+train.command.setspeedlimit+The player can set the maximum speed for his trains
+Train_Carts+train.command.settags+The player can set the tags of his owned carts
+Train_Carts+train.command.slowdown+The player can set if his owned trains slow down over time
+Train_Carts+train.command.soundenabled+Whether the player can turn Minecart sound on or off
+Train_Carts+train.command.teleport+Whether the player can teleport to where trains are
+Train_Carts+train.command.upgradesavedtrains+The player can upgrade all saved trains model positions to the new TC version
+Train_Carts+train.debug+The player can use special commands useful for debugging the plugin
+Train_Carts+train.place.minecart+The player can place minecarts
+Train_Carts+train.place.traincart+The player can place TrainCarts minecarts
+Train_Carts+train.properties.admin+Carts placed by this player get the admin properties
+Train_Carts+train.spawner.automatic+The player can build spawners which automatically create carts
+Train_Carts+train.spawner.command+The player can build spawners which create minecarts with command blocks
+Train_Carts+train.spawner.hopper+The player can build spawners which create minecarts with hoppers
+Train_Carts+train.spawner.powered+The player can build spawners which create powered minecarts
+Train_Carts+train.spawner.regular+The player can build spawners which create regular minecarts
+Train_Carts+train.spawner.spawner+The player can build spawners which create minecarts with spawners
+Train_Carts+train.spawner.storage+The player can build spawners which create minecarts with chests
+Train_Carts+train.spawner.tnt+The player can build spawners which create minecarts with TNT
+Train_Carts+train.ticket.manage+The player can edit the details of existing tickets or create new tickets
 TreeFeller+treefeller.use.*+Allow the player to use all types of axes to cut trees faster.
 TreeFeller+treefeller.use.DIAMOND_AXE+Allow the player to use a wooden axe to cut trees faster.
 TreeFeller+treefeller.use.GOLD_AXE+Allow the player to use a wooden axe to cut trees faster.
@@ -4600,6 +4706,11 @@ UltimatePets+ultimatepets.commands.info+With this permission the player can use 
 UltimatePets+ultimatepets.commands.name+With this permission the player can use "/pet name" command
 UltimatePets+ultimatepets.commands.shop+With this permission the player can use "/pet shop" command
 UltimatePets+ultimatepets.pets.[Pet-Type]+With this permission the player can buy the pet
+UltimateShops+ushops.admin+Gives perms for admin features
+UltimateShops+ushops.make+Gives perms to make shops
+UltimateShops+ushops.makeshops.[number]+Gives perms to make a maximum of # shops (requires ushops.make). Without this permission users can make unlimited shops.
+UltimateShops+ushops.tag.[tag]+Gives perms to use shops that have that TAG
+UltimateShops+ushops.user+Gives perms to use shops
 Ultimate_Name_Color+UNC.admin+Allow to Reload the plugin and reset players.+/name reload,/name reset
 Ultimate_Name_Color+chat.*+Allow the player to change there Name in every color in Chat.
 Ultimate_Name_Color+chat.aqua+Allow to change there Chat name in aqua.
@@ -4762,28 +4873,28 @@ Voter+Voter.Create+Permission to Start a voting.+/vote
 Vouchers+voucher.admin+Access To All Commands+/Voucher Help,/Voucher Redeem <Code>,/Voucher <Give> [Amount] [Player] [Argument],/Voucher Reload
 Vouchers+voucher.bypass+Buypass Voucher Limiter
 Vouchers+voucher.redeem+Redeem vouchers
-Warps+warps.sethome+Alows player to set a home/sethome
-Warps+warps.homelimit.[limit]+Sets the number of homes a player can have
-Warps+warps.edithome+Alows player to edit homes+/edithome
-Warps+warps.home+Allows player to warp to home+/home
-Warps+warps.removehome+allows player to remove home+/removehome
-Warps+warps.homelimit.unlimited+Allows player to set unlimited homes
-Warps+warps.bypass.countdown+Used for bypassing countdowns
-Warps+warps.bypass.cooldown+Used for bypassing coldowns
-Warps+warps.setwarp+Allows player to set warp+s/setwarp
-Warps+warps.setwarp.private+Allows player to set private warps+/setwarp [warp] private
-Warps+warps.warp+Allows players to warp+/warp
-Warps+warps.editwarp+Allows player to edit warps+/editwarp
-Warps+warps.removewarp+Allows player to remove a warp+/removewarp
-Warps+warps.private+Allows player to see private warps
-Warps+warps.setspwawn+Allows player to set spawn point+/setspawn
-Warps+warps.removespawn+Allows player to remove spawn point+/removespawn
-Warps+warps.warpsreload+Allows player to reload WarpsGUI+/warpsreload
 WarpSystem+WarpSystem.ByPass.Maintenance+Use GUI while in maintenance mode
 WarpSystem+WarpSystem.ByPass.Teleport.Delay+Bypass teleport delay
 WarpSystem+WarpSystem.Modify+Edit the GUI and Portals
 WarpSystem+WarpSystem.Modify.Portals+Edit the Portals
 WarpSystem+WarpSystem.Notify+Notify for updates
+Warps+warps.bypass.cooldown+Used for bypassing coldowns
+Warps+warps.bypass.countdown+Used for bypassing countdowns
+Warps+warps.edithome+Alows player to edit homes+/edithome
+Warps+warps.editwarp+Allows player to edit warps+/editwarp
+Warps+warps.home+Allows player to warp to home+/home
+Warps+warps.homelimit.[limit]+Sets the number of homes a player can have
+Warps+warps.homelimit.unlimited+Allows player to set unlimited homes
+Warps+warps.private+Allows player to see private warps
+Warps+warps.removehome+allows player to remove home+/removehome
+Warps+warps.removespawn+Allows player to remove spawn point+/removespawn
+Warps+warps.removewarp+Allows player to remove a warp+/removewarp
+Warps+warps.sethome+Alows player to set a home/sethome
+Warps+warps.setspwawn+Allows player to set spawn point+/setspawn
+Warps+warps.setwarp+Allows player to set warp+s/setwarp
+Warps+warps.setwarp.private+Allows player to set private warps+/setwarp [warp] private
+Warps+warps.warp+Allows players to warp+/warp
+Warps+warps.warpsreload+Allows player to reload WarpsGUI+/warpsreload
 WorldBorder+worldborder.use+Allow the player to set the worldborder radius.+/wb <Radius>
 WorldEdit+worldedit.*+Grants a user all WorldEdit permissions
 WorldEdit+worldedit.analysis.count+Counts the number of a certain type of block+//count
@@ -5208,11 +5319,6 @@ iDisguise+iDisguise.visibility.permission+use visibility=only-permission and vis
 pStaffList+staff.fake+Toggle faking offline or not (if faking offline you will always show offline)+/staff fake
 pStaffList+staff.modify+Add a staff member to the GUI, Remove the specified staff member from the GUI, Add the item in your hand as a spacer, Remove the specified spacer and Open the GUI and allow for editing of all the positions.+/staff add,/staff remove,/staff delete,/staff addSpacer,/staff removeSpacer,/staff modify
 pStaffList+staff.reload+Force save of all files and reload the config+/staff reload
-UltimateShops+ushops.user+Gives perms to use shops
-UltimateShops+ushops.make+Gives perms to make shops
-UltimateShops+ushops.makeshops.[number]+Gives perms to make a maximum of # shops (requires ushops.make). Without this permission users can make unlimited shops.
-UltimateShops+ushops.admin+Gives perms for admin features
-UltimateShops+ushops.tag.[tag]+Gives perms to use shops that have that TAG
 uSkyBlock+usb.admin+To make use of any the /usb commands
 uSkyBlock+usb.admin.**+Controls player-cooldowns+/usb cooldown,/usb cd clear,/usb cd c [player] <command>
 uSkyBlock+usb.admin.addmember+Adds the player to the island+/usb is addmember [player] [islandleader]
@@ -5289,110 +5395,3 @@ uSkyBlock+usb.party.join+Display the party GUI with information about your islan
 uSkyBlock+usb.party.kick+Remove a player from your island+/island kick [player]
 uSkyBlock+usb.party.leave+Leave your current island (If you are the party leader, you will keep the island and remove all other players)+/island leave
 uSkyBlock+usb.party.talk+Island talk between party members server wide+/partytalk,/ptalk,/ptk
-Matrix+matrix.command+Use the /matrix command+/matrix
-Matrix+matrix.gui+Use the GUI command+/matrix gui
-Matrix+matrix.bypass+Bypass the anti-cheat
-Matrix+matrix.kick+Use the kick command+/matrix kick
-Matrix+matrix.notify+See the notify message
-Matrix+matrix.verbose+Use the verbose command and see the verbose output+/matrix verbose
-Matrix+matrix.warn+Use the /matrix msg command+/matrix msg
-Matrix+matrix.togglechecks+Opening toggling checks GUI
-Matrix+matrix.reload+Use the reload command+/matrix reload
-Reputation+reputation.admin+Show help, give/take/reset points, reload plugin
-ReportManager+reportmanager.usr.report+Access to creating report+/report
-ReportManager+reportmanager.usr.list+Access to /report -mylist command+/report -mylist
-ReportManager+reportmanager.usr.get+Access to own reports+/report -get
-ReportManager+reportmanager.admin+Admin access
-ReportManager+reportmanager.dev+Access to all commands
-AskMe+askme.ask+Ask sth online staff+/ask
-AskMe+askme.ans+Access to /ans command+/ans
-Train_Carts+train.command.globalproperties+The player can edit the properties of all carts
-Train_Carts+train.command.properties+The player can edit the properties of carts he owns
-Train_Carts+train.command.destroy+The player can destroy owned carts through commands
-Train_Carts+train.command.destroyall+The player can destroy all trains on the server
-Train_Carts+train.command.fixbugged+The player can destroy all bugged minecarts on the server
-Train_Carts+train.command.upgradesavedtrains+The player can upgrade all saved trains model positions to the new TC version
-Train_Carts+train.command.reroute+The player can force path finding to re-calculate
-Train_Carts+train.command.reload+The player can reload the configuration
-Train_Carts+train.command.break+The player can set blocks the cart can break from a set list
-Train_Carts+train.command.breakblock.admin+The player can set blocks the cart can break, any type
-Train_Carts+train.command.setpublic+The player can make his owned carts open for the public
-Train_Carts+train.command.setowners+The player can set the owners of his owned carts
-Train_Carts+train.command.settags+The player can set the tags of his owned carts
-Train_Carts+train.command.mobenter+The player can set if mobs can enter his owned carts
-Train_Carts+train.command.setdestination+The player can set destinations for his owned carts
-Train_Carts+train.command.playerenter+The player can set if players can enter his owned carts
-Train_Carts+train.command.playerexit+The player can set if players can exit his owned carts
-Train_Carts+train.command.pickup+The player can set if his owned storage carts pick up items
-Train_Carts+train.command.setlinking+The player can set if his owned trains can link to other trains
-Train_Carts+train.command.keepchunksloaded+The player can set if his owned trains keep nearby chunks loaded
-Train_Carts+train.command.invincible+The player can set if his owned trains are invincible
-Train_Carts+train.command.pushing+The player can set if his owned trains push away certain entities
-Train_Carts+train.command.slowdown+The player can set if his owned trains slow down over time
-Train_Carts+train.command.setcollide+The player can set if his owned trains can collide
-Train_Carts+train.command.setspeedlimit+The player can set the maximum speed for his trains
-Train_Carts+train.command.setpoweredcartrequirement+The player can set if a powered minecart is needed for his train to stay alive
-Train_Carts+train.command.rename+The player can rename his owned trains
-Train_Carts+train.command.displayname+The player can change the display name of his owned trains
-Train_Carts+train.command.manualmove+Whether the player can change if trains can be moved by damaging them
-Train_Carts+train.command.saveall+Whether the player can save all TrainCarts stored information to file
-Train_Carts+train.command.message+Whether the player can add message shortcuts
-Train_Carts+train.command.pathinfo+Whether the player can view the route the train is following to reach the destination
-Train_Carts+train.command.playertake+Whether the player can change if players take Minecarts with them when they leave
-Train_Carts+train.command.soundenabled+Whether the player can turn Minecart sound on or off
-Train_Carts+train.command.teleport+Whether the player can teleport to where trains are
-Train_Carts+train.command.changeblock+Whether the player can alter the type of block displayed in a minecart
-Train_Carts+train.command.changetick+Whether the player can alter the global update tick rate of TrainCarts (debug!)
-Train_Carts+train.command.issue+Whether the player can report problems with TrainCarts
-Train_Carts+train.command.editor+Whether the player can use commands to give himself editors for trains (models) and signs
-Train_Carts+train.command.chest+Whether the player can use a chest item that can store and spawn trains
-Train_Carts+train.command.save+Whether the player can use a command to save a train under a name
-Train_Carts+train.command.enter+Whether the player can use a command to enter the train/cart being
-Train_Carts+train.command.launch+Whether the player can use a command to launch the train being edited
-Train_Carts+train.command.animate+Whether the player can use a command to play an animation
-Train_Carts+train.build.station+The player can build train stations
-Train_Carts+train.build.spawner+The player can build train spawners
-Train_Carts+train.build.trigger+The player can build train triggers
-Train_Carts+train.build.destination+The player can build destinations
-Train_Carts+train.build.switcher+The player can build track switchers
-Train_Carts+train.build.destructor+The player can build train destructors
-Train_Carts+train.build.detector+The player can build train detectors
-Train_Carts+train.build.ejector+The player can build train ejectors
-Train_Carts+train.build.ejector.absolute+The player can build train ejectors that teleport to absolute world coordinates
-Train_Carts+train.build.property+The player can build train property setters
-Train_Carts+train.build.collector+The player can build systems to let trains collect from storage
-Train_Carts+train.build.depositor+The player can build systems to fill storage blocks with items from trains
-Train_Carts+train.build.elevator+The player can build systems to teleport trains vertically
-Train_Carts+train.build.teleporter+The player can build train teleporters (portals)
-Train_Carts+train.build.blocker+The player can build train blockers
-Train_Carts+train.build.wait+The player can build train wait signs
-Train_Carts+train.build.crafter+The player can build item crafter signs
-Train_Carts+train.build.ticket+The player can build a sign that will charge money or ejects a player if he can't pay
-Train_Carts+train.build.announcer+The player can build a sign that sends a message to all the players in a train
-Train_Carts+train.build.effect+The player can build a sign that can play an effect
-Train_Carts+train.build.sound+The player can build a sign that can play a sound
-Train_Carts+train.build.blockchanger+The player can build a sign that alters the block displayed in minecarts
-Train_Carts+train.build.jumper+The player can build a sign that can cause a train to jump in a certain direction
-Train_Carts+train.build.launcher+The player can build a sign that can launch trains
-Train_Carts+train.build.enter+The player can build a sign that can make nearby players/mobs enter a train
-Train_Carts+train.build.skipper+The player can build a sign that can tell a train or minecart to skip upcoming signs
-Train_Carts+train.build.mutex+The player can build a sign that defines a mutual exclusion zone, where only one train can be at
-Train_Carts+train.build.flip+The player can build a sign that flips the orientation of a Minecart 180 degrees
-Train_Carts+train.build.animator+The player can build a sign that plays train animations
-Train_Carts+train.spawner.automatic+The player can build spawners which automatically create carts
-Train_Carts+train.spawner.regular+The player can build spawners which create regular minecarts
-Train_Carts+train.spawner.powered+The player can build spawners which create powered minecarts
-Train_Carts+train.spawner.storage+The player can build spawners which create minecarts with chests
-Train_Carts+train.spawner.tnt+The player can build spawners which create minecarts with TNT
-Train_Carts+train.spawner.hopper+The player can build spawners which create minecarts with hoppers
-Train_Carts+train.spawner.command+The player can build spawners which create minecarts with command blocks
-Train_Carts+train.spawner.spawner+The player can build spawners which create minecarts with spawners
-Train_Carts+train.place.minecart+The player can place minecarts
-Train_Carts+train.place.traincart+The player can place TrainCarts minecarts
-Train_Carts+train.break.self+The player can break their own minecarts
-Train_Carts+train.break.other+The player can break any cart except for invincible ones
-Train_Carts+train.break.any+The player can break all carts in the game
-Train_Carts+train.properties.admin+Carts placed by this player get the admin properties
-Train_Carts+train.ticket.manage+The player can edit the details of existing tickets or create new tickets
-Train_Carts+train.debug+The player can use special commands useful for debugging the plugin
-
