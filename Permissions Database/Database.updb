@@ -4766,6 +4766,7 @@ UltraPunishments+ultrapunishments.mute.revoke+Allows a player to unmute someone
 UltraPunishments+ultrapunishments.report.respond+Allows a player to view and respond reports
 UltraPunishments+ultrapunishments.warning.execute+Allows a player to issue a warning
 UltraPunishments+ultrapunishments.warning.revoke+Allows a player to remove a warning
+UltraRegions+ultraregions.admin+Allows use of Ultra Regions
 UltraTags+ultratags.reload+Ability to use the reload command (reloads the plugin configuration)+/ultratags reload,/ut reload,/uts reload
 Vault+vault.admin+Ability to use the info and conversion commands+/vault-info,/vault-convert
 Vault+vault.update+Specifies the users that are notified when there is a new plugin version
