@@ -1,0 +1,56 @@
+#
+# Official Language File
+# To make your own language file, copy this file and edit the copy
+#
+# Changes made to this file will be reset!
+# Do not edit it!
+#
+
+ENABLE: engedélyez
+ENABLED: engedélyezve
+DISABLE: letilt
+DISABLED: letiltva
+SETTINGS: Beállítások
+DAY: Nap
+DAYS: Nap
+HOUR: Óra
+HOURS: Óra
+MINUTE: Perc
+MINUTES: Perc
+SECOND: Másodperc
+SECONDS: Másodperc
+NONE: Egyik sem
+COMMAND_NOPERMISSION: Nincs **hozzáférésed** ehhez a parancshoz
+COMMAND_NOCONSOLE: Ez a parancs nem futtatható a konzolon keresztül
+DIALOG_LEFTCLICK_CLOSE: **Bal klikk** a bezáráshoz
+GUI_SETTINGS_SELECTPAGE: Klikk Beállítások megjelenítéséhez
+GUI_SETTINGS_PAGESELECTED: Ez az oldal jelenleg **kiválasztva**
+GUI_SETTINGS_LANGUAGE_NAME: Nyelv
+GUI_SETTINGS_MYSQL_NAME: MySQL Adatbázis
+GUI_SETTINGS_MYSQL_EDITVALUE_ACTION: Klikk az érték szerkesztéséhez
+GUI_SETTINGS_MYSQL_CURRENTVALUE: Jelenlegi Érték:
+GUI_SETTINGS_MYSQL_SETUP_TITLE_FIELDNAME: MySQL - %1
+GUI_SETTINGS_MYSQL_SETUP_TITLE_TYPEINVALUE: Írd be az értéket
+GUI_SETTINGS_MYSQL_SETUP_TITLE: MySQL beállítása
+GUI_SETTINGS_MYSQL_SETUP_ACTION: Klikk a MySQL engedélyezéséhez
+GUI_SETTINGS_MYSQL_SETUP_INFO: Ehhez külső MySQL adatbázis szükséges a csatlakozáshoz
+GUI_SETTINGS_MYSQL_DISABLE_TITLE: MySQL Letiltása
+GUI_SETTINGS_MYSQL_DISABLE_ACTION: Klikk a MySQL letiltásához
+GUI_SETTINGS_MYSQL_RESTARTREQUIRED: A módosítások alkalmazásához újraindítás szükséges
+GUI_SETTINGS_MYSQL_CANTCONNECT: Nem sikerült csatlakozni a MySQL-hez
+GUI_SETTINGS_MYSQL_SAVE_TITLE: Tesztelés és Mentés
+GUI_SETTINGS_MYSQL_SAVE_ACTION: Klikk a **tesztelés** és **mentéshez**
+GUI_SETTINGS_LANG_ACTION: Klikk a nyelv **kiválasztásához**
+GUI_SETTINGS_LANG_SELECTED: Ez a nyelv **jelenleg** kiválasztva
+GUI_SETTINGS_LANG_PHRASES: Kifejezés
+GUI_SETTINGS_LANG_COVERAGE: Lefedettség
+GUI_PAGEABLE_SEARCH_TITLE: Keresés
+GUI_PAGEABLE_SEARCH_ACTION: Klikk a kereséshez
+GUI_PAGEABLE_NEXT_TITLE: Következő
+GUI_PAGEABLE_NEXT_ACTION: Klikk a következő oldalra lépéshez
+GUI_PAGEABLE_PREVIOUS_TITLE: Előző
+GUI_PAGEABLE_PREVIOUS_ACTION: Klikk az előző oldalra lépéshez
+GUI_PAGEABLE_SEARCH_CLOSE_ACTION: Klikk a keresés **bezáráshoz**
+GUI_PAGEABLE_SEARCH_TYPEIN: Írd be a keresett kifejezést
+GUI_BACK_NAME: Vissza
+GUI_BACK_ACTION: Klikk a visszalépéshez
