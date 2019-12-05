@@ -4391,7 +4391,7 @@ StaffCore+staffcore.removemutes+Allows the player to remove mutes from a player.
 StaffCore+staffcore.removenote+Allows staff to remove notes from a player.
 StaffCore+staffcore.removewarns+Allows the player to remove warns from a player.
 StaffCore+staffcore.report+Gives the player the ability to see the reports that players send.
-StaffCore+staffcore.resetstats+Allows higher ups to reset all of the player and staff stats.​
+StaffCore+staffcore.resetstats+Allows higher ups to reset all of the player and staff stats.
 StaffCore+staffcore.revive+Gives the player the ability to revive a player from the previous death.
 StaffCore+staffcore.seeip+Allows staff to see a players IP in /bmwinfo.
 StaffCore+staffcore.slowchat+Gives the player the ability to slow down the chat.
@@ -4408,6 +4408,270 @@ StaffCore+staffcore.unwhitelist+Allows players to unwhitelist players.
 StaffCore+staffcore.vanish+Allows the player to vanish themselves.
 StaffCore+staffcore.warn+Allows the player to warn other players.
 StaffCore+staffcore.whitelist+Allows players to enable the whitelist and give access.
+StaffFacilities+bungeecord.command.find+Allows access to use /find command+/find
+StaffFacilities+bungeecord.command.list+Allows access to use /glist command+/glist
+StaffFacilities+sf.*+Gives you access to all Staff Facilities permissions
+StaffFacilities+sf.alert+Allows access to /alert command+/alert
+StaffFacilities+sf.alert.notification+Tells you who sent the /alert command
+StaffFacilities+sf.announce+Allows access to /announce command+/announce
+StaffFacilities+sf.announce.notification+Tells you who sent the /announce command
+StaffFacilities+sf.ans.staffreceive+Tells you who sent an /ans message
+StaffFacilities+sf.ans.use+Allows access to /ans command+/ans
+StaffFacilities+sf.antiadvertise+Notificates you if someone advertises in your server
+StaffFacilities+sf.antiadvertise.bypass+Bypasses the anti advertise system
+StaffFacilities+sf.anticaps.bypass+Bypasses the anti caps system
+StaffFacilities+sf.antiflood.bypass+Bypasses the anti flood system
+StaffFacilities+sf.antihelp.bypass+Bypasses the anti /help system
+StaffFacilities+sf.antihelp.notify+Notifies you if someone tries to use /help command
+StaffFacilities+sf.antiplugins.bypass+Bypasses the anti /plugins system
+StaffFacilities+sf.antiplugins.notify+Notifies you if someone tries to use /plugins command
+StaffFacilities+sf.antiswear.bypass+Bypasses the anti swear system
+StaffFacilities+sf.antiswear.notify+Notifies you if someone swears
+StaffFacilities+sf.antitab.notify+Bypasses the anti TAB system of certain commands
+StaffFacilities+sf.antiversion.bypass+Bypasses the anti /version system
+StaffFacilities+sf.antiversion.notify+Notifies you if someone tries to use /version command
+StaffFacilities+sf.bin+Allows access to /bin command+/bin
+StaffFacilities+sf.bin.others+Allows access to use /bin command in another player
+StaffFacilities+sf.birthday+Allows access to use /birthday command+/birthday
+StaffFacilities+sf.blacklistworldbypass.fly+Bypass the removal of fly when going to a fly forbidden world
+StaffFacilities+sf.blacklistworldbypass.god+Bypass the removal of god when going to a god forbidden world
+StaffFacilities+sf.broadcast+Allows access to /broadcast command+/broadcast
+StaffFacilities+sf.broadcast.notification+Tells you who sent the /broadcast command
+StaffFacilities+sf.burn+Allows access to /burn command+/burn
+StaffFacilities+sf.burn.targetnotify+Tells you who burned you
+StaffFacilities+sf.chatmute+Allows access to use /chatmute command+/chatmute
+StaffFacilities+sf.chatmute.notification+Notifies you who muted the chat
+StaffFacilities+sf.chatmute.talk+Gives you permission to talk and send commands when the chat is muted
+StaffFacilities+sf.clearchat+Allows access to use /clearchat command+/clearchat
+StaffFacilities+sf.clearchat.player+Allows access to use /playerclearchat command+/playerclearchat
+StaffFacilities+sf.clearinventory+Allows access to use /clearinventory command+/clearinventory
+StaffFacilities+sf.clearinventory.others+Allows access to use /clearinventory command on other players
+StaffFacilities+sf.combatbypass.feed+Bypass the system which prevents you to use feed when you are in combat
+StaffFacilities+sf.combatbypass.fly+Bypass the system which prevents you to use fly when you are in combat
+StaffFacilities+sf.combatbypass.god+Bypass the system which prevents you to use god when you are in combat
+StaffFacilities+sf.combatbypass.heal+Bypass the system which prevents you to use heal when you are in combat
+StaffFacilities+sf.commandspy+Allows access to use /commandspy command+/commandspy
+StaffFacilities+sf.commandspy.bypass+Bypass the command spy system. Others wont see your commands
+StaffFacilities+sf.cooldown.alert+Bypass the cooldown of the alert command
+StaffFacilities+sf.cooldown.announce+Bypass the cooldown of the announce command
+StaffFacilities+sf.cooldown.broadcast+Bypass the cooldown of the broadcast command
+StaffFacilities+sf.cooldown.chatmute+Bypass the cooldown of the chatmute command
+StaffFacilities+sf.cooldown.clearchat+Bypass the cooldown of the clearchat command
+StaffFacilities+sf.cooldown.clearinventory+Bypass the cooldown of the clearinventory command
+StaffFacilities+sf.cooldown.danger+Bypass the cooldown of the danger command
+StaffFacilities+sf.cooldown.day+Bypass the cooldown of the day command
+StaffFacilities+sf.cooldown.error+Bypass the cooldown of the error command
+StaffFacilities+sf.cooldown.feed+Bypass the cooldown of the feed command
+StaffFacilities+sf.cooldown.happybirthday+Bypass the cooldown of the happybirthday command
+StaffFacilities+sf.cooldown.heal+Bypass the cooldown of the heal command
+StaffFacilities+sf.cooldown.helpme+Bypass the cooldown of the helpme command
+StaffFacilities+sf.cooldown.information+Bypass the cooldown of the information command
+StaffFacilities+sf.cooldown.kill+Bypass the cooldown of the kill command
+StaffFacilities+sf.cooldown.night+Bypass the cooldown of the night command
+StaffFacilities+sf.cooldown.note+Bypass the cooldown of the note command
+StaffFacilities+sf.cooldown.rain+Bypass the cooldown of the rain command
+StaffFacilities+sf.cooldown.report+Bypass the cooldown of the report command
+StaffFacilities+sf.cooldown.say+Bypass the cooldown of the say command
+StaffFacilities+sf.cooldown.sun+Bypass the cooldown of the sun command
+StaffFacilities+sf.cooldown.tpall+Bypass the cooldown of the tpall command
+StaffFacilities+sf.cooldown.warning+Bypass the cooldown of the warning command
+StaffFacilities+sf.cooldown.welcomeback+Bypass the cooldown of the welcomeback command
+StaffFacilities+sf.cps+Allows access to use /cps command+/cps
+StaffFacilities+sf.danger+Allows access to /danger command+/danger
+StaffFacilities+sf.danger.notification+Tells you who sent the /danger command
+StaffFacilities+sf.discord+Allows access to use /discord command+/discord
+StaffFacilities+sf.donate+Allows access to use /donate command+/donate
+StaffFacilities+sf.duty+Allows access to use /duty command+/duty
+StaffFacilities+sf.duty.command.1+Toggles the command 1 you set in config.yml when you set on/off duty
+StaffFacilities+sf.duty.command.2+Toggles the command 2 you set in config.yml when you set on/off duty
+StaffFacilities+sf.duty.command.3+Toggles the command 3 you set in config.yml when you set on/off duty
+StaffFacilities+sf.duty.notification+Notifies you who is on duty
+StaffFacilities+sf.email+Allows access to use /email command+/email
+StaffFacilities+sf.enderchest+Allows access to use /enderchest command+/enderchest
+StaffFacilities+sf.enderchest.others+Allows access to use /enderchest command on another player
+StaffFacilities+sf.error+Allows access to /error command+/error
+StaffFacilities+sf.error.notification+Tells you who sent the /error command
+StaffFacilities+sf.facebook+Allows access to use /facebook command+/facebook
+StaffFacilities+sf.fakeleave+Allows access to use /fakeleave command+/fakeleave
+StaffFacilities+sf.fakeleave.list+Allows access to use /fakeleave list command to see all player who fakeleaved
+StaffFacilities+sf.fakeleave.notification+Notifies you who fake left and fake joined the server
+StaffFacilities+sf.fakeleave.others+Allows access to use /fakeleave command on another player
+StaffFacilities+sf.fakeleave.toggle.chat+Lets you enable chat so you can talk while fake leaved
+StaffFacilities+sf.feed+Allows access to use /feed command+/feed
+StaffFacilities+sf.feed.others+Allows access to use /feed command on another player
+StaffFacilities+sf.fly+Allows access to use /fly command+/fly
+StaffFacilities+sf.fly.list+Allows access to use /fly list command to see all player who have fly mode activated+/fly list
+StaffFacilities+sf.fly.others+Allows access to use /fly command on another player
+StaffFacilities+sf.flyattack+Allows access to use /alerts flyattack command+/alerts flyattack
+StaffFacilities+sf.flyattack.autotoggle+Auto toggle flyattack alert when joining+/when
+StaffFacilities+sf.flyattack.bypass+Bypass a player from alerting staff of attacking with fly mode enabled+/alerting staff
+StaffFacilities+sf.flyattack.notify+Get notified when a player attacks another with fly mode enabled+/player attacks
+StaffFacilities+sf.forum+Allows access to use /forum command+/forum
+StaffFacilities+sf.freeze+Allows access to use /freeze command+/freeze
+StaffFacilities+sf.freeze.all+Allows access to use /freeze all command+/freeze all
+StaffFacilities+sf.freeze.cantbefrozen+Protects you from another person trying to freeze you
+StaffFacilities+sf.freeze.notification+Notificates you when a player is frozen
+StaffFacilities+sf.freeze.temp+Allows access to use /freeze temp command+/freeze temp
+StaffFacilities+sf.freeze.usecommandswhilefrozen+Lets you use commands when you are frozen
+StaffFacilities+sf.frozen+Allows access to use /frozen command+/frozen
+StaffFacilities+sf.gamemode.adventure+Allows access to use /gma command+/gma
+StaffFacilities+sf.gamemode.adventure.others+Allows access to use /gma command on another player+/gma
+StaffFacilities+sf.gamemode.creative+Allows access to use /gmc command+/gmc
+StaffFacilities+sf.gamemode.creative.others+Allows access to use /gmc command on another player+/gmc
+StaffFacilities+sf.gamemode.spectator.others+Allows access to use /gmsp command on another player+/gmsp
+StaffFacilities+sf.gamemode.survival+Allows access to use /gms command+/gms
+StaffFacilities+sf.gamemode.survival.others+Allows access to use /gms command on another player+/gms
+StaffFacilities+sf.god+Allows access to use /god command+/god
+StaffFacilities+sf.god.gamemode.spectator+Allows access to use /gmsp command+/gmsp
+StaffFacilities+sf.god.list+Allows access to use /god list command to see all player who have god mode activated+/god list
+StaffFacilities+sf.god.others+Allows access to use /god command on another player
+StaffFacilities+sf.hacksucate.bypass+Bypasses the hacksucate system
+StaffFacilities+sf.happybirthday+Allows access to use /happybirthday command+/happybirthday
+StaffFacilities+sf.heal+Allows access to use /heal command+/heal
+StaffFacilities+sf.heal.others+Allows access to use /heal command on another player
+StaffFacilities+sf.helpme.receive+Notifies you when someone sends a helpme
+StaffFacilities+sf.helpme.use+Allows access to use /helpme command+/helpme
+StaffFacilities+sf.id+Allows access to use /id command+/id
+StaffFacilities+sf.information+Allows access to /information command+/information
+StaffFacilities+sf.information.notification+Tells you who sent the /information command
+StaffFacilities+sf.inspect+Allows access to use /inspect command+/inspect
+StaffFacilities+sf.instagram+Allows access to use /instagram command+/instagram
+StaffFacilities+sf.invsee+Allows access to use /invsee command+/invsee
+StaffFacilities+sf.invsee.notification+Notifies you when someone sees a player inventory
+StaffFacilities+sf.ip+Allows access to use /ip command+/ip
+StaffFacilities+sf.kill+Allows access to use /kill command+/kill
+StaffFacilities+sf.kill.all+Allows access to use /kill all command+/kill all
+StaffFacilities+sf.kill.cantbekilled+Protects you from being killed
+StaffFacilities+sf.kill.others+Allows access to use /kill command on another player
+StaffFacilities+sf.kill.targetnotify+Notifies the killed player that you killed him
+StaffFacilities+sf.maintenancemode+Allows access to use /maintenancemode command+/maintenancemode
+StaffFacilities+sf.maintenancemode.stay+Allows you to stay in server and log in when it is in maintenance mode
+StaffFacilities+sf.namednotify+Allows access to use /alerts namednotify command+/alerts namednotify
+StaffFacilities+sf.namednotify.autotoggle+Allows to auto toggle named notify system when you log in
+StaffFacilities+sf.namednotify.bypass+If a player has this permission and names you on chat you wont be notified
+StaffFacilities+sf.networkspy+Allows access to use /networkspy command+/networkspy
+StaffFacilities+sf.networkspy.bypass+Lets you bypass the network spy system (no staff will see the commands you perform)
+StaffFacilities+sf.nightvision+Allows access to use /nightvision command+/nightvision
+StaffFacilities+sf.nightvision.list+Allows access to use /nightvision list command to see all player who have nightvision mode activated+/nightvision list
+StaffFacilities+sf.nightvision.others+Allows access to use /nightvision command on another player+/nightvision command
+StaffFacilities+sf.note+Allows access to /note command+/note
+StaffFacilities+sf.note.notification+Tells you who sent the /note command
+StaffFacilities+sf.ping+Allows access to use /ping command+/ping
+StaffFacilities+sf.ping.all+Allows access to use /ping all command on all players+/ping all
+StaffFacilities+sf.ping.others+Allows access to use /ping command on another player
+StaffFacilities+sf.player.*+General player permissions
+StaffFacilities+sf.playerinfo+Allows access to use /playerinfo command+/playerinfo
+StaffFacilities+sf.reload+Allows access to use /sf reload command+/sf reload
+StaffFacilities+sf.report.receive+Notifies you when someone sends a report
+StaffFacilities+sf.report.use+Allows access to use /report command+/report
+StaffFacilities+sf.reports+Allows access to use /reports command+/reports
+StaffFacilities+sf.reportsdelete+Allows access to use /reportsdelete command+/reportsdelete
+StaffFacilities+sf.rules+Allows access to use /rules command+/rules
+StaffFacilities+sf.say+Allows access to /say command+/say
+StaffFacilities+sf.say.notification+Tells you who sent the /say command
+StaffFacilities+sf.server.ram+Allows access to use /server ram command+/server ram
+StaffFacilities+sf.server.stats+Allows access to use /server stats command+/server stats
+StaffFacilities+sf.show+Allows access to use /show command+/show
+StaffFacilities+sf.show.birthday+Allows access to use /show birthday command+/show birthday
+StaffFacilities+sf.show.discord+Allows access to use /show discord command+/show discord
+StaffFacilities+sf.show.donate+Allows access to use /show donate command+/show donate
+StaffFacilities+sf.show.email+Allows access to use /show email command+/show email
+StaffFacilities+sf.show.facebook+Allows access to use /show facebook command+/show facebook
+StaffFacilities+sf.show.instagram+Allows access to use /show instagram command+/show instagram
+StaffFacilities+sf.show.rules+Allows access to use /show rules command+/show rules
+StaffFacilities+sf.show.skype+Allows access to use /show skype command+/show skype
+StaffFacilities+sf.show.teamspeak3+Allows access to use /show teamspeak3 command+/show teamspeak
+StaffFacilities+sf.show.twitch+Allows access to use /show twitch command+/show twitch
+StaffFacilities+sf.show.twitter+Allows access to use /show twitter command+/show twitter
+StaffFacilities+sf.show.website+Allows access to use /show website command+/show website
+StaffFacilities+sf.show.whatsapp+Allows access to use /show whatsapp command+/show whatsapp
+StaffFacilities+sf.show.youtube+Allows access to use /show youtube command+/show youtube
+StaffFacilities+sf.skype+Allows access to use /skype command+/skype
+StaffFacilities+sf.spfah+Allows access to use /spfah command+/spfah
+StaffFacilities+sf.spfah.list+Allows access to use /spfah list command+/spfah list
+StaffFacilities+sf.spfah.notification+Notifies you when someone performs the /spfah command
+StaffFacilities+sf.spfr+Allows access to use /spfr command+/spfr
+StaffFacilities+sf.spfr.list+Allows access to use /spfr list command+/spfr list
+StaffFacilities+sf.spfr.notification+Notifies you when someone performs the /spfr command
+StaffFacilities+sf.staff+Allows access to use /staff command+/staff
+StaffFacilities+sf.staff.*+General staff permissions
+StaffFacilities+sf.staffchat+Allows access to use /staffchat command+/staffchat
+StaffFacilities+sf.staffmember+Lets the plugin know that you are a staffmember (one of the uses is that you will appear in the /staff GUI list)
+StaffFacilities+sf.staffpanel+Allows access to use /staffpanel command+/staffpanel
+StaffFacilities+sf.staffvanish+Allows access to use /staffvanish command+/staffvanish
+StaffFacilities+sf.staffvanish.level.[number]+Sets your hidden staffvanish level to the NUMBER written
+StaffFacilities+sf.staffvanish.list+Allows access to use /staffvanish list command+/staffvanish list
+StaffFacilities+sf.staffvanish.others+Allows access to use /staffvanish command on another player
+StaffFacilities+sf.staffvanish.see+Allows you to see staffvanished players (for levels this means level 1)
+StaffFacilities+sf.staffvanish.see+Lets you see which players are staffvanished in the network
+StaffFacilities+sf.staffvanish.see.level.[number]+Sets your see staffvanish level to the NUMBER written
+StaffFacilities+sf.staffvanish.toggle.chat+Lets you enable chat listener so you can use the chat while staff vanished
+StaffFacilities+sf.staffvanish.toggle.damage+Lets you enable damage listener so you can damage entities/players while staff vanished
+StaffFacilities+sf.staffvanish.toggle.drop+Lets you enable drop listener so you can drop items while staff vanished
+StaffFacilities+sf.staffvanish.toggle.entitytarget+Lets you enable entitytarget listener so entities can target you while staff vanished
+StaffFacilities+sf.staffvanish.toggle.hangingbreak+Lets you enable hangingbreak listener so you can hang break while staff vanished
+StaffFacilities+sf.staffvanish.toggle.interact+Lets you enable interact listener so you can interact with items while staff vanished
+StaffFacilities+sf.staffvanish.toggle.pickup+Lets you enable pickup listener so you can pick up items while staff vanished
+StaffFacilities+sf.staffvanish.toggle.vehiclecollision+Lets you enable vehiclecollision listener so you can collide with vehicles while staff vanished
+StaffFacilities+sf.staffvanish.toggle.vehicledestroy+Lets you enable vehicledestroy listener so you can destroy vehicles while staff vanished
+StaffFacilities+sf.staffwatch+Allows access to use /staffwatch command+/staffwatch
+StaffFacilities+sf.staffwatch.list+Allows access to use /staffwatch list command+/staffwatch list
+StaffFacilities+sf.staffwatch.notification+Notifies you when someone toggle staffwatch on/off
+StaffFacilities+sf.staffwatch.others+Allows access to use /staffwatch command on another player
+StaffFacilities+sf.teamspeak3+Allows access to use /teamspeak command+/teamspeak
+StaffFacilities+sf.time+Allows access to use /time command+/time
+StaffFacilities+sf.time.day+Allows access to use /day command+/day
+StaffFacilities+sf.time.night+Allows access to use /night command+/night
+StaffFacilities+sf.time.rain+Allows access to use /rain command+/rain
+StaffFacilities+sf.time.sun+Allows access to use /sun command+/sun
+StaffFacilities+sf.tp+Allows access to use /tp command+/tp
+StaffFacilities+sf.tpall+Allows access to use /tpall command+/tpall
+StaffFacilities+sf.tphere+Allows access to use /tphere command+/tphere
+StaffFacilities+sf.tppos+Allows access to use /tppos command+/tppos
+StaffFacilities+sf.tptogglebypass+Allows you to bypass the tptoggle system from Essentials if someone has it deactivated
+StaffFacilities+sf.twitch+Allows access to use /twitch command+/twitch
+StaffFacilities+sf.twitter+Allows access to use /twitter command+/twitter
+StaffFacilities+sf.update+Allows access to use /sf update command+/sf update
+StaffFacilities+sf.updatenotify+Notifies you when a Staff Facilities update is released
+StaffFacilities+sf.uuid+Allows access to use /uuid command+/uuid
+StaffFacilities+sf.vanish+Allows access to use /vanish command+/vanish
+StaffFacilities+sf.vanish.level.[number]+Sets your hidden vanish level to the NUMBER written
+StaffFacilities+sf.vanish.list+Allows access to use /vanish list command+/vanish list
+StaffFacilities+sf.vanish.others+Allows access to use /vanish command on another player
+StaffFacilities+sf.vanish.see+Allows you to see vanished players (for levels this means level 1)
+StaffFacilities+sf.vanish.see+Lets you see which players are vanished in the network
+StaffFacilities+sf.vanish.see.level.[number]+Sets your see vanish level to the NUMBER written
+StaffFacilities+sf.vanish.toggle.chat+Lets you enable chat listener so you can use the chat while vanished
+StaffFacilities+sf.vanish.toggle.damage+Lets you enable damage listener so you can damage entities/players while vanished
+StaffFacilities+sf.vanish.toggle.drop+Lets you enable drop listener so you can drop items while vanished
+StaffFacilities+sf.vanish.toggle.entitytarget+Lets you enable entitytarget listener so entities can target you while vanished
+StaffFacilities+sf.vanish.toggle.hangingbreak+Lets you enable hangingbreak listener so you can hang break while vanished
+StaffFacilities+sf.vanish.toggle.interact+Lets you enable interact listener so you can interact with items while vanished
+StaffFacilities+sf.vanish.toggle.pickup+Lets you enable pickup listener so you can pick up items while vanished
+StaffFacilities+sf.vanish.toggle.vehiclecollision+Lets you enable vehiclecollision listener so you can collide with vehicles while vanished
+StaffFacilities+sf.vanish.toggle.vehicledestroy+Lets you enable vehicledestroy listener so you can destroy vehicles while vanished
+StaffFacilities+sf.warn+Allows access to use /swarn command+/swarn
+StaffFacilities+sf.warn.notification+Notifies you when a player is warned
+StaffFacilities+sf.warning+Allows access to /warning command+/warning
+StaffFacilities+sf.warning.notification+Tells you who sent the /warning command
+StaffFacilities+sf.watchover+Allows access to use /watchover command+/watchover
+StaffFacilities+sf.watchover.command.1+Toggles the command 1 you set in config.yml when you set on/off watchover
+StaffFacilities+sf.watchover.command.2+Toggles the command 2 you set in config.yml when you set on/off watchover
+StaffFacilities+sf.watchover.command.3+Toggles the command 3 you set in config.yml when you set on/off watchover
+StaffFacilities+sf.watchover.creative+Sets you in creative mode when you toggle watchover on
+StaffFacilities+sf.watchover.god+Sets you in god mode when you toggle watchover on (and don't have the creative permission)
+StaffFacilities+sf.watchover.list+Allows access to use /watchover list command+/watchover list
+StaffFacilities+sf.watchover.notification+Notifies you when someone toggle watchover on/off
+StaffFacilities+sf.watchover.others+Allows access to use /watchover command on another player
+StaffFacilities+sf.website+Allows access to use /website command+/website
+StaffFacilities+sf.welcomeback+Allows access to use /welcomeback command+/welcomeback
+StaffFacilities+sf.whatsapp+Allows access to use /whatsapp command+/whatsapp
+StaffFacilities+sf.workbench+Allows access to use /workbench command+/workbench
+StaffFacilities+sf.xraynotify+Allows access to use /alerts xraynotify command+/alerts xraynotify
+StaffFacilities+sf.xraynotify.autotoggle+Auto toggle xraynotify alert when joining
+StaffFacilities+sf.xraynotify.bypass+Bypass a player from alerting staff of mining a specified ore
+StaffFacilities+sf.xraynotify.notify+Get notified when a player mines a specific ore
+StaffFacilities+sf.youtube+Allows access to use /youtube command+/youtube
 StarterKit+starterkit+Allows access to everything in the plugin.
 StarterKit+starterkit.list+Allow a player to see what is in the kit.+/sk list
 StarterKit+starterkit.load+Allow a player to give a kit to anyone.
