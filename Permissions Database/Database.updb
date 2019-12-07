@@ -2673,10 +2673,10 @@ InsaneShops+insaneshops.admin+Allows opening Shops as a seller (to manage them)
 InsaneShops+insaneshops.commands.shops+Allows the usage of /shops+/shops
 InsaneShops+insaneshops.create+Allows the player to create a Shop Recommended
 InsaneShops+insaneshops.limit.XXX.+Limits the number of Shops a player can own
-IridiumSkyblock+IridiumSkyblock.reload+Reload the plugin configurations+/is reload
+IridiumSkyblock+IridiumSkyblock.reload+Reloads the plugin configurations+/is reload
 IridiumSkyblock+IridiumSkyblock.givecrystals+Gives a player island crystals+/is givecrystals
-IridiumSkyblock+IridiumSkyblock.removecrystals+Removes an islands crystals+/is removecrystals
-IridiumSkyblock+IridiumSkyblock.fly+Toggle your ability to fly+/is fly
+IridiumSkyblock+IridiumSkyblock.removecrystals+Removes island crystals from a player+/is removecrystals
+IridiumSkyblock+IridiumSkyblock.fly+Toggles the ability to fly+/is fly
 IridiumSkyblock+IridiumSkyblock.bypass+Bypass island restrictions+/is bypass
 IridiumSkyblock+IridiumSkyblock.user+Basic commands for user
 ItemFrameShops+ ifs.command.recalcshopsinselection+Recalculates prices for every shop in your WorldEdit selection.
@@ -3075,18 +3075,18 @@ KiteBoard+kiteboard.setall+Allows a player to set the board of everyone to whate
 KiteBoard+kiteboard.status+This will show enabled, disabled or unavailable features.+/kb status,/kiteboard status
 KiteBoard+kiteboard.toggle+This allows players to turn on/off the scoreboard.+/kiteboard on,/kb on,/kiteboard off,/kb off
 KiteBoard+kiteboard.toggle.other+This allows players to turn on/off the scoreboard for other players.+/kiteboard toggle,/kb toggle
-KitPvP+kp.command.reload+Give access to /kp reload
-KitPvP+kp.command.addspawn+Gives access to /kp addspawn
-KitPvP+kp.command.delspawn+Gives access to /kp delspawn
-KitPvP+kp.command.spawn+Gives access to /kp spawn
-KitPvP+kp.command.clear+Gives access to /kp clear
-KitPvP+kp.command.stats+Gives access to /kp stats
-KitPvP+kp.command.menu+Gives access to /kp menu
-KitPvP+kp.command.kit+Gives access to /kp kit name
-KitPvP+kp.command.create+Gives access to /kp create name
-KitPvP+kp.command.delete+Gives access to /kp delete name
-KitPvP+kp.command.kits+Gives access to /kp kits
-KitPvP+kp.command.preview+Gives access to /kp preview kitName
+KitPvP+kp.command.reload+Gives access to /kp reload+/kp reload
+KitPvP+kp.command.addspawn+Gives access to /kp addspawn+/kp addspawn
+KitPvP+kp.command.delspawn+Gives access to /kp delspawn+/kp delspawn
+KitPvP+kp.command.spawn+Gives access to /kp spawn+/kp spawn
+KitPvP+kp.command.clear+Gives access to /kp clear+/kp clear
+KitPvP+kp.command.stats+Gives access to /kp stats+/kp stats
+KitPvP+kp.command.menu+Gives access to /kp menu+/kp menu
+KitPvP+kp.command.kit+Gives access to /kp kit name+/kp kit
+KitPvP+kp.command.create+Gives access to /kp create name+/kp create
+KitPvP+kp.command.delete+Gives access to /kp delete name+/kp delete
+KitPvP+kp.command.kits+Gives access to /kp kits+/kp kits
+KitPvP+kp.command.preview+Gives access to /kp preview name+/kp preview
 KitPvP+kp.kit.fighter+Gives access to the Fighter Kit
 KitPvP+kp.kit.archer+Gives access to the Archer Kit
 KitPvP+kp.kit.tank+Gives access to the Tank Kit
@@ -3098,7 +3098,7 @@ KitPvP+kp.kit.witch+Gives access to the Witch Kit
 KitPvP+kp.kit.ninja+Gives access to the Ninja Kit
 KitPvP+kp.kit.thunderbolt+Gives access to the Thunderbolt Kit
 KitPvP+kp.kit.vampire+Gives access to the Vampire Kit
-KitPvP+kp.kit.<custom kit name here>+Gives access to a custom kit
+KitPvP+kp.kit.[name]+Gives access to a custom kit
 KitPvP+kp.ability.fighter+Gives access to Fighter's Kit Ability
 KitPvP+kp.ability.archer+Gives access to Archer's Kit Ability
 KitPvP+kp.ability.tank+Gives access to Tank's Kit Ability
@@ -3110,7 +3110,7 @@ KitPvP+kp.ability.witch+Gives access to Witch's Kit Ability
 KitPvP+kp.ability.ninja+Gives access to the Ninja's Kit Ability
 KitPvP+kp.ability.thunderbolt+Gives access to the Thunderbolt's Kit Abililty
 KitPvP+kp.ability.vampire+Gives access to the Vampire's Kit Ability
-KitPvP+kp.ability.<custom kit name here>+Give access to custom kit ability
+KitPvP+kp.ability.[name]+Gives access to custom kit ability
 KitPvP+kp.arena.blockbreaking+Allows players with this permission to break blocks
 KitPvP+kp.arena.blockplacing+Allows players with this permission to place blocks
 KitPvP+kp.arena.itemdropping+Allows players with this permission to drop items
