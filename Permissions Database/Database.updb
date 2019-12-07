@@ -2673,6 +2673,12 @@ InsaneShops+insaneshops.admin+Allows opening Shops as a seller (to manage them)
 InsaneShops+insaneshops.commands.shops+Allows the usage of /shops+/shops
 InsaneShops+insaneshops.create+Allows the player to create a Shop Recommended
 InsaneShops+insaneshops.limit.XXX.+Limits the number of Shops a player can own
+IridiumSkyblock+IridiumSkyblock.reload+Reload the plugin configurations+/is reload
+IridiumSkyblock+IridiumSkyblock.givecrystals+Gives a player island crystals+/is givecrystals
+IridiumSkyblock+IridiumSkyblock.removecrystals+Removes an islands crystals+/is removecrystals
+IridiumSkyblock+IridiumSkyblock.fly+Toggle your ability to fly+/is fly
+IridiumSkyblock+IridiumSkyblock.bypass+Bypass island restrictions+/is bypass
+IridiumSkyblock+IridiumSkyblock.user+Basic commands for user
 ItemFrameShops+ ifs.command.recalcshopsinselection+Recalculates prices for every shop in your WorldEdit selection.
 ItemFrameShops+ItemFrameShops+ifs.command.shoplayout+Allows you to change how a shop looks. You can reposition all "menu items" in a fake shop-like inventory. It is a work in progress and might be buggy!
 ItemFrameShops+ifs.admin.create+Non-command: Creates the store
