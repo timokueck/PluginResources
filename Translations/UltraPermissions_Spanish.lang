@@ -39,7 +39,7 @@ COMMAND_PLAYER_SUPERADMIN_ALREADY: **%1** ya es un superadmin
 COMMAND_PLAYER_SUPERADMIN_ADD: Anadido con exito **%1** como superadmin
 COMMAND_PLAYER_SUPERADMIN_REMOVE: Eliminado con éxito **%1** de superadmin
 COMMAND_PLAYER_ADD_GROUP: Agregado grupo **%1** a **%2**
-COMMAND_PLAYER_ADD_GROUP_TIMED: Agregado grupo **%1** a **%2** para **%3**
+COMMAND_PLAYER_ADD_GROUP_TIMED: Agregado grupo **%1** a **%2** por **%3**
 COMMAND_PERMISSION_ADD: Agregado permiso **%1** a **%2**
 COMMAND_PERMISSION_ADD_TIMED: Agregado permiso **%1** a **%2** para **%3**
 GUI_OVERVIEW_USERS_ACTION: Haga clic para ver todos los **usuarios**
