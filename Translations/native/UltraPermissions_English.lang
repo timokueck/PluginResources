@@ -8,6 +8,10 @@
 
 OVERVIEW: Overview
 PERMISSION: Permission
+POSITIVE: Positive
+NEGATIVE: Negative
+MIXED: Mixed
+BUNGEE_PERMISSION: Bungee Permission
 PERMISSION_NODES: Permission Nodes
 PERMISSIONS: Permissions
 DEFAULT_PERMISSIONS: Default Permissions
@@ -34,6 +38,13 @@ PERMISSIONLOG: Permission Log
 EDITING: Editing
 ADD: Add
 TIME_FOR: for
+NONE: None
+DURATION: Duration
+COPY: Copy
+PASSED: Passed
+FAILED: Failed
+SOURCE: Source
+TIME_TILL_REMOVAL: Time till removal:
 COMMAND_INVALID_ARGS: Invalid Arguments
 COMMAND_NOTFOUND: Command not found
 COMMAND_HINT_HELP: Type in **/upc** to get a list of commands
@@ -49,7 +60,6 @@ COMMAND_PLAYER_SUPERADMIN_REMOVE: Successfully removed **%1** from the superadmi
 COMMAND_PLAYER_ADD_GROUP: Added Group **%1** to **%2**
 COMMAND_PLAYER_ADD_GROUP_TIMED: Added Group **%1** to **%2** for **%3**
 COMMAND_PERMISSION_ADD: Added permission **%1** to **%2**
-COMMAND_PERMISSION_ADD_TIMED: Added permission **%1** to **%2** for **%3**
 GUI_OVERVIEW_USERS_ACTION: Click to view all **Users**
 GUI_OVERVIEW_GROUPS_ACTION: Click to view all **Groups**
 GUI_OVERVIEW_DONATIONS_ACTION: Click to show Donations
@@ -116,6 +126,30 @@ GUI_PERMEDITOR_NORMAL_RIGHTCLICK: **Right Click** to **select**
 GUI_PERMEDITOR_NORMAL_PRESSQ: **Press Q** to delete
 GUI_PERMEDITOR_ADDPERMISSION_TITLE: Add Permission
 GUI_PERMEDITOR_PLUGIN_ACTION: Click to view Permissions of **%1**
+GUI_PERMEDITOR_BUNGEEINDICATOR: This is a **BungeeCord** Permission
+GUI_PERMEDITOR_AVAILABILITY_ALLSERVERS: Available on **all** Servers
+GUI_PERMEDITOR_AVAILABILITY_INWORLD: in the World **%1**
+GUI_PERMEDITOR_AVAILABILITY_APPLICABLEIN: Permission applicable in %1
+GUI_PERMEDITOR_AVAILABILITY_ONLYTHISSERVER: Only available on **this** Server
+GUI_PERMEDITOR_AVAILABILITY_SPECIFICSERVER: Available on **%1** Server
+GUI_PERMEDITOR_ADD_LEFTACTION: **Left Click** to add Permission
+GUI_PERMEDITOR_ADD_RIGHTACTION: **Right Click** to add **Bungee Permission**
+GUI_PERMEDITOR_ADD_TYPEIN: Type in a permission
+GUI_PERMEDITOR_EDIT_TITLE: Edit %1
+GUI_PERMEDITOR_EDIT_ACTION: Click to edit **%1**
+GUI_PERMVIEW_EDITPERM_TITLE: Edit Permission
+GUI_PERMVIEW_EDITPERM_ACTION: Click to edit Permission
+GUI_PERMVIEW_EDITPERM_TYPEIN: Type in the new permission
+GUI_PERMVIEW_COPY_ACTION: Click to select a **target**
+GUI_PERMVIEW_NOMULTINAMEEDIT: you cannot rename multiple permissions at once
+GUI_STORAGESETTINGS_TITLE: Storage Settings
+GUI_STORAGESETTINGS_TYPEINWORLD: Type in a world name
+GUI_STORAGESETTINGS_NOWORLD_ACTION: Click to **restrict** this group to a specific World
+GUI_STORAGESETTINGS_WORLD_ACTION: Click to allow this group in all Worlds
+GUI_STORAGESETTINGS_NOSERVER_ACTION: Click to **restrict **this group to this Server
+GUI_STORAGESETTINGS_SERVER_ACTION: Click to allow this group on all Servers
+GUI_STORAGESETTINGS_RESTRICTED_TO: Restricted to **%1**
+GUI_PASTESELECTION_PASTE_ACTION: Click to **paste** %1
 GUI_PERMEDITOR_MANUAL_TITLE: Type in Chat
 GUI_PERMEDITOR_MANUAL_ACTION: **Click** to type in the Permission
 GUI_PERMEDITOR_MANUAL_DIALOG_SUBTITLE: Type in a permission
