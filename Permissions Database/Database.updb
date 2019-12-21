@@ -4991,6 +4991,43 @@ StaffFacilities+sf.xraynotify.autotoggle+Auto toggle xraynotify alert when joini
 StaffFacilities+sf.xraynotify.bypass+Bypass a player from alerting staff of mining a specified ore
 StaffFacilities+sf.xraynotify.notify+Get notified when a player mines a specific ore
 StaffFacilities+sf.youtube+Allows access to use /youtube command+/youtube
+StaffPlus+staff.*+Grants all Permissions from the plugin
+StaffPlus+staff.alerts.mention+Permission for receiving mention alerts
+StaffPlus+staff.alerts.namechange+Permission for receiving name change alerts
+StaffPlus+staff.alerts.xray+Permission for receiving xray alerts
+StaffPlus+staff.blacklist+Permission for bypassing the word blacklist
+StaffPlus+staff.block+Permission for blocking listed commands at "blocked-commands" and "blocked-mode-commands"
+StaffPlus+staff.chat.clear+Permission for using "/chat clear"+/chat clear
+StaffPlus+staff.chat.slow+Permission for using "/chat slow"+/chat slow
+StaffPlus+staff.chat.toggle+Permission for using "/chat toggle"+/chat toggle
+StaffPlus+staff.compass+Permission for using the staff mode compass
+StaffPlus+staff.counter+Permission for the staff mode counter GUI
+StaffPlus+staff.cps+Permission for initializing clicks per second tests
+StaffPlus+staff.examine+Permission for using examine
+StaffPlus+staff.examine.modify+Permission for editing inventories with examine
+StaffPlus+staff.follow+Permission for using staff mode follow
+StaffPlus+staff.freeze+Permission for using freeze
+StaffPlus+staff.freeze.bypass+Permission for bypassing freeze
+StaffPlus+staff.gui+Permission for the staff mode GUI hub
+StaffPlus+staff.lockdown+Permission for locking/unlocking the server
+StaffPlus+staff.member+Permission for being noted as a staff member in the staff list command and for login
+StaffPlus+staff.mode+Permission for toggling staff mode+/staff
+StaffPlus+staff.random-teleport+Permission for using the staff mode random teleport
+StaffPlus+staff.report+Permission for clearing/getting player reports
+StaffPlus+staff.report.bypass+Permission for bypassing reports
+StaffPlus+staff.revive+Permission for giving a player's previous inventory back
+StaffPlus+staff.staffchat+Permission for using staff chat+/sc,/staffchat
+StaffPlus+staff.staffplus+Permission for using "/staffplus"+/staffplus
+StaffPlus+staff.staffplus.clearinv+Permission for using the clear inventory config
+StaffPlus+staff.staffplus.hideip+Use this for players who's ip should not be shown in examine mode
+StaffPlus+staff.staffplus.resetpassword+Permission for the "/resetPassword"+/resetPassword
+StaffPlus+staff.strip+Permission for using "/strip"+/strip
+StaffPlus+staff.tickets+Permission for managing tickets
+StaffPlus+staff.tp+Permission for using "/tp"+/tp
+StaffPlus+staff.vanish.list+Permission for using "/v list"+/v list,/vanish list
+StaffPlus+staff.vanish.total+Permission for using "/v total"+/v total,/vanish total
+StaffPlus+staff.warn+Permission for using "/warn" and clearing/getting player warnings+/warn
+StaffPlus+staff.warn.bypass+Permission for bypassing warnings
 StarterKit+starterkit+Allows access to everything in the plugin.
 StarterKit+starterkit.list+Allow a player to see what is in the kit.+/sk list
 StarterKit+starterkit.load+Allow a player to give a kit to anyone.
