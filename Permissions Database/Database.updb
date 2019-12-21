@@ -5979,39 +5979,40 @@ uSkyBlock+usb.party.join+Display the party GUI with information about your islan
 uSkyBlock+usb.party.kick+Remove a player from your island+/island kick [player]
 uSkyBlock+usb.party.leave+Leave your current island (If you are the party leader, you will keep the island and remove all other players)+/island leave
 uSkyBlock+usb.party.talk+Island talk between party members server wide+/partytalk,/ptalk,/ptk
-StaffPlus+staff.block+Permission for blocking listed commands at "blocked-commands" and "blocked-mode-commands
-StaffPlus+staff.report+Permission for clearing/getting player reports.
-StaffPlus+staff.report.bypass+Permission for bypassing reports.
-StaffPlus+staff.warn+Permission for using "/warn" and clearing/getting player warnings.+/warn, /warn (text)
-StaffPlus+staff.warn.bypass+Permission for bypassing warnings.
-StaffPlus+staff.staffchat+Permission for using staff chat.+/sc,/staffchat
-StaffPlus+staff.vanish.total+Permission for using "/v total"+/v total, /vanish total
+StaffPlus+staff.*+Grants all Permissions from the plugin
+StaffPlus+staff.block+Permission for blocking listed commands at "blocked-commands" and "blocked-mode-commands"
+StaffPlus+staff.report+Permission for clearing/getting player reports
+StaffPlus+staff.report.bypass+Permission for bypassing reports
+StaffPlus+staff.warn+Permission for using "/warn" and clearing/getting player warnings+/warn
+StaffPlus+staff.warn.bypass+Permission for bypassing warnings
+StaffPlus+staff.staffchat+Permission for using staff chat+/sc,/staffchat
+StaffPlus+staff.vanish.total+Permission for using "/v total"+/v total,/vanish total
 StaffPlus+staff.vanish.list+Permission for using "/v list"+/v list,/vanish list
 StaffPlus+staff.chat.clear+Permission for using "/chat clear"+/chat clear
 StaffPlus+staff.chat.toggle+Permission for using "/chat toggle"+/chat toggle
 StaffPlus+staff.chat.slow+Permission for using "/chat slow"+/chat slow
-StaffPlus+staff.blacklist+Permission for bypassing the word blacklist.
-StaffPlus+staff.tickets+Permission for managing tickets.
-StaffPlus+staff.alerts.mention+Permission for receiving mention alerts.
-StaffPlus+staff.alerts.namechange+Permission for receiving name change alerts.
-StaffPlus+staff.alerts.xray+Permission for receiving xray alerts.
-StaffPlus+staff.mode+Permission for toggling staff mode.+/staff
+StaffPlus+staff.blacklist+Permission for bypassing the word blacklist
+StaffPlus+staff.tickets+Permission for managing tickets
+StaffPlus+staff.alerts.mention+Permission for receiving mention alerts
+StaffPlus+staff.alerts.namechange+Permission for receiving name change alerts
+StaffPlus+staff.alerts.xray+Permission for receiving xray alerts
+StaffPlus+staff.mode+Permission for toggling staff mode+/staff
 StaffPlus+staff.compass+Permission for using the staff mode compass
 StaffPlus+staff.random-teleport+Permission for using the staff mode random teleport
 StaffPlus+staff.gui+Permission for the staff mode GUI hub
 StaffPlus+staff.counter+Permission for the staff mode counter GUI
-StaffPlus+staff.freeze+Permission for using freeze.
-StaffPlus+staff.freeze.bypass+Permission for bypassing freeze.
+StaffPlus+staff.freeze+Permission for using freeze
+StaffPlus+staff.freeze.bypass+Permission for bypassing freeze
 StaffPlus+staff.cps+Permission for initializing clicks per second tests
 StaffPlus+staff.examine+Permission for using examine
-StaffPlus+staff.examine.modify+Permission for editing inventories with examine.
+StaffPlus+staff.examine.modify+Permission for editing inventories with examine
 StaffPlus+staff.follow+Permission for using staff mode follow
-StaffPlus+staff.lockdown+Permission for locking/unlocking the server.
-StaffPlus+staff.revive+Permission for giving a player's previous inventory back.
-StaffPlus+staff.member+Permission for being noted as a staff member in the staff list command and for login.
-StaffPlus+staff.strip+Permission for using "/strip".+/strip
-StaffPlus+staff.tp+Permission for use /tp+/tp
-StaffPlus+staff.staffplus+/staffplus
+StaffPlus+staff.lockdown+Permission for locking/unlocking the server
+StaffPlus+staff.revive+Permission for giving a player's previous inventory back
+StaffPlus+staff.member+Permission for being noted as a staff member in the staff list command and for login
+StaffPlus+staff.strip+Permission for using "/strip"+/strip
+StaffPlus+staff.tp+Permission for using "/tp"+/tp
+StaffPlus+staff.staffplus+Permission for using "/staffplus"+/staffplus
 StaffPlus+staff.staffplus.hideip+Use this for players who's ip should not be shown in examine mode
 StaffPlus+staff.staffplus.clearinv+Permission for using the clear inventory config
-StaffPlus+staff.staffplus.resetpassword+Permission for using the /resetPassword command
+StaffPlus+staff.staffplus.resetpassword+Permission for the "/resetPassword"+/resetPassword
