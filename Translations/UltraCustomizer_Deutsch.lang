@@ -1,0 +1,55 @@
+#
+# Official Language File
+# To make your own language file, copy this file and edit the copy
+#
+# Changes made to this file will be reset!
+# Do not edit it!
+#
+
+ENABLE: Aktivieren
+ENABLED: Aktiv
+DISABLE: Deaktivieren
+DISABLED: Deaktiviert
+SETTINGS: Einstellungen
+DAY: Tag
+DAYS: Tage
+HOUR: Stunde
+HOURS: Stunden
+MINUTE: Minute
+MINUTES: Minuten
+SECOND: Sekunde
+SECONDS: Sekunden
+NONE: Nichts
+COMMAND_NOPERMISSION: Du hast keine **Berechtigung** für diesen Befehl
+COMMAND_NOCONSOLE: Dieser Befehl kann nicht in der Konsole ausgeführt werden
+GUI_SETTINGS_SELECTPAGE: Anklicken um Einstellungen anzusehen
+GUI_SETTINGS_PAGESELECTED: Diese Seite ist derzeit **ausgewält**
+GUI_SETTINGS_LANGUAGE_NAME: Sprache
+GUI_SETTINGS_MYSQL_NAME: MySQL Datenbank
+GUI_SETTINGS_MYSQL_EDITVALUE_ACTION: Anklicken um diesen Wert zu ändern
+GUI_SETTINGS_MYSQL_CURRENTVALUE: Derzeitiger Wert:
+GUI_SETTINGS_MYSQL_SETUP_TITLE_FIELDNAME: MySQL - %1
+GUI_SETTINGS_MYSQL_SETUP_TITLE_TYPEINVALUE: Wert eingeben
+GUI_SETTINGS_MYSQL_SETUP_TITLE: MySQL einrichten
+GUI_SETTINGS_MYSQL_SETUP_ACTION: Anklicken um MySQL einzurichten
+GUI_SETTINGS_MYSQL_SETUP_INFO: Dieses Feature benötigt eine externe MySQL-Datenbank
+GUI_SETTINGS_MYSQL_DISABLE_TITLE: MySQL deaktivieren
+GUI_SETTINGS_MYSQL_DISABLE_ACTION: Anklicken um MySQL zu deaktivieren.
+GUI_SETTINGS_MYSQL_RESTARTREQUIRED: Du wirst nach einem Neustart gefragt, um Änderungen anzuwenden
+GUI_SETTINGS_MYSQL_CANTCONNECT: Verbindung zu MySQL fehlgeschlagen
+GUI_SETTINGS_MYSQL_SAVE_TITLE: Testen & Speichern
+GUI_SETTINGS_MYSQL_SAVE_ACTION: Anklicken zum **testen** und **Speichern**
+GUI_SETTINGS_LANG_ACTION: Anklicken um diese Sprache **festzulegen**
+GUI_SETTINGS_LANG_SELECTED: Diese Sprache ist **derzeit** ausgewählt
+GUI_SETTINGS_LANG_PHRASES: Sätze
+GUI_SETTINGS_LANG_COVERAGE: Abdeckung
+GUI_PAGEABLE_SEARCH_TITLE: Suche
+GUI_PAGEABLE_SEARCH_ACTION: Anklicken zum Suchen
+GUI_PAGEABLE_NEXT_TITLE: Nächste Seite
+GUI_PAGEABLE_NEXT_ACTION: Anklicken um zur nächsten Seite zu kommen
+GUI_PAGEABLE_PREVIOUS_TITLE: Vorherige Seite
+GUI_PAGEABLE_PREVIOUS_ACTION: Anklicken um zur vorherigen Seite zu kommen
+GUI_PAGEABLE_SEARCH_CLOSE_ACTION: Anklicken um die Suche zu **schließen**
+GUI_PAGEABLE_SEARCH_TYPEIN: Schreib einen Suchbegriff hinein
+GUI_BACK_NAME: Zurück
+GUI_BACK_ACTION: Anklicken um zurück zu gehen
