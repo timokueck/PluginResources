@@ -1,47 +1,47 @@
-#ENABLE: enable
-#ENABLED: enabled
-#DISABLE: disable
-#DISABLED: disabled
-#SETTINGS: Settings
-#DAY: Day
-#DAYS: Days
-#HOUR: Hour
-#HOURS: Hours
-#MINUTE: Minute
-#MINUTES: Minutes
-#SECOND: Second
-#SECONDS: Seconds
-#NONE: None
-#COMMAND_NOPERMISSION: You don't have **access** to that command
-#COMMAND_NOCONSOLE: This command cannot be run through the console
-#GUI_SETTINGS_SELECTPAGE: Click to show Settings
-#GUI_SETTINGS_PAGESELECTED: This page is currently **selected**
-#GUI_SETTINGS_LANGUAGE_NAME: Language
-#GUI_SETTINGS_MYSQL_NAME: MySQL Database
-#GUI_SETTINGS_MYSQL_EDITVALUE_ACTION: Click to edit this value
-#GUI_SETTINGS_MYSQL_CURRENTVALUE: Current Value:
-#GUI_SETTINGS_MYSQL_SETUP_TITLE_FIELDNAME: MySQL - %1
-#GUI_SETTINGS_MYSQL_SETUP_TITLE_TYPEINVALUE: Type in the value
-#GUI_SETTINGS_MYSQL_SETUP_TITLE: Setup MySQL
-#GUI_SETTINGS_MYSQL_SETUP_ACTION: Click to enable MySQL
-#GUI_SETTINGS_MYSQL_SETUP_INFO: This requires an external MySQL Database to connect to
-#GUI_SETTINGS_MYSQL_DISABLE_TITLE: Disable MySQL
-#GUI_SETTINGS_MYSQL_DISABLE_ACTION: Click to disable MySQL
-#GUI_SETTINGS_MYSQL_RESTARTREQUIRED: You will be asked to restart to apply the changes
-#GUI_SETTINGS_MYSQL_CANTCONNECT: Could not connect to your MySQL
-#GUI_SETTINGS_MYSQL_SAVE_TITLE: Test & Save
-#GUI_SETTINGS_MYSQL_SAVE_ACTION: Click to **test** and **save**
-#GUI_SETTINGS_LANG_ACTION: Click to **select **this language
-#GUI_SETTINGS_LANG_SELECTED: This language is **currently** selected
-#GUI_SETTINGS_LANG_PHRASES: Phrases
-#GUI_SETTINGS_LANG_COVERAGE: Coverage
-#GUI_PAGEABLE_SEARCH_TITLE: Search
-#GUI_PAGEABLE_SEARCH_ACTION: Click to search
-#GUI_PAGEABLE_NEXT_TITLE: Next
-#GUI_PAGEABLE_NEXT_ACTION: Click to go to the next page
-#GUI_PAGEABLE_PREVIOUS_TITLE: Previous
-#GUI_PAGEABLE_PREVIOUS_ACTION: Click to go to the previous page
-#GUI_PAGEABLE_SEARCH_CLOSE_ACTION: Click to **close** the search
-#GUI_PAGEABLE_SEARCH_TYPEIN: Type in a search term
-#GUI_BACK_NAME: Back
-#GUI_BACK_ACTION: Click to go back
+ENABLE: activer
+ENABLED: activée
+DISABLE: désactiver
+DISABLED: désactivé
+SETTINGS: Paramètres
+DAY: Jour
+DAYS: Jours
+HOUR: Heure
+HOURS: Heures
+MINUTE: Minute
+MINUTES: Minutes
+SECOND: Seconde
+SECONDS: Secondes
+NONE: Rien
+COMMAND_NOPERMISSION: Tu n'as pas **accès** à cette commande
+COMMAND_NOCONSOLE: Cette commande ne peut pas être faite depuis la console
+GUI_SETTINGS_SELECTPAGE: Clique pour montrer les paramètres
+GUI_SETTINGS_PAGESELECTED: Cette page est actuellement sélectionner
+GUI_SETTINGS_LANGUAGE_NAME: Langage
+GUI_SETTINGS_MYSQL_NAME: MySQL DB
+GUI_SETTINGS_MYSQL_EDITVALUE_ACTION: Clique pour éditer cette valeur
+GUI_SETTINGS_MYSQL_CURRENTVALUE: Valeur actuelle :
+GUI_SETTINGS_MYSQL_SETUP_TITLE_FIELDNAME: MySQL - %1
+GUI_SETTINGS_MYSQL_SETUP_TITLE_TYPEINVALUE: Tape une valeur
+GUI_SETTINGS_MYSQL_SETUP_TITLE: Mise en route de MySQL
+GUI_SETTINGS_MYSQL_SETUP_ACTION: Clique pour activer MySQL
+GUI_SETTINGS_MYSQL_SETUP_INFO: Une base MySQL externe est obligatoire pour ça
+GUI_SETTINGS_MYSQL_DISABLE_TITLE: Désactiver MySQL
+GUI_SETTINGS_MYSQL_DISABLE_ACTION: Cliquer pour désactiver MySQL
+GUI_SETTINGS_MYSQL_RESTARTREQUIRED: Il faut redémarrer pour appliquer les changements
+GUI_SETTINGS_MYSQL_CANTCONNECT: Impossible de se connecter à la DB
+GUI_SETTINGS_MYSQL_SAVE_TITLE: Tester et sauvegarder
+GUI_SETTINGS_MYSQL_SAVE_ACTION: Cliquer pour **tester** et **sauvegarder**
+GUI_SETTINGS_LANG_ACTION: Cliquer pour **sélectionner** ce **langage*
+GUI_SETTINGS_LANG_SELECTED: Ce language est **sélectionner*
+GUI_SETTINGS_LANG_PHRASES: Phrases
+GUI_SETTINGS_LANG_COVERAGE: Fiabilité du langage
+GUI_PAGEABLE_SEARCH_TITLE: Chercher
+GUI_PAGEABLE_SEARCH_ACTION: Cliquer pour rechercher
+GUI_PAGEABLE_NEXT_TITLE: Suivant
+GUI_PAGEABLE_NEXT_ACTION: Cliquer pour aller à la prochaine page
+GUI_PAGEABLE_PREVIOUS_TITLE: Précedent
+GUI_PAGEABLE_PREVIOUS_ACTION: Cliquer pour aller à la précédente page
+GUI_PAGEABLE_SEARCH_CLOSE_ACTION: Cliquer pour **fermer** la recherche
+GUI_PAGEABLE_SEARCH_TYPEIN: Marquer un terme à rechercher
+GUI_BACK_NAME: Retour
+GUI_BACK_ACTION: Cliquer pour retourner en arrière
