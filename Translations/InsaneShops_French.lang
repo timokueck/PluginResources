@@ -1,91 +1,91 @@
-#SHOP: Magasin
-#SHOPS: Magasins
-#BUY: Acheter
-#TYPEIN: Tapez
-#ITEMS: Objets
-#SELL: Vendre
-#REVENUE: Revenu
-#TRANSACTIONS: Transactions
-#PURCHASING: Achat
-#BUYING: Achat
-#SELLING: Vente
-#PRICE: Prix
-#UNITS: Unitées
-#AMOUNT: Nombre
-#BUY_FOR: Acheter pour
-#SELL_FOR: Vendre pour
-#AVAILABLE: Disponible
-#PRICE_PER_ITEM: Prix par Objet
-#STOCKED_ITEMS: Objets en Stock
-#INCREASE: Augmenter
-#DECREASE: Réduire
-#QUANTITY: Quantité
-#CONFIRM: Confirmer
-#FOR: pour
-#YOU_WILL_RECEIVE: Vous recevrez
-#ENCHANTED: Enchanté
-#ITEMS_AVAILABLE: Objets Disponibles
-#CONTINUE: Continuer
-#MONEY_PAID: Prix payé
-#GUI_OVERVIEW_OPENSHOPS_ACTION: Cliquez ici pour ouvrir le Magasin
-#GUI_OVERVIEW_OPENSETTINGS_ACTION: Cliquez ici pour ouvrir les Options
-#GUI_SHOPSETTINGS_BUY_LEFTACTION: **Clic Gauche** pour **changer** le prix des achats
-#GUI_SHOPSETTINGS_BUY_QACTION: **Appuyez sur Q** pour désactiver les achats
-#GUI_SHOPSETTINGS_BUY_OTHERACTION: **Cliquez ici** pour activer les **Achats**
-#GUI_SHOPSETTINGS_BUY_EXPLANATION: Se vendra à **%1** par unité
-#GUI_SHOPSETTINGS_SELL_LEFTACTION: **Clic Gauche** pour **changer** le prix de vente
-#GUI_SHOPSETTINGS_SELL_QACTION: **Appuyez sur Q** pour désactiver la vente
-#GUI_SHOPSETTINGS_SELL_OTHERACTION: **Cliquez** pour activer la **Vente**
-#GUI_SHOPSETTINGS_SELL_EXPLANATION: Se vendra pour **%1** par unité
-#GUI_MONEYSELECTOR_TYPEIN_ACTION: **Cliquez** pour définir un prix
-#GUI_MONEYSELECTOR_INCREASE_ACTION: **Clic Gauche** pour ajouter **%1**
-#GUI_MONEYSELECTOR_DECREASE_ACTION: **Clic Gauche** pour enlever **%1**
-#GUI_MONEYSELECTOR_SWITCHUNIT: **Appuyez sur **[**Jeter Objet**]** pour changer le type
-#GUI_MONEYSELECTOR_CONFIRM_ACTION: Cliquez pour confirmer
-#GUI_MONEYSELECTOR_TYPEIN: Tapez un prix dans le chat
-#GUI_SHOP_NAV_SELECT_ACTION: Cliquez pour selectionner cette option
-#GUI_SHOP_NAV_SELECTED: Cette option est actuellement selectionnée
-#GUI_SHOP_NOSELLABLEITEMS_TITLE: Aucun objet trouvé
-#GUI_SHOP_NOSELLABLEITEMS_EXPLANATION: Aucun objet à vendre dans votre inventaire
-#GUI_SHOP_OUTOFSTOCK_TITLE: Rupture de Stock
-#GUI_SHOP_OUTOFSTOCK_EXPLANATION: Attendez que **%1** réapprovisionne son magasin
-#GUI_SHOP_REDUCE_TITLE: Reduire la quantité
-#GUI_SHOP_REDUCE_LEFTACTION: **Clic Gauche** pour enlever **1**
-#GUI_SHOP_REDUCE_RIGHTACTION: **Clic Droit** pour retirer **10**
-#GUI_SHOP_REDUCE_LIMIT: Vous ne pouvez plus **réduire** la quantité
-#GUI_SHOP_INCREASE_TITLE: Augmenter la quantité
-#GUI_SHOP_INCREASE_LEFTACTION: **Clic Gauche** pour ajouter **1**
-#GUI_SHOP_INCREASE_RIGHTACTION: **Clic Droit** pour ajouter **10**
-#GUI_SHOP_INCREASE_LIMIT: Vous ne pouvez plus **augmenter** la quantité
-#GUI_SHOP_PURCHASE_TITLE: Acheter
-#GUI_SHOP_PURCHASE_ACTION: Cliquez pour **acheter**
-#GUI_SHOP_PURCHASE_NOFUNDS: Vous ne possedez pas la somme demandée
-#GUI_SHOPBROWSER_SETTINGSACTION: **Cliquez** pour voir les paramètres
-#GUI_SHOPBROWSER_LEFTACTION: **Clic Gauche** pour **acheter**
-#GUI_SHOPBROWSER_RIGHTACTION: **Clic Droit** pour voir les paramètres
-#GUI_SHOPBROWSER_YOURSHOPINDICATOR: VOus vendez cet objet
-#GUI_SHOPCREATION_TITLE: Créer un magasin
-#GUI_SHOPCREATION_TITLEWITHAMOUNT: Vendre %1x cet objet
-#GUI_SHOPCREATION_INCREASE_ACTION: Cliquez augmenter la quantité
-#GUI_SHOPCREATION_REDUCE_ACTION: Cliquez pour réduire la quantité
-#GUI_SHOPCREATION_UNAVAILABLE_EXPLANATION: Cette option est indisponible
-#GUI_SHOPCREATION_CONTINUE_EXPLANATION: Cliquez pour continuer
-#GUI_SHOPSETTINGS_CONVERTADMINSHOP_TITLE: Convertir en Magasin Admin
-#GUI_SHOPSETTINGS_CONVERTADMINSHOP_ACTION: **Cliquez ici** pour le convertir
-#GUI_SHOPSETTINGS_STOCK_ACTION: Cliquez ici **gérer** les objets
-#GUI_SHOPSETTINGS_STOCK_REVENUE_IF_SOLD: Revenus totaux si vendus
-#GUI_SHOPSETTINGS_TRANSACTIONS_ACTION: Cliquez ici **voir** les transactions
-#GUI_SHOPSETTINGS_DELETE_TITLE: Fermer le Magasin
-#GUI_SHOPSETTINGS_DELETE_ACTION: Cliquez ici pour fermer le magasin
-#GUI_SHOPSETTINGS_DELETE_NEEDWITHDRAWING: Veuillez retirer tout les objets du magasin en premier
-#GUI_STOCKEDVIEW_TITLE: Objets en Stock
-#GUI_STOCKEDVIEW_ACTION: Cliquez ici pour **aller** dans votre inventaire
-#GUI_STOCKEDVIEW_INSTRUCTION: Ajoutez un objet en cliquant dessus depuis votre inventaire 
-#GUI_TRANSACTIONS_PURCHASETIME: acheté il y a **%1**
-#SHOP_CREATION_NOPERMISSION: Vous ne pouvez pas créer de magasin
-#SHOP_CREATION_INVALID_ITEM: Vous ne pouvez pas vendre cet objet
-#SHOP_CREATION_REACHED_LIMIT: Vous ne pouvez pas créer plus de **%1** Magasin
-#ACTIONBAR_NOTICES_OPENSHOP: **Clic Droit** pour ouvrir ce **Magasin**
-#ACTIONBAR_NOTICES_CREATESHOP: **Sneak + Clic Gauche** pour créer un nouveau magasin
-#MESSAGE_BUY_INVFULL: Votre inventaire est plein.
-#MESSAGE_BUY_COMPLETED: Achat de **%1x %2** pour **%3
+SHOP: Magasin
+SHOPS: Magasins
+BUY: Acheter
+TYPEIN: Tapez
+ITEMS: Objets
+SELL: Vendre
+REVENUE: Revenu
+TRANSACTIONS: Transactions
+PURCHASING: Achat
+BUYING: Achat
+SELLING: Vente
+PRICE: Prix
+UNITS: Unitées
+AMOUNT: Nombre
+BUY_FOR: Acheter pour
+SELL_FOR: Vendre pour
+AVAILABLE: Disponible
+PRICE_PER_ITEM: Prix par Objet
+STOCKED_ITEMS: Objets en Stock
+INCREASE: Augmenter
+DECREASE: Réduire
+QUANTITY: Quantité
+CONFIRM: Confirmer
+FOR: pour
+YOU_WILL_RECEIVE: Vous recevrez
+ENCHANTED: Enchanté
+ITEMS_AVAILABLE: Objets Disponibles
+CONTINUE: Continuer
+MONEY_PAID: Prix payé
+GUI_OVERVIEW_OPENSHOPS_ACTION: Cliquez ici pour ouvrir le Magasin
+GUI_OVERVIEW_OPENSETTINGS_ACTION: Cliquez ici pour ouvrir les Options
+GUI_SHOPSETTINGS_BUY_LEFTACTION: **Clic Gauche** pour **changer** le prix des achats
+GUI_SHOPSETTINGS_BUY_QACTION: **Appuyez sur Q** pour désactiver les achats
+GUI_SHOPSETTINGS_BUY_OTHERACTION: **Cliquez ici** pour activer les **Achats**
+GUI_SHOPSETTINGS_BUY_EXPLANATION: Se vendra à **%1** par unité
+GUI_SHOPSETTINGS_SELL_LEFTACTION: **Clic Gauche** pour **changer** le prix de vente
+GUI_SHOPSETTINGS_SELL_QACTION: **Appuyez sur Q** pour désactiver la vente
+GUI_SHOPSETTINGS_SELL_OTHERACTION: **Cliquez** pour activer la **Vente**
+GUI_SHOPSETTINGS_SELL_EXPLANATION: Se vendra pour **%1** par unité
+GUI_MONEYSELECTOR_TYPEIN_ACTION: **Cliquez** pour définir un prix
+GUI_MONEYSELECTOR_INCREASE_ACTION: **Clic Gauche** pour ajouter **%1**
+GUI_MONEYSELECTOR_DECREASE_ACTION: **Clic Gauche** pour enlever **%1**
+GUI_MONEYSELECTOR_SWITCHUNIT: **Appuyez sur **[**Jeter Objet**]** pour changer le type
+GUI_MONEYSELECTOR_CONFIRM_ACTION: Cliquez pour confirmer
+GUI_MONEYSELECTOR_TYPEIN: Tapez un prix dans le chat
+GUI_SHOP_NAV_SELECT_ACTION: Cliquez pour selectionner cette option
+GUI_SHOP_NAV_SELECTED: Cette option est actuellement selectionnée
+GUI_SHOP_NOSELLABLEITEMS_TITLE: Aucun objet trouvé
+GUI_SHOP_NOSELLABLEITEMS_EXPLANATION: Aucun objet à vendre dans votre inventaire
+GUI_SHOP_OUTOFSTOCK_TITLE: Rupture de Stock
+GUI_SHOP_OUTOFSTOCK_EXPLANATION: Attendez que **%1** réapprovisionne son magasin
+GUI_SHOP_REDUCE_TITLE: Reduire la quantité
+GUI_SHOP_REDUCE_LEFTACTION: **Clic Gauche** pour enlever **1**
+GUI_SHOP_REDUCE_RIGHTACTION: **Clic Droit** pour retirer **10**
+GUI_SHOP_REDUCE_LIMIT: Vous ne pouvez plus **réduire** la quantité
+GUI_SHOP_INCREASE_TITLE: Augmenter la quantité
+GUI_SHOP_INCREASE_LEFTACTION: **Clic Gauche** pour ajouter **1**
+GUI_SHOP_INCREASE_RIGHTACTION: **Clic Droit** pour ajouter **10**
+GUI_SHOP_INCREASE_LIMIT: Vous ne pouvez plus **augmenter** la quantité
+GUI_SHOP_PURCHASE_TITLE: Acheter
+GUI_SHOP_PURCHASE_ACTION: Cliquez pour **acheter**
+GUI_SHOP_PURCHASE_NOFUNDS: Vous ne possedez pas la somme demandée
+GUI_SHOPBROWSER_SETTINGSACTION: **Cliquez** pour voir les paramètres
+GUI_SHOPBROWSER_LEFTACTION: **Clic Gauche** pour **acheter**
+GUI_SHOPBROWSER_RIGHTACTION: **Clic Droit** pour voir les paramètres
+GUI_SHOPBROWSER_YOURSHOPINDICATOR: VOus vendez cet objet
+GUI_SHOPCREATION_TITLE: Créer un magasin
+GUI_SHOPCREATION_TITLEWITHAMOUNT: Vendre %1x cet objet
+GUI_SHOPCREATION_INCREASE_ACTION: Cliquez augmenter la quantité
+GUI_SHOPCREATION_REDUCE_ACTION: Cliquez pour réduire la quantité
+GUI_SHOPCREATION_UNAVAILABLE_EXPLANATION: Cette option est indisponible
+GUI_SHOPCREATION_CONTINUE_EXPLANATION: Cliquez pour continuer
+GUI_SHOPSETTINGS_CONVERTADMINSHOP_TITLE: Convertir en Magasin Admin
+GUI_SHOPSETTINGS_CONVERTADMINSHOP_ACTION: **Cliquez ici** pour le convertir
+GUI_SHOPSETTINGS_STOCK_ACTION: Cliquez ici **gérer** les objets
+GUI_SHOPSETTINGS_STOCK_REVENUE_IF_SOLD: Revenus totaux si vendus
+GUI_SHOPSETTINGS_TRANSACTIONS_ACTION: Cliquez ici **voir** les transactions
+GUI_SHOPSETTINGS_DELETE_TITLE: Fermer le Magasin
+GUI_SHOPSETTINGS_DELETE_ACTION: Cliquez ici pour fermer le magasin
+GUI_SHOPSETTINGS_DELETE_NEEDWITHDRAWING: Veuillez retirer tout les objets du magasin en premier
+GUI_STOCKEDVIEW_TITLE: Objets en Stock
+GUI_STOCKEDVIEW_ACTION: Cliquez ici pour **aller** dans votre inventaire
+GUI_STOCKEDVIEW_INSTRUCTION: Ajoutez un objet en cliquant dessus depuis votre inventaire 
+GUI_TRANSACTIONS_PURCHASETIME: acheté il y a **%1**
+SHOP_CREATION_NOPERMISSION: Vous ne pouvez pas créer de magasin
+SHOP_CREATION_INVALID_ITEM: Vous ne pouvez pas vendre cet objet
+SHOP_CREATION_REACHED_LIMIT: Vous ne pouvez pas créer plus de **%1** Magasin
+ACTIONBAR_NOTICES_OPENSHOP: **Clic Droit** pour ouvrir ce **Magasin**
+ACTIONBAR_NOTICES_CREATESHOP: **Sneak + Clic Gauche** pour créer un nouveau magasin
+MESSAGE_BUY_INVFULL: Votre inventaire est plein.
+MESSAGE_BUY_COMPLETED: Achat de **%1x %2** pour **%3
