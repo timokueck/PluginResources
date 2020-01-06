@@ -693,7 +693,7 @@ Bukkit+minecraft.command.testfor+Ability to use the testfor command (tests for p
 Bukkit+minecraft.command.testforblock+Ability to use the testforblock command (tests if the block at target location has a name with generalData and dataTag)+/testforblock
 Bukkit+minecraft.command.time+Ability to use the time command (add or set the world time)+/time
 Bukkit+minecraft.command.toggledownfall+Ability to use the toggledownfall command (toggles rain or snow in the current world)+/toggledownfall
-Bukkit+minecraft.command.tp+Ability to use the tp command (teleports player1 to the same location as player2)+/tp
+Bukkit+minecraft.command.teleport+Ability to use the tp command (teleports player1 to the same location as player2)+/tp
 Bukkit+minecraft.command.weather+Ability to use the weather command (changes the weather in-game)+/weather
 Bukkit+minecraft.command.whitelist+Ability to use the whitelist command (complex command to manage the whitelist)+/whitelist on,/whitelist off,/whitelist list,/whitelist reload
 Bukkit+minecraft.command.xp+Ability to use the xp command (gives the specified player a certain amount of experience)+/xp
