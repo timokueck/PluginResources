@@ -2424,6 +2424,27 @@ Friends3_0+Friends.Commands.Unblock+Unblocks a player.+/friends unblock,/f unblo
 Friends3_0+Friends.Use+Opens the Gui.+/friends,/friends help,/f,/f help
 Gravestones+gravestones.infinite+Get a grave when you die which will never expire.
 Gravestones+gravestones.none+Don't get a gravestone when you die.}
+gravy+gravy.reload+reload the plugin+gravy reload
+gravy+gravy.list+list graves+gravy list
+gravy+gravy.list.player+list grave(s) of <player>+gravy list <player>
+gravy+gravy.recover+teleport to your grave (only if in same world)+gravy recover
+gravy+gravy.recover.player+teleport <player> to his grave (only if in same world)+gravy recover <player>
+gravy+gravy.permission+plugin permission list+gravy permission
+gravy+gravy.worlds.list+list worlds+gravy worlds
+gravy+gravy.worlds.enable+enable graves in <world_name>+gravy enable <world_name>
+gravy+gravy.worlds.disable+disable graves in <world_name>+gravy disable <world_name>
+gravy+gravy.token.give+give grave token(s) to <player>+gravy give <player> token <amount>
+gravy+gravy.break+break any grave
+gravy+gravy.protected+players with permission [gravy.break] can't break your grave
+gravy+gravy.notimer+infinite grave timer
+gravy+gravy.grave+a grave spawn when the player dies
+gravy+gravy.info+player can see the grave information
+gravy+gravy.updater+see the update link in chat
+gravy+gravy.token.use+let the player use the token (if activated in config)
+gravy+gravy.token.craft+let the player craft the token (if activated in config)
+gravy+gravy.token.drop+let the player drop the token (if activated in config)
+gravy+gravy.money.use+player can spent money for the grave to spawn [vault]
+gravy+gravy.money.nocost+free grave [vault] 
 GriefPrevention+griefprevention.adjustclaimblocks+ 	Allows the player to adjust player's bonus claim blocks amount
 GriefPrevention+griefprevention.adminclaims+Allows creating, deleting and building in administrative claims
 GriefPrevention+griefprevention.buysellclaimb�locks+ 	This permission is granted to everyone by default and allows the player the ability to buy/sell claim blocks
