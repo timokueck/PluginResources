@@ -4598,9 +4598,22 @@ SkillsPro+skills.setxp+Adds or removes from specified players skill XP.+/skill s
 SkillsPro+skills.startsoulboost+An unknown description
 SkillsPro+skills.startxpboost+Starts an xp boost event server-wide.+/skill startxpboost [time in min] [multiplier]
 SkillsPro+skills.stat+Opens a GUI where the player can add statpoints to his STR, DEX, INT or DEF.+/skill stat
-SkinsRestorer+skinsrestorer.cmds+Admin commands+/sr set,/sr reload,/sr props,/sr drop
 SkinsRestorer+skinsrestorer.playercmds+Players Commands+/skin ,/skins
 SkinsRestorer+skinsrestorer.playercmds.menu+PlayersSkins Menu+/skins
+SkinsRestorer+skinsrestorer.admincommand+ Allows access to the main "/sr" commands.+/sr
+SkinsRestorer+skinsrestorer.admincommand.drop+ Allows access to removes a .SKIN file.+/drop
+SkinsRestorer+skinsrestorer.admincommand.props+ Allows access to get the skinprops of a player.+/props
+SkinsRestorer+skinsrestorer.admincommand.status+ Allows access to /sr status.+/sr status
+SkinsRestorer+skinsrestorer.bypasscooldown+ Bypasses any set cooldowns in the config.
+SkinsRestorer+skinsrestorer.bypassdisabled+ Allows access to disabled skins in the config.
+SkinsRestorer+skinsrestorer.cmds+Admin commands+/sr set,/sr reload,/sr props,/sr drop
+SkinsRestorer+skinsrestorer.command+Allows access to the main "/skin" commands.+/skin
+SkinsRestorer+skinsrestorer.command.clear+ Allows access to clear your skin.+/clear
+SkinsRestorer+skinsrestorer.command.clear.other+ Allows access to clear a player skin.
+SkinsRestorer+skinsrestorer.command.set+ Allows access to change your skin.+/set
+SkinsRestorer+skinsrestorer.command.set.other+ Allows access to set a player skin.
+SkinsRestorer+skinsrestorer.command.update+ Allows access to update your skin.+/update
+SkinsRestorer+skinsrestorer.command.update.other+ Allows access to update a player skin.
 SkyWardrobe+swd.admin.addhat+To add a new hat
 SkyWardrobe+swd.admin.all+To all admin features
 SkyWardrobe+swd.admin.help+Help admin command
