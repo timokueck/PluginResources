@@ -31,13 +31,13 @@ Please also include a link to the plugin page/the page that shows the permission
 
 Basic Format:
 
-* ``(PluginName)+(Permission)+(Description)``
+* ``(PluginName)+(Permission)+(Description)+(OPTIONAL Command)``
 
 Example:
 
 * ``Essentials+essentials.fly+Allows the player to fly``
 
-Example with Command:
+Example with a Command:
 
 * ``Essentials+essentials.fly+Allows the player to fly+/fly``
 ---
