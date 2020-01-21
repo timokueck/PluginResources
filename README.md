@@ -40,4 +40,8 @@ Example:
 Example with a Command:
 
 * ``Essentials+essentials.fly+Allows the player to fly+/fly``
+
+Example with multiple Commands:
+
+* ``Essentials+essentials.fly+Allows the player to fly+/fly,/playerfly``
 ---
