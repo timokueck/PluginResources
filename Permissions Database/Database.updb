@@ -203,6 +203,9 @@ AdvancedBan+ab.warn.undo+To use the command.+/unwarn
 AdvancedBan+ab.warns.other+See your own or a player's warnings.+/warns
 AdvancedBan+ab.warns.own+See your own warnings.+/warns
 AdvancedCraftingTable+advancedcraftingtable.admin+ to maintain the base Command /advancedcraftingtable+/advancedcraftingtable
+AdvancedEnchantments+ae.admin+gives access to reload, add, and delete commands, and notifies of updates
+AdvancedEnchantments+ae.enchant.*+gives the player access to use All enchantments (enchantments will not work without this permission node)
+AdvancedEnchantments+ae.curse.*+gives the player access to use All curses (curses will not work without this permission node)
 AdvancedHelp+help.[categoryName]+allows players to view a specific category, only need this permission if the 'default' is set to false.
 AdvancedHelp+help.override+when using /? it will show bukkit help pages not AdvancedHelp's help pages.
 AdvancedHelp+help.reload+for admins to reload config+/ahelp reload
