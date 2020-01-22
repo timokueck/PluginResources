@@ -3,7 +3,7 @@ A repository holding translations and other resources for Tech's Spigot Plugins
 
 ## How to contribute translations
 
-You are speaking a different language? Thats great because we need you to help us translate our work into other languages. The easiest way to contribute is to simply browse through the files [here](https://github.com/TechsCode/PluginResources/tree/master/Translations) and replace the english phrases.
+You are speaking a different language? That's great because we need you to help us translating our work into other languages. The easiest way to contribute is to simply browse through the files [here](https://github.com/TechsCode/PluginResources/tree/master/Translations) and replace the english phrases.
 
 ---
 ### Steps to Contribute
