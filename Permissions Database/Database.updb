@@ -6041,3 +6041,4 @@ uSkyBlock+usb.party.join+Display the party GUI with information about your islan
 uSkyBlock+usb.party.kick+Remove a player from your island+/island kick [player]
 uSkyBlock+usb.party.leave+Leave your current island (If you are the party leader, you will keep the island and remove all other players)+/island leave
 uSkyBlock+usb.party.talk+Island talk between party members server wide+/partytalk,/ptalk,/ptk
+bungeecord+bungeecord.command.server+Allow to use /server+/server [server]
