@@ -2553,27 +2553,16 @@ Hawn+hawn.sign.color+Allows the player to use color in their signs
 Hawn+hawn.staff.seevanished+Allows the player to see vanished players
 Hawn+hawn.use.chatcolor.chat+Allows the player to use color in their chat messages
 Hawn+hawn.use.gui.emojilist+Allows the player to see a list of emoji's+/emoji
-HeadDatabase+headdb.admin+reloads config.+/hdb reload,/hdb update,/hdb random,/hdb give
-HeadDatabase+headdb.allowBuy.alphabet+allows the player to buy heads from alphabet.
-HeadDatabase+headdb.allowBuy.blocks+allows the player to buy heads from blocks.
-HeadDatabase+headdb.allowBuy.characters+allows the player to buy heads from characters.
-HeadDatabase+headdb.allowBuy.colors+allows the player to buy heads from colors.
-HeadDatabase+headdb.allowBuy.custom+allows the player to buy heads from custom.
-HeadDatabase+headdb.allowBuy.decoration+allows the player to buy heads from decoration.
-HeadDatabase+headdb.allowBuy.devices+allows the player to buy heads from devices.
-HeadDatabase+headdb.allowBuy.food+allows the player to buy heads from food.
-HeadDatabase+headdb.allowBuy.mobs+allows the player to buy heads from mobs.
-HeadDatabase+headdb.free.*+makes all sections free for that player.
-HeadDatabase+headdb.free.alphabet+makes certain sections free for alphabet.
-HeadDatabase+headdb.free.blocks+makes certain sections free for blocks.
-HeadDatabase+headdb.free.characters+makes certain sections free for characters.
-HeadDatabase+headdb.free.colors+makes certain sections free for colors.
-HeadDatabase+headdb.free.custom+makes certain sections free for custom.
-HeadDatabase+headdb.free.decoration+makes certain sections free for decoration.
-HeadDatabase+headdb.free.devices+makes certain sections free for devices.
-HeadDatabase+headdb.free.food+makes certain sections free for food.
-HeadDatabase+headdb.free.mobs+makes certain sections free for mobs.
-HeadDatabase+headdb.open+opens the user interface.+/headdb,/hdb,/hdb info,/hdb Category,/hdb search
+HeadDatabase+headdb.open+Allows the player to open the user interface, get info about the plugin and to search for heads.+/headdb,/hdb,/heads,/hdb info,/hdb search
+HeadDatabase.headdb.admin+Allows the player to use several admin commands.+/hdb reload,/hdb random,/hdb open,/hdb give,/hdb base64
+HeadDatabase.headdb.admin.showid+Allows the player to show the IDs of the heads.
+HeadDatabase.headdb.allow.buy.*+Allows the player to buy all heads.
+HeadDatabase.headdb.allow.buy.[category]+!Template! Allows the player to buy heads from a specific category.
+HeadDatabase.headdb.category.[category]+!Template! Allows the player to see heads from a specific category.
+HeadDatabase.headdb.disabled+Allows the player to see disabled categories.
+HeadDatabase.headdb.free.[category]+!Template! Makes a specific category free for the player.
+HeadDatabase.headdb.online.hide+Hides the player from the Online-Players category.
+HeadDatabase.headdb.phead+Allows the player to give a player head to themself.+/playerhead,/phead,/playerh
 Heads+heads.add+Permission to use the /heads add command to add heads to the menu.
 Heads+heads.bypasscost+Permission to bypass having to pay for Heads
 Heads+heads.category.<category>+Permission to use a specific category in the menu. All players should have these permissions by default, so you will have to add them as negative permissions to stop someone using a category
