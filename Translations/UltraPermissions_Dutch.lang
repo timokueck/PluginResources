@@ -1,12 +1,12 @@
 OVERVIEW: Overzicht
 PERMISSION: Machtiging
-PERMISSION_NODES: Permissie knooppunten
+PERMISSION_NODES: Zelfde machtigingen als anderen groepen
 PERMISSIONS: Machtigingen
 DEFAULT_PERMISSIONS: Standaard machtigingen
 GROUP: Groep
 GROUPS: Groeps
 DEFAULT_GROUP: Standaard Groep
-INHERITED_GROUPS: Inherited Groeps
+INHERITED_GROUPS: Groepen die onder groepen vallen
 PLAYER: Speler
 SERVER: Server
 SELECTED: Selecteren
@@ -18,13 +18,13 @@ PREFIX: Voorvoegsel
 SUFFIX: Achtervoegsel
 OPTIONS: optie's
 SERVERNAME: Server Naam
-DONATIONS: Donations
-ADVANTAGES: Advantages
+DONATIONS: Donaties
+ADVANTAGES: Voordelen
 RECOMMENDED: Aangeraden
 SETTINGS: Instellingen
 PERMISSIONLOG: Machtiging Logboek
-EDITING: Editing
-ADD: toevoegen
+EDITING: Aanpassen
+ADD: Toevoegen
 TIME_FOR: voor
 COMMAND_INVALID_ARGS: Ongeldige argumenten
 COMMAND_NOTFOUND: Commando niet gevonden
