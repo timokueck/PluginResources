@@ -35,13 +35,17 @@ Basic Format:
 
 Example:
 
-* ``Essentials+essentials.fly+Allows the player to fly``
+* ``Essentials+essentials.fly+Allows the player to fly.``
 
 Example with a Command:
 
-* ``Essentials+essentials.fly+Allows the player to fly+/fly``
+* ``Essentials+essentials.fly+Allows the player to fly.+/fly``
 
 Example with multiple Commands:
 
-* ``Essentials+essentials.fly+Allows the player to fly+/fly,/playerfly``
+* ``Essentials+essentials.fly+Allows the player to fly.+/fly,/playerfly``
+
+Example with a template:
+
+* ``Essentials+essentials.fly.[world]+Allows the player to fly in a specific world.``
 ---
