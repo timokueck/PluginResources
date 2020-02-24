@@ -2629,10 +2629,11 @@ HydraChat+hydrachat.admin+Use of the Chat Click to Edit feature
 HydraChat+hydrachat.cmd.help+Show you all information you need!+.help,?
 HydraChat+hydrachat.reload+Reload the Config.yml+.rlconfig,.reloadconfig,.configreload
 HydraChat+hydrachat.use+This commands opends the GUI to control the chat.+/hydra
-IllegalStack+illegalstack.admin+Ability to use the protections command (lists all protections and their status) and to toggle the status of protections+/istack protections
-IllegalStack+illegalstack.help+Ability to use the istack command (lists all available commands by the plugin)+/istack
-IllegalStack.illegalstack.notify+Specifies the users that are allowed to receive notifications about offenses
-IllegalStack.illegalstack.overstack+Specifies the users that are allowed to have items in a stack size which is greater than vanilla
+IllegalStack+illegalstack.admin+Allows the player to list all protections and toggle their status.+/istack protections
+IllegalStack+illegalstack.help+Allows the player to list all available commands of the plugin.+/istack
+IllegalStack.illegalstack.enchantbypass+Allows the player to have items that break the vanilla enchantment rules.
+IllegalStack.illegalstack.notify+Allows the player to receive notifications about offenses.
+IllegalStack.illegalstack.overstack+Allows the player to have oversized stacks.
 Industrial-MC+industrial.create.jetpack+allows players to create Jetpacks.
 Industrial-MC+industrial.create.powertool+allows players to create Rechargeable Tools.
 Industrial-MC+industrial.creative+Opens the Industrial-MC Creative Menu.+/inc
