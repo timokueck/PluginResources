@@ -2449,6 +2449,17 @@ GriefPrevention+griefprevention.siegeimmune+Makes a player immune to the /siege 
 GriefPrevention+griefprevention.spam+Allows the player to bypass the spam protection.
 GriefPrevention+griefprevention.transferclaim+Grants access to the /transferclaim command.+/transferclaim
 GriefPrevention+griefprevention.visualizenearbyclaims+s 	Allows the player to shift+right click with investigation tool (stick) in hand to see all nearby land claims.
+HackedServer+hackedserver.alert+Allows the player to receive alerts when a player triggers HackedServer.
+HackedServer+hackedserver.bypass+Allows the player to bypass the alert when joining the server.
+HackedServer+hackedserver.check+Allows the player to check another player's version.+/hackedserver check,/hs check
+HackedServer+hackedserver.forge.check+Allows the player to check another player's forge mods.+/hackedserver forge check,/hs forge check
+HackedServer+hackedserver.forge.inv+Allows the player to use HackedServer's forge inventory.+/hackedserver forge inv,/hs forge inv
+HackedServer+hackedserver.forge.list+Allows the player to list all forge users.+/hackedserver forge list,/hs forge list
+HackedServer+hackedserver.help+Allows the player to access the help.+/hackedserver help,/hs help
+HackedServer+hackedserver.inv+Allows the player to use HackedServer's inventory.+/hackedserver inv,/hs inv
+HackedServer+hackedserver.knowexistence+Base command to be able to use commands.
+HackedServer+hackedserver.list+Allows the player to list all non vanilla players.+/hackedserver list,/hs list
+HackedServer+hackedserver.reload+Allows the player to reload the plugin.+/hackedserver reload,/hs reload
 Hawn+hawn.admin+Baseline admin permission and grants access to set the spawn+/setspawn,/delspawn
 Hawn+hawn.admin.*+Gives the player access to all admin commands
 Hawn+hawn.admin.command.bypassbuild+The player can bypass build protection temporarily+/hawn build
