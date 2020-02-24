@@ -3,15 +3,15 @@ ENABLED: aktiviert
 DISABLE: deaktivieren
 DISABLED: deaktiviert
 SETTINGS: Einstellungen
-#DAY: Day
-#DAYS: Days
-#HOUR: Hour
-#HOURS: Hours
+#DAY: Tag
+#DAYS: Tage
+#HOUR: Stunde
+#HOURS: Stunden
 #MINUTE: Minute
-#MINUTES: Minutes
-#SECOND: Second
-#SECONDS: Seconds
-NONE: None
+#MINUTES: Minuten
+#SECOND: Sekunde
+#SECONDS: Sekunden
+NONE: Nichts
 COMMAND_NOPERMISSION: Du hast keinen **Zugriff** auf diesen Befehl
 COMMAND_NOCONSOLE: Dieser Befehl kann nicht in der Konsole ausgeführt werden
 GUI_SETTINGS_SELECTPAGE: Klicke um Einstellungen anzuzeigen
