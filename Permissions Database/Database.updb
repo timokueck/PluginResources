@@ -5365,6 +5365,11 @@ UltimateShops+ushops.make+Gives perms to make shops
 UltimateShops+ushops.makeshops.[number]+Gives perms to make a maximum of # shops (requires ushops.make). Without this permission users can make unlimited shops.
 UltimateShops+ushops.tag.[tag]+Gives perms to use shops that have that TAG
 UltimateShops+ushops.user+Gives perms to use shops
+UltimateStatistics+ultimatestatistics.admin+Grants the player all permissions of the plugin.
+UltimateStatistics+ultimatestatistics.reload+Allows the player to reload the plugin.+/ustats reload,/ustats rl
+UltimateStatistics+ultimatestatistics.reset+Allows the player to reset another player's data.+/ustats reset
+UltimateStatistics+ultimatestatistics.view+Allows the player to see their own statistics.+/stats
+UltimateStatistics+ultimatestatistics.view.others+Allows the player to see other player's statistics.+/stats
 Ultimate_Name_Color+UNC.admin+Allow to Reload the plugin and reset players.+/name reload,/name reset
 Ultimate_Name_Color+chat.*+Allow the player to change there Name in every color in Chat.
 Ultimate_Name_Color+chat.aqua+Allow to change there Chat name in aqua.
