@@ -5109,19 +5109,18 @@ SurvivalGames+sg.unblockcommands+Allows players to execute commands while in sg.
 SurvivalGames+sg.vote.2+Allows to vote for 2 maps.
 SurvivalGames+sg.vote.3+Allows to vote for 3 maps.
 SurvivalGames+sg.worldmanager+Allow the player to world manage the maps of SurvivalGames.+/sg WorldManager
-TAB+tab.admin+Grants all permissions from the plugin
-TAB+tab.change+Ability to use all change commands+/tab tabprefix,/tab tagprefix,/tab tabsuffix,/tab tagsuffix,/tab abovename,/tab belowname,/tab customtagname,/tab customtabname
-TAB+tab.change.abovename+Ability to use the abovename command (sets a line above a name of a player)+/tab abovename
-TAB+tab.change.belowname+Ability to use the belowname command (sets a line below a name of a player)+/tab belowname
-TAB+tab.change.customtabname+Ability to use the customtabname command (sets the name of a group or a player in the tab list)+/tab customtabname
-TAB+tab.change.customtagname+Ability to use the customtagname command (sets the name of a group or a player in the name tag)+/tab customtagname
-TAB+tab.change.tabprefix+Ability to use the tabprefix command (sets a prefix in the tab list to a group or a player)+/tab tabprefix
-TAB+tab.change.tabsuffix+Ability to use the tabsuffix command (sets a suffix in the tab list to a group or a player)+/tab tabsuffix
-TAB+tab.change.tagprefix+Ability to use the tagprefix command (sets a prefix in the name tag to a group or a player)+/tab tagprefix
-TAB+tab.change.tagsuffix+Ability to use the tagsuffix command (sets a suffix in the name tag to a group or a player)+/tab tagsuffix
-TAB+tab.debug+Ability to use the debug command (shows internal information about a player)+/tab debug
-TAB+tab.reload+Ability to use the reload command (reloads the plugin configuration)+/tab reload
-TAB+tab.remove+Ability to use the remove command (removes all data from a requested group or a player)+/tab remove
+TAB+tab.admin+Allows the player to use all commands of the plugin.
+TAB+tab.announce.bar+Allows the player to send a boss bar to all players for a given amount of seconds.+/tab announce bar
+TAB+tab.bossbar.[bossbar]+Allows the player to see a specific boss bar.
+TAB+tab.bypass+Allows the player to see everyone on the server despite per-world-playerlist is enabled.
+TAB+tab.change.[property]+Allows the player to change properties of a player or group.
+TAB+tab.cpu+Allows the player to see the approximate CPU usage of the plugin from the last minute.+/tab cpu
+TAB+tab.debug+Allows the player to see info about another player.+/tab debug
+TAB+tab.ntpreview+Allows the player to see their own name tag.+/tab ntpreview
+TAB+tab.parse+Allows the player to parse a given text to see what is written into placeholders.+/tab parse
+TAB+tab.reload+Allows the player to reload the plugin's configuration.+/tab reload
+TAB+tab.remove+Allows the player to remove all direct data from a player or a group.
+TAB+tab.staff+Allows the player to be counted in the %staffonline% and %canseestaffonline% placeholders.
 TCChallenge+tcchallenge.admin+Grants ability to right-click any tree heart log or pylon and access the GUIs AND makes the player a Member of every tree on the server
 TCChallenge+tcchallenge.admin.gui+Grants ability to use /tcchallenge command
 TCChallenge+tcchallenge.benchmark+Displays the Root Task benchmark in the actionbar
