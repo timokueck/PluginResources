@@ -2151,6 +2151,32 @@ Essentials+essentials.whois+Allow access to the /whois command.+/whois
 Essentials+essentials.workbench+Allow access to the /workbench command.+/workbench
 Essentials+essentials.world+Allow access to the /world command.+/world
 Essentials+essentials.worth+Allow access to the /worth command.+worth
+EZColors+ezcolors.*+Grants the player all permissions of the plugin.
+EZColors+ezcolors.color.*+Allows the player to use all colors.
+EZColors+ezcolors.color.aqua+Allows the player to use the color aqua.+/etcolors aqua
+EZColors+ezcolors.color.black+Allows the player to use the color black.+/etcolors black
+EZColors+ezcolors.color.blue+Allows the player to use the color blue.+/etcolors blue
+EZColors+ezcolors.color.custom+Allows the player to use custom colors.
+EZColors+ezcolors.color.cyan+Allows the player to use the color cyan.+/etcolors cyan
+EZColors+ezcolors.color.darkgray+Allows the player to use the color darkgray.+/etcolors darkgray
+EZColors+ezcolors.color.darkred+Allows the player to use the color darkred.+/etcolors darkred
+EZColors+ezcolors.color.gold+Allows the player to use the color gold.+/etcolors gold
+EZColors+ezcolors.color.gray+Allows the player to use the color gray.+/etcolors gray
+EZColors+ezcolors.color.green+Allows the player to use the color green.+/etcolors green
+EZColors+ezcolors.color.lightblue+Allows the player to use the color lightblue.+/etcolors lightblue
+EZColors+ezcolors.color.lime+Allows the player to use the color lime.+/etcolors lime
+EZColors+ezcolors.color.pink+Allows the player to use the color pink.+/etcolors pink
+EZColors+ezcolors.color.purple+Allows the player to use the color purple.+/etcolors purple
+EZColors+ezcolors.color.rainbow+Allows the player to use the color rainbow.+/etcolors rainbow
+EZColors+ezcolors.color.red+Allows the player to use the color red.+/etcolors red
+EZColors+ezcolors.color.reset+Allows the player to reset their color.+/ezcolors reset
+EZColors+ezcolors.color.white+Allows the player to use the color white.+/etcolors white
+EZColors+ezcolors.color.yellow+Allows the player to use the color yellow.+/etcolors yellow
+EZColors+ezcolors.gui+Allows the player to open the chat color GUI.+/ezcolors
+EZColors+ezcolors.reload+Allows the player to reload the plugin.+/ezcolors reload
+EZColors+ezcolors.languages+Allows the player to open the language GUI.+/ezcolors languages
+EZColors+ezcolors.showlanguage+Allows the player to see the language items in the GUI.
+EZColors+ezcolors.showrainbow+Allows the player to see the rainbow color item in the GUI.
 FabledSkyBlock+fabledskyblock.*+Grants every permission and command.
 FabledSkyBlock+fabledskyblock.admin.*+Grants every admin permission and command.
 FabledSkyBlock+fabledskyblock.admin.addupgrade+Allows admin to add an upgrade to a player's island.+/island admin addupgrade
