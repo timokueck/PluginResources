@@ -4671,32 +4671,31 @@ Slimefun+slimefun.cheat.researches+Allows you to do /sf research.+/sf research
 Slimefun+slimefun.command.timings+Allows you to do /sf timings.+/sf timings
 Slimefun+slimefun.inventory.bypass+Allows you to open all Slimefun Machines in protected Regions.
 Slimefun+slimefun.stats.others+Allows you to see other Players Stats.+/sf stats
-Spartan+spartan.*+Grants all permissions from the plugin
-Spartan+spartan.admin+Grants all permissions from the plugin
-Spartan+spartan.ban+Ability to use the ban command (bans the target player from the server)+/spartan ban
-Spartan+spartan.ban_info+Ability to use the ban-info and ban-list command (shows a list with all banned players and gives ban information)+/spartan ban-info,/spartan ban-list
-Spartan+spartan.ban_message+Specifies the users that are notified when someone is banned
-Spartan+spartan.bypass+Specifies the users that are allowed to bypass all checks
-Spartan+spartan.bypass.[check]+Ability to bypass a specific check
-Spartan+spartan.chat_protection+Specifies the users that are allowed to bypass blocked words/commands and cooldowns of chat/commands
-Spartan+spartan.condition+Specifies the users that are allowed to use conditional commands
-Spartan+spartan.debug+Ability to use the debug command (opens a menu with debugging actions of the target player)+/spartan debug
-Spartan+spartan.info+Ability to use the info command (opens a menu with violations of the target player)+/spartan info
-Spartan+spartan.kick+Ability to use the kick command (kicks the target player off the server)+/spartan kick
-Spartan+spartan.kick_message+Specifies the users that are notified when someone is kicked
-Spartan+spartan.manage+Ability to use the menu command (opens the main menu of the plugin)+/spartan menu
-Spartan+spartan.mining+Ability to use the mining notifications command (toggles mining notifications)+/spartan notifications mining
-Spartan+spartan.ping+Ability to use the ping command (shows the ping of the target player)+/spartan ping
-Spartan+spartan.reconnect+Specifies the users that are allowed to bypass reconnection cooldown
-Spartan+spartan.reload+Ability to use the reload command (reloads the plugin configuration)+/spartan reload
-Spartan+spartan.report+Specifies the users that are notified when someone reports a player
-Spartan+spartan.staff_chat+Specifies the users that are allowed to use the staff chat
-Spartan+spartan.toggle+Ability to use the toggle command (toggles a specific check)+/spartan toggle
-Spartan+spartan.unban+Ability to use the unban command (unbans the target player)+/spartan unban
-Spartan+spartan.use_bypass+Ability to use the bypass command (lets the target player bypass a specified check for a specified time)+/spartan bypass
-Spartan+spartan.use_report+Ability to use the report command (reports the target player to staff)+/spartan report
-Spartan+spartan.verbose+Ability to use the verbose notifications command (toggles verbose notifications)+/spartan notifications verbose
-Spartan+spartan.warn+Ability to use the warn command (warns the target player with a specified message)+/spartan warn
+Spartan+spartan.*+Grants the player all permissions of the plugin.
+Spartan+spartan.ban+Allows the player to tempban and ban another player.+/spartan tempban,/spartan ban
+Spartan+spartan.ban_info+Allows the player to see all bans and to get information about a player's ban.+/spartan ban-list,/spartan ban-info
+Spartan+spartan.ban_message+Allows the player to bypass the existing reconnect cooldown.
+Spartan+spartan.ban_message+Allows the player to see if another player was banned and the broadcast is disabled.
+Spartan+spartan.bypass+Allows the player to bypass all checks.
+Spartan+spartan.bypass.[check]+!Template! Allows the player to bypass a specific check.
+Spartan+spartan.chat_protection+Allows the player to bypass blocked words and commands and cooldowns.
+Spartan+spartan.condition+Allows the player to use conditional commands.
+Spartan+spartan.debug+Allows the player to use the action debugger GUI.+/spartan debug
+Spartan+spartan.info+Allows the player to open another player's info GUI.+/spartan info
+Spartan+spartan.kick+Allows the player to kick another player.+/spartan kick
+Spartan+spartan.kick_message+Allows the player to see if another player was kicked and the broadcast is disabled.
+Spartan+spartan.manage+Allows the player to open the GUI.+/spartan menu
+Spartan+spartan.mining+Allows the player to toggle the mining notifications.+/spartan notifications mining
+Spartan+spartan.ping+Allows the player to get a message with another player's ping.+/spartan ping
+Spartan+spartan.reload+Allows the player to reload the plugin's configuration.+/spartan reload,/spartan rl
+Spartan+spartan.report+Allows the player to see if another player was reported.
+Spartan+spartan.staff_chat+Allows the player to use the staff chat.
+Spartan+spartan.toggle+Allows the player to toggle a check.+/spartan toggle
+Spartan+spartan.unban+Allows the player to unban another player.+/spartan unban
+Spartan+spartan.use_bypass+Allows the player to bypass a check for a certain amount of time.+/spartan bypass
+Spartan+spartan.use_report+Allows the player to report another player.+/spartan report
+Spartan+spartan.verbose+Allows the player to toggle the verbose notifications.+/spartan notifications verbose
+Spartan+spartan.warn+Allows the player to warn another player with a message.+/spartan warn
 SpawnJoin+SpawnJoin.bypass+Bypass the spawn tp on join
 SpawnJoin+SpawnJoin.set+Set the location of the spawn+/spawnset
 SpawnJoin+SpawnJoin.tp.me+TP yourself to the spawn+/spawntp
