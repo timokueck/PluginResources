@@ -3666,6 +3666,12 @@ NoCheatersHere+nch.unban+Allows the player to unban a player+/unban
 Notiz+notiz.use+allows to use the notiz plugin with all commands+/notiz set,/notiz add,/notiz show,/notiz gui,/notiz list,/notiz delete
 OneWayBlocks+onewayblocks.create+Permission to create blocks (& to use the item)
 OneWayBlocks+onewayblocks.wand+Permission to get the item
+OpenAudioMc+openaudiomc.*+Grants the player all permissions of the plugin.
+OpenAudioMc+openaudiomc.commands.*+Allows the player to use all commands of the plugin.
+OpenAudioMc+openaudiomc.commands.[command]+!Template! Allows the player to use a specific command.
+OpenAudioMc+openaudiomc.speakers.*+Grants the player all permissions for the speakers.
+OpenAudioMc+openaudiomc.speakers.create+Allows the player to create speakers.
+OpenAudioMc+openaudiomc.speakers.destory+Allows the player to destroy speakers.
 OpenInv+OpenInv.anychest+Gives permission to open chests that are blocked by a block on top.+/anychest
 OpenInv+OpenInv.crossworld+Allows cross-world use of openinv.
 OpenInv+OpenInv.editender+Allows editing of ender chests.
