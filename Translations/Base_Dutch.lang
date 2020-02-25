@@ -3,15 +3,15 @@ ENABLED: ingeschakeld
 DISABLE: uitschakelen
 DISABLED: uitgeschakeld
 SETTINGS: Instellingen
-#DAY: Day
-#DAYS: Days
-#HOUR: Hour
-#HOURS: Hours
-#MINUTE: Minute
-#MINUTES: Minutes
-#SECOND: Second
-#SECONDS: Seconds
-NONE: Geen
+DAY: Dag
+DAYS: Dagen
+HOUR: Uur
+HOURS: Uren
+MINUTE: Minuut
+MINUTES: Minuten
+SECOND: Seconde
+SECONDS: Secondes
+NONE: None
 COMMAND_NOPERMISSION: Je hebt geen **toegang** tot dat command
 COMMAND_NOCONSOLE: Dit command kan niet uitgevoerd worden via de console
 GUI_SETTINGS_SELECTPAGE: Klik voor de Instellingen
