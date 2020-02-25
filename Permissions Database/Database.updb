@@ -3622,6 +3622,14 @@ NamelessMC+namelessmc.command.nameless+Reload Nameless+/nameless reload)
 NamelessMC+namelessmc.command.register+Registers on Website+/Website Register
 NamelessMC+namelessmc.command.report+Reposts a player to the Website+/Website Report
 NamelessMC+namelessmc.command.validate
+NametagEdit+nametagedit.clear.others+Allows the player to clear other player's prefix and suffix.
+NametagEdit+nametagedit.clear.self+Allows the player to clear their own prefix and suffix.
+NametagEdit+nametagedit.edit.others+Allows the player to edit other player's prefix and suffix.
+NametagEdit+nametagedit.edit.self+Allows the player to edit their own prefix and suffix.
+NametagEdit+nametagedit.groups+Allows the player to use all group subcommands.+/nte group,/nte group list,/nte group order,/nte group add,/nte group remove
+NametagEdit+nametagedit.priority+Allows the player to see SortPriority information.+/nte priority
+NametagEdit+nametagedit.reload+Allows the player to reload the plugin.+/nte reload
+NametagEdit+nametagedit.use+Allows the player to use the plugin.+/nte
 NaturalTorch+naturaltorch.bypass+to be still able to place normal torches
 NexusWarps+nw.createsign
 NexusWarps+nw.delwarp
