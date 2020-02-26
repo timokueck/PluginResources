@@ -2586,10 +2586,10 @@ HeadDatabase+headdb.open+Allows the player to open the user interface, get info 
 HeadDatabase.headdb.admin+Allows the player to use several admin commands.+/hdb reload,/hdb random,/hdb open,/hdb give,/hdb base64
 HeadDatabase.headdb.admin.showid+Allows the player to show the IDs of the heads.
 HeadDatabase.headdb.allow.buy.*+Allows the player to buy all heads.
-HeadDatabase.headdb.allow.buy.[category]+!Template! Allows the player to buy heads from a specific category.
-HeadDatabase.headdb.category.[category]+!Template! Allows the player to see heads from a specific category.
+HeadDatabase.headdb.allow.buy.[category]+Allows the player to buy heads from a specific category.
+HeadDatabase.headdb.category.[category]+Allows the player to see heads from a specific category.
 HeadDatabase.headdb.disabled+Allows the player to see disabled categories.
-HeadDatabase.headdb.free.[category]+!Template! Makes a specific category free for the player.
+HeadDatabase.headdb.free.[category]+Makes a specific category free for the player.
 HeadDatabase.headdb.online.hide+Hides the player from the Online-Players category.
 HeadDatabase.headdb.phead+Allows the player to give a player head to themself.+/playerhead,/phead,/playerh
 Heads+heads.add+Permission to use the /heads add command to add heads to the menu.
@@ -3703,7 +3703,7 @@ OneWayBlocks+onewayblocks.create+Permission to create blocks (& to use the item)
 OneWayBlocks+onewayblocks.wand+Permission to get the item
 OpenAudioMc+openaudiomc.*+Grants the player all permissions of the plugin.
 OpenAudioMc+openaudiomc.commands.*+Allows the player to use all commands of the plugin.
-OpenAudioMc+openaudiomc.commands.[command]+!Template! Allows the player to use a specific command.
+OpenAudioMc+openaudiomc.commands.[command]+Allows the player to use a specific command.
 OpenAudioMc+openaudiomc.speakers.*+Grants the player all permissions for the speakers.
 OpenAudioMc+openaudiomc.speakers.create+Allows the player to create speakers.
 OpenAudioMc+openaudiomc.speakers.destory+Allows the player to destroy speakers.
@@ -4678,7 +4678,7 @@ Spartan+spartan.ban_info+Allows the player to see all bans and to get informatio
 Spartan+spartan.ban_message+Allows the player to bypass the existing reconnect cooldown.
 Spartan+spartan.ban_message+Allows the player to see if another player was banned and the broadcast is disabled.
 Spartan+spartan.bypass+Allows the player to bypass all checks.
-Spartan+spartan.bypass.[check]+!Template! Allows the player to bypass a specific check.
+Spartan+spartan.bypass.[check]+Allows the player to bypass a specific check.
 Spartan+spartan.chat_protection+Allows the player to bypass blocked words and commands and cooldowns.
 Spartan+spartan.condition+Allows the player to use conditional commands.
 Spartan+spartan.debug+Allows the player to use the action debugger GUI.+/spartan debug
