@@ -1,8 +1,5 @@
 # Ultra Permissions Database File
-#
 # Github: https://github.com/TechsCode/PluginResources
-#
-# Format: (Plugin)+(Permission)+(Description)+(Commands (seperated with ,))
 #
 AAC+AAC.admin+View the admin control panel.(view the admin GUI)(Text-based reload without the GUI)+/aacadmin,/aacreload
 AAC+AAC.ban+Ban players.
@@ -106,8 +103,8 @@ Actionbar+actionbar.announcer.start+Allows you to start the announcer+/actionbar
 Actionbar+actionbar.announcer.stop+Allows you to stop the announcer+/actionbarannouncer stop
 Actionbar+actionbar.announcer.time+Allows you to set the time of the announcer+/actionbarannouncer time
 Actionbar+actionbar.colorcodes+gives you the permission to use colorcodes
-Actionbar+actionbar.private+Allows you to send a private message via actionbar+/actionbar <msg/private> <player> <message>
-Actionbar+actionbar.public+Allows you to broadcast a message via actionbar+/actionbar <all/announce/broadcast> <message>
+Actionbar+actionbar.private+Allows you to send a private message via actionbar+/actionbar <msg;private> <player> <message>
+Actionbar+actionbar.public+Allows you to broadcast a message via actionbar+/actionbar <all;announce;broadcast> <message>
 Actionbar+actionbar.reload+Allows you to reload the config+/actionbar reload
 Actionbar+actionbar.world+Allows you to send a world message via actionbar+/actionbar <world> <name> <message>
 AdminMode+adminmode.use
@@ -156,7 +153,7 @@ AdvancedAchievements+achievement.count.waterbuckets+Allows water bucket statisti
 AdvancedAchievements+achievement.delete+Allows to delete achievements by command.+/aach delete
 AdvancedAchievements+achievement.easteregg+Allows to display the plugin's easter egg.
 AdvancedAchievements+achievement.generate+Allows to generate advancements from the achievements defined in the configuration.+/aach generate
-AdvancedAchievements+achievement.give+Allows to give achievements by command.+/aach give 
+AdvancedAchievements+achievement.give+Allows to give achievements by command.+/aach give
 AdvancedAchievements+achievement.list+Allows to display  name of received and missing achievements.+/aach list
 AdvancedAchievements+achievement.month+Allows to display monthly achievement rankings.+/aach month
 AdvancedAchievements+achievement.reload+Allows to reload the plugin's configuration.+/aach reload
@@ -254,12 +251,12 @@ AreaShop+areashop.addsign
 AreaShop+areashop.buy
 AreaShop+areashop.buynormal+Can be negated to prevent players from buying non-resell mode regions+/as buy [region]
 AreaShop+areashop.buyresell+Can be negated to prevent players from buying resell mode regions+/as buy [region]
-AreaShop+areashop.createbuy+Only buy regions+/as add <rent, buy> [region] [world]
-AreaShop+areashop.createbuy.member+Add WorldGuard regions that you are member off to AreaShop as buy***+/as add <rent, buy> [region] [world]
-AreaShop+areashop.createbuy.owner+Add WorldGuard regions that you are owner off to AreaShop as buy***+/as add <rent, buy> [region] [world]
-AreaShop+areashop.createrent+Only rent regions+/as add <rent, buy> [region] [world]
-AreaShop+areashop.createrent.member+Add WorldGuard regions that you are member off to AreaShop as rent***+/as add <rent, buy> [region] [world]
-AreaShop+areashop.createrent.owner+Add WorldGuard regions that you are owner off to AreaShop as rent***+/as add <rent, buy> [region] [world]
+AreaShop+areashop.createbuy+Only buy regions+/as add <rent; buy> [region] [world]
+AreaShop+areashop.createbuy.member+Add WorldGuard regions that you are member off to AreaShop as buy***+/as add <rent; buy> [region] [world]
+AreaShop+areashop.createbuy.owner+Add WorldGuard regions that you are owner off to AreaShop as buy***+/as add <rent; buy> [region] [world]
+AreaShop+areashop.createrent+Only rent regions+/as add <rent; buy> [region] [world]
+AreaShop+areashop.createrent.member+Add WorldGuard regions that you are member off to AreaShop as rent***+/as add <rent; buy> [region] [world]
+AreaShop+areashop.createrent.owner+Add WorldGuard regions that you are owner off to AreaShop as rent***+/as add <rent; buy> [region] [world]
 AreaShop+areashop.delfriend+Only region you own+/as delfriend <player> [region]
 AreaShop+areashop.delfriendall+ All regions+/as delfriend <player> [region]
 AreaShop+areashop.delsign
@@ -454,7 +451,7 @@ BentoBox+bskyblock.admin.biomes.edit+Player can use admin biomes edit command th
 BentoBox+bskyblock.admin.biomes.import+Player can use admin biomes import command allows to import biomes in world
 BentoBox+bskyblock.admin.biomes.set+Player can use admin biomes set command that allows to change other player biomes
 BentoBox+bskyblock.admin.biomes.settings+Player can use admin biomes settings command that allows to change addon settings
-BentoBox+bskyblock.admin.challenges+Access /bsbadmin challenges admin commands	
+BentoBox+bskyblock.admin.challenges+Access /bsbadmin challenges admin commands
 BentoBox+bskyblock.admin.clearresetall+Allow clearing of island reset limit of all players
 BentoBox+bskyblock.admin.delete+Let a player completely remove a player (including island)
 BentoBox+bskyblock.admin.deleteisland+Let a player completely remove the island the player is on
@@ -643,7 +640,7 @@ BuildBattle+buildbattle.admin.reload+Reloads all game instances they will be sto
 BuildBattle+buildbattle.admin.removeplot+Remove target plot from the arena
 BuildBattle+buildbattle.admin.settheme+Set new theme of arena. Works only when game started, and for 20 seconds after start
 BuildBattle+buildbattle.admin.stopgame+Stops game you're playing
-BuildBattle+buildbattle.admin.supervotes.add+Add super votes to target player 
+BuildBattle+buildbattle.admin.supervotes.add+Add super votes to target player
 BuildBattle+buildbattle.admin.supervotes.set+Set super votes of target player
 BuildBattle+buildbattle.join.*+To access all arenas.+/bb join [arena],/bb randomjoin [solo/team]
 BuildBattle+buildbattle.updatenotify+Notifies about plugin update on join
@@ -680,7 +677,7 @@ Bukkit+minecraft.command.save.disable+Ability to use the save-off command (disab
 Bukkit+minecraft.command.save.enable+Ability to use the save-on command (enables automatic terrain saving)+/save-on
 Bukkit+minecraft.command.save.perform+Ability to use the save-all command (forces a server-wide level save of the terrain)+/save-all
 Bukkit+minecraft.command.say+Ability to use the say command (broadcasts a message to all players as the server)+/say
-Bukkit+minecraft.command.scoreboard+Ability to use the scoreboard command (complex command to manage scoreboards)+/scoreboard 
+Bukkit+minecraft.command.scoreboard+Ability to use the scoreboard command (complex command to manage scoreboards)+/scoreboard
 Bukkit+minecraft.command.seed+Ability to use the seed command (shows the level seed)+/seed
 Bukkit+minecraft.command.selector+Ability to use @ selectors
 Bukkit+minecraft.command.setblock+Ability to use the setblock command (sets a block to be another block)+/setblock
@@ -1398,7 +1395,7 @@ ChatControl+chatcontrol.notify.outofrange+Get notified when nobody sees your mes
 ChatControl+chatcontrol.notify.signduplication+Receive a warning when a player makes multiple signs with the same text.
 ChatControl+chatcontrol.notify.update+Receive a warning when a new version of plugin is available.
 ChatControl+chatcontrol.notify.whenmentioned+Receive a sound warning when somebody mentions you in the chat.
-ChatItem+chatiem.ignore.cooldown+allows you to bypass the message cooldown (if enabled) 
+ChatItem+chatiem.ignore.cooldown+allows you to bypass the message cooldown (if enabled)
 ChatItem+chatitem.reload+allows you to reload the config+/cireload
 ChatItem+chatitem.use+allows your messages to be parsed by the plugin also {item}
 ChestCommands+chestcommands.command.help+List of commands.+/c help
@@ -1503,7 +1500,7 @@ Confiscate+confiscate.commands.list+Access the /c list command to browse all com
 Confiscate+confiscate.commands.log+Access the /c log command.
 Confiscate+confiscate.commands.log+Access the /c log command.+/c log
 Confiscate+confiscate.commands.log.browse+Browse players' log.
-Confiscate+confiscate.commands.log.browse+View player's log.+/c log view 
+Confiscate+confiscate.commands.log.browse+View player's log.+/c log view
 Confiscate+confiscate.commands.log.stats+View stored log statistics.+/c log stats
 Confiscate+confiscate.commands.reload+Access the /c reload command to reload the configuration.
 Confiscate+confiscate.commands.reload+Access the /c reload command to reload the configuration.+/c reload
@@ -1604,15 +1601,15 @@ DailyRewards+dailyrewards.player+Give access to player commands+/dr,/dr next
 DakataAntiCheat+Dakata.Admin+All players with this permission will receive information about the hackers(If log-player is true)
 DakataAntiCheat+Dakata.Bypass+Permission to bypass every hack
 DakataAntiCheat+Dakata.Bypass.AntiBot+For AntiBot
-DakataAntiCheat+Dakata.Bypass.Chat.Advertisement.IP+For Advertisement for ip's - 
+DakataAntiCheat+Dakata.Bypass.Chat.Advertisement.IP+For Advertisement for ip's -
 DakataAntiCheat+Dakata.Bypass.Chat.Advertisement.Web+For Advertisement for web pages
 DakataAntiCheat+Dakata.Bypass.Chat.Caps+For CAPS
 DakataAntiCheat+Dakata.Bypass.Chat.Spam+For Chat spam
 DakataAntiCheat+Dakata.Bypass.Chat.Swear+For Swear
 DakataAntiCheat+Dakata.Bypass.Command.Blocked.Cmd+For Blocked-cmd
 DakataAntiCheat+Dakata.Bypass.Command.Spam+For Command spam
-DakataAntiCheat+Dakata.Bypass.InvalidBlock+For GhostHand, BuildRandom, Liquids, breaking and placing blocks out of the block they look - 
-DakataAntiCheat+Dakata.Bypass.InvalidMove+For Speed, Blink, ItemVac, Magnet Punch And GodMode - 
+DakataAntiCheat+Dakata.Bypass.InvalidBlock+For GhostHand, BuildRandom, Liquids, breaking and placing blocks out of the block they look -
+DakataAntiCheat+Dakata.Bypass.InvalidMove+For Speed, Blink, ItemVac, Magnet Punch And GodMode -
 DakataAntiCheat+Dakata.Bypass.InvalidPotion+For KillPotion and TrollPotion
 DakataAntiCheat+Dakata.Bypass.Sign.ASCII+For Sign ASCII
 DakataAntiCheat+Dakata.Bypass.WorldDownload+or WorldDownload client
@@ -1639,36 +1636,36 @@ DeluxePlayerOptions+playeroptions.speed+Enable/Disable speed mode.+/Speed
 DeluxePlayerOptions+playeroptions.stacker+Enable/Disable stacker mode.+/Stacker
 DeluxePlayerOptions+playeroptions.use+Opens Options Menu+/options
 DeluxePlayerOptions+playeroptions.visibility+Enable/Disable visibility mode.+/Visibility
-DiceFurniture+ProtectionLib.admin	
-DiceFurniture+furniture.bypass.breakSpam	
-DiceFurniture+furniture.bypass.limit	
-DiceFurniture+furniture.bypass.placeSplam	
-DiceFurniture+furniture.debug  
-DiceFurniture+furniture.delete  
-DiceFurniture+furniture.download  
-DiceFurniture+furniture.give  
-DiceFurniture+furniture.give.player  
+DiceFurniture+ProtectionLib.admin
+DiceFurniture+furniture.bypass.breakSpam
+DiceFurniture+furniture.bypass.limit
+DiceFurniture+furniture.bypass.placeSplam
+DiceFurniture+furniture.debug
+DiceFurniture+furniture.delete
+DiceFurniture+furniture.download
+DiceFurniture+furniture.give
+DiceFurniture+furniture.give.player
 DiceFurniture+furniture.list
-DiceFurniture+furniture.list.plugin  
-DiceFurniture+furniture.list.type  
+DiceFurniture+furniture.list.plugin
+DiceFurniture+furniture.list.type
 DiceFurniture+furniture.list.world
-DiceFurniture+furniture.manage  
+DiceFurniture+furniture.manage
 DiceFurniture+furniture.manage.other
 DiceFurniture+furniture.place.all
-DiceFurniture+furniture.purge  
+DiceFurniture+furniture.purge
 DiceFurniture+furniture.recipe.edit
 DiceFurniture+furniture.recipe.remove
-DiceFurniture+furniture.remove  
-DiceFurniture+furniture.remove.all  
-DiceFurniture+furniture.remove.distance  
-DiceFurniture+furniture.remove.lookat  
-DiceFurniture+furniture.remove.obj  
-DiceFurniture+furniture.remove.player  
-DiceFurniture+furniture.remove.plugin  
-DiceFurniture+furniture.remove.type  
-DiceFurniture+furniture.remove.world  
-DiceFurniture+furniture.toggle  
-DiceFurniture+furniture.toggle.another  
+DiceFurniture+furniture.remove
+DiceFurniture+furniture.remove.all
+DiceFurniture+furniture.remove.distance
+DiceFurniture+furniture.remove.lookat
+DiceFurniture+furniture.remove.obj
+DiceFurniture+furniture.remove.player
+DiceFurniture+furniture.remove.plugin
+DiceFurniture+furniture.remove.type
+DiceFurniture+furniture.remove.world
+DiceFurniture+furniture.toggle
+DiceFurniture+furniture.toggle.another
 DiscordMinecraft+discordminecraft.discord+Sends the player a message with a link to the Discord server.
 DiscordMinecraft+discordminecraft.discordlink+Initiates an account link with Discord.
 DiscordMinecraft+discordminecraft.discordsay+Sends a message to the specified channel.
@@ -1694,7 +1691,7 @@ EasyBackup+easybackup.command.reload+Reloads the config+/backup reload
 EasyBackup+easybackup.command.restore+Restores a previously created backup. Could be with a password too.+/backup restore (BACKUP NAME),/baackup restore (BACKUP NAME) (PASSWORD)
 EasyBackup+easybackup.command.upload+Uploads the latest backup to all enabled backup types+/backup upload
 EasyMaintenance+em.bypass+You will not be kicked and can join back while in maintenance.
-EasyMaintenance+em.use+Use all Easy Maintenance Commands+[Aliases: em, maitenance],/easymaintenance help,/easymaintenance toggle,/easymaintenance toggle [Time],/easymaintenance cancel,/easymaintenance skip [Time],/easymaintenance info,/easymaintenance reload
+EasyMaintenance+em.use+Use all Easy Maintenance Commands+/easymaintenance help,/easymaintenance toggle,/easymaintenance toggle [Time],/easymaintenance cancel,/easymaintenance skip [Time],/easymaintenance info,/easymaintenance reload
 EasyWarp+easywarp.command.delwarp+Delete a specified warp.+/delwarp
 EasyWarp+easywarp.command.help+Allow the player to use /easywarp help to see all commands.+/easywarp help
 EasyWarp+easywarp.command.import+Import Files.+/easywarp import
@@ -2276,8 +2273,8 @@ Factions+factions.autoleavebypass+Bypass autoleave.
 Factions+factions.bypass+enable admin bypass mode +/f bypass
 Factions+factions.chat+change chat mode +/f chat
 Factions+factions.chatspy+enable admin chat spy mode+/f chatspy
-Factions+factions.claim.line+claim in a line+/f claim 
-Factions+factions.claim.radius+claim land in a large radius+/f claim square,/f claim circle 
+Factions+factions.claim.line+claim in a line+/f claim
+Factions+factions.claim.radius+claim land in a large radius+/f claim square,/f claim circle
 Factions+factions.config+change a conf.json setting
 Factions+factions.create+create a new faction+/f create
 Factions+factions.deinvite+remove a pendin invitation+/f invite remove
@@ -2348,10 +2345,10 @@ Factions+factions.version+see the version of the plugin+/f ver
 Factions+factions.warp+access your faction warps+/f warp
 FactionsPet+With this permission the player can buy vip pets+factionspets.vip
 FactionsPet+With this permission the player can create signs for buy pets+factionspets.placePetBuySign
-FactionsPet+With this permission the player can destroy signs for buy pets+factionspets.breakPetBuySign 
+FactionsPet+With this permission the player can destroy signs for buy pets+factionspets.breakPetBuySign
 FactionsPet+With this permission the player can get colored name at the pet+factionspets.coloredName
-FactionsPet+factionspets.adminCommand.deletepet+This command delete pet of a player+/petAdmin deletePet 
-FactionsPet+factionspets.adminCommand.givepet+This command give a pet for player+/petAdmin givePet 
+FactionsPet+factionspets.adminCommand.deletepet+This command delete pet of a player+/petAdmin deletePet
+FactionsPet+factionspets.adminCommand.givepet+This command give a pet for player+/petAdmin givePet
 FactionsPet+factionspets.adminCommand.reload+With this command you can reload the config+/petAdmin reload
 FactionsPet+factionspets.command.away+With this command you can despawn the pettion+/pet away
 FactionsPet+factionspets.command.change+With this command you can change the pet+/pet change
@@ -2455,7 +2452,7 @@ GriefPrevention+griefprevention.createclaims+ 	Allows players to create claims w
 GriefPrevention+griefprevention.deleteclaims+Allows the player to delete and resize other player's claims
 GriefPrevention+griefprevention.eavesdrop+Allows the player to see private messages like /tell.+/tell
 GriefPrevention+griefprevention.eavesdropsigns+ 	Allows the player to receive notifications about newly-placed signs.
-GriefPrevention+griefprevention.ignoreclaims+Allows the player to ignore claims using the /ignoreclaims command+/ignoreclaims 
+GriefPrevention+griefprevention.ignoreclaims+Allows the player to ignore claims using the /ignoreclaims command+/ignoreclaims
 GriefPrevention+griefprevention.lava+Players with this permission may place lava anywhere they have build permission, but still not near other players.
 GriefPrevention+griefprevention.notignorable+Makes a player immune to the /ignore command.
 GriefPrevention+griefprevention.overrideclaimcountlimit+Allows a player to bypass the total claim count limit set in your config file (defaults to no limit).
@@ -2690,7 +2687,7 @@ Industrial-MC+industrial.master.setcharge+sets the held items charge to the give
 Industrial-MC+industrial.master.setmaxcharge+sets the held items charge capacity to the given value.+/industrial setmaxcharge <amount>
 Industrial-MC+industrial.master.setrecipe+set an Industrial-MC item's recipe with the option to setPlaceholders the original or not, and if its shapeless or not.+/industrial setrecipe <setPlaceholders-default?> <shapeless?>
 Industrial-MC+industrial.mymachines+Lists Your Owned Machines.+/mymachines
-Industrial-MC+industrial.trust+allows players to add friends that can use their machines.+/indtrust <player-name> <all/break/use/remove>
+Industrial-MC+industrial.trust+allows players to add friends that can use their machines.+/indtrust <player-name> <all;break;use;remove>
 Industrial-MC+industrial.wrench+Gives you a Wrench.+/wrench
 InsaneShops+insaneshops.admin+Allows opening Shops as a seller (to manage them)
 InsaneShops+insaneshops.commands.shops+Allows the usage of /shops+/shops
@@ -2706,7 +2703,7 @@ ItemFrameShops+ ifs.command.recalcshopsinselection+Recalculates prices for every
 ItemFrameShops+ItemFrameShops+ifs.command.shoplayout+Allows you to change how a shop looks. You can reposition all "menu items" in a fake shop-like inventory. It is a work in progress and might be buggy!
 ItemFrameShops+ifs.admin.create+Non-command: Creates the store
 ItemFrameShops+ifs.admin.remove+Non-command: Removes the item from store
-ItemFrameShops+ifs.command.*+All command permissions 
+ItemFrameShops+ifs.command.*+All command permissions
 ItemFrameShops+ifs.command.buyprice+Sets buy price for shop (click on item frame to apply, toggles)
 ItemFrameShops+ifs.command.convertworth+Allows you to convert all prices from Essentials worth file to prices.properties. This might help to migrate prices from essentials.
 ItemFrameShops+ifs.command.create+Enables creating shops (click on item frame to create shop, toggles)
@@ -2737,7 +2734,7 @@ ItemFrameShops+ifs.user.buy+Non-command: Allows user to buy item from the store.
 ItemFrameShops+ifs.user.discount32+Non command: Discount from buying 32 item of discount from the store for user.
 ItemFrameShops+ifs.user.discount64+Non command: Discount from buying 64 item of discount from the store for user.
 ItemFrameShops+ifs.user.sell+Non-command: Allows user to sell item from the store.
-ItemFrameShops+ifs.user.useBuyAll+Non command: Buy All for one item. 
+ItemFrameShops+ifs.user.useBuyAll+Non command: Buy All for one item.
 ItemFrameShops+ifs.user.useSellAll+Non command: Sell one stack for a item.
 ItemRestrict+ItemRestrict.admin+Bypass the item restrictions and access to the /itemrestrict reload command. Default to OP
 ItemRestrict+ItemRestrict.bypass+Bypass all the restrictions
@@ -2756,7 +2753,7 @@ JEssentials+jessentials.ban.exempt+Prevents the player from being banned
 JEssentials+jessentials.banip+Bans the player's IP from the server+/banip player
 JEssentials+jessentials.broadcast+Allows a message to be publicly displayed to the entire server+/broadcast
 JEssentials+jessentials.chatclear+Allow clearing the chat of the entire Server+/chatclear
-JEssentials+jessentials.chatclear.others+Allow clearing the chat for other players+/chatclear player 
+JEssentials+jessentials.chatclear.others+Allow clearing the chat for other players+/chatclear player
 JEssentials+jessentials.clear+Allows player to clear their Inventory+/clear
 JEssentials+jessentials.clear.others+Allows player to clear others Inventory+/clear player
 JEssentials+jessentials.createcommand+Allows access to custom command creation wizard+/createcommand
@@ -2860,7 +2857,7 @@ JEssentials+jessentials.tpahere+Allows sending a teleport request to another pla
 JEssentials+jessentials.tpdeny+Rejects a teleport request+/tpdeny
 JEssentials+jessentials.tpo+Allows teleporting to another player no matter what conditions+/tpo
 JEssentials+jessentials.tpo.others+Allows teleporting other players to another player no matter what conditions+/tpo
-JEssentials+jessentials.tppos+Allows teleporting to direct coordinates+/tpposition 
+JEssentials+jessentials.tppos+Allows teleporting to direct coordinates+/tpposition
 JEssentials+jessentials.tptoggle+Allows a player to enable or disable teleportation to them+/tptoggle
 JEssentials+jessentials.unban+Unbans the specified player. (Also unbans IP)+/unban player
 JEssentials+jessentials.vanish+Allows the player to vanish from the view of other players+/vanish
@@ -3284,7 +3281,7 @@ Lands+lands.setting.spawn_public+Ability to toggle the public spawn setting of a
 Lands+lands.setting.tax_total+Ability to toggle the tax total setting of a land
 LetterBox+letterbox.admin+to maintain the base Command /letterbox
 LiteBans+litebans.*+All permissions except notify permissions.
-LiteBans+litebans.admin+Permission to use /litebans <reload/import/sqlexec/...>.+/litebans reload,/litebans import,/litebans sqlexec
+LiteBans+litebans.admin+Permission to use /litebans <reload;import;sqlexec;...>.+/litebans reload,/litebans import,/litebans sqlexec
 LiteBans+litebans.ban+Permission to use /ban.+/ban
 LiteBans+litebans.banlist+Permission to use /banlist.+/banlist
 LiteBans+litebans.checkban+Permission to use /checkban.+/checkban
@@ -3338,20 +3335,20 @@ LiteBans+litebans.unwarn+Permission to use /unwarn.+/unwarn
 LiteBans+litebans.warn+Permission to use /warn.+/warn
 LiteBans+litebans.warnings+Permission to use /warnings.+/warnings
 Liteboard+liteboard.scoreboard+Default scoreboard permission
-LockedItems+lockeditems.*+ - all plugin permissions 
-LockedItems+lockeditems.lockedchest.*+ - all locked chest permissions 
-LockedItems+lockeditems.lockedchest.bypasslimit+ - bypass chest limit 
-LockedItems+lockeditems.lockedchest.craft+ - craft a locked chest 
-LockedItems+lockeditems.lockedchest.give+ - access to /lockeditems give 
-LockedItems+lockeditems.lockedchest.give.others +- access to /lockeditems give [player] 
-LockedItems+lockeditems.lockedchest.mine+ - mine your own locked chests 
+LockedItems+lockeditems.*+ - all plugin permissions
+LockedItems+lockeditems.lockedchest.*+ - all locked chest permissions
+LockedItems+lockeditems.lockedchest.bypasslimit+ - bypass chest limit
+LockedItems+lockeditems.lockedchest.craft+ - craft a locked chest
+LockedItems+lockeditems.lockedchest.give+ - access to /lockeditems give
+LockedItems+lockeditems.lockedchest.give.others +- access to /lockeditems give [player]
+LockedItems+lockeditems.lockedchest.mine+ - mine your own locked chests
 LockedItems+lockeditems.lockedchest.mineall+ - mine all locked chests
 LockedItems+lockeditems.lockedchest.open+open your own locked chests
 LockedItems+lockeditems.lockedchest.openall+open all locked chests
-LockedItems+lockeditems.lockedchest.permit+ - access to permit, unpermit and viewPermitted commands 
-LockedItems+lockeditems.lockedchest.place+ - place locked chests 
+LockedItems+lockeditems.lockedchest.permit+ - access to permit, unpermit and viewPermitted commands
+LockedItems+lockeditems.lockedchest.place+ - place locked chests
 LockedItems+lockeditems.lockedchest.see +- access to /lockeditems see
-LockedItems+lockeditems.lockedchest.see.others+ - access to /lockeditems see [player] 
+LockedItems+lockeditems.lockedchest.see.others+ - access to /lockeditems see [player]
 LockettePro+.lockettepro.edit+Disallow players to edit their lock signs
 LockettePro+.lockettepro.lock+Disallow players to lock chests
 LockettePro+lockettepro.admin.break+Admin break lock permission
@@ -3745,7 +3742,7 @@ Paintball+paintball.arena.setflag+Set a CTF Flag location
 Paintball+paintball.arena.setlocation+Set arena spawn locstions
 Paintball+paintball.arena.setspec+Set spectate locations
 Paintball+paintball.arena.steps+List steps of an arena to start it
-Paintball+paintball.arena.team+Set teams via chat colors, /pb arena setteams arena &6,&7,&0,&f 
+Paintball+paintball.arena.team+Set teams via chat colors, /pb arena setteams arena &6,&7,&0,&f
 Paintball+paintball.autojoin.create+ Allows creating an autjoin sign
 Paintball+paintball.autojoin.remove+Allows removing an autojoin sign
 Paintball+paintball.autojoin.use+Allows clicking a autojoin sign
@@ -4279,7 +4276,7 @@ ProdigyGadget+prodigy.gadget.tsunami+Gadget: Tsunami
 ProdigyGadget+prodigy.global.*+Global: *
 ProdigyGadget+prodigy.global.addammo+Global: Add Ammo
 ProdigyGadget+prodigy.global.antilag+Global: Antilag+/pg antilag
-ProdigyGadget+prodigy.global.blacklist+Global: Blacklist+/pg blacklist 
+ProdigyGadget+prodigy.global.blacklist+Global: Blacklist+/pg blacklist
 ProdigyGadget+prodigy.global.clear+Global: Clear+/pg clear
 ProdigyGadget+prodigy.global.getammo+Global: Get ammo
 ProdigyGadget+prodigy.global.infiniteammo+Global: Infinite Ammo
@@ -4442,11 +4439,11 @@ React+react.*+Grants all of react. This should be used most of the time.+/react,
 React+react.act+Permission to use React actions.+/react graph
 React+react.monitor+React monitoring mapping and most commands.+/react monitor,/react graph,/re graph,/re monitor
 React+react.reload+Permission to reload react.+/react reload
-Realistic-Swimming+rs.admin.reload +#Allows you to reload the config using /rs reload +/rs reload 
-Realistic-Swimming+rs.bypass.stamina +#Allows you to bypass the stamina system 
-Realistic-Swimming+rs.user.boost +#Allows you to use the speed boost 
-Realistic-Swimming+rs.user.fall +#Allows the user to use the falling animation 
-Realistic-Swimming+rs.user.swim +#Allows you to use the swimming animation 
+Realistic-Swimming+rs.admin.reload +#Allows you to reload the config using /rs reload +/rs reload
+Realistic-Swimming+rs.bypass.stamina +#Allows you to bypass the stamina system
+Realistic-Swimming+rs.user.boost +#Allows you to use the speed boost
+Realistic-Swimming+rs.user.fall +#Allows the user to use the falling animation
+Realistic-Swimming+rs.user.swim +#Allows you to use the swimming animation
 RealisticLiquid+realisticliquid.admin+to maintain the base Command /realisticliquid+/realisticliquid
 Realistic_World+rwg.*+Access from all RWG Permissions.
 Realistic_World+rwg.cmd.biome+Get the RWGBiome from the place where you are.+/rwg biome
@@ -4480,14 +4477,14 @@ Reflex+reflex.verbose+Receive verbose in chat, if enabled.+/reflex verbose
 RegionGui+region.flagmenu.all+Allows the use of all flags inside the menu. For a full list of permissions scroll down to the flag file.
 RegionGui+region.home+Bring up a GUI with your current claims. Click to teleport+/land home
 RegionGui+region.list+Displays all of [name]'s regions in your current world.+/land list [name]
-RegionGui+region.manage.addmember+Required to use the addmember button 
+RegionGui+region.manage.addmember+Required to use the addmember button
 RegionGui+region.manage.delmember+Required to use the delmember button
 RegionGui+region.manage.delregion+Required to use the delregion button
 RegionGui+region.manage.farewell+Required to change the farewell/exit message on own regions.
 RegionGui+region.manage.flagmenu+Required to open the flag menu to customize own regions with flags
 RegionGui+region.manage.greeting+Required to change the greeting/entry message on own regions.
-RegionGui+region.manage.open+Required permission to open the management interface. 
-RegionGui+region.mod+Allow to open the management interface on all regions. Manage regions of other players. 
+RegionGui+region.manage.open+Required permission to open the management interface.
+RegionGui+region.mod+Allow to open the management interface on all regions. Manage regions of other players.
 RegionGui+region.purge+Lists regions with owners not being logged in for [months] +/land purge [months],/land confirm [months]
 RegionGui+region.reload+Reload the configuration files. +/land reload
 ReportManager+reportmanager.admin+Admin access
@@ -5337,7 +5334,7 @@ UHC+uhc.command.mutechat+Mute Chat+/mutechat
 UHC+uhc.command.rescatter+Rescatter+/rescatter
 UHC+uhc.command.respawn+Respawn Player+/respawn
 UHC+uhc.command.revive+add player to game+ /revive
-UHC+uhc.command.staff+Staff Command+/staff 
+UHC+uhc.command.staff+Staff Command+/staff
 UHC+uhc.command.vipwl+add player to game+/vipwl
 UHC+uhc.deathkick.bypass+Bypass DeathKick
 UHC+uhc.helpop.receiver+for receiver help messages
@@ -5719,7 +5716,7 @@ WorldGuard+worldguard.report.pastebin+for automatically uploading and linking th
 Wormholes+wormholes.build+Grants the permission to modify the frame of the portal (style of it) but does not grant the ability to destroy the 4 colored blocks (combine this with create for creation)
 Wormholes+wormholes.configure+Grants the permission to configure portals by right clicking one of the four colored blocks. Ability to change polarity one directions and more.
 Wormholes+wormholes.create+Grants the permission to create and design portals.+/wormholes create
-Wormholes+wormholes.destroy+Grants the permission to destroy portals (or via the list command delete button)+/wormholes 
+Wormholes+wormholes.destroy+Grants the permission to destroy portals (or via the list command delete button)+/wormholes
 Wormholes+wormholes.list+Grants the permission to list portals and teleport to them (or any location in the world technically)+/wormholes list
 Wormholes+wormholes.reload+Grants the permission to reload the plugin+/wormholes reload
 Wormholes+wormholes.use+Grants the permission to enter portals (actually use them) all players should have this if you plan on players using the portals you create.
@@ -5835,7 +5832,7 @@ gravy+gravy.grave+A grave spawns when the player dies
 gravy+gravy.info+Players can see the grave information
 gravy+gravy.list+Lists graves+/gravy list
 gravy+gravy.list.player+Lists grave(s) of a player+/gravy list <player>
-gravy+gravy.money.nocost+Free grave [vault] 
+gravy+gravy.money.nocost+Free grave [vault]
 gravy+gravy.money.use+Player can spent money for the grave to spawn [vault]
 gravy+gravy.notimer+Grants infinite grave timer
 gravy+gravy.permission+Plugin permission list+/gravy permission
