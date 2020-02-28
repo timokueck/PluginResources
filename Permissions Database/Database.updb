@@ -5562,6 +5562,12 @@ TrHologram+trhologram.edit+Allows the player to edit an existing hologram.+/holo
 TrHologram+trhologram.list+Allows the player to list all loaded holograms.+/hologram list
 TrHologram+trhologram.reload+Allows the player to reload all holograms.+/hologram reload
 TrHologram+trhologram.use+Allows the player to use the main command of the plugin.+/trhologram,/trhd,/tholo,/hologram,/holo,/hd
+TrollPlus+trollplus.[troll]+Allows the player to use a specific troll.
+TrollPlus+trollplus.*+Grants the player all permissions of the plugin.
+TrollPlus+trollplus.gui+Allows the player to use the GUI of the plugin.+/trollplus gui,/trollplus [player]
+TrollPlus+trollplus.help+Allows the player to see the plugin help.+/trollplus help
+TrollPlus+trollplus.immune+Allows the player to be immune against trolls.
+TrollPlus+trollplus.info+Allows the player to use the main plugin command.+/trollplus,/troll,/tr
 UHC+uhc.ac+Admin Chat+/ac
 UHC+uhc.admin+Principal command+/uhc,/setmod,/bestpve,/giveall,/sethost,/speckick,/settitle,/whitelist,/removehost,/removemod,/addspec
 UHC+uhc.antispam.bypass+Bypass anti-spam.
