@@ -5147,7 +5147,7 @@ StaffFacilities+sf.staffvanish.toggle.chat+Allows the player to enable the chat 
 StaffFacilities+sf.staffvanish.toggle.damage+Allows the player to enable the damage listener to damage entities or players while staffvanished.
 StaffFacilities+sf.staffvanish.toggle.drop+Allows the player to enable the drop listener to drop items while staffvanished.
 StaffFacilities+sf.staffvanish.toggle.entitytarget+Allows the player to enable the entitytarget listener to let entities target them while staffvanished.
-StaffFacilities+sf.staffvanish.toggle.hangingbreak+Allows the player enable the hangingbreak listener to hang break while staffvanished.
+StaffFacilities+sf.staffvanish.toggle.hangingbreak+Allows the player enable the hangingbreak listener to break hanging items while staffvanished.
 StaffFacilities+sf.staffvanish.toggle.interact+Allows the player to enable the interact listener to interact with items while staffvanished.
 StaffFacilities+sf.staffvanish.toggle.pickup+Allows the player to enable the pickup listener to pick up items while staffvanished.
 StaffFacilities+sf.staffvanish.toggle.vehiclecollision+Allows the player to enable the vehiclecollision listener to collide with vehicles while staffvanished.
@@ -5183,7 +5183,7 @@ StaffFacilities+sf.vanish.toggle.chat+Allows the player to enable the chat liste
 StaffFacilities+sf.vanish.toggle.damage+Allows the player to enable the damage listener to damage entities or players while vanished.
 StaffFacilities+sf.vanish.toggle.drop+Allows the player to enable the drop listener to drop items while vanished.
 StaffFacilities+sf.vanish.toggle.entitytarget+Allows the player to enable the entitytarget listener to let entities target them while vanished.
-StaffFacilities+sf.vanish.toggle.hangingbreak+Allows the player to enable the hangingbreak listener to hang break while vanished.
+StaffFacilities+sf.vanish.toggle.hangingbreak+Allows the player to enable the hangingbreak listener to break hanging items while vanished.
 StaffFacilities+sf.vanish.toggle.interact+Allows the player to enable the interact listener to interact with items while vanished.
 StaffFacilities+sf.vanish.toggle.pickup+Allows the player to enable the pickup listener to pick up items while vanished.
 StaffFacilities+sf.vanish.toggle.vehiclecollision+Allows the player to enable the vehiclecollision listener to collide with vehicles while vanished.
