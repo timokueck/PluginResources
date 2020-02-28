@@ -787,37 +787,39 @@ ChestCommands+chestcommands.command.reload+Reloads the plugin.+/c reload
 ChestCommands+chestcommands.economy.bypass+Bypass economy costs
 ChestCommands+chestcommands.sign+Required to create menu signs.
 ChestCommands+chestcommands.update+Receive update notifications on join.
-ChestProtect+chestprotect.*+Grants all permissions from the plugin
-ChestProtect+chestprotect.admin.*+Grants all admin permissions from the plugin
-ChestProtect+chestprotect.admin.command.*+Grants access to all admin commands from the plugin
-ChestProtect+chestprotect.admin.command.import+Ability to use the import command (imports data from other plugins)+/protect admin import
-ChestProtect+chestprotect.admin.command.player.delete+Ability to use the admin player delete command+/protect admin player delete
-ChestProtect+chestprotect.admin.command.player+Ability to use the admin player command+/protect admin player
-ChestProtect+chestprotect.bypass.*+Grants all bypass permissions from the plugin
-ChestProtect+chestprotect.bypass.delete+Ability to delete protections of other players
-ChestProtect+chestprotect.bypass.edit+Ability to edit protections of other players
-ChestProtect+chestprotect.bypass.open+Ability to access protections of other players
-ChestProtect+chestprotect.command.*+Grants all command permissions from the plugin
-ChestProtect+chestprotect.command.exit+Ability to use the exit command (disables the current mode)+/protect exit,/exit
-ChestProtect+chestprotect.command.help+Ability to use the help command (shows plugin help)+/protect help
-ChestProtect+chestprotect.command.lock+Ability to use the lock command (toggles lock mode)+/protect lock,/lock
-ChestProtect+chestprotect.command.setrole+Ability to use the setrole command (toggles setrole mode)+/protect setrole,/setrole
-ChestProtect+chestprotect.command.trust+Ability to use the trust command (toggles trust mode)+/protect trust,/trust
-ChestProtect+chestprotect.command.unlock+Ability to use the unlock command (toggles unlock mode)+/protect unlock,/unlock
-ChestProtect+chestprotect.command.untrust+Ability to use the untrust command (toggles untrust mode)+/protect untrust,/untrust
-ChestProtect+chestprotect.members.[number]+Specifies the max amount of members a protection can have
-ChestProtect+chestprotect.protections.[number]+Specifies the max amount of protections a player can have
-ChestProtect+chestprotect.setting.*+Grants access to all protection and player settings
-ChestProtect+chestprotect.setting.player.*+Grants access to all player settings
-ChestProtect+chestprotect.setting.player.lock_persistent+Ability to toggle the lock persistent setting
-ChestProtect+chestprotect.setting.player.setrole_persistent+Ability to toggle the setrole persistent setting
-ChestProtect+chestprotect.setting.player.trust_persistent+Ability to toggle the trust persistent setting
-ChestProtect+chestprotect.setting.player.unlock_persistent+Ability to toggle the unlock persistent setting
-ChestProtect+chestprotect.setting.player.untrust_persistent+Ability to toggle the untrust persistent setting
-ChestProtect+chestprotect.setting.protection.*+Grants access to all protection settings
-ChestProtect+chestprotect.setting.protection.player_setrole+Ability to toggle the player setrole setting
-ChestProtect+chestprotect.setting.protection.player_trust+Ability to toggle the player trust setting
-ChestProtect+chestprotect.setting.protection.player_untrust+Ability to toggle the player untrust setting
+ChestProtect+chestprotect.*+Grants the player all permissions of the plugin.
+ChestProtect+chestprotect.admin.*+Allows the player to use all admin actions and commands.
+ChestProtect+chestprotect.admin.command.*+Allows the player to use all admin commands.+/protect admin
+ChestProtect+chestprotect.admin.command.import+Allows the player to import protections from other plugins.+/protect admin import <plugin>
+ChestProtect+chestprotect.admin.command.player.delete+Allows the player to delete another player.+/protect admin player <player> delete
+ChestProtect+chestprotect.admin.command.player+Allows the player to use the admin player command.+/protect admin player <player>
+ChestProtect+chestprotect.bypass.*+Allows the player to bypass all checks.
+ChestProtect+chestprotect.bypass.delete+Allows the player to delete other player's protections.
+ChestProtect+chestprotect.bypass.edit+Allows the player to edit other player's protections.+/protect menu <player>
+ChestProtect+chestprotect.bypass.open+Allows the player to open other player's protections.
+ChestProtect+chestprotect.command.*+Allows the player to use all commands of the plugin.
+ChestProtect+chestprotect.command.exit+Allows the player to exit their current mode.+/protect exit
+ChestProtect+chestprotect.command.help+Allows the player to see the plugin help.+/protect help
+ChestProtect+chestprotect.command.lock+Allows the player to toggle the lock mode to lock objects.+/protect lock,/lock
+ChestProtect+chestprotect.command.setrole+Allows the player to toggle the setrole mode to set the roles of other members.+/protect setrole,/setrole
+ChestProtect+chestprotect.command.trust+Allows the player to toggle the trust mode to add another player as a member.+/protect trust,/trust
+ChestProtect+chestprotect.command.unlock+Allows the player to toggle the unlock mode to unlock objects.+/protect unlock,/unlock
+ChestProtect+chestprotect.command.untrust+Allows the player to toggle the untrust mode to remove another player from the members.+/protect untrust,/untrust
+ChestProtect+chestprotect.gui.*+Allows the player to access all GUI menu actions.
+ChestProtect+chestprotect.gui.protection.teleport+Allows the player to teleport to protections.
+ChestProtect+chestprotect.members.[max_amount]+Defines the maximum amount of members a player's protection can have.
+ChestProtect+chestprotect.protections.[max_amount]+Defines the maximum amount of protections a player can have.
+ChestProtect+chestprotect.setting.*+Allows the player to access and modify all protection and player settings.
+ChestProtect+chestprotect.setting.player.*+Allows the player to access and modify all player settings.
+ChestProtect+chestprotect.setting.player.lock_persistent+Allows the player to modify if the lock mode is persistent.
+ChestProtect+chestprotect.setting.player.setrole_persistent+Allows the player to modify if the setrole mode is persistent.
+ChestProtect+chestprotect.setting.player.trust_persistent+Allows the player to modify if the trust mode is persistent.
+ChestProtect+chestprotect.setting.player.unlock_persistent+Allows the player to modify if the unlock mode is persistent.
+ChestProtect+chestprotect.setting.player.untrust_persistent+Allows the player to modify if the untrust mode is persistent.
+ChestProtect+chestprotect.setting.protection.*+Allows the player to access and modify all protection settings.
+ChestProtect+chestprotect.setting.protection.player_setrole+Allows the player to modify the setting if other members can change roles of players.
+ChestProtect+chestprotect.setting.protection.player_trust+Allows the player to modify the setting if other members can trust players.
+ChestProtect+chestprotect.setting.protection.player_untrust+Allows the player to modify the setting if other members can untrust players.
 ChestSort+chestsort.use.inventory+Ability to use the invsort command+/invsort,/isort,/invsort hotbar,/isort hotbar,/invsort all,/isort all
 ChestSort+chestsort.use+Defines if automatic chest sorting is enabled and grants the ability to use the chestsort command+/chestsort,/sort
 ChunkBuster+chunkbuster.admin+Chunk Buster Admin+/chunkbuster
