@@ -4648,7 +4648,6 @@ RandomTeleport+randomteleport.sign.create+Allows you to create a RandomTeleport 
 RandomTeleport+randomteleport.sign.use+Allows you to use (click) the Random Teleport sign.
 RandomTeleport+randomteleport.teleport.other+Allows you to teleport other players.+/rt
 RandomTeleport+randomteleport.teleport+Teleports you to a randomly selected location.+/rt
-React+react.*+Grants all of react. This should be used most of the time.+/react,/react monitor,/react graph,/react issues,/react help,/react reload
 React+react.*+Grants the player all permissions of the plugin.
 React+react.access+Allows the player to use commands of the plugin.
 React+react.act.cull-entities+Allows the player to use the cull-entities action.+/react action cull-entities
@@ -4663,7 +4662,6 @@ React+react.act.unlock-fluid+Allows the player to use the unlock-fluid action.+/
 React+react.act.unlock-hopper+Allows the player to use the unlock-hopper action.+/react action unlock-hopper
 React+react.act.unlock-redstone+Allows the player to use the unlock-redstone action.+/react action unlock-redstone
 React+react.act+Allows the player to use actions and all their subtypes.+/react action
-React+react.act+Permission to use React actions.+/react graph
 React+react.monitor.actionlog+Allows the player to monitor action status of the server via scoreboard.+/react scoreboard
 React+react.monitor.chunkblame+Allows the player to see information about the current chunk.+/react chunk
 React+react.monitor.environment+Allows the player to see information about the system environment.+/react environment
@@ -4671,7 +4669,6 @@ React+react.monitor.glasses+Allows the player to see block updates.+/react glass
 React+react.monitor.map+Allows the player to monitor graphs of the server via a map.+/react map
 React+react.monitor.title+Allows the player to monitor the server via title and action bar.
 React+react.monitor+Allows the player to use the monitoring tools.+/react monitor
-React+react.monitor+React monitoring mapping and most commands.+/react monitor,/react graph,/re graph,/re monitor
 React+react.ping.others+Allows the player to use the ping command on another player.+/react ping
 React+react.ping+Allows the player to see their own ping.+/react ping
 React+react.rai.control+Allows the player to access the React AI.+/rai
@@ -4679,7 +4676,6 @@ React+react.rai.control+Allows the player to control the React AI.+/rai
 React+react.rai.control+Allows the player to monitor the React AI.+/rai
 React+react.rai+Allows the player to use all React AI features.+/rai
 React+react.reload+Allows the player to reload the plugin+/react reload
-React+react.reload+Permission to reload react.+/react reload
 React+react.systeminfo+Allows the player to see system sensitive information.
 React+react.teleport+Allows the player to teleport to a reported chunk.+/react chunktp
 React+react.tempaccess+Allows the player to request access to react temporarily.+/react access
