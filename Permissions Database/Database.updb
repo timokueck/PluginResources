@@ -1675,6 +1675,28 @@ DeathManager+deathmanager.death.compass+Allows players to acquire a Death Compas
 DeathManager+deathmanager.death.messages+Allows messages to be altered for the player.
 DeathManager+deathmanager.death.totem.give+Gives a player a totem when they join the server.
 DeathManager+deathmanager.death.totem+Allows a player to be revived by a Totem.
+DeluxeChat+chatformat.[chatformat]+Allows the player to use a specified chat format.
+DeluxeChat+chatformat.default+Allows the playe to use the default chat format.
+DeluxeChat+deluxechat.*+Grants the player all permissions of the plugin.
+DeluxeChat+deluxechat.admin+Allows the player to use all commands of the plugin.+/dchat,/dchat reload,/gtoggle,/msg <player> <message>,/reply <message>,/socialspy
+DeluxeChat+deluxechat.bungee.chat+Allows the player to chat globally if bungee is enabled.
+DeluxeChat+deluxechat.bungee.override+Allows the player to send messages to all players in global chat even if players are in server only chat.
+DeluxeChat+deluxechat.bungee.toggle+Allows the player to toggle the global chat if bungee is enabled.+/gtoggle
+DeluxeChat+deluxechat.color+Allows the player to use color codes in the chat.
+DeluxeChat+deluxechat.filter.bypass+Allows the player to bypass the chat filter.
+DeluxeChat+deluxechat.formatting+Allows the player to use formatting codes in the chat.
+DeluxeChat+deluxechat.ignore.bypass+Allows the player to send messages to ignored players.
+DeluxeChat+deluxechat.pm.color+Allows the player to use color codes in private messages.
+DeluxeChat+deluxechat.pm.formatting+Allows the player to use formatting codes in private messages.
+DeluxeChat+deluxechat.pm.ignoretoggle+Allows the player to send private messages to another player that has disabled private messages.
+DeluxeChat+deluxechat.pm.toggle+Allows the player to use toggle private messages.+/msgtoggle
+DeluxeChat+deluxechat.pm.url+Allows the player to send URLs in private messages.
+DeluxeChat+deluxechat.pm+Allows to send private messages to another player.+/msg,/reply
+DeluxeChat+deluxechat.socialspy.onjoin+Allows the player to automatically activate socialspy on joining.
+DeluxeChat+deluxechat.socialspy+Allows the player to spy on private messages.+/socialspy
+DeluxeChat+deluxechat.url+Allows the player to send messages with URLs.
+DeluxeChat+deluxechat.utf+Allows the player to use special utf characters in the chat.
+DeluxeChat+deluxechat.vanish.bypass+Allows the player to send messages to vanished players.
 DeluxeCombat+deluxecombat.bypasscommand+Lets you still use blocked commands while in combat.
 DeluxeCombat+deluxecombat.bypasshitdelay+Lets you exceed the limit of the hit delay to maximum.
 DeluxeCombat+deluxecombat.bypassquit+Lets you quit while in combat without any bad punishments.
