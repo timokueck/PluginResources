@@ -1676,7 +1676,7 @@ DeathManager+deathmanager.death.messages+Allows messages to be altered for the p
 DeathManager+deathmanager.death.totem.give+Gives a player a totem when they join the server.
 DeathManager+deathmanager.death.totem+Allows a player to be revived by a Totem.
 DeluxeChat+chatformat.[chatformat]+Allows the player to use a specified chat format.
-DeluxeChat+chatformat.default+Allows the playe to use the default chat format.
+DeluxeChat+chatformat.default+Allows the player to use the default chat format.
 DeluxeChat+deluxechat.*+Grants the player all permissions of the plugin.
 DeluxeChat+deluxechat.admin+Allows the player to use all commands of the plugin.+/dchat,/dchat reload,/gtoggle,/msg <player> <message>,/reply <message>,/socialspy
 DeluxeChat+deluxechat.bungee.chat+Allows the player to chat globally if bungee is enabled.
