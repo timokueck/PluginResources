@@ -5555,6 +5555,13 @@ TreysDoubleJump+tdj.reload+Reloads all the configs with /djreload+/djreload
 TreysDoubleJump+tdj.sounds+Used for sounds
 TreysDoubleJump+tdj.updates+Tells these players on join there is an update
 TreysDoubleJump+tdj.use+Use the plugin
+TrHologram+trhologram.create+Allows the player to create a new hologram.+/hologram create <ID>
+TrHologram+trhologram.create+Allows the player to use the debug mode.+/hologram debug
+TrHologram+trhologram.delete+Allows the player to delete a existing hologram.+/hologram delete <ID>
+TrHologram+trhologram.edit+Allows the player to edit an existing hologram.+/hologram edit <ID>
+TrHologram+trhologram.list+Allows the player to list all loaded holograms.+/hologram list
+TrHologram+trhologram.reload+Allows the player to reload all holograms.+/hologram reload
+TrHologram+trhologram.use+Allows the player to use the main command of the plugin.+/trhologram,/trhd,/tholo,/hologram,/holo,/hd
 UHC+uhc.ac+Admin Chat+/ac
 UHC+uhc.admin+Principal command+/uhc,/setmod,/bestpve,/giveall,/sethost,/speckick,/settitle,/whitelist,/removehost,/removemod,/addspec
 UHC+uhc.antispam.bypass+Bypass anti-spam.
