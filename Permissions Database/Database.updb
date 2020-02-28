@@ -5596,6 +5596,7 @@ UltimateStatistics+ultimatestatistics.reset+Allows the player to reset another p
 UltimateStatistics+ultimatestatistics.view.others+Allows the player to see other player's statistics.+/stats
 UltimateStatistics+ultimatestatistics.view+Allows the player to see their own statistics.+/stats
 UltraCustomizer+ultracustomizer.admin+Ability to access the main GUI of the plugin+/customizer
+UltraCustomizerPlus+ucplus.update-join+Allows the player to see if the plugin needs an update.
 UltraPunishments+ultrapunishments.ban.execute+Allows a player to ban someone
 UltraPunishments+ultrapunishments.ban.revoke+Allows a player to unban someone
 UltraPunishments+ultrapunishments.manage.settings+Allows a player to view and edit settings
