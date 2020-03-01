@@ -2937,6 +2937,30 @@ InsaneShops+insaneshops.admin+Allows opening Shops as a seller (to manage them)
 InsaneShops+insaneshops.commands.shops+Allows the usage of /shops+/shops
 InsaneShops+insaneshops.create+Allows the player to create a Shop Recommended
 InsaneShops+insaneshops.limit.XXX.+Limits the number of Shops a player can own
+InventorySaver+inferno.events.*+Allows the player to access all events and menu interactions.
+InventorySaver+invsave.*+Grants the player all permissions of the plugin.
+InventorySaver+invsave.command.invsave.edit+Allows the player to edit another player's inventory.+/invsave edit <player>
+InventorySaver+invsave.command.invsave.help+Allows the player to see the help of the plugin.+/invsave help
+InventorySaver+invsave.command.invsave.history.enderchest+Allows the player to see the history of another player's ender chest.+/invsave history <player> enderchest
+InventorySaver+invsave.command.invsave.history+Allows the player to see the history of another player's inventory.+/invsave history <player>
+InventorySaver+invsave.command.invsave.load+Allows the player to load another player's inventories by ID.+/invsave save <player> <ID>
+InventorySaver+invsave.command.invsave.reload+Allows the player to reload the plugin's configurations.+/invsave reload
+InventorySaver+invsave.command.invsave.save.enderchest+Allows the player to save another player's ender chest manually.+/invsave save <player> enderchest
+InventorySaver+invsave.command.invsave.save+Allows the player to save another player's inventory manually.+/invsave save <player>
+InventorySaver+invsave.command.invsave.search+Allows the player to search for a specific item in player inventories.+/invsave search <offline;online> <item;material> [material]
+InventorySaver+invsave.command.invsave.tasks.help+Allows the player to see the help of the tasks command.+/invsave tasks help
+InventorySaver+invsave.command.invsave.tasks.list+Allows the player to see all currently running and planned tasks.+/invsave tasks list
+InventorySaver+invsave.command.invsave.tasks.stop+Allows the player to stop all currently running tasks.+/invsave tasks stop
+InventorySaver+invsave.command.invsave.tasks+Allows the player to manage the current and planned tasks.+/invsave tasks
+InventorySaver+invsave.command.invsave.view.enderchest+Allows the player to see another player's offline ender chest.+/invsave view <player> enderchest
+InventorySaver+invsave.command.invsave.view+Allows the player to see another player's offline inventory.+/invsave view <player>
+InventorySaver+invsave.command.invsave+Allows the player to use the main command of the plugin.+/invsave
+InventorySaver+invsave.commands.*+Allows the player to use all commands of the plugin.
+InventorySaver+invsave.inventory.admin.load-inventory-to-admin+Allows the player to load another player's inventory from the history to themself.
+InventorySaver+invsave.inventory.admin.load-inventory-to-player+Allows the player to load another player's inventory from the history to the player.
+InventorySaver+invsave.inventory.admin.set-up-xp-to-player+Allows the player to load another player's experience from the history to the player.
+InventorySaver+invsave.inventory.enderchest.admin.load-inventory-to-admin+Allows the player to load another player's ender chest from the history to themself.
+InventorySaver+invsave.inventory.enderchest.admin.load-inventory-to-player+Allows the player to load another player's ender chest from the history to the player.
 IridiumSkyblock+IridiumSkyblock.bypass+Bypass island restrictions+/is bypass
 IridiumSkyblock+IridiumSkyblock.fly+Toggles the ability to fly+/is fly
 IridiumSkyblock+IridiumSkyblock.givecrystals+Gives a player island crystals+/is givecrystals
