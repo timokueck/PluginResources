@@ -1622,6 +1622,28 @@ CreditCard+creditcard.use.loan+Permission to take out a loan.+/CreditCard loan
 CreditCard+creditcard.use.owe+Permission to see the amount you owe.+/CreditCard owe
 CreditCard+creditcard.use.pay+Permission to pay back the amount you owe.+/CreditCard pay
 CreditCard+creditcard.use.reg+Permission to createUser for a credit-card.+/CreditCard createUser
+CropClick+cropclick.*+Grants the player all permissions of the plugin.
+CropClick+cropclick.activate+Allows the player to activate the plugin globally.+/crop activate
+CropClick+cropclick.click.*+Allows the player to use all click functions.
+CropClick+cropclick.click.beetroot+Allows the player to click beetroot.
+CropClick+cropclick.click.carrot+Allows the player to click carrots.
+CropClick+cropclick.click.netherwart+Allows the player to click netherwarts.
+CropClick+cropclick.click.potato-percent+Allows the player to click and get poison potatoes.
+CropClick+cropclick.click.potato+Allows the player to click potatoes.
+CropClick+cropclick.click.wheat+Allows the player to click wheat.
+CropClick+cropclick.deactivate+Allows the player to deactivate the plugin globally.+/crop deactivate
+CropClick+cropclick.gui+Allows the player to open the plugin's GUI to modify settings.+/crop gui
+CropClick+cropclick.help+Allows the player to see a list of all available commands of the plugin.+/crop help
+CropClick+cropclick.link+Allows the player to link a dispenser to a chest and a crop to make an autofarm.+/crop link
+CropClick+cropclick.linker+Allows the player to get a wand to select a dispenser, a crop and a chest.+/crop linker
+CropClick+cropclick.reload+Allows the player to reload the plugin.+/crop reload
+CropClick+cropclick.remove+Allows the player to remove the crop, chest or dispenser so it can not be used for an autofarm.+/crop remove
+CropClick+cropclick.reset+Allows the player to reset all settings of the plugin to default.+/crop reset
+CropClick+cropclick.selector+Allows the player to get a wand to link a dispenser, a crop and a chest.+/crop selector
+CropClick+cropclick.set+Allows the player to manually set the crop value.+/crop set
+CropClick+cropclick.unlink+Allows the player to unlink a dispenser to deactivate the autofarm.+/crop unlink
+CropClick+cropclick.use.linker+Allows the player to use the linker function.
+CropClick+cropclick.use.selector+Allows the player to use the selector function.
 Custom-Images+image.manage.create+To create an image then right click the top left of where you want the image to be+/image create <file name>
 Custom-Images+image.manage.delete+To delete an image then just right click the image to delete+/image delete
 Custom-Images+image.manage.options+To see all the file options of images that you can click to create+/image options
