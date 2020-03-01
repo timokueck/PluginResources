@@ -2933,10 +2933,11 @@ Industrial-MC+industrial.master.setrecipe+set an Industrial-MC item's recipe wit
 Industrial-MC+industrial.mymachines+Lists Your Owned Machines.+/mymachines
 Industrial-MC+industrial.trust+allows players to add friends that can use their machines.+/indtrust <player-name> <all;break;use;remove>
 Industrial-MC+industrial.wrench+Gives you a Wrench.+/wrench
-InsaneShops+insaneshops.admin+Allows opening Shops as a seller (to manage them)
-InsaneShops+insaneshops.commands.shops+Allows the usage of /shops+/shops
-InsaneShops+insaneshops.create+Allows the player to create a Shop Recommended
-InsaneShops+insaneshops.limit.XXX.+Limits the number of Shops a player can own
+InsaneShops+insaneshops.admin+Allows the player to open shops as a seller in order to manage them.
+InsaneShops+insaneshops.commands.shops+Allows the player to use the main command of the plugin.+/shops
+InsaneShops+insaneshops.create.sellshop+Allows the player to create a sell shop.
+InsaneShops+insaneshops.create+Allows the player to create a shop.
+InsaneShops+insaneshops.limit.[limit]+Defines the maximum amount of shops a player can own.
 InventorySaver+inferno.events.*+Allows the player to access all events and menu interactions.
 InventorySaver+invsave.*+Grants the player all permissions of the plugin.
 InventorySaver+invsave.command.invsave.edit+Allows the player to edit another player's inventory.+/invsave edit <player>
