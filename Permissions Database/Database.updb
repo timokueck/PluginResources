@@ -160,14 +160,22 @@ AntiWorldFly+antiworldfly.*+Star notation of permissions, includes all of them.+
 AntiWorldFly+antiworldfly.fly+Allows to fly even if player is in a world blocked by the plugin.
 AntiWorldFly+antiworldfly.use+Allows to use the enable, disable, add and remove commands.+/awf enable,/awf disable,/awf add,/awf remove
 AntiXrayHeuristics+AXH.*+Allows the use of all AntiXrayHeuristics commands and features.
-AntiXrayHeuristics+AXH.Ignore+Will ignore a player from being tracked.
-AntiXrayHeuristics+AXH.XrayerWarning+Warns players with this permission about a detected xrayer.
-AntiXrayHeuristics+AXH.Vault.Purge+Allows for purging the entire vault.
-AntiXrayHeuristics+AXH.Commands.ResetSuspicion+Allows for reset suspicion command usage.+/AXH ResetSuspicion [player]
-AntiXrayHeuristics+AXH.Commands.Vault+Allows for xray vault inspection.+/AXH Vault
-AntiXrayHeuristics+AXH.Commands.PurgePlayer+Allows for usage of the player purging command, and purging players through XrayerVault GUI.+/AXH Purge [player]
 AntiXrayHeuristics+AXH.Commands.AbsolvePlayer+Allows for usage of the player absolving command, and absolving players through XrayerVault GUI.+/AXH Absolve [player]
+AntiXrayHeuristics+AXH.Commands.AbsolvePlayer+Allows the player to remove another player from the xrayer vault and restore their inventory.+/AXH Absolve <player>
+AntiXrayHeuristics+AXH.Commands.PurgePlayer+Allows for usage of the player purging command, and purging players through XrayerVault GUI.+/AXH Purge [player]
+AntiXrayHeuristics+AXH.Commands.PurgePlayer+Allows the player to remove another player from the xrayer vault.+/AXH Purge <player>
+AntiXrayHeuristics+AXH.Commands.ResetSuspicion+Allows for reset suspicion command usage.+/AXH ResetSuspicion [player]
+AntiXrayHeuristics+AXH.Commands.ResetSuspicion+Allows the player to reset another player's suspicion level value.+/AXH ResetSuspicion [player]
+AntiXrayHeuristics+AXH.Commands.Vault+Allows for xray vault inspection.+/AXH Vault
+AntiXrayHeuristics+AXH.Commands.Vault+Allows the player to open a GUI with all detected players.+/AXH Vault
+AntiXrayHeuristics+AXH.Commands.Xrayer+Allows the player to manually declare another player as xrayer.+/AXH xrayer <player>
 AntiXrayHeuristics+AXH.Commands.Xrayer+Manualy declares a player an xrayer+/AXH xrayer [player]
+AntiXrayHeuristics+AXH.Ignore+Allows the player to bypass being tracked.
+AntiXrayHeuristics+AXH.Ignore+Will ignore a player from being tracked.
+AntiXrayHeuristics+AXH.Vault.Purge+Allows for purging the entire vault.
+AntiXrayHeuristics+AXH.Vault.Purge+Allows the player to purge the whole xrayer vault.
+AntiXrayHeuristics+AXH.XrayerWarning+Allows the player to be notified about a detected xrayer.
+AntiXrayHeuristics+AXH.XrayerWarning+Warns players with this permission about a detected xrayer.
 AreaShop+areashop.*+Allows everything, like OP has by default
 AreaShop+areashop.addfriend+Only region you own+/as addfriend <player> [region]
 AreaShop+areashop.addfriendall+All regions+/as addfriend <player> [region]
