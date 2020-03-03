@@ -159,6 +159,15 @@ AntiVPN+avpn.bypass+Players with this node bypass the filter entirely
 AntiWorldFly+antiworldfly.*+Star notation of permissions, includes all of them.+/awf reload
 AntiWorldFly+antiworldfly.fly+Allows to fly even if player is in a world blocked by the plugin.
 AntiWorldFly+antiworldfly.use+Allows to use the enable, disable, add and remove commands.+/awf enable,/awf disable,/awf add,/awf remove
+AntiXrayHeuristics+AXH.*+Grants the player all permissions of the plugin.
+AntiXrayHeuristics+AXH.Commands.AbsolvePlayer+Allows the player to remove another player from the xrayer vault and restore their inventory.+/AXH Absolve <player>
+AntiXrayHeuristics+AXH.Commands.PurgePlayer+Allows the player to remove another player from the xrayer vault.+/AXH Purge <player>
+AntiXrayHeuristics+AXH.Commands.ResetSuspicion+Allows the player to reset another player's suspicion level value.+/AXH ResetSuspicion [player]
+AntiXrayHeuristics+AXH.Commands.Vault+Allows the player to open a GUI with all detected players.+/AXH Vault
+AntiXrayHeuristics+AXH.Commands.Xrayer+Allows the player to manually declare another player as xrayer.+/AXH xrayer <player>
+AntiXrayHeuristics+AXH.Ignore+Allows the player to bypass being tracked.
+AntiXrayHeuristics+AXH.Vault.Purge+Allows the player to purge the whole xrayer vault.
+AntiXrayHeuristics+AXH.XrayerWarning+Allows the player to be notified about a detected xrayer.
 AreaShop+areashop.*+Allows everything, like OP has by default
 AreaShop+areashop.addfriend+Only region you own+/as addfriend <player> [region]
 AreaShop+areashop.addfriendall+All regions+/as addfriend <player> [region]
