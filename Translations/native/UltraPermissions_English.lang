@@ -146,7 +146,7 @@ GUI_STORAGESETTINGS_TITLE: Storage Settings
 GUI_STORAGESETTINGS_TYPEINWORLD: Type in a world name
 GUI_STORAGESETTINGS_NOWORLD_ACTION: Click to **restrict** this group to a specific World
 GUI_STORAGESETTINGS_WORLD_ACTION: Click to allow this group in all Worlds
-GUI_STORAGESETTINGS_NOSERVER_ACTION: Click to **restrict **this group to this Server
+GUI_STORAGESETTINGS_NOSERVER_ACTION: Click to **restrict** this group to this Server
 GUI_STORAGESETTINGS_SERVER_ACTION: Click to allow this group on all Servers
 GUI_STORAGESETTINGS_RESTRICTED_TO: Restricted to **%1**
 GUI_PASTESELECTION_PASTE_ACTION: Click to **paste** %1
