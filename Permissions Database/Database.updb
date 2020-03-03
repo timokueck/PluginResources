@@ -3834,27 +3834,36 @@ MoreTp+moretp.warp.admin+to edit warp in game
 MoreTp+moretp.warp.delete+to delete warp
 MoreTp+moretp.warp.gui+to open Warp GUI
 MoreTp+moretp.warp.set+to set warp
-Multiverse-Core+multiverse.core.confirm+Confirms an action that could destroy the life, the universe and everything.+/mv confirm,/mvconfirm
-Multiverse-Core+multiverse.core.coord+Displays your current coordinates.+/mv coord,/mvcoord
-Multiverse-Core+multiverse.core.create+Creates a new world and loads it.+/mv create,/mvc,/mvcreate
-Multiverse-Core+multiverse.core.delete+Unloads a world from the Bukkit server, removes it from the MV configs AND DELETES the world folder.+/mv delete,/mvdelete
-Multiverse-Core+multiverse.core.gamerule.set+Sets a Minecraft game rule for a world.+/mvgamerule,/mv rule,/mvrule
-Multiverse-Core+multiverse.core.import+Imports an existing world folder.+/mv import,/mvi,/mvimport
-Multiverse-Core+multiverse.core.info+Displays information about the world you're in or the world you pass in.+/mv info,/mvi,/mvinfo
-Multiverse-Core+multiverse.core.list.environments+Displays the valid environments.+/mvenv,/mv env
-Multiverse-Core+multiverse.core.list.who+Displays who is in which world(s).+/mv who,/mvw,/mvwho
-Multiverse-Core+multiverse.core.list.worlds+Displays a listing of all worlds that you can enter.+/mv list,/mvl,/mvlist
-Multiverse-Core+multiverse.core.modify+Modifies a world's variable, Adds or Removes a value to a world's property, Clears all values from a list property.+/mv modify set,/mvmodify set,/mvm set,/mvmset,/mv modify add,/mv modify remove,/mvmadd,/mvmremove,/mvm add,/mvm remove,/mvmodify add,/mvmodify remove,/mvmodify clear,/mv modify clear,/mvm clear,/mvmclear
-Multiverse-Core+multiverse.core.purge+Removes the specified entities from the specified worlds.+/mv purge,/mvpurge
-Multiverse-Core+multiverse.core.reload+Reloads worlds.yml and [[config.yml]].+/mv reload,/mvr,/mvreload
-Multiverse-Core+multiverse.core.remove+Unloads a world from the Bukkit server and removes it from the MV configs.+/mv remove,/mvremove
-Multiverse-Core+multiverse.core.silent+Causes several of the startup messages to be hidden when silent mode is enabled.+/mv silent
-Multiverse-Core+multiverse.core.spawn.other+Teleports you to the spawn.+/mv spawn,/mvs,/mvspawn
-Multiverse-Core+multiverse.core.spawn.self+Teleports you to the spawn.+/mv spawn,/mvs,/mvspawn
-Multiverse-Core+multiverse.core.spawn.set+Sets the respawn point for the current world.+/mv set spawn,/mvss,/mvsetspawn
-Multiverse-Core+multiverse.core.unload+Unloads a world from the Bukkit server.+/mv unload,/mvunload
-Multiverse-Core+multiverse.help+Displays the Multiverse help pages.+/mv,/mvh,/mvhelp,/mv help,/mvsearch,/mv search
-Multiverse-Core+multiverse.sleep+WARNING THIS COMMAND IS CURRENTLY BROKEN!!! Takes you to the last bed you slept in.+/mv sleep
+Multiverse-Core+multiverse.access.[world]+Allows the player to enter the specified world.
+Multiverse-Core+multiverse.access.*+Allows the player to enter all worlds.
+Multiverse-Core+multiverse.core.clone+Allows the player to clone a new world.+/mv clone <world> <copied_world>,/mvclone <world> <copied_world>
+Multiverse-Core+multiverse.core.confirm+Allows the player to confirm a requested action that could destroy everything.+/mv confirm,/mvconfirm
+Multiverse-Core+multiverse.core.coord+Allows the player to display their current location coordinates.+/mv coord,/mvcoord
+Multiverse-Core+multiverse.core.create+Allows the player to create a new world and load it.+/mv create <name> <environment> [args],/mvc <name> <environment> [args],/mvcreate <name> <environment> [args]
+Multiverse-Core+multiverse.core.delete+Allows the player to completely remove a world.+/mv delete <world>,/mvdelete <world>
+Multiverse-Core+multiverse.core.import+Allows the player to import an existing world folder.+/mv import <name> <environment> [args],/mvi <name> <environment> [args],/mvimport <name> <environment> [args]
+Multiverse-Core+multiverse.core.info+Allows the player to see information about the world they are in or that is given.+/mv info [world] [page],/mvi [world] [page],/mvinfo [world] [page]
+Multiverse-Core+multiverse.core.list.environments+Allows the player to list all valid environments on the server.+/mvenv,/mv env
+Multiverse-Core+multiverse.core.list.who+Allows the player to see who is in which world.+/mv who [world],/mvw [world],/mvwho [world]
+Multiverse-Core+multiverse.core.list.worlds+Allows the player to list all worlds they are able to enter.+/mv list,/mvl,/mvlist
+Multiverse-Core+multiverse.core.modify.add+Allows the player to use the add modifier.+/mv modify add,/mvmodify add,/mvm add,/mvmadd
+Multiverse-Core+multiverse.core.modify.clear+Allows the player to use the clear modifier.+/mv modify clear,/mvmodify clear,/mvm clear,/mvmclear
+Multiverse-Core+multiverse.core.modify.remove+Allows the player to use the remove modifier.+/mv modify remove,/mvmodify remove,/mvm remove,/mvmremove
+Multiverse-Core+multiverse.core.modify.set+Allows the player to use the set modifier.+/mv modify set,/mvmodify set,/mvm set,/mvmset
+Multiverse-Core+multiverse.core.modify+Allows the player to modify worlds.+/mv modify set,/mv modify add,/mv modify remove,/mv modify clear
+Multiverse-Core+multiverse.core.purge+Allows the player to remove entities from a world.+/mv purge [world] <entity>,/mvpurge [world] <entity>
+Multiverse-Core+multiverse.core.regen+Allows the player to regenerate a world.+/mv regen [world],/mvregen [world]
+Multiverse-Core+multiverse.core.reload+Allows the player to reload the config files of the plugin.+/mv reload,/mvr,/mvreload
+Multiverse-Core+multiverse.core.remove+Allows the player to unload a world from the server and remove it from the configs.+/mv remove <world>,/mvremove <world>
+Multiverse-Core+multiverse.core.spawn.other+Allows the player to teleport other palyers to the world's spawn.+/mv spawn <player>,/mvs <player>,/mvspawn <player>
+Multiverse-Core+multiverse.core.spawn.self+Allows the player to teleport to the world's spawn.+/mv spawn,/mvs,/mvspawn
+Multiverse-Core+multiverse.core.spawn.set+Allows the player to set the respawn point for the current world.+/mv set spawn,/mvss,/mvsetspawn
+Multiverse-Core+multiverse.core.unload+Allows the player to unload a world from the server.+/mv unload <world>,/mvunload <world>
+Multiverse-Core+multiverse.exempt.[world]+Prevents the player from entering the specified world.
+Multiverse-Core+multiverse.help+Allows the player to see the help of the plugin.+/mv help,/mv search,/mvhelp,/mvsearch,/mv,/mvh
+Multiverse-Core+multiverse.teleport.other.[teleport_type]+Allows the player to teleport other players to another world.
+Multiverse-Core+multiverse.teleport.self.[teleport_type]+Allows the player to teleport themself to another world.
+Multiverse-Core+mv.bypass.gamemode.[world]+Allows the player to bypass the set gamemode when accessing the specified world.
 Multiverse-Inventories+multiverse.inventories.import+Imports data from MultiInv/WorldInventories+/mvinv import {MultiInv|WorldInventories}
 Multiverse-Inventories+multiverse.inventories.info+Displays information about a world or group+/mvinv info {WORLD|GROUP}
 Multiverse-Inventories+multiverse.inventories.list+Displays a list of groups+/mvinv list
