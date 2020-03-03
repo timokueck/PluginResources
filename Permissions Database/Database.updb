@@ -3855,6 +3855,10 @@ Multiverse-Core+multiverse.core.spawn.set+Sets the respawn point for the current
 Multiverse-Core+multiverse.core.unload+Unloads a world from the Bukkit server.+/mv unload,/mvunload
 Multiverse-Core+multiverse.help+Displays the Multiverse help pages.+/mv,/mvh,/mvhelp,/mv help,/mvsearch,/mv search
 Multiverse-Core+multiverse.sleep+WARNING THIS COMMAND IS CURRENTLY BROKEN!!! Takes you to the last bed you slept in.+/mv sleep
+Multiverse-Core+mv.bypass.gamemode.[WORLD]+Allows users to bypass the configured gamemode when accessing the specified world, use * to allow for all worlds
+Multiverse-Core+multiverse.access.[WORLD]+Allows users to access the specified world, only nessasary if enforceaccess is on
+Multiverse-Core+multiverse.teleport.self.[TYPE]+Allows users to teleport themselves to another world. Valid types are w = World, p = Portal, a = Anchor, e = Exact destination (coordinates), pl = Player, ca = Cannon, b = Bed.
+Multiverse-Core+multiverse.teleport.other.[TYPE]+Allows users to teleport themselves and others to another world. Valid types are w = World, p = Portal, a = Anchor, e = Exact destination (coordinates), pl = Player, ca = Cannon, b = Bed.
 Multiverse-Inventories+multiverse.inventories.import+Imports data from MultiInv/WorldInventories+/mvinv import {MultiInv|WorldInventories}
 Multiverse-Inventories+multiverse.inventories.info+Displays information about a world or group+/mvinv info {WORLD|GROUP}
 Multiverse-Inventories+multiverse.inventories.list+Displays a list of groups+/mvinv list
