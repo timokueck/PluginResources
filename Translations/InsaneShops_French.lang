@@ -80,7 +80,7 @@ GUI_SHOPSETTINGS_DELETE_ACTION: Cliquez ici pour fermer le magasin
 GUI_SHOPSETTINGS_DELETE_NEEDWITHDRAWING: Veuillez retirer tout les objets du magasin en premier
 GUI_STOCKEDVIEW_TITLE: Objets en Stock
 GUI_STOCKEDVIEW_ACTION: Cliquez ici pour **aller** dans votre inventaire
-GUI_STOCKEDVIEW_INSTRUCTION: Ajoutez un objet en cliquant dessus depuis votre inventaire 
+GUI_STOCKEDVIEW_INSTRUCTION: Ajoutez un objet en cliquant dessus depuis votre inventaire
 GUI_TRANSACTIONS_PURCHASETIME: acheté il y a **%1**
 SHOP_CREATION_NOPERMISSION: Vous ne pouvez pas créer de magasin
 SHOP_CREATION_INVALID_ITEM: Vous ne pouvez pas vendre cet objet

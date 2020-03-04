@@ -43,7 +43,7 @@ COMMAND_HINT_HELP: Typ **/upc** voor een lijst met commando's
 COMMAND_HELP_TITLE: Ultra Permissions Commando's
 COMMAND_HELP_FOOTER: Ga naar **%1** voor meer info
 COMMAND_GROUP_NOTFOUND: Kan de groep **%1** niet vinden
-COMMAND_PLAYER_NOTFOUND: Kan de speler **%1** niet vinden 
+COMMAND_PLAYER_NOTFOUND: Kan de speler **%1** niet vinden
 COMMAND_PLAYER_NOTSUPERADMIN: **%1** is geen superadmin
 COMMAND_PLAYER_INGROUP: De speler**%1** zit al in deze groep
 COMMAND_PLAYER_SUPERADMIN_ALREADY: **%1** is al een superadmin

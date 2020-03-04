@@ -102,7 +102,7 @@ GUI_GROUPVIEW_DELETE_ACTION: **Щёлкните**, чтобы **удалить**
 GUI_GROUPVIEW_DELETE_PERMANENT: Данное действие **необратимо**
 GUI_GROUPVIEW_DEFAULT_TITLE: Стандартная группа
 GUI_GROUPVIEW_DEFAULT_ACTION: **Щёлкните**, чтобы сделать данную группу **стандартной**
-GUI_GROUPVIEW_DEFAULT_UNDEFAULT_ACTION: **Щёлкните**, чтобы сделать данную группу **обычной** 
+GUI_GROUPVIEW_DEFAULT_UNDEFAULT_ACTION: **Щёлкните**, чтобы сделать данную группу **обычной**
 GUI_GROUPVIEW_DEFAULT_EXPLANATION: Если включено, каждый новый игрок будет получать эту группу при первом входе
 GUI_GROUPVIEW_INHERITANCE_TITLE: Наследование
 GUI_GROUPVIEW_INHERITANCE_ACTION: **Щёлкните**, чтобы изменить наследование групп
