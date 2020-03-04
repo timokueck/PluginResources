@@ -3,6 +3,14 @@ ENABLED: aktiviran(o)
 DISABLE: deaktivirajte
 DISABLED: deaktivirano
 SETTINGS: Podešavanja
+#DAY: Day
+#DAYS: Days
+#HOUR: Hour
+#HOURS: Hours
+#MINUTE: Minute
+#MINUTES: Minutes
+#SECOND: Second
+#SECONDS: Seconds
 NONE: Ništa
 COMMAND_NOPERMISSION: Nedovoljno **dozvola**.
 COMMAND_NOCONSOLE: Komanda se može koristiti samo iz konzole.

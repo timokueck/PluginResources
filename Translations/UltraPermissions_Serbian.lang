@@ -1,5 +1,9 @@
 OVERVIEW: Pregled
 PERMISSION: Dozvola
+#POSITIVE: Positive
+#NEGATIVE: Negative
+#MIXED: Mixed
+#BUNGEE_PERMISSION: Bungee Permission
 PERMISSION_NODES: Dozvole
 PERMISSIONS: Dozvole
 DEFAULT_PERMISSIONS: Početna Dozvole
@@ -26,6 +30,13 @@ PERMISSIONLOG: Beleška Dozvoli
 EDITING: Menjanje
 ADD: Dodajte
 TIME_FOR: za
+#NONE: None
+#DURATION: Duration
+#COPY: Copy
+#PASSED: Passed
+#FAILED: Failed
+#SOURCE: Source
+#TIME_TILL_REMOVAL: Time till removal:
 COMMAND_INVALID_ARGS: Invalidan Argument
 COMMAND_NOTFOUND: Komanda nije pronađena
 COMMAND_HINT_HELP: Ukucajte **/upc** za listu svih komandi
@@ -41,7 +52,6 @@ COMMAND_PLAYER_SUPERADMIN_REMOVE: Uspešno uklonjen/a **%1** iz superadmina
 COMMAND_PLAYER_ADD_GROUP: Dodata Grupa **%1** **%2**
 COMMAND_PLAYER_ADD_GROUP_TIMED: Dodata Grupa ***%1** **%2** za **%3**
 COMMAND_PERMISSION_ADD: Dodata dozvola **%1** **%2**
-COMMAND_PERMISSION_ADD_TIMED: Dodata dozvola **%1** **%2** za **%3**
 GUI_OVERVIEW_USERS_ACTION: Kliknite za prikaz svih **Korisnike**
 GUI_OVERVIEW_GROUPS_ACTION: Kliknite za prikaz svih **Grupa**
 GUI_OVERVIEW_DONATIONS_ACTION: Kliknite za prikaz Donacija
@@ -108,7 +118,31 @@ GUI_PERMEDITOR_NORMAL_RIGHTCLICK: **Desni Klik** da **izaberete**
 GUI_PERMEDITOR_NORMAL_PRESSQ: **Stisnite Q** za Brisanje
 GUI_PERMEDITOR_ADDPERMISSION_TITLE: Dodajte Dozvolu
 GUI_PERMEDITOR_PLUGIN_ACTION: Kliknite za prikaz Dozvola **%1**
-GUI_PERMEDITOR_MANUAL_TITLE: Ukucajte u Četu
+#GUI_PERMEDITOR_BUNGEEINDICATOR: This is a **BungeeCord** Permission
+#GUI_PERMEDITOR_AVAILABILITY_ALLSERVERS: Available on **all** Servers
+#GUI_PERMEDITOR_AVAILABILITY_INWORLD: in the World **%1**
+#GUI_PERMEDITOR_AVAILABILITY_APPLICABLEIN: Permission applicable in %1
+#GUI_PERMEDITOR_AVAILABILITY_ONLYTHISSERVER: Only available on **this** Server
+#GUI_PERMEDITOR_AVAILABILITY_SPECIFICSERVER: Available on **%1** Server
+#GUI_PERMEDITOR_ADD_LEFTACTION: **Left Click** to add Permission
+#GUI_PERMEDITOR_ADD_RIGHTACTION: **Right Click** to add **Bungee Permission**
+#GUI_PERMEDITOR_ADD_TYPEIN: Type in a permission
+#GUI_PERMEDITOR_EDIT_TITLE: Edit %1
+#GUI_PERMEDITOR_EDIT_ACTION: Click to edit **%1**
+#GUI_PERMVIEW_EDITPERM_TITLE: Edit Permission
+#GUI_PERMVIEW_EDITPERM_ACTION: Click to edit Permission
+#GUI_PERMVIEW_EDITPERM_TYPEIN: Type in the new permission
+#GUI_PERMVIEW_COPY_ACTION: Click to select a **target**
+#GUI_PERMVIEW_NOMULTINAMEEDIT: you cannot rename multiple permissions at once
+#GUI_STORAGESETTINGS_TITLE: Storage Settings
+#GUI_STORAGESETTINGS_TYPEINWORLD: Type in a world name
+#GUI_STORAGESETTINGS_NOWORLD_ACTION: Click to **restrict** this group to a specific World
+#GUI_STORAGESETTINGS_WORLD_ACTION: Click to allow this group in all Worlds
+#GUI_STORAGESETTINGS_NOSERVER_ACTION: Click to **restrict** this group to this Server
+#GUI_STORAGESETTINGS_SERVER_ACTION: Click to allow this group on all Servers
+#GUI_STORAGESETTINGS_RESTRICTED_TO: Restricted to **%1**
+#GUI_PASTESELECTION_PASTE_ACTION: Click to **paste** %1
+#GUI_PERMEDITOR_MANUAL_TITLE: Type in Chat
 GUI_PERMEDITOR_MANUAL_ACTION: **Kliknite** da ukucate Dozvolu
 GUI_PERMEDITOR_MANUAL_DIALOG_SUBTITLE: Ukucajte dozvolu
 GUI_INHERITVIEW_ADD_ACTION: Kliknite da **dodate**
@@ -119,6 +153,7 @@ GUI_CHANGEORDER_TITLE: Promenite Redosled
 GUI_CHANGEORDER_INCREASE: Desni Klik** za povećavanje
 GUI_CHANGEORDER_DECREASE: Levi Klik** da smanjite
 GUI_PERMISSIONLOG_ACTION: Kliknite da dodate ovu dozvolu grupi **group **ili **user
+#GUI_PERMISSIONLOG_RESULT: Result: %1
 GUI_SETTINGS_FORMAT_NAME: Format Četa i Tabliste
 GUI_SETTINGS_MISC_NAME: Ostalo
 EDITING_PREFIX_EDIT: **Promenite Prefix

@@ -1,5 +1,9 @@
 OVERVIEW: Übersicht
 PERMISSION: Berechtigung
+POSITIVE: Positiv
+NEGATIVE: Negativ
+MIXED: Gemischt
+BUNGEE_PERMISSION: Bungee Berechtigungen
 PERMISSION_NODES: Berechtigungen
 PERMISSIONS: Berechtigungen
 DEFAULT_PERMISSIONS: Standard-Berechtigungen
@@ -26,6 +30,13 @@ PERMISSIONLOG: Berechtigungs-Log
 EDITING: Bearbeiten
 ADD: Hinzufügen
 TIME_FOR: für
+NONE: Nichts
+DURATION: Dauer
+COPY: Kopie
+PASSED: Bestanden
+FAILED: Gescheitert
+SOURCE: Quelle
+TIME_TILL_REMOVAL: Zeit bis Entfernung:
 COMMAND_INVALID_ARGS: Unzureichende Argumente
 COMMAND_NOTFOUND: Befehl nicht gefunden
 COMMAND_HINT_HELP: Führe **/upc** für eine Liste von Commands aus
@@ -41,7 +52,6 @@ COMMAND_PLAYER_SUPERADMIN_REMOVE: **%1** erfolgreich von Superadmins entfernt
 COMMAND_PLAYER_ADD_GROUP: Gruppe **%1** zu **%2** hinzugefügt
 COMMAND_PLAYER_ADD_GROUP_TIMED: Gruppe **%1** zu **%2** für **%3** hinzugefügt
 COMMAND_PERMISSION_ADD: Berechtigung **%1** zu **%2** hinzugefügt
-COMMAND_PERMISSION_ADD_TIMED: Berechtigung **%1** zu **%2** für **%3** hinzugefügt
 GUI_OVERVIEW_USERS_ACTION: Klicke um alle **Spieler** anzuzeigen
 GUI_OVERVIEW_GROUPS_ACTION: Klicke um **Gruppen** anzuzeigen
 GUI_OVERVIEW_DONATIONS_ACTION: Klicke um Spenden anzuzeigen
@@ -108,6 +118,30 @@ GUI_PERMEDITOR_NORMAL_RIGHTCLICK: **Rechtsklick** zum **Auswählen**
 GUI_PERMEDITOR_NORMAL_PRESSQ: **Wegwerf-Taste** zum Löschen
 GUI_PERMEDITOR_ADDPERMISSION_TITLE: Berechtigung hinzufügen
 GUI_PERMEDITOR_PLUGIN_ACTION: Klicke um Berechtigungen von **%1** anzuzeigen
+GUI_PERMEDITOR_BUNGEEINDICATOR: Dies ist eine **BungeeCord** Berechtigung
+GUI_PERMEDITOR_AVAILABILITY_ALLSERVERS: Verfügbar auf **allen** Servern
+GUI_PERMEDITOR_AVAILABILITY_INWORLD: in der Welt **%1**
+GUI_PERMEDITOR_AVAILABILITY_APPLICABLEIN: Berechtigung anwendbar in %1
+GUI_PERMEDITOR_AVAILABILITY_ONLYTHISSERVER: Nur auf **diesem** Server verfügbar
+GUI_PERMEDITOR_AVAILABILITY_SPECIFICSERVER: Verfügbar auf **%1** Server
+GUI_PERMEDITOR_ADD_LEFTACTION: **Linksklick** um Berechtigung hinzuzufügen
+GUI_PERMEDITOR_ADD_RIGHTACTION: **Rechtsklick** um **Bungee Berechtigung** hinzuzufügen
+GUI_PERMEDITOR_ADD_TYPEIN: Gib eine Berechtigung ein
+GUI_PERMEDITOR_EDIT_TITLE: %1 bearbeiten
+GUI_PERMEDITOR_EDIT_ACTION: Klicke um **%1** zu bearbeiten
+GUI_PERMVIEW_EDITPERM_TITLE: Berechtigung bearbeiten
+GUI_PERMVIEW_EDITPERM_ACTION: Klicke um Berechtigung zu bearbeiten
+GUI_PERMVIEW_EDITPERM_TYPEIN: Gib die neue Berechtigung ein
+GUI_PERMVIEW_COPY_ACTION: Klicke um ein **Ziel** auszuwählen
+GUI_PERMVIEW_NOMULTINAMEEDIT: Du kannst nicht mehrere Berechtigungen gleichzeitig umbenennen
+GUI_STORAGESETTINGS_TITLE: Speichereinstellungen
+GUI_STORAGESETTINGS_TYPEINWORLD: Gib einen Weltnamen ein
+GUI_STORAGESETTINGS_NOWORLD_ACTION: Klicke um diese Gruppe für eine Welt zu **beschränken**
+GUI_STORAGESETTINGS_WORLD_ACTION: Klicke um diese Gruppe in allen Welten zu erlauben
+GUI_STORAGESETTINGS_NOSERVER_ACTION: Klicke um diese Gruppe für diesen Server zu **beschränken**
+GUI_STORAGESETTINGS_SERVER_ACTION: Klicke um diese Gruppe auf allen Servern zu erlauben
+GUI_STORAGESETTINGS_RESTRICTED_TO: Beschränkt auf **%1**
+GUI_PASTESELECTION_PASTE_ACTION: Klicke zum **Einfügen** %1
 GUI_PERMEDITOR_MANUAL_TITLE: Chat-Eingabe
 GUI_PERMEDITOR_MANUAL_ACTION: **Klicke** um eine Berechtigung per Chat einzugeben
 GUI_PERMEDITOR_MANUAL_DIALOG_SUBTITLE: Gib die Berechtigung ein

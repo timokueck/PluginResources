@@ -1,5 +1,9 @@
 OVERVIEW: Обзор
 PERMISSION: Право
+#POSITIVE: Positive
+#NEGATIVE: Negative
+#MIXED: Mixed
+#BUNGEE_PERMISSION: Bungee Permission
 PERMISSION_NODES: Узлы прав
 PERMISSIONS: Права
 DEFAULT_PERMISSIONS: Стандартные права
@@ -26,6 +30,13 @@ PERMISSIONLOG: Журнал прав
 EDITING: Изменение
 ADD: Добавить
 TIME_FOR: на
+#NONE: None
+#DURATION: Duration
+#COPY: Copy
+#PASSED: Passed
+#FAILED: Failed
+#SOURCE: Source
+#TIME_TILL_REMOVAL: Time till removal:
 COMMAND_INVALID_ARGS: Неверные агрументы
 COMMAND_NOTFOUND: Команда не найдена
 COMMAND_HINT_HELP: Введите **/upc**, чтобы получить список команд
@@ -44,10 +55,11 @@ COMMAND_PERMISSION_ADD: Право **%1** добавлено **%2**
 COMMAND_PERMISSION_ADD_TIMED: Право **%1** добавлено **%2** на **%3**
 GUI_OVERVIEW_USERS_ACTION: Щёлкните, чтобы просмотреть всех **Игроков**
 GUI_OVERVIEW_GROUPS_ACTION: Щёлкните, чтобы просмотреть все **Группы**
-GUI_OVERVIEW_DONATIONS_ACTION: Щёлкните, чтобы просмотреть пожертвования
 GUI_OVERVIEW_REDUCE_TITLE: Скрыть
 GUI_OVERVIEW_REDUCE_ACTION: Щёлкните, чтобы скрыть расширенные функции
 GUI_OVERVIEW_EXPAND_ACTION: **Щёлкните**, чтобы показать расширенные функции
+#GUI_OVERVIEW_EXPAND_TITLE: Expand
+#GUI_OVERVIEW_EXPAND_ACTION: **Click** to show more
 GUI_OVERVIEW_EXPAND_EXPLANATION: Показать расширенные функции
 GUI_OVERVIEW_PERMISSIONLOG_ACTION: **Щёлкните**, чтобы открыть журнал прав
 GUI_OVERVIEW_PERMISSIONLOG_EXPLANATION: Здесь вы можете увидеть все недавние проверки прав
@@ -106,6 +118,30 @@ GUI_PERMEDITOR_NORMAL_RIGHTCLICK: **ПКМ**, чтобы **выбрать**
 GUI_PERMEDITOR_NORMAL_PRESSQ: **Нажмите Q** удалить
 GUI_PERMEDITOR_ADDPERMISSION_TITLE: Добавить право
 GUI_PERMEDITOR_PLUGIN_ACTION: Щёлкните, чтобы просмотреть права **%1**
+#GUI_PERMEDITOR_BUNGEEINDICATOR: This is a **BungeeCord** Permission
+#GUI_PERMEDITOR_AVAILABILITY_ALLSERVERS: Available on **all** Servers
+#GUI_PERMEDITOR_AVAILABILITY_INWORLD: in the World **%1**
+#GUI_PERMEDITOR_AVAILABILITY_APPLICABLEIN: Permission applicable in %1
+#GUI_PERMEDITOR_AVAILABILITY_ONLYTHISSERVER: Only available on **this** Server
+#GUI_PERMEDITOR_AVAILABILITY_SPECIFICSERVER: Available on **%1** Server
+#GUI_PERMEDITOR_ADD_LEFTACTION: **Left Click** to add Permission
+#GUI_PERMEDITOR_ADD_RIGHTACTION: **Right Click** to add **Bungee Permission**
+#GUI_PERMEDITOR_ADD_TYPEIN: Type in a permission
+#GUI_PERMEDITOR_EDIT_TITLE: Edit %1
+#GUI_PERMEDITOR_EDIT_ACTION: Click to edit **%1**
+#GUI_PERMVIEW_EDITPERM_TITLE: Edit Permission
+#GUI_PERMVIEW_EDITPERM_ACTION: Click to edit Permission
+#GUI_PERMVIEW_EDITPERM_TYPEIN: Type in the new permission
+#GUI_PERMVIEW_COPY_ACTION: Click to select a **target**
+#GUI_PERMVIEW_NOMULTINAMEEDIT: you cannot rename multiple permissions at once
+#GUI_STORAGESETTINGS_TITLE: Storage Settings
+#GUI_STORAGESETTINGS_TYPEINWORLD: Type in a world name
+#GUI_STORAGESETTINGS_NOWORLD_ACTION: Click to **restrict** this group to a specific World
+#GUI_STORAGESETTINGS_WORLD_ACTION: Click to allow this group in all Worlds
+#GUI_STORAGESETTINGS_NOSERVER_ACTION: Click to **restrict** this group to this Server
+#GUI_STORAGESETTINGS_SERVER_ACTION: Click to allow this group on all Servers
+#GUI_STORAGESETTINGS_RESTRICTED_TO: Restricted to **%1**
+#GUI_PASTESELECTION_PASTE_ACTION: Click to **paste** %1
 GUI_PERMEDITOR_MANUAL_TITLE: Введите в чат
 GUI_PERMEDITOR_MANUAL_ACTION: **Щёлкните**, чтобы ввести право
 GUI_PERMEDITOR_MANUAL_DIALOG_SUBTITLE: Введите право
@@ -117,6 +153,7 @@ GUI_CHANGEORDER_TITLE: Изменить порядок
 GUI_CHANGEORDER_INCREASE: **ПКМ**, чтобы повысить
 GUI_CHANGEORDER_DECREASE: **ЛКМ**, чтобы понизить
 GUI_PERMISSIONLOG_ACTION: Щёлкните, чтобы добавить это право **группе** или **игроку**
+#GUI_PERMISSIONLOG_RESULT: Result: %1
 GUI_SETTINGS_FORMAT_NAME: Формат чата и списка игроков
 GUI_SETTINGS_MISC_NAME: Смешанный
 EDITING_PREFIX_EDIT: **Изменить префикс

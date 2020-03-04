@@ -1,6 +1,10 @@
 OVERVIEW: Overzicht
 PERMISSION: Machtiging
-PERMISSION_NODES: Zelfde machtigingen als anderen groepen
+#POSITIVE: Positive
+#NEGATIVE: Negative
+#MIXED: Mixed
+#BUNGEE_PERMISSION: Bungee Permission
+PERMISSION_NODES: Permission Nodes
 PERMISSIONS: Machtigingen
 DEFAULT_PERMISSIONS: Standaard machtigingen
 GROUP: Groep
@@ -26,6 +30,13 @@ PERMISSIONLOG: Machtiging Logboek
 EDITING: Aanpassen
 ADD: Toevoegen
 TIME_FOR: voor
+#NONE: None
+#DURATION: Duration
+#COPY: Copy
+#PASSED: Passed
+#FAILED: Failed
+#SOURCE: Source
+#TIME_TILL_REMOVAL: Time till removal:
 COMMAND_INVALID_ARGS: Ongeldige argumenten
 COMMAND_NOTFOUND: Commando niet gevonden
 COMMAND_HINT_HELP: Typ **/upc** voor een lijst met commando's
@@ -40,7 +51,6 @@ COMMAND_PLAYER_SUPERADMIN_ADD: **%1** toegevoegd als superadmin
 COMMAND_PLAYER_SUPERADMIN_REMOVE: **%1** met succes verwijderd uit de superadmins
 COMMAND_PLAYER_ADD_GROUP: Groep **%1** toegevoegd aan **%2**
 COMMAND_PLAYER_ADD_GROUP_TIMED: Groep **%1** toegevoegd aan **%2** voor **%3**
-COMMAND_PERMISSION_ADD: Toegevoegde machtiging van **%1** naar **%2**
 COMMAND_PERMISSION_ADD_TIMED: Toegevoegde machtiging van **%1** naar **%2** voor **%3**
 GUI_OVERVIEW_USERS_ACTION: Klik om alle **Gebruikers** te bekijken
 GUI_OVERVIEW_GROUPS_ACTION: Klik om alle **Groepen** te bekijken
@@ -104,10 +114,34 @@ GUI_PERMEDITOR_INHERITED_EXPLANATION: Toestemming toegevoegd vanaf **%1**
 GUI_PERMEDITOR_SELECTED_ACTION: **Klik** om **de selectie ongedaan te maken**
 GUI_PERMEDITOR_SELECTED_EXPLANATION: U **heeft** deze toestemming geselecteerd
 GUI_PERMEDITOR_NORMAL_LEFTCLICK: **Klik met de linkermuisknop** om te bewerken
-GUI_PERMEDITOR_NORMAL_RIGHTCLICK: **Klik met de rechtermuisknop** om **te selecteren**
-GUI_PERMEDITOR_NORMAL_PRESSQ: **Druk op Q** om te verwijderen
-GUI_PERMEDITOR_ADDPERMISSION_TITLE: Toestemming toevoegen
-GUI_PERMEDITOR_PLUGIN_ACTION: Klik om machtigingen van **%1** te bekijken
+#GUI_PERMEDITOR_NORMAL_RIGHTCLICK: **Right Click** to **select**
+#GUI_PERMEDITOR_NORMAL_PRESSQ: **Press Q** to delete
+#GUI_PERMEDITOR_ADDPERMISSION_TITLE: Add Permission
+#GUI_PERMEDITOR_PLUGIN_ACTION: Click to view Permissions of **%1**
+#GUI_PERMEDITOR_BUNGEEINDICATOR: This is a **BungeeCord** Permission
+#GUI_PERMEDITOR_AVAILABILITY_ALLSERVERS: Available on **all** Servers
+#GUI_PERMEDITOR_AVAILABILITY_INWORLD: in the World **%1**
+#GUI_PERMEDITOR_AVAILABILITY_APPLICABLEIN: Permission applicable in %1
+#GUI_PERMEDITOR_AVAILABILITY_ONLYTHISSERVER: Only available on **this** Server
+#GUI_PERMEDITOR_AVAILABILITY_SPECIFICSERVER: Available on **%1** Server
+#GUI_PERMEDITOR_ADD_LEFTACTION: **Left Click** to add Permission
+#GUI_PERMEDITOR_ADD_RIGHTACTION: **Right Click** to add **Bungee Permission**
+#GUI_PERMEDITOR_ADD_TYPEIN: Type in a permission
+#GUI_PERMEDITOR_EDIT_TITLE: Edit %1
+#GUI_PERMEDITOR_EDIT_ACTION: Click to edit **%1**
+#GUI_PERMVIEW_EDITPERM_TITLE: Edit Permission
+#GUI_PERMVIEW_EDITPERM_ACTION: Click to edit Permission
+#GUI_PERMVIEW_EDITPERM_TYPEIN: Type in the new permission
+#GUI_PERMVIEW_COPY_ACTION: Click to select a **target**
+#GUI_PERMVIEW_NOMULTINAMEEDIT: you cannot rename multiple permissions at once
+#GUI_STORAGESETTINGS_TITLE: Storage Settings
+#GUI_STORAGESETTINGS_TYPEINWORLD: Type in a world name
+#GUI_STORAGESETTINGS_NOWORLD_ACTION: Click to **restrict** this group to a specific World
+#GUI_STORAGESETTINGS_WORLD_ACTION: Click to allow this group in all Worlds
+#GUI_STORAGESETTINGS_NOSERVER_ACTION: Click to **restrict** this group to this Server
+#GUI_STORAGESETTINGS_SERVER_ACTION: Click to allow this group on all Servers
+#GUI_STORAGESETTINGS_RESTRICTED_TO: Restricted to **%1**
+#GUI_PASTESELECTION_PASTE_ACTION: Click to **paste** %1
 GUI_PERMEDITOR_MANUAL_TITLE: Typ in Chat
 GUI_PERMEDITOR_MANUAL_ACTION: **Klik** om de machtiging te typen
 GUI_PERMEDITOR_MANUAL_DIALOG_SUBTITLE: Typ een machtiging
