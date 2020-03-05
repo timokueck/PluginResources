@@ -2741,10 +2741,10 @@ Heads+heads.search+Permission to use the /heads search command to search for hea
 HeadsPlus+headsplus.head+Spawns in a head+/head
 HeadsPlus+headsplus.maincommand+Displays the help menu+/headsplus
 HeadsPlus+headsplus.sellhead+Sells a head in a player's inventory+/sellhead
-HelperBot+helperbot.*+Grants all permissions from the plugin
-HelperBot+helperbot.answer+Specifies the users that are allowed to receive an answer by the bot
-HelperBot+helperbot.reload+Ability to use the reload command (reloads the plugin configuration)+/helperbot reload,/hb reload
-HelperBot+helperbot.set+Ability to use the setname command (sets the bot name)+/helperbot setname,/hb setname
+HelperBot+helperbot.*+Grants the player all permissions of the plugin.
+HelperBot+helperbot.answer+Allows the player to receive answers from the bot.
+HelperBot+helperbot.reload+Allows the player to reload the plugin's configuration.+/helperbot reload,/hb reload
+HelperBot+helperbot.setname+Allows the player to set the bot's name.+/helperbot setname <name>,/hb setname <name>
 HelpGUI+helpgui.admin+Gives access to all /helpgui [/hgui] commands+/helpgui help,/helpgui reload
 HelpGUI+helpgui.disablehelp+Disables the command /help [/h] for players/groups
 HoloBlock+holoblock.admin+to bypass hologram and open /holoblock admin.+/holoblock admin
