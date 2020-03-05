@@ -2268,6 +2268,8 @@ Essentials+essentials.whois+Allow access to the /whois command.+/whois
 Essentials+essentials.workbench+Allow access to the /workbench command.+/workbench
 Essentials+essentials.world+Allow access to the /world command.+/world
 Essentials+essentials.worth+Allow access to the /worth command.+/worth
+ExploitFixer+exploitfixer.admin+Grants the player all permissions of the plugin.+/ef help,/ef reload,/ef notifications,/ef stats
+ExploitFixer+exploitfixer.notifications+Allows the player to toggle notifications.+/ef notifications
 EZColors+ezcolors.*+Grants the player all permissions of the plugin.
 EZColors+ezcolors.color.[color]+Allows the player to use the specified color.+/ezcolors [color]
 EZColors+ezcolors.color.*+Allows the player to use all colors.
