@@ -2501,6 +2501,7 @@ FarmProtect+farmprotect.removeworld+Allows the Usage of the /farmprotect remove 
 FarmProtect+farmprotect.toggle+Allows the Usage of the /farmprotect toggle command.+/farmprotect toggle
 FarmWorld+fw.join+Allows to join FarmWorld - default: everyone
 FarmWorld+fw.setup+Allows to create, edit and remove FarmWorlds - default: op
+FastChunkPregenerator+fcp.commands+Allows the player to use all commands of the plugin.+/fcp,/fcp pending,/fcp generate <world> <radius> [chunkX] [chunkZ],/fcp fillvanillaborder <world> <chunkbuffer>,/fcp pause,/fcp resume,/fcp cancel <world>,/fcp worldinfo <world>,/fcp keepchunk <world> <chunkX> <chunkY>,/fcp keepregion <world> <lowerX> <lowerZ> <upperX> <upperZ>,/fcp freeregion <world> <lowerX> <lowerZ> <upperX> <upperZ>,/fcp listworlds,/fcp listchunks <world>,/fcp freeall
 FastCraft+fastcraft.use+Allows the player to use the plugin's GUI.
 FastCraftPlus+fastcraft.admin.*+Permission to use all admin commands+/fca debug,/fca reload,/fastcraftadmin
 FastCraftPlus+fastcraft.admin.reload+Permission to use /fastcraftadmin reload+/fca reload,/fastcraftadmin reload
