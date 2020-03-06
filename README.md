@@ -34,6 +34,10 @@ Our plugin Ultra Permissions simplifies searching for permissions by suggesting 
   - provide a link to the plugin page
   - provide a link to the plugin permissions
   - only add one plugin per pull request
+  - when adding permissions for a premium plugin, please provide the plugin.yml
+    - the plugin.yml can be found inside the jar file
+    - use WinZip or other programs to open it
+    - DON'T SHARE THE WHOLE JAR OF A PREMIUM PLUGIN
 
 #### Format
 Permissions:<br>
