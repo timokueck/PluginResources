@@ -1650,6 +1650,8 @@ CropClick+cropclick.remove+Allows the player to remove the crop, chest or dispen
 CropClick+cropclick.reset+Allows the player to reset all settings of the plugin to default.+/crop reset
 CropClick+cropclick.selector+Allows the player to get a wand to link a dispenser, a crop and a chest.+/crop selector
 CropClick+cropclick.set+Allows the player to manually set the crop value.+/crop set
+CropClick+cropclick.toggle.other+Allows the player to toggle the plugin for another player.+/crop toggle <player>
+CropClick+cropclick.toggle+Allows the player to toggle the plugin for themself.+/crop toggle
 CropClick+cropclick.unlink+Allows the player to unlink a dispenser to deactivate the autofarm.+/crop unlink
 CropClick+cropclick.use.linker+Allows the player to use the linker function.
 CropClick+cropclick.use.selector+Allows the player to use the selector function.
