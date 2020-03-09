@@ -4848,6 +4848,7 @@ ReWorld+reworld.bypass.build+Allows a player to bypass the build flag in ReWorld
 RunAsConsole+rac.info+Allow Use Of The /runasconsole command+/runasconsole
 RunAsConsole+rac.use+Allow Use Of The /console command+/console
 Secrets+secret.admin+Needed for sign creation.
+ServerListPlus+serverlistplus.admin+Grants the player all permissions of the plugin.+/slp,/slp reload,/slp save,/slp enable,/slp disable,/slp clean <favicon;player;request>
 ServerRestart+srt.check+See next scheduled restart time+/srt check
 ServerRestart+srt.frestart+Schedule force restart in N seconds (or immediately if not specified)+/srt frestart [seconds]
 ServerRestart+srt.reload+Reload configuration+/srt reload
