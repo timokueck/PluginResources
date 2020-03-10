@@ -2600,6 +2600,20 @@ GriefPrevention+griefprevention.siegeimmune+Makes a player immune to the /siege 
 GriefPrevention+griefprevention.spam+Allows the player to bypass the spam protection.
 GriefPrevention+griefprevention.transferclaim+Grants access to the /transferclaim command.+/transferclaim
 GriefPrevention+griefprevention.visualizenearbyclaims+Allows the player to shift and right click with investigation tool (stick) in hand to see all nearby land claims.
+GriefPreventionFlags+gpflags.admin.*+Grants all administrative functionality.
+GriefPreventionFlags+gpflags.setflag+Grants permission to set flags in claim.+/SetClaimFlag [flag]
+GriefPreventionFlags+gpflags.unsetflag+Grants permission unset flags in a claim+/UnSetClaimFlag [flag]
+GriefPreventionFlags+gpflags.setworldflag+Grants permission set flags for a world.+/SetWorldFlag [flag]
+GriefPreventionFlags+gpflags.unsetworldflag+Grants permission unset flags for a world.+/UnSetWorldFlag [flag]
+GriefPreventionFlags+gpflags.setserverflag+Grants permission to set flags for a server.+/SetServerFlag [flag]
+GriefPreventionFlags+gpflags.unsetserverflag+Grants permission to unset flags for a server.+/UnSetServerFlag [flag]
+GriefPreventionFlags+gpflags.defaultflags+Grants permission to add and remove default flags.+/SetDefaultClaimFlag [flag],/UnsetDefaultClaimFlag [flag]
+GriefPreventionFlags+gpflags.listflags+Grants permission to list the flags in a claim.+/ListClaimFlags
+GriefPreventionFlags+gpflags.reload+Grants permission to reload the plugin.+/GPFReload
+GriefPreventionFlags+gpflags.allflags+Grants permission to apply/remove all flags.
+GriefPreventionFlags+gpflags.bypass+Makes a player immune to the limitations of flags like CommandBlackList, NoEnter, and NoFlight.
+GriefPreventionFlags+gpflags.bypass.fly+Makes a player immune to the limitations of the fly flags (Use this if a player has permission for plugin fly commands, such as essentials /fly)
+GriefPreventionFlags+gpflags.[flag]+Grants permission to apply/remove a specific flag.+/SetClaimFlag [flag]
 HackedServer+hackedserver.alert+Allows the player to receive alerts when a player triggers HackedServer.
 HackedServer+hackedserver.bypass+Allows the player to bypass the alert when joining the server.
 HackedServer+hackedserver.check+Allows the player to check another player's version.+/hackedserver check,/hs check
