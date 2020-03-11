@@ -63,7 +63,7 @@ Permission with command and required argument:<br>
 ``Essentials+essentials.fly+Give someone fly mode.+/fly <player>``
 
 Permission with command and required argument to choose:<br>
-``Essentials+essentials.fly+Give someone fly mode.+/fly <player;mob>``
+``Essentials+essentials.fly+Give someone fly mode.+/fly <player|mob>``
 
 Permission with command, required and optional argument:<br>
 ``Essentials+essentials.fly+Give someone fly mode.+/fly <player> [world]``
