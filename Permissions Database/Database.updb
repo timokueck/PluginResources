@@ -78,6 +78,19 @@ AdvancedAchievements+achievement.toggle+Allows to override the default behaviour
 AdvancedAchievements+achievement.top+Allows to display permissions achievement rankings.+/aach top
 AdvancedAchievements+achievement.update+Allows to be notified when a plugin update is available and CheckForUpdate is set to true in config.+/aach update
 AdvancedAchievements+achievement.week+Allows to display weekly achievement rankings.+/aach week
+AdvancedAFK+advancedafk.*+Grants the player all permissions of the plugin.
+AdvancedAFK+advancedafk.bypass.*+Allows the player to bypass all checks of the plugin.
+AdvancedAFK+advancedafk.bypass.anti-spam.cooldown+Allows the player to bypass the cooldown of the afk command.
+AdvancedAFK+advancedafk.bypass.exempt.auto+Allows the player to bypass automatically being set to afk.
+AdvancedAFK+advancedafk.bypass.exempt.kick+Allows the player to bypass automatically being kicked for being afk.
+AdvancedAFK+advancedafk.bypass.exempt.teleport+Allows the player to bypass automatically being teleported when being afk.
+AdvancedAFK+advancedafk.bypass.protection.damage+Allows the player to bypass being protected from damage when being afk.
+AdvancedAFK+advancedafk.bypass.protection.moving+Allows the player to bypass being protected from moving when being afk.
+AdvancedAFK+advancedafk.commands.*+Allows the player to use all commands of the plugin.+/afk [player|reason] [reason],/checkafk <player>,/advancedafk [reload|set]
+AdvancedAFK+advancedafk.commands.afk.others+Allows the player to toggle the afk mode of other players.+/afk <player> [reason]
+AdvancedAFK+advancedafk.commands.afk+Allows the player to toggle their afk mode.+/afk [reason]
+AdvancedAFK+advancedafk.commands.checkafk+Allows the player to check another player's afk status.+/checkafk <player>
+AdvancedAFK+advancedafk.commands.main+Allows the player to reload the plugin and to set the teleport location.+/advancedafk [reload|set]
 AdvancedBan+ab.all.undo+Delete a punishment.+/unpunish
 AdvancedBan+ab.ban.ip+To use the command.+/banip
 AdvancedBan+ab.ban.notify+To get notified.
