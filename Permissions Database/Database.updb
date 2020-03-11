@@ -16,13 +16,13 @@ Actionbar+actionbar.announcer.start+Allows you to start the announcer+/actionbar
 Actionbar+actionbar.announcer.stop+Allows you to stop the announcer+/actionbarannouncer stop
 Actionbar+actionbar.announcer.time+Allows you to set the time of the announcer+/actionbarannouncer time
 Actionbar+actionbar.colorcodes+gives you the permission to use colorcodes
-Actionbar+actionbar.private+Allows you to send a private message via actionbar+/actionbar <msg;private> <player> <message>
-Actionbar+actionbar.public+Allows you to broadcast a message via actionbar+/actionbar <all;announce;broadcast> <message>
+Actionbar+actionbar.private+Allows you to send a private message via actionbar+/actionbar <msg|private> <player> <message>
+Actionbar+actionbar.public+Allows you to broadcast a message via actionbar+/actionbar <all|announce;broadcast> <message>
 Actionbar+actionbar.reload+Allows you to reload the config+/actionbar reload
 Actionbar+actionbar.world+Allows you to send a world message via actionbar+/actionbar <world> <name> <message>
 ActionHealth+ActionHealth.Health+This will send the player the health message only if 'Use Permission' is enabled in the config.
 ActionHealth+ActionHealth.Reload+Reloads config.+/Actionhealth reload
-AdminMode+adminmode.use+Allows you to toggle the admin mode+/adminmode <on;off>
+AdminMode+adminmode.use+Allows you to toggle the admin mode+/adminmode <on|off>
 AdvancedAchievements+achievement.*+Star notation of permissions, includes all the permissions and disables book and list commands delays.
 AdvancedAchievements+achievement.book+Allows to receive achievements books.+/aach book
 AdvancedAchievements+achievement.check+Allows to check if achievements were received by players.+/aach check
@@ -188,12 +188,12 @@ AreaShop+areashop.addsign+Add a sign to an existing region
 AreaShop+areashop.buy+Buy a region
 AreaShop+areashop.buynormal+Can be negated to prevent players from buying non-resell mode regions+/as buy [region]
 AreaShop+areashop.buyresell+Can be negated to prevent players from buying resell mode regions+/as buy [region]
-AreaShop+areashop.createbuy.member+Add WorldGuard regions that you are member off to AreaShop as buy***+/as add <rent; buy> [region] [world]
-AreaShop+areashop.createbuy.owner+Add WorldGuard regions that you are owner off to AreaShop as buy***+/as add <rent; buy> [region] [world]
-AreaShop+areashop.createbuy+Only buy regions+/as add <rent; buy> [region] [world]
-AreaShop+areashop.createrent.member+Add WorldGuard regions that you are member off to AreaShop as rent***+/as add <rent; buy> [region] [world]
-AreaShop+areashop.createrent.owner+Add WorldGuard regions that you are owner off to AreaShop as rent***+/as add <rent; buy> [region] [world]
-AreaShop+areashop.createrent+Only rent regions+/as add <rent; buy> [region] [world]
+AreaShop+areashop.createbuy.member+Add WorldGuard regions that you are member off to AreaShop as buy***+/as add <rent|buy> [region] [world]
+AreaShop+areashop.createbuy.owner+Add WorldGuard regions that you are owner off to AreaShop as buy***+/as add <rent|buy> [region] [world]
+AreaShop+areashop.createbuy+Only buy regions+/as add <rent|buy> [region] [world]
+AreaShop+areashop.createrent.member+Add WorldGuard regions that you are member off to AreaShop as rent***+/as add <rent|buy> [region] [world]
+AreaShop+areashop.createrent.owner+Add WorldGuard regions that you are owner off to AreaShop as rent***+/as add <rent|buy> [region] [world]
+AreaShop+areashop.createrent+Only rent regions+/as add <rent|buy> [region] [world]
 AreaShop+areashop.delfriend+Only region you own+/as delfriend <player> [region]
 AreaShop+areashop.delfriendall+All regions+/as delfriend <player> [region]
 AreaShop+areashop.delsign+Delete the sign you are looking at
@@ -666,7 +666,7 @@ BuildBattle+buildbattle.admin.settheme+Set new theme of arena. Works only when g
 BuildBattle+buildbattle.admin.stopgame+Stops game you're playing
 BuildBattle+buildbattle.admin.supervotes.add+Add super votes to target player
 BuildBattle+buildbattle.admin.supervotes.set+Set super votes of target player
-BuildBattle+buildbattle.join.*+To access all arenas.+/bb join [arena],/bb randomjoin [solo;team]
+BuildBattle+buildbattle.join.*+To access all arenas.+/bb join [arena],/bb randomjoin [solo|team]
 BuildBattle+buildbattle.updatenotify+Notifies about plugin update on join
 Bukkit+bukkit.broadcast.scradmin+Ability to receive staff broadcasts
 Bukkit+bukkit.broadcast.user+Ability to receive player broadcasts
@@ -2995,7 +2995,7 @@ Industrial-MC+industrial.master.setcharge+sets the held items charge to the give
 Industrial-MC+industrial.master.setmaxcharge+sets the held items charge capacity to the given value.+/industrial setmaxcharge <amount>
 Industrial-MC+industrial.master.setrecipe+set an Industrial-MC item's recipe with the option to setPlaceholders the original or not, and if its shapeless or not.+/industrial setrecipe <setPlaceholders-default?> <shapeless?>
 Industrial-MC+industrial.mymachines+Lists Your Owned Machines.+/mymachines
-Industrial-MC+industrial.trust+allows players to add friends that can use their machines.+/indtrust <player-name> <all;break;use;remove>
+Industrial-MC+industrial.trust+allows players to add friends that can use their machines.+/indtrust <player-name> <all|break|use|remove>
 Industrial-MC+industrial.wrench+Gives you a Wrench.+/wrench
 InsaneShops+insaneshops.admin+Allows the player to open shops as a seller in order to manage them.
 InsaneShops+insaneshops.commands.shops+Allows the player to use the main command of the plugin.+/shops
@@ -3012,7 +3012,7 @@ InventorySaver+invsave.command.invsave.load+Allows the player to load another pl
 InventorySaver+invsave.command.invsave.reload+Allows the player to reload the plugin's configurations.+/invsave reload
 InventorySaver+invsave.command.invsave.save.enderchest+Allows the player to save another player's ender chest manually.+/invsave save <player> enderchest
 InventorySaver+invsave.command.invsave.save+Allows the player to save another player's inventory manually.+/invsave save <player>
-InventorySaver+invsave.command.invsave.search+Allows the player to search for a specific item in player inventories.+/invsave search <offline;online> <item;material> [material]
+InventorySaver+invsave.command.invsave.search+Allows the player to search for a specific item in player inventories.+/invsave search <offline|online> <item|material> [material]
 InventorySaver+invsave.command.invsave.tasks.help+Allows the player to see the help of the tasks command.+/invsave tasks help
 InventorySaver+invsave.command.invsave.tasks.list+Allows the player to see all currently running and planned tasks.+/invsave tasks list
 InventorySaver+invsave.command.invsave.tasks.stop+Allows the player to stop all currently running tasks.+/invsave tasks stop
@@ -4824,7 +4824,7 @@ Realistic_World+rwg.cmd.biome+Get the RWGBiome from the place where you are.+/rw
 Realistic_World+rwg.cmd.chests+Access to the RWG chests command.+/rwg chests
 Realistic_World+rwg.cmd.convert+Access to the RWG schematic converter to convert old schematics to the newer format+/rwg convert [<Name>]
 Realistic_World+rwg.cmd.paste+Access to the RWG schematic paste command.+/rwg paste [<Name>]
-Realistic_World+rwg.cmd.position+Access to the RWG schematic position tool and command.+/rwg position [toggle; item]
+Realistic_World+rwg.cmd.position+Access to the RWG schematic position tool and command.+/rwg position [toggle|item]
 Realistic_World+rwg.cmd.restart+Access to the RWG restart server command.+/rwg restart
 Realistic_World+rwg.cmd.save+Access to the RWG schematic save command.+/rwg save [<Name>] [<Position>]
 Realistic_World+rwg.cmd.timings+Access to the RWG timings of all operations.+/rwg timings
