@@ -921,6 +921,7 @@ CityRP+cityrp.settime+Change the current time+/settime
 CityRP+cityrp.whisper+Allows you to whisper to nearby players+/w
 CityRP+cityrp.yell+Allows you to yell to nearby players (16 Blocks)+/y
 ClanSystem+ClanSystem.Options+Allows People To Open The Admin Panel+/Options
+CleanMotD+cleanmotd.admin+Allows the player to use all commands of the plugin.+/cleanmotd help,/cleanmotd reload
 ClearLag+lagg.admin+Allows players to Manage clearlag's modules.+/lagg admin
 ClearLag+lagg.area+Allows players to Remove entities within given radius.+/lagg area <radius>
 ClearLag+lagg.check+Allows players to count all entities.+/lagg check [worldName]
