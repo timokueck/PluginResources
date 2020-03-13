@@ -135,18 +135,18 @@ AdvancedHelp+help.[categoryName]+allows players to view a specific category, onl
 AdvancedHelp+help.override+when using /? it will show bukkit help pages not AdvancedHelp's help pages.
 AdvancedHelp+help.reload+for admins to reload config+/ahelp reload
 AdvancedHelp+help.use+for normal players to use /help+/help,/help <page number>,/help <categoryName>,/help <categoryName> <page number>
-AdvancedPortals+advancedportals.*+Gives access to all commands.
-AdvancedPortals+advancedportals.build+Allows you to build in the portal regions.
-AdvancedPortals+advancedportals.createportal.commandlevel.*+Gives access to all level raisers.
-AdvancedPortals+advancedportals.createportal.commandlevel.console+Executes command in the console.
-AdvancedPortals+advancedportals.createportal.commandlevel.op+Allows you to increase the users level temporaily to op.
-AdvancedPortals+advancedportals.createportal.commandlevel.perms+Allows you to increase the users level temporaily to have all perms.
-AdvancedPortals+AdvancedPortals.CreatePortal+This command is used to create a portal and set where it will teleport you to, although you will have to create a destination for the portal to actually let anyone through! After /portal create you can list the variables for the portal in any order but you can not have any spaces in variables or between the variable type the string so name:testportal is read ok but name:test portal will make a portal called test and name testportal will just ignore the name altogether.+/portal,/portal portalblock,/portal select,/portal selector,/portal create name:<name> desti:<destination>,/destination create <name>
-AdvancedPortals+advancedportals.desti+Gives access to all desti commands.
-AdvancedPortals+advancedportals.help+Display help.+/Portals help
-AdvancedPortals+advancedportals.portal+Allows use of portal commands.
-AdvancedPortals+advancedportals.removeportal+Enter this command to destroy a portal with a set name. If the argument is left blank it will destroy the currently selected portal.+/portal remove <name>
-AdvancedPortals+advancedportals.warp.*+You need to give your players this permission otherwise they will not be able to teleport through the portals.
+AdvancedPortals+advancedportals.*+Grants the player all permissions of the plugin.
+AdvancedPortals+advancedportals.createportal+Allows the player to create portals.+/portal create <name> <destination>,/portal selector,/portal portalblock,/portal select
+AdvancedPortals+advancedportals.portal+Allows the player to use commands of the plugin.
+AdvancedPortals+advancedportals.build+Allows the player to build in a portal region.
+AdvancedPortals+advancedportals.desti+Allows the player to create destinations.+/destination create
+AdvancedPortals+advancedportals.warp.*+Allows the player to access all warps.
+AdvancedPortals+advancedportals.help+Allows the player to display the help of the plugin.+/portal help
+AdvancedPortals+advancedportals.removeportal+Allows the player to remove a portal.+/portal remove [name]
+AdvancedPortals+advancedportals.createportal.commandlevel.*+Allows the player to use all command level raisers.
+AdvancedPortals+advancedportals.createportal.commandlevel.op+Allows the player to use the operator command level.
+AdvancedPortals+advancedportals.createportal.commandlevel.perms+Allows the player to use the all permissions command level.
+AdvancedPortals+advancedportals.createportal.commandlevel.console+Allows the player to use the console command level.
 AdvancedReplay+replay.command.delete+Ability to use the delete command (deletes an existing replay)+/replay delete <Name>
 AdvancedReplay+replay.command.leave+Ability to use the leave command (leaves the current replay)+/replay leave
 AdvancedReplay+replay.command.list+Ability to use the list command (lists all available replays)+/replay list [Page]
