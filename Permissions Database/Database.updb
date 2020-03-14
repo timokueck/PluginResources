@@ -3599,7 +3599,7 @@ Lands+lands.role.setting.block_ignite+Allows the player to toggle if a role is a
 Lands+lands.role.setting.block_place+Allows the player to toggle if a role is allowed to place blocks.
 Lands+lands.role.setting.fly+Allows the player to toggle if a role is allowed to fly above the land by using /fly.
 Lands+lands.role.setting.interact_container+Allows the player to toggle if a role is allowed to interact with containers.
-Lands+lands.role.setting.interact_doors+Allows the player to toggle if a role is allowed to interact with doors.
+Lands+lands.role.setting.interact_door+Allows the player to toggle if a role is allowed to interact with doors.
 Lands+lands.role.setting.interact_general+Allows the player to toggle if a role is allowed to interact in general.
 Lands+lands.role.setting.interact_mechanism+Allows the player to toggle if a role is allowed to interact with mechanisms like redstone.
 Lands+lands.role.setting.interact_villager+Allows the player to toggle if a role is allowed to trade with villagers.
