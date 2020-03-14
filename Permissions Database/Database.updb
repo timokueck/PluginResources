@@ -3618,12 +3618,12 @@ Lands+lands.role.setting.spawn_teleport+Allows the player to toggle if a role is
 Lands+lands.roles.[max_amount]+Defines the maximum amount of roles a land the player owns can have.
 Lands+lands.selection.[max_amount]+Defines the maximum amount of chunks the player can select when claiming lands.
 Lands+lands.setting.*+Allows the player to access all land settings.
-Lands+lands.setting.ANIMAL_SPAWN+Allows the player to toggle if animals should spawn on the land.
-Lands+lands.setting.ENTITY_GRIEFING+Allows the player to toggle if entity griefing is enabled on the land.
-Lands+lands.setting.MONSTER_SPAWN+Allows the player to toggle if monsters should spawn on the land.
-Lands+lands.setting.PISTON_GRIEFING+Allows the player to toggle if piston griefing is allowed on the land.
-Lands+lands.setting.TNT_GRIEFING+Allows the player to toggle if tnt blocks are able to explode on the land.
-Lands+lands.setting.WATERFLOW_ALLOW+Allows the player to toggle if water from the wilderness is able to flow onto the land.
+Lands+lands.setting.animal_spawn+Allows the player to toggle if animals should spawn on the land.
+Lands+lands.setting.entity_griefing+Allows the player to toggle if entity griefing is enabled on the land.
+Lands+lands.setting.monster_spawn+Allows the player to toggle if monsters should spawn on the land.
+Lands+lands.setting.piston_griefing+Allows the player to toggle if piston griefing is allowed on the land.
+Lands+lands.setting.tnt_griefing+Allows the player to toggle if tnt blocks are able to explode on the land.
+Lands+lands.setting.waterflow_allow+Allows the player to toggle if water from the wilderness is able to flow onto the land.
 Lands+wars.*+Allows the player to access all wars actions.
 Lands+wars.command.*+Allows the player to use all wars commands.
 Lands+wars.command.declare+Allows the player to declare a war.+/wars declare
