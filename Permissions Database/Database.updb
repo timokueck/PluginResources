@@ -3344,13 +3344,17 @@ JoinEventsPro+jep.whitelistbypass+Allows you to join if the server is whiteliste
 JoinMessagePlus+fakejoin.join+Allows User To Send Fake Join Message+/fakejoin
 JoinMessagePlus+fakeleave.leave+Allows User To Send Fake Leave Message+/fakeleave
 JoinMessagePlus+setmessage.set+Allows User To Set Join/Leave Message+/setjoinmessage,/setleftmessage,/setfirstjoinmessage
-JumpPads+jumppads.create+permission to create and delete/break JumpPads
-JumpPads+jumppads.info+permission to use the info command.+/jp list
-JumpPads+jumppads.list.delete+permission to delete JumpPads from '/jp list'.
-JumpPads+jumppads.list.tp+permission to teleport to JumpPads from '/jp list'.
-JumpPads+jumppads.maxpower.bypass+permission to create JumpPads exceeding max power.
-JumpPads+jumppads.reload+permission to reload plugin configuration.
-JumpPads+jumppads.use+permission to use JumpPads.
+JumpPads+jumppads.create+Allows the player to create jump pads.+/jp create <power> [angle]
+JumpPads+jumppads.delete+Allows the player to delete and break jump pads.+/jp delete
+JumpPads+jumppads.help+Allows the player to see the help of the plugin.+/jp
+JumpPads+jumppads.info+Allows the player to get information about a jump pad.+/jp info
+JumpPads+jumppads.list.teleport+Allows the player to teleport to a jump pad in the list.
+JumpPads+jumppads.list+Allows the player to get a list of all jump pads.+/jp list [page]
+JumpPads+jumppads.maxpower.bypass+Allows the player to bypass the maximum allowed power of jump pads.
+JumpPads+jumppads.reload+Allows the player to reload the plugin's configuration.+/jp reload
+JumpPads+jumppads.set+Allows the player to set attributes to a jump pad.+/jp set <attributes> [value]
+JumpPads+jumppads.update+Allows the player to be notified when a plugin update is available.
+JumpPads+jumppads.use+Allows the player to use jump pads.
 Kingdoms+kingdoms.accept+Allows a player to accept invites.+/k accept
 Kingdoms+kingdoms.admin.clear+Forcefully unclaim a non-nexus piece if land.+/k admin clear
 Kingdoms+kingdoms.admin.disband+Disband a Kingdom with Force.+/k admin disband
