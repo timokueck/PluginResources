@@ -136,17 +136,17 @@ AdvancedHelp+help.override+when using /? it will show bukkit help pages not Adva
 AdvancedHelp+help.reload+for admins to reload config+/ahelp reload
 AdvancedHelp+help.use+for normal players to use /help+/help,/help <page number>,/help <categoryName>,/help <categoryName> <page number>
 AdvancedPortals+advancedportals.*+Grants the player all permissions of the plugin.
-AdvancedPortals+advancedportals.createportal+Allows the player to create portals.+/portal create <name> <destination>,/portal selector,/portal portalblock,/portal select
-AdvancedPortals+advancedportals.portal+Allows the player to use commands of the plugin.
 AdvancedPortals+advancedportals.build+Allows the player to build in a portal region.
-AdvancedPortals+advancedportals.desti+Allows the player to create destinations.+/destination create
-AdvancedPortals+advancedportals.warp.*+Allows the player to access all warps.
-AdvancedPortals+advancedportals.help+Allows the player to display the help of the plugin.+/portal help
-AdvancedPortals+advancedportals.removeportal+Allows the player to remove a portal.+/portal remove [name]
 AdvancedPortals+advancedportals.createportal.commandlevel.*+Allows the player to use all command level raisers.
+AdvancedPortals+advancedportals.createportal.commandlevel.console+Allows the player to use the console command level.
 AdvancedPortals+advancedportals.createportal.commandlevel.op+Allows the player to use the operator command level.
 AdvancedPortals+advancedportals.createportal.commandlevel.perms+Allows the player to use the all permissions command level.
-AdvancedPortals+advancedportals.createportal.commandlevel.console+Allows the player to use the console command level.
+AdvancedPortals+advancedportals.createportal+Allows the player to create portals.+/portal create <name> <destination>,/portal selector,/portal portalblock,/portal select
+AdvancedPortals+advancedportals.desti+Allows the player to create destinations.+/destination create
+AdvancedPortals+advancedportals.help+Allows the player to display the help of the plugin.+/portal help
+AdvancedPortals+advancedportals.portal+Allows the player to use commands of the plugin.
+AdvancedPortals+advancedportals.removeportal+Allows the player to remove a portal.+/portal remove [name]
+AdvancedPortals+advancedportals.warp.*+Allows the player to access all warps.
 AdvancedReplay+replay.command.delete+Ability to use the delete command (deletes an existing replay)+/replay delete <Name>
 AdvancedReplay+replay.command.leave+Ability to use the leave command (leaves the current replay)+/replay leave
 AdvancedReplay+replay.command.list+Ability to use the list command (lists all available replays)+/replay list [Page]
