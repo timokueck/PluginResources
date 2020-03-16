@@ -4070,6 +4070,9 @@ OpenInv+OpenInv.openself+Allows opening the inventory of the command user.
 OpenInv+OpenInv.override+Gives permission to open anyone's inventory, even protected ones.
 OpenInv+OpenInv.search+Gives permission to use searchinv and searchender command.+/searchinv <item> [minAmount],/searchender <item> [minAmount]
 OpenInv+OpenInv.silent+Gives permission to open chests in total silence, without animation.+/silentchest
+OpsyFreeze+opsyfreeze.freeze+Allows the player to freeze a player.+/freeze <player>
+OpsyFreeze+opsyfreeze.reload+Allows the player to reload the plugin.+/opsyfreeze reload
+OpsyFreeze+opsyfreeze.unfreeze+Allows the player to unfreeze a player.+/unfreeze <player>
 OutPost+outpost.admin+All Admin Commands+/Outpost create,/Outpost remove,/Outpost setname,/Outpost setregion,/Outpost addpotion,/Outpost clearpotion,/Outpost setmoney,/Outpost setexp,/Outpost reload
 Paintball+paintball.admin.convert+Converts an arena to a different type
 Paintball+paintball.admin.delholo+Remove a leaderboard hologram
