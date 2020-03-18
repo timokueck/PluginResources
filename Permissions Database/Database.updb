@@ -3554,6 +3554,7 @@ Lands+lands.chunks.max.[max_amount]+Defines the maximum amount of chunks the pla
 Lands+lands.chunks.support.[max_amount]+Defines the maximum amount of chunk claims the player can support a land with.
 Lands+lands.command.*+Allows the player to use all commands of the plugin.
 Lands+lands.command.accept+Allows the player to accept invites to a land.+/lands accept <land>
+Lands+lands.command.ban+Allows the player to to ban another player from their land.+/lands ban
 Lands+lands.command.chat+Allows the player to use the chat of a land.+/lands chat [land] <message>
 Lands+lands.command.claim+Allows the player to to claim chunks.+/lands claim
 Lands+lands.command.create+Allows the player to create a land.+/lands create
@@ -3576,6 +3577,7 @@ Lands+lands.command.spawn+Allows the player to teleport to a land's spawn.+/land
 Lands+lands.command.teleport+Allows the player to teleport to a claimed land chunk.+/lands teleport <x> <y>
 Lands+lands.command.top+Allows the player to see the top ten lands.+/lands top
 Lands+lands.command.trust+Allows the player to add another player as a member to a land.+/lands trust <player>
+Lands+lands.command.unban+Allows the player to unban another player from their land.+/lands unban
 Lands+lands.command.unclaim+Allows the player to unclaim a chunk.+/lands unclaim
 Lands+lands.command.untrust+Allows the player to remove another player from the mebers of a land.+/lands untrust <player>
 Lands+lands.command.view.toggle+Allows the player to toggle the land borders.+/lands view toggle
@@ -4072,6 +4074,9 @@ OpenInv+OpenInv.openself+Allows opening the inventory of the command user.
 OpenInv+OpenInv.override+Gives permission to open anyone's inventory, even protected ones.
 OpenInv+OpenInv.search+Gives permission to use searchinv and searchender command.+/searchinv <item> [minAmount],/searchender <item> [minAmount]
 OpenInv+OpenInv.silent+Gives permission to open chests in total silence, without animation.+/silentchest
+OpsyFreeze+opsyfreeze.freeze+Allows the player to freeze a player.+/freeze <player>
+OpsyFreeze+opsyfreeze.reload+Allows the player to reload the plugin.+/opsyfreeze reload
+OpsyFreeze+opsyfreeze.unfreeze+Allows the player to unfreeze a player.+/unfreeze <player>
 OutPost+outpost.admin+All Admin Commands+/Outpost create,/Outpost remove,/Outpost setname,/Outpost setregion,/Outpost addpotion,/Outpost clearpotion,/Outpost setmoney,/Outpost setexp,/Outpost reload
 Paintball+paintball.admin.convert+Converts an arena to a different type
 Paintball+paintball.admin.delholo+Remove a leaderboard hologram
