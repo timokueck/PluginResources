@@ -164,6 +164,8 @@ AntiAura+antiaura.bypass+Don't get kicked by any of AntiAura's checks_
 AntiAura+antiaura.reload+Use the /areload command_+/areload
 AntiAura+antiauramessages.notify+Alerts you when someone is Cheating_
 AntiAuraMessages+antiauramessages.notify+Here you can change the notification permission from the plugin.
+AntiBot+antibot.admin+Allows the player to use all commands of the plugin.
+AntiBot+antibot.notifications+Allows the player to toggle notifications.
 AntiBotDeluxeEX+antibotdeluxe.perform.command+Spigot Command Permission+/ab,/antibotdeluxe
 AntiBotDeluxeEX+antibotdeluxebungee.perform.command+BungeeCord Command Permission+/ab,/antibotdeluxe
 AntiPhysics+antiphysics.admin+to maintain the base Command /antiphysics
