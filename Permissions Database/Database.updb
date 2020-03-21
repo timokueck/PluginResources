@@ -5761,6 +5761,62 @@ Ultimate_Name_Color+tab.red+Allow to change there Tab name in red.
 Ultimate_Name_Color+tab.white+Allow to change there Tab name in white.
 Ultimate_Name_Color+tab.yellow+Allow to change there Tab name in yellow.
 Ultimate_Name_Color+UNC.admin+Allow to Reload the plugin and reset players.+/name reload,/name reset
+UltimateModeration+um.admin+Allows the player to configure the settings from an in-game GUI.+/um settings
+UltimateModeration+um.admin+Allows the player to reload the configuration and language files.+/um reload
+UltimateModeration+um.ban.exempt+Allows the player to bypass being banned.
+UltimateModeration+um.ban.permanent+Allows the player to issue permanent bans.
+UltimateModeration+um.ban+Allows the player to ban a player for a specified reason.+/ban <player> <reason>
+UltimateModeration+um.ban+Allows the player to unban a player.+/unban <player>
+UltimateModeration+um.clearchat.bypass+Allows the player to bypass the chat being cleared.
+UltimateModeration+um.clearchat.force+Allows the player to clear the chat even for users who normally bypass the clearing.+/clearchat force
+UltimateModeration+um.clearchat+Allows the player to clear the chat so any text is removed from sight.+/clearchat
+UltimateModeration+um.commandblock.bypass+Allows the player to bypass blocked commands.
+UltimateModeration+um.commandspy.immune+Allows the player's commands to not show up to people with the commandspy permission.
+UltimateModeration+um.commandspy+Allows the player to spy on all commands that are being run by other players.+/commandspy
+UltimateModeration+um.freeze.exempt+Allows the player to bypass being frozen.
+UltimateModeration+um.freeze+Allows the player to to freeze a specified player, this makes it so the targeted player cannot move, drop items, etc.+/freeze <player>
+UltimateModeration+um.invsee.exempt+Allows the player to bypass being inventory viewed.
+UltimateModeration+um.invsee+Allows the player to view another player's inventory.+/invsee <player>
+UltimateModeration+um.kick.exempt+Allows the player to bypass being kicked.
+UltimateModeration+um.kick+Allows the player to kick a player for a specified reason.+/kick <player> <reason>
+UltimateModeration+um.moderate+Allows the player to open the moderation panel.+/um,/p
+UltimateModeration+um.moderation+Allows the player to open the moderation GUI.
+UltimateModeration+um.mute.exempt+Allows the player to bypass being muted.
+UltimateModeration+um.mute+Allows the player to mute a player for a specified reason.+/mute <player> <reason>
+UltimateModeration+um.mute+Allows the player to unmute a player.+/unmute <player>
+UltimateModeration+um.notes.create+Allows the player to create notes about a player.
+UltimateModeration+um.notes.delete+Allows the player to remove notes about a player.
+UltimateModeration+um.notes+Allows the player to open the notes GUI.
+UltimateModeration+um.punish+Allows the player to open the punish GUI.
+UltimateModeration+um.punishments+Allows the player to open the punishments GUI.
+UltimateModeration+um.randomplayer+Allows the player to teleport to a random player that is currently online in the server.+/randomplayer
+UltimateModeration+um.revive+Allows the player to revive a player on their death location.+/revive <player>
+UltimateModeration+um.slowmode.bypass+Allows the player to bypass slowed chat.
+UltimateModeration+um.slowmode+Allows the player to slow down the chat. This can be set to be enabled by default.+/slowmode [delay in seconds]
+UltimateModeration+um.spy.exempt+Allows the player to bypass being spied.
+UltimateModeration+um.spy+Allows the player to spy on another player by viewing what they see and where they are.+/spy <player>
+UltimateModeration+um.staffchat.spy+Allows the player to see all staff chat channels.
+UltimateModeration+um.staffchat+Allows the player to create a staff chat under a specified name. Using this on an already existing room will simple toggle that room.+/sc [room]
+UltimateModeration+um.templates.create+Allows the player to create a template.
+UltimateModeration+um.templates.destroy+Allows the player to destroy a template.
+UltimateModeration+um.templates.edit+Allows the player to edit a template.
+UltimateModeration+um.templates.use+Allows the player to use templates on players.
+UltimateModeration+um.templates+Allows the player to execute a template on a player.+/runtemplate <player> <template>
+UltimateModeration+um.ticket.openclose+Allows the player to open and close tickets.
+UltimateModeration+um.ticket+Allows the player to open the tickets GUI.
+UltimateModeration+um.tickets.clicktotele+Allows the player to teleport to the ticket creation location.
+UltimateModeration+um.tickets.create+Allows the player to create tickets.
+UltimateModeration+um.tickets.respond+Allows the player to respond to tickets.
+UltimateModeration+um.tickets+Allows the player to open the ticket panel.+/ticket
+UltimateModeration+um.togglechat.bypass+Allows the player to talk in the chat even when it has been toggled off.
+UltimateModeration+um.togglechat+Allows the player to to toggle the chat on or off.+/togglechat
+UltimateModeration+um.trackblockbreaks+Allows the player to block being tracked.
+UltimateModeration+um.vanish.bypass+Allows the player to see vanished people.
+UltimateModeration+um.vanish+Allows the player to vanish from other players.+/vanish
+UltimateModeration+um.viewenderchest.exempt+Allows the player to bypass being enderchest inventory viewed.
+UltimateModeration+um.viewenderchest+Allows the player to view another player's enderchest.+/vec <player>
+UltimateModeration+um.warning.exempt+Allows the player to bypass being warned.
+UltimateModeration+um.warning+Allows the player to to warn a player for a specified reason.+/warn <player> <reason>
 UltimatePets+ultimatepets.adminCommands.convert+With this permission the player can use "/ultimatepets convert" command
 UltimatePets+ultimatepets.adminCommands.delete+With this permission the player can use "/ultimatepets delete" command
 UltimatePets+ultimatepets.adminCommands.give+With this permission the player can use "/ultimatepets give" command
