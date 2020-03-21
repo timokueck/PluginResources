@@ -5258,6 +5258,7 @@ StaffFacilities+sf.invsee.notification+Allows the player to see when someone wat
 StaffFacilities+sf.invsee.preventmodify+Allows the player to bypass modification of his inventory.
 StaffFacilities+sf.invsee+Allows the player to see the inventory of another player.+/invsee
 StaffFacilities+sf.ip+Allows the player to see the IPs list.+/ip
+StaffFacilities+sf.joinalert+Allows the player to toggle the joinalert system.+/alerts joinalert
 StaffFacilities+sf.kill.all+Allows the player to kill every player on the server.+/kill all
 StaffFacilities+sf.kill.cantbekilled+Allows the player to bypass being killed.
 StaffFacilities+sf.kill.others+Allows the player to use the kill command on another player.+/kill
