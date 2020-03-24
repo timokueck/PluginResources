@@ -34,7 +34,7 @@
 #DURATION: Durée
 #COPY: Copier
 #PASSED: Coller
-#FAILED: Failed
+#FAILED: Raté
 #SOURCE: Source
 #TIME_TILL_REMOVAL: Temps jusqu'à l'enlèvement :
 #COMMAND_INVALID_ARGS: Arguments non valides
