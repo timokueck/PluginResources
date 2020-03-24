@@ -7,10 +7,10 @@
 #PERMISSION_NODES: Permission Nodes
 #PERMISSIONS: Permissions
 #DEFAULT_PERMISSIONS: Autorisations par défaut
-#GROUP: Group
-#GROUPS: Groups
+#GROUP: Groupe
+#GROUPS: Groupes
 #DEFAULT_GROUP: Autorisations par défaut
-#INHERITED_GROUPS: Inherited Groups
+#INHERITED_GROUPS: Groupes hérités
 #PLAYER: Joueur
 #SERVER: Serveur
 #SELECTED: Choisir
@@ -18,29 +18,29 @@
 #USERS: Utilisateurs
 #USER: Utilisateur
 #TIME: Temps
-#PREFIX: Prefix
-#SUFFIX: Suffix
+#PREFIX: Prefixe
+#SUFFIX: Suffixe
 #OPTIONS: Options
 #SERVERNAME: Nom du serveur
 #DONATIONS: Donations
 #ADVANTAGES: Les avantages
-#RECOMMENDED: Recommande
+#RECOMMENDED: Recommandé
 #SETTINGS: Paramètres
 #PERMISSIONLOG: Permission Logs
 #EDITING: Editée
 #ADD: Ajouter
-#TIME_FOR: for
+#TIME_FOR: pour
 #NONE: Aucun
 #DURATION: Durée
 #COPY: Copier
 #PASSED: Coller
 #FAILED: Failed
 #SOURCE: Source
-#TIME_TILL_REMOVAL: Time till removal:
+#TIME_TILL_REMOVAL: Temps jusqu'à l'enlèvement :
 #COMMAND_INVALID_ARGS: Arguments non valides
 #COMMAND_NOTFOUND: Commande non trouvée
 #COMMAND_HINT_HELP: Tapez **/upc** pour obtenir la liste des commandes
-#COMMAND_HELP_TITLE: Ultra Permissions Commands
+#COMMAND_HELP_TITLE: Ultra Permissions Commandes
 #COMMAND_HELP_FOOTER: Visite **%1** pour plus d'informations
 #COMMAND_GROUP_NOTFOUND: Impossible de trouver le groupe **%1**
 #COMMAND_PLAYER_NOTFOUND: Impossible de trouver le joueur **%1**
@@ -54,17 +54,17 @@
 #COMMAND_PERMISSION_ADD: Ajout d'une autorisation **%1** à **%2**
 #GUI_OVERVIEW_USERS_ACTION: Cliquer pour voir tous les **Users**
 #GUI_OVERVIEW_GROUPS_ACTION: Cliquer pour voir tous les **Groups**
-#GUI_OVERVIEW_DONATIONS_ACTION: Click to show Donations
+#GUI_OVERVIEW_DONATIONS_ACTION: Cliquer pour voir les donations
 #GUI_OVERVIEW_REDUCE_TITLE: Réduire
 #GUI_OVERVIEW_REDUCE_ACTION: Cliquez pour masquer les fonctionnalités avancées
 #GUI_OVERVIEW_REDUCE_EXPLANATION: Cela masquera les options avancées
-#GUI_OVERVIEW_EXPAND_TITLE: Expand
+#GUI_OVERVIEW_EXPAND_TITLE: Développer
 #GUI_OVERVIEW_EXPAND_ACTION: **Click** affiché plus
 #GUI_OVERVIEW_EXPAND_EXPLANATION: Cela vous montrera des options avancées
 #GUI_OVERVIEW_PERMISSIONLOG_ACTION: **Click** ouvre les Permission Log
 #GUI_OVERVIEW_PERMISSIONLOG_EXPLANATION: Ici, vous pouvez jeter un œil à toutes les d'autorisation récentes
 #GUI_OVERVIEW_SETTINGS_ACTION: **Click** pour afficher les paramètres
-#GUI_OVERVIEW_SETTINGS_EXPLANATION: Adjust all settings of the plugin
+#GUI_OVERVIEW_SETTINGS_EXPLANATION: Ajustez tous les paramètres du plugin
 #GUI_GROUPBROWSER_TITLE_LIST: Liste
 #GUI_GROUPBROWSER_TITLE_ALL: Voir tous les groupes
 #GUI_GROUPBROWSER_TITLE_RANGE: Showing %1 / %2 Groups
@@ -78,14 +78,14 @@
 #GUI_GROUPBROWSER_SHOWALL_ACTION: Cliquez pour afficher tous les groupes de tous les serveurs et mondes
 #GUI_USERBROWSER_ACTION: **Click** pour voir
 #GUI_USERBROWSER_DELETE_ACTION: **Press Q** pour **delete**
-#GUI_USERBROWSER_SUPERADMIN_INDICATOR: Cette utilisateur est un superadmin
+#GUI_USERBROWSER_SUPERADMIN_INDICATOR: Cet utilisateur est un superadmin
 #GUI_USERBROWSER_SHOWOFFLINE_TITLE: Afficher les joueurs hors ligne
 #GUI_USERBROWSER_HIDEOFFLINE_TITLE: Cache les joueurs hors ligne
 #GUI_USERBROWSER_SHOWOFFLINE_ACTION: Cliquez pour affiche **offline users**
-#GUI_USERBROWSER_HIDEOOFFLINE_ACTION: Cliquer pour cacher **offline users**
+#GUI_USERBROWSER_HIDEOOFFLINE_ACTION: Cliquez pour cacher **offline users**
 #GUI_USERVIEW_VIEWPERMISSIONS_TITLE: Voir les Permissions
 #GUI_USERVIEW_VIEWPERMISSIONS_ACTION: **Click** pour voir les Permissions
-#GUI_USERVIEW_VIEWGROUPS_ACTION: **Click** pour voir les Groupess
+#GUI_USERVIEW_VIEWGROUPS_ACTION: **Click** pour voir les Groupes
 #GUI_USERVIEW_EDITPREFIXSUFFIX_TITLE: Modifier Prefixe et le Suffixe
 #GUI_USERVIEW_EDITPREFIXSUFFIX_LEFTCLICK: **Left Click** modifier le préfixe
 #GUI_USERVIEW_EDITPREFIXSUFFIX_RIGHTCLICK: **Right Click** modifier le suffixe
@@ -104,8 +104,8 @@
 #GUI_GROUPVIEW_DEFAULT_ACTION: **Click** pour faire ce groupe **default**
 #GUI_GROUPVIEW_DEFAULT_UNDEFAULT_ACTION: **Click** à **undefault** ce groupe
 #GUI_GROUPVIEW_DEFAULT_EXPLANATION: S'il est activé, chaque nouveau joueur recevra ce groupe lors de la première inscription
-#GUI_GROUPVIEW_INHERITANCE_TITLE: Inheritances
-#GUI_GROUPVIEW_INHERITANCE_ACTION: **Click** to edit inheritances
+#GUI_GROUPVIEW_INHERITANCE_TITLE: Héritage
+#GUI_GROUPVIEW_INHERITANCE_ACTION: **Click** pour éditer les héritages
 #GUI_PERMEDITOR_SELECTALL_TITLE: Tout sélectionné
 #GUI_PERMEDITOR_SELECTALL_ACTION: Cliquez pour **select** voir toutes les autorisations
 #GUI_PERMEDITOR_INHERITED_NEGATE_ACTION: **Left Click** à **negate** permission
@@ -118,22 +118,22 @@
 #GUI_PERMEDITOR_NORMAL_PRESSQ: **Press Q** pour supprimer
 #GUI_PERMEDITOR_ADDPERMISSION_TITLE: Ajoute une Permission
 #GUI_PERMEDITOR_PLUGIN_ACTION: Cliquez pour voir les autorisations de **%1**
-#GUI_PERMEDITOR_BUNGEEINDICATOR: This is a **BungeeCord** Permission
+#GUI_PERMEDITOR_BUNGEEINDICATOR: C'est une permission **BungeeCord**
 #GUI_PERMEDITOR_AVAILABILITY_ALLSERVERS: Disponible sur **all** tous les serveurs
-#GUI_PERMEDITOR_AVAILABILITY_INWORLD: in the World **%1**
-#GUI_PERMEDITOR_AVAILABILITY_APPLICABLEIN: Permission applicable in %1
+#GUI_PERMEDITOR_AVAILABILITY_INWORLD: Dans le Monde **%1**
+#GUI_PERMEDITOR_AVAILABILITY_APPLICABLEIN: Permission applicable dans %1
 #GUI_PERMEDITOR_AVAILABILITY_ONLYTHISSERVER: Disponible uniquement sur **this** le serveur
 #GUI_PERMEDITOR_AVAILABILITY_SPECIFICSERVER: Disponible sur **%1** le serveur
 #GUI_PERMEDITOR_ADD_LEFTACTION: **Left Click** ajouter une Permission
 #GUI_PERMEDITOR_ADD_RIGHTACTION: **Right Click** ajouter une **Bungee Permission**
-#GUI_PERMEDITOR_ADD_TYPEIN: Type in a permission
+#GUI_PERMEDITOR_ADD_TYPEIN: Taper une permission
 #GUI_PERMEDITOR_EDIT_TITLE: Éditer %1
 #GUI_PERMEDITOR_EDIT_ACTION: Cliquez pour modifier **%1**
-#GUI_PERMVIEW_EDITPERM_TITLE: Modifie une Permission
+#GUI_PERMVIEW_EDITPERM_TITLE: Modifier une Permission
 #GUI_PERMVIEW_EDITPERM_ACTION: Cliquez pour modifier une Permission
 #GUI_PERMVIEW_EDITPERM_TYPEIN: Tape une nouvelle permission
 #GUI_PERMVIEW_COPY_ACTION: Cliquez pour sélectionner un **target**
-#GUI_PERMVIEW_NOMULTINAMEEDIT: vous ne pouvez pas renommer plusieurs autorisations à la fois
+#GUI_PERMVIEW_NOMULTINAMEEDIT: Vous ne pouvez pas renommer plusieurs autorisations à la fois
 #GUI_STORAGESETTINGS_TITLE: Paramètres de stockage
 #GUI_STORAGESETTINGS_TYPEINWORLD: Tapez un nom de monde
 #GUI_STORAGESETTINGS_NOWORLD_ACTION: Cliquez pour **restrict** ce groupe à un monde spécifique
