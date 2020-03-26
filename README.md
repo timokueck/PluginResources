@@ -1,5 +1,7 @@
 # **Resources for Tech's Spigot Plugins**
 
+![GitHub contributors](https://badges.eazyftw.com/github/contributors/TechsCode/PluginResources?style=flat-square) ![GitHub pull requests](https://badges.eazyftw.com/github/issues-pr/TechsCode/PluginResources?style=flat-square) ![GitHub closed pull requests](https://badges.eazyftw.com/github/issues-pr-closed/TechsCode/PluginResources?style=flat-square) ![GitHub forks](https://badges.eazyftw.com/github/forks/TechsCode/PluginResources?style=flat-square) ![GitHub last commit](https://badges.eazyftw.com/github/last-commit/TechsCode/PluginResources?style=flat-square) ![GitHub commit activity](https://badges.eazyftw.com/github/commit-activity/w/TechsCode/PluginResources?style=flat-square) ![GitHub repo size](https://badges.eazyftw.com/github/repo-size/TechsCode/PluginResources?style=flat-square)
+
 > A repository holding translations and permissions for [Tech's Spigot Plugins].
 
 - [Discord][Discord]
