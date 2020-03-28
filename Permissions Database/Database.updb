@@ -5203,6 +5203,7 @@ StaffFacilities+sf.duty.notification+Allows the player to see who is on duty.
 StaffFacilities+sf.duty+Allows the player to set himself on duty mode.+/duty
 StaffFacilities+sf.email+Allows the player to see the email list.+/email
 StaffFacilities+sf.enderchest.modify+Allows the player to modify their ender chest.
+StaffFacilities+sf.enderchest.offline+Allows the player to use the ender chest command on an offline player.+/enderchest
 StaffFacilities+sf.enderchest.others+Allows the player to use the ender chest command on another player.+/enderchest
 StaffFacilities+sf.enderchest.preventmodify+Allows the player to bypass modification of his ender chest.
 StaffFacilities+sf.enderchest+Allows the player to open their ender chest.+/enderchest
@@ -5255,6 +5256,7 @@ StaffFacilities+sf.inspect+Allows the player to inspect another player's invento
 StaffFacilities+sf.instagram+Allows the player to see the instagram list.+/instagram
 StaffFacilities+sf.invsee.modify+Allows the player to modify another player's inventory.
 StaffFacilities+sf.invsee.notification+Allows the player to see when someone watches another player's inventory.
+StaffFacilities+sf.invsee.offline+Allows the player to to the invsee command on an offline player.+/invsee
 StaffFacilities+sf.invsee.preventmodify+Allows the player to bypass modification of his inventory.
 StaffFacilities+sf.invsee+Allows the player to see the inventory of another player.+/invsee
 StaffFacilities+sf.ip+Allows the player to see the IPs list.+/ip
@@ -5384,6 +5386,7 @@ StaffFacilities+sf.watchover+Allows the player to toggle their watchover spectat
 StaffFacilities+sf.website+Allows the player to see the website list.+/website
 StaffFacilities+sf.welcomeback+Allows the player to broadcast a welcome back message to another player.+/welcomeback
 StaffFacilities+sf.whatsapp+Allows the player to see the whatsapp list.+/whatsapp
+StaffFacilities+sf.wiki+Allows the player to see the wiki link.+/wiki
 StaffFacilities+sf.workbench+Allows the player to open a workbench.+/workbench
 StaffFacilities+sf.xraynotify.autotoggle+Allows the player to auto toggle xray notifications on joining.
 StaffFacilities+sf.xraynotify.bypass+Allows the player to bypass the xray notification.
