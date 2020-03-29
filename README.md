@@ -1,6 +1,12 @@
 # **Resources for Tech's Spigot Plugins**
 
-![GitHub contributors](https://badges.eazyftw.com/github/contributors/TechsCode/PluginResources?style=flat-square) ![GitHub pull requests](https://badges.eazyftw.com/github/issues-pr/TechsCode/PluginResources?style=flat-square) ![GitHub closed pull requests](https://badges.eazyftw.com/github/issues-pr-closed/TechsCode/PluginResources?style=flat-square) ![GitHub forks](https://badges.eazyftw.com/github/forks/TechsCode/PluginResources?style=flat-square) ![GitHub last commit](https://badges.eazyftw.com/github/last-commit/TechsCode/PluginResources?style=flat-square) ![GitHub commit activity](https://badges.eazyftw.com/github/commit-activity/w/TechsCode/PluginResources?style=flat-square) ![GitHub repo size](https://badges.eazyftw.com/github/repo-size/TechsCode/PluginResources?style=flat-square)
+![contributors]
+![pullrequests]
+![closedpullrequests]
+![forks]
+![lastcommit]
+![commitactivity]
+![reposize]
 
 > A repository holding translations and permissions for [Tech's Spigot Plugins].
 
@@ -86,3 +92,12 @@ You can get it [here][extension].
 [permissions]: https://github.com/TechsCode/PluginResources/blob/master/Permissions%20Database/Database.updb
 [Visual Studio Code]: https://code.visualstudio.com/
 [extension]: https://marketplace.visualstudio.com/items?itemName=RLNT.uperms-db-syntax
+
+<!-- Images -->
+[contributors]: https://badges.eazyftw.com/github/contributors/TechsCode/PluginResources?style=flat-square
+[pullrequests]: https://badges.eazyftw.com/github/issues-pr/TechsCode/PluginResources?style=flat-square
+[closedpullrequests]: https://badges.eazyftw.com/github/issues-pr-closed/TechsCode/PluginResources?style=flat-square
+[forks]: https://badges.eazyftw.com/github/forks/TechsCode/PluginResources?style=flat-square
+[lastcommit]: https://badges.eazyftw.com/github/last-commit/TechsCode/PluginResources?style=flat-square
+[commitactivity]: https://badges.eazyftw.com/github/commit-activity/w/TechsCode/PluginResources?style=flat-square
+[reposize]: https://badges.eazyftw.com/github/repo-size/TechsCode/PluginResources?style=flat-square
