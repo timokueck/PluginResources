@@ -5886,6 +5886,9 @@ UltraRegions+region.[region].pve.disallow+Prevents the player from damaging enti
 UltraRegions+region.[region].pvp.allow+Allows the player to damage players in a specific region no matter of the flag.
 UltraRegions+region.[region].pvp.disallow+Prevents the player from damaging players in a specific region no matter of the flag.
 UltraRegions+ultraregions.admin+Allows the player to use the main command of the plugin to access the GUI.+/uregions
+UltraRegionsDynmap+urd.command+Allows the player to use the main command of the plugin.+/urd,/urd help
+UltraRegionsDynmap+urd.reload+Allows the player to reload the plugin.+/urd reload
+UltraRegionsDynmap+urd.update+Allows the player to manually update the map.+/urd update
 UltraTags+ultratags.reload+Ability to use the reload command (reloads the plugin configuration)+/ultratags reload,/ut reload,/uts reload
 uSkyBlock+usb.admin.*+Controls player-cooldowns+/usb cooldown,/usb cd clear,/usb cd c
 uSkyBlock+usb.admin.addmember+Adds the player to the island+/usb is addmember [player] [islandleader]
