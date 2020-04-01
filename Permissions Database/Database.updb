@@ -22,6 +22,38 @@ Actionbar+actionbar.reload+Allows you to reload the config+/actionbar reload
 Actionbar+actionbar.world+Allows you to send a world message via actionbar+/actionbar <world> <name> <message>
 ActionHealth+ActionHealth.Health+This will send the player the health message only if 'Use Permission' is enabled in the config.
 ActionHealth+ActionHealth.Reload+Reloads config.+/Actionhealth reload
+AdminAnything+aa.allowaddperm+Allows the player to add a virtual permission to a command to restrict access.+/aa_addperm
+AdminAnything+aa.allowchatnickclick+Allows the player to click on names in the chat to perform actions set in the config.
+AdminAnything+aa.allowjoinleaveclick+Allows the player to get administrative links to click in the chat when a player joins or leaves the server.
+AdminAnything+aa.allowredirectadd+Allows the player to add a redirect to a command.+/aa_addredirect
+AdminAnything+aa.allowredirectremove+Allows the player to remove a redirect from a command.+/aa_delredirect
+AdminAnything+aa.allowremperm+Allows the player to remove a virtual permission from a command.+/aa_delperm
+AdminAnything+aa.bypassdeletecommand.[command]+Allows the player to bypass a specific deleted command and run it.
+AdminAnything+aa.bypassdeletecommand.all+Allows the player to bypass all deleted commands and run them.
+AdminAnything+aa.checkcommandconflicts+Allows the player to check conflicting commands and aliases.+/aa_checkcommandconflicts
+AdminAnything+aa.checkplayercommands.admin+Allows the player to edit hidden commands in the player commands listing.
+AdminAnything+aa.checkplayercommands.own+Allows the player to see all commands for themself.
+AdminAnything+aa.checkplayercommands+Allows the player to see all commands another player has.+/aa_playercommands
+AdminAnything+aa.checkplayerperms+Allows the player to see another player's current permissions.+/aa_playerperms
+AdminAnything+aa.checkpluginperms+Allows the player to see another player's plugin permissions with their respective descriptions.+/aa_pluginperms
+AdminAnything+aa.clearchat+Allows the player to clear the console or chat window.+/aa_clearchat
+AdminAnything+aa.deletecommand+Allows the player to disable a command so it's ignore if anyone tries to run it.+/aa_delcommand
+AdminAnything+aa.disablehelpcommand+Allows the player to disable a command from appearing in the player comands listing.+/aa_disablehelpcommand
+AdminAnything+aa.enablehelpcommand+Allows the player to reenable a command to appear in the player comands listing.+/aa_enablehelpcommand
+AdminAnything+aa.fixcommand+Allows the player to fix a conflicting command by giving a specific plugin priority.+/aa_fixcommand
+AdminAnything+aa.fulltabcomplete+Allows the player to see tab completion for commands that are available to this player.
+AdminAnything+aa.ignorecommand+Allows the player to ignore a permission from conflicting permissions if e.g. they handle the priority for themselves.+/aa_ignorecommand
+AdminAnything+aa.info+Allows the player to see all currently fixed, muted, invalid and disabled commands.+/aa_info
+AdminAnything+aa.listcommands+Allows the player to list all commands for all plugins.+/aa_listcommands
+AdminAnything+aa.mutecommand+Allows the player to mute a command so it's not sending console output or chat messages when used.+/aa_mutecommand
+AdminAnything+aa.notifynewversion+Allows the player to get a chat notification when joining the server if a new version of the plugin is available.
+AdminAnything+aa.reload+Allows the player to reload the plugin's configuration.+/aa_reload
+AdminAnything+aa.showactions+Allows the player to see all availabe actions for a command.+/aa_actions
+AdminAnything+aa.showversion+Allows the player to see the current version of the plugin.+/aa_version
+AdminAnything+aa.undeletecommand+Allows the player to restore a disabled command.+/aa_undelcommand
+AdminAnything+aa.unfixcommand+Allows the player to unfix a conflicting command by letting the server handle it the default way.+/aa_unfixcommand
+AdminAnything+aa.unignorecommand+Allows the player to unignore a permission.+/aa_unignorecommand
+AdminAnything+aa.unmutecommand+Allows the player to unmute a command.+/aa_unmutecommand
 AdminMode+adminmode.use+Allows you to toggle the admin mode+/adminmode <on|off>
 AdvancedAchievements+achievement.*+Star notation of permissions, includes all the permissions and disables book and list commands delays.
 AdvancedAchievements+achievement.book+Allows to receive achievements books.+/aach book
