@@ -34,7 +34,7 @@ DURATION: Duracion
 COPY: Copiar
 PASSED: Pasado
 FAILED: Fallido
-#SOURCE: Source
+SOURCE: Fuente
 TIME_TILL_REMOVAL: Tiempo para remover:
 COMMAND_INVALID_ARGS: Argumentos invalidos
 COMMAND_NOTFOUND: Comando no encontrado
