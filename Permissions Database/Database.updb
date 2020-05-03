@@ -5486,6 +5486,10 @@ StarterKit+starterkit.load.self+Allow a player to give themselves the kit.+/sk l
 StarterKit+starterkit.load+Allow a player to give a kit to anyone.
 StarterKit+starterkit.save+Allow a player save a copy of their inventory as the kit+/sk save
 StarterKit+starterkit+Allows access to everything in the plugin.
+StatusNPC+statusnpc.command.help+Allows the player to view all commands.+/snpc help
+StatusNPC+statusnpc.command.list+Allows the player to see all linked NPCs.+/snpc list
+StatusNPC+statusnpc.command.remove+Allows the player to remove a link between a Player and an NPC.+/snpc remove <player>
+StatusNPC+statusnpc.command.set+Allows the player to link a Player with an NPC.+/snpc set <player> <npc id>
 StripArmor+strip.use+Allows the user to remove player's armor.+/strip
 SuperLobby+superlobby.admin+To use administrative commands+/sl reload,/sl remspawn,/sl setspawn
 SuperLobby+superlobby.menu+To be able to use the menu
