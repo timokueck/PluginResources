@@ -1780,29 +1780,29 @@ DeluxeChat+deluxechat.socialspy+Allows the player to spy on private messages.+/s
 DeluxeChat+deluxechat.url+Allows the player to send messages with URLs.
 DeluxeChat+deluxechat.utf+Allows the player to use special utf characters in the chat.
 DeluxeChat+deluxechat.vanish.bypass+Allows the player to send messages to vanished players.
-DeluxeCombat+deluxecombat.admin+Configure and control the plugin.
-DeluxeCombat+deluxecombat.bypasscommand+Use blocked commands during combat.
-DeluxeCombat+deluxecombat.bypassquit+Quit the server while you are fighting, whithout getting a punishment.
-DeluxeCombat+deluxecombat.bypasshitdelay+Bypass the hit delay (Not the weapon cooldown!).
-DeluxeCombat+deluxecombat.status.check+Check your combat status.
-DeluxeCombat+deluxecombat.status.check.other+Check the combat status of other players.
-DeluxeCombat+deluxecombat.stats.check+Check your pvp stats.
-DeluxeCombat+deluxecombat.stats.check.other+Check the pvp stats of other players.
-DeluxeCombat+deluxecombat.stats.reset+Reset your pvp stats.
-DeluxeCombat+deluxecombat.stats.reset.other+Reset the pvp stats of other players.
-DeluxeCombat+deluxecombat.bypass.enderpearl+Bypass the enderpearl restrictions.
-DeluxeCombat+deluxecombat.bypass.chorusfruit+Bypass the chorus fruit restrictions.
-DeluxeCombat+deluxecombat.bypass.apple.gold+Bypass the gold apple restrictions.
-DeluxeCombat+deluxecombat.bypass.apple.god+Bypass the god apple restrictions.
-DeluxeCombat+deluxecombat.bypass.totem-of-undying+Bypass the totem of undying restrictions.
-DeluxeCombat+deluxecombat.view.kill-recaps+View kill recaps.
-DeluxeCombat+deluxecombat.view.leaderboards+View the leaderboards.
-DeluxeCombat+deluxecombat.grace+Check your grace status.
-DeluxeCombat+deluxecombat.grace.disable+Disable your grace.
-DeluxeCombat+deluxecombat.bypass.headdrop+With this permission, your head cant drop during a fight.
-DeluxeCombat+deluxecombat.deathback+Needed for the deathback command.
-DeluxeCombat+deluxecombat.togglepvp+Needed for the togglepvp command.
-DeluxeCombat+deluxecombat.sellhead.redeem+Needed for the sellhead command.
+DeluxeCombat+deluxecombat.admin+Allows the player to configure and control the plugin.+/dc menu
+DeluxeCombat+deluxecombat.bypass.apple.god+Allows the player to bypass the god apple restrictions.
+DeluxeCombat+deluxecombat.bypass.apple.gold+Allows the player to bypass the gold apple restrictions.
+DeluxeCombat+deluxecombat.bypass.chorusfruit+Allows the player to bypass the chorus fruit restrictions.
+DeluxeCombat+deluxecombat.bypass.enderpearl+Allows the player to bypass the enderpearl restrictions.
+DeluxeCombat+deluxecombat.bypass.headdrop+Allows the player to not drop their head on death.
+DeluxeCombat+deluxecombat.bypass.totem-of-undying+Allows the player to bypass the totem of undying restrictions.
+DeluxeCombat+deluxecombat.bypasscommand+Allows the player to use blocked commands during combat.
+DeluxeCombat+deluxecombat.bypasshitdelay+Allows the player to bypass the hit delay (not the weapon cooldown).
+DeluxeCombat+deluxecombat.bypassquit+Allows the player to leave the server during combat without punishment.
+DeluxeCombat+deluxecombat.deathback+Allows the player to use the deathback command.
+DeluxeCombat+deluxecombat.grace.disable+Allows the player to disable their grace.
+DeluxeCombat+deluxecombat.grace+Allows the player to check their grace status.
+DeluxeCombat+deluxecombat.sellhead.redeem+Allows the player to use the sellhead command.
+DeluxeCombat+deluxecombat.stats.check.other+Allows the player to check the combat statistics of other players.
+DeluxeCombat+deluxecombat.stats.check+Allows the player to check their combat statistics.
+DeluxeCombat+deluxecombat.stats.reset.other+Allows the player to reset the combat statistics of other players.
+DeluxeCombat+deluxecombat.stats.reset+Allows the player to reset their combat statistics.
+DeluxeCombat+deluxecombat.status.check.other+Allows the player to check the combat status of other players.
+DeluxeCombat+deluxecombat.status.check+Allows the player to check their combat status.
+DeluxeCombat+deluxecombat.togglepvp+Allows the player to use the togglepvp command.
+DeluxeCombat+deluxecombat.view.kill-recaps+Allows the player to view kill recaps.+/dc viewrecap <id>
+DeluxeCombat+deluxecombat.view.leaderboards+Allows the player to view the leaderboards.+/dc leaderboard [stats]
 DeluxePlayerOptions+playeroptions.chat+Enable/Disable chat/radio mode.+/Chat,/radio
 DeluxePlayerOptions+playeroptions.doublejump+Enable/Disable doublejump mode.+/DoubleJump
 DeluxePlayerOptions+playeroptions.fly+Enable/Disable fly mode.+/Fly
