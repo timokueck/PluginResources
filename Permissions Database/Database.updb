@@ -1954,6 +1954,17 @@ EpicDispensers+EpicDispensers.admin+Gives the player access to all commands
 EpicDispensers+EpicDispensers.Upgrade.ECO+Allows the player to upgrade the dispensers level with economy
 EpicDispensers+EpicDispensers.Upgrade.XP+Allows the player to upgrade the dispensers level with XP
 EpicDispensers+EpicDispensers.view+Lets the player view the EpicDispensers GUI
+EpicEnchants+epicenchants.list+List all enchants with their description.+/ee list [chat]
+EpicEnchants+epicenchants.givebook+Gives the specified player a specific enchantment book.+/ee givebook <player> <enchant> [level] [success-rate] [destroy-rate]
+EpicEnchants+epicenchants.giverandombook+Give random enchant books to players.+/ee giverandombook <player> <group>
+EpicEnchants+epicenchants.givescroll+Give enchant scrolls to players.+/ee givescroll <whitescroll/blackscroll> <player> [amount] [success-rate]
+EpicEnchants+epicenchants.apply+Apply an enchant to the item in hand.+/ee apply <enchant> <level> [success-rate] [destroy-rate]
+EpicEnchants+epicenchants.giveitemdust+Gives the specified player a piece of dust.+/ee giveitemdust <player> <group> [type] [percentage]
+EpicEnchants+epicenchants.admin+Edit the EpicEnchants Settings.+/ee settings
+EpicEnchants+epicenchants.admin+Reload EpicEnchants and it's configurations.+/ee reload
+EpicEnchants+epicenchants.enchanter+Allows the user to open the enchanter menu.+/enchanter
+EpicEnchants+epicenchants.tinkerer+Allows the user to open the tinkerer menu.+/tinkerer
+EpicEnchants+epicenchants.alchemist+Allows the player to open the alchemist menu.+/alchemist
 EpicFarming+epicfarming.admin+Allows use of admin commands
 EpicFarming+epicfarming.upgrade.eco+Allows upgrading using economy
 EpicFarming+epicfarming.upgrade.xp+Allows upgrading using exp
