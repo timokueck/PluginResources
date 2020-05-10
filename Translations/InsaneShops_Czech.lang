@@ -1,0 +1,91 @@
+SHOP: Obchod
+SHOPS: Obchody
+BUY: Koupit
+TYPEIN: Manuálně (v chatu)
+ITEMS: Itemy
+SELL: Prodat
+REVENUE: Výdělek
+TRANSACTIONS: Transakce
+PURCHASING: Nákup
+BUYING: Koupit
+SELLING: Prodat
+PRICE: Cena
+UNITS: Jednotky
+AMOUNT: Počet
+BUY_FOR: Koupit za
+SELL_FOR: Prodat za
+AVAILABLE: Dostupné
+PRICE_PER_ITEM: Cena za item
+STOCKED_ITEMS: Skladem
+INCREASE: Zvýšit
+DECREASE: Snížit
+QUANTITY: Množství
+CONFIRM: Potvrdit
+FOR: za
+YOU_WILL_RECEIVE: Obdržíš
+ENCHANTED: Očarovaný
+ITEMS_AVAILABLE: Dostupné itemy
+CONTINUE: Pokračovat
+MONEY_PAID: Peněz zaplaceno
+GUI_OVERVIEW_OPENSHOPS_ACTION: Kliknutím otevřeš obchody
+GUI_OVERVIEW_OPENSETTINGS_ACTION: Kliknutím otevřeš nastavení
+GUI_SHOPSETTINGS_BUY_LEFTACTION: **Levý Klik** pro **změnu** ceny za nákup
+GUI_SHOPSETTINGS_BUY_QACTION: **Zmáčni Q** pro vypnutí Nákupu
+GUI_SHOPSETTINGS_BUY_OTHERACTION: **Klikni** pro zapnutí **Nákupu**
+GUI_SHOPSETTINGS_BUY_EXPLANATION: Koupí se **%1** za jeden item
+GUI_SHOPSETTINGS_SELL_LEFTACTION: **Levý Klik** pro **změnu** ceny za prodej
+GUI_SHOPSETTINGS_SELL_QACTION: **Zmáčkni Q** pro vypnutí Prodeje
+GUI_SHOPSETTINGS_SELL_OTHERACTION: **Klikni** pro zapnutí **Prodeje**
+GUI_SHOPSETTINGS_SELL_EXPLANATION: Prodá se **%1** za jeden item
+GUI_MONEYSELECTOR_TYPEIN_ACTION: **Klikni** pro nastavení ceny
+GUI_MONEYSELECTOR_INCREASE_ACTION: **Levý Klik **pro přidání **%1**
+GUI_MONEYSELECTOR_DECREASE_ACTION: **Levý Klik **pro odebrání **%1**
+GUI_MONEYSELECTOR_SWITCHUNIT: **Stlač **[**Zahodit item**]** pro změnu jednotky
+GUI_MONEYSELECTOR_CONFIRM_ACTION: Klikni pro potvrzení
+GUI_MONEYSELECTOR_TYPEIN: Napiš cenu do chatu
+GUI_SHOP_NAV_SELECT_ACTION: Klikni pro zvolení této volby
+GUI_SHOP_NAV_SELECTED: Tato volba je zvolena
+GUI_SHOP_NOSELLABLEITEMS_TITLE: Nenašli sme žádné itemy
+GUI_SHOP_NOSELLABLEITEMS_EXPLANATION: Nenašli sme potřebné itemy ve tvém inventáři
+GUI_SHOP_OUTOFSTOCK_TITLE: Vyprodáno
+GUI_SHOP_OUTOFSTOCK_EXPLANATION: Prosím počkej než **%1** doplní sklad v obchodě
+GUI_SHOP_REDUCE_TITLE: Zmenšit Množství
+GUI_SHOP_REDUCE_LEFTACTION: **Levý Klik** pro odebrání **1**
+GUI_SHOP_REDUCE_RIGHTACTION: **Pravý Klik** pro odebrání **10**
+GUI_SHOP_REDUCE_LIMIT: Už nemůžeš víc **odebrat** množství
+GUI_SHOP_INCREASE_TITLE: Zvýšit Množství
+GUI_SHOP_INCREASE_LEFTACTION: **Levý Klik** pro přidání **1**
+GUI_SHOP_INCREASE_RIGHTACTION: **Pravý Klik** pro přidání **10**
+GUI_SHOP_INCREASE_LIMIT: Nemůžeš **přidat** větší množství 
+GUI_SHOP_PURCHASE_TITLE: Koupit
+GUI_SHOP_PURCHASE_ACTION: Klikni pro **Nákup**
+GUI_SHOP_PURCHASE_NOFUNDS: Nemáš dostatek zlata na účtě
+GUI_SHOPBROWSER_SETTINGSACTION: **Klikni** pro zobrazení nastavení
+GUI_SHOPBROWSER_LEFTACTION: **Levý Klik** pro **Nákup**
+GUI_SHOPBROWSER_RIGHTACTION: **Pravý Klik** pro zobrazení nastavení
+GUI_SHOPBROWSER_YOURSHOPINDICATOR: Tvůj obchod
+GUI_SHOPCREATION_TITLE: Vytvořit Obchod
+GUI_SHOPCREATION_TITLEWITHAMOUNT: Prodat %1x tento item
+GUI_SHOPCREATION_INCREASE_ACTION: Klikni pro zvýšení množství
+GUI_SHOPCREATION_REDUCE_ACTION: Klikni pro snížení množství
+GUI_SHOPCREATION_UNAVAILABLE_EXPLANATION: Tato možnost není dostupná
+GUI_SHOPCREATION_CONTINUE_EXPLANATION: Klikni pro pokračování
+GUI_SHOPSETTINGS_CONVERTADMINSHOP_TITLE: Konvertovat na AdminShop
+GUI_SHOPSETTINGS_CONVERTADMINSHOP_ACTION: **Klikni** pro Konvertaci
+GUI_SHOPSETTINGS_STOCK_ACTION: Klikni pro **správu** itemů
+GUI_SHOPSETTINGS_STOCK_REVENUE_IF_SOLD: Výdělek po prodání všech itemů
+GUI_SHOPSETTINGS_TRANSACTIONS_ACTION: Klikni pro **zobrazení** transakcí
+GUI_SHOPSETTINGS_DELETE_TITLE: Zavřit Obchod
+GUI_SHOPSETTINGS_DELETE_ACTION: Klikni pro zavření Obchodu
+GUI_SHOPSETTINGS_DELETE_NEEDWITHDRAWING: Nejdříve vyber všechny itemy z Ochodu
+GUI_STOCKEDVIEW_TITLE: Itemy skladem
+GUI_STOCKEDVIEW_ACTION: Klikni pro **přesun** do tvého inventáře
+GUI_STOCKEDVIEW_INSTRUCTION: Přidej itemy kliknutím na ně ve tvém inventáři
+GUI_TRANSACTIONS_PURCHASETIME: Transakce před **%1**
+SHOP_CREATION_NOPERMISSION: Nemáš povolení k vytvoření obchodu
+SHOP_CREATION_INVALID_ITEM: Tento item je neprodejný
+SHOP_CREATION_REACHED_LIMIT: Nemůžeš vytvářet více jak **%1** Obchodů
+ACTIONBAR_NOTICES_OPENSHOP: **Pravý klik** pro otevření tohoto **Obchodu**
+ACTIONBAR_NOTICES_CREATESHOP: **Sneak(shift) + Levý Klik** pro vytvoření Nového Obchodu
+MESSAGE_BUY_INVFULL: Nemůžeš koupit **%1**. Máš plný inventář.
+MESSAGE_BUY_COMPLETED: Úspěšně zakoupeno **%1x %2 **za **%3
