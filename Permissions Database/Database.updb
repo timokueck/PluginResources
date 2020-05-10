@@ -1780,29 +1780,11 @@ DeluxeChat+deluxechat.socialspy+Allows the player to spy on private messages.+/s
 DeluxeChat+deluxechat.url+Allows the player to send messages with URLs.
 DeluxeChat+deluxechat.utf+Allows the player to use special utf characters in the chat.
 DeluxeChat+deluxechat.vanish.bypass+Allows the player to send messages to vanished players.
-DeluxeCombat+deluxecombat.admin+Allows the player to configure and control the plugin.+/dc menu
-DeluxeCombat+deluxecombat.bypass.apple.god+Allows the player to bypass the god apple restrictions.
-DeluxeCombat+deluxecombat.bypass.apple.gold+Allows the player to bypass the gold apple restrictions.
-DeluxeCombat+deluxecombat.bypass.chorusfruit+Allows the player to bypass the chorus fruit restrictions.
-DeluxeCombat+deluxecombat.bypass.enderpearl+Allows the player to bypass the enderpearl restrictions.
-DeluxeCombat+deluxecombat.bypass.headdrop+Allows the player to not drop their head on death.
-DeluxeCombat+deluxecombat.bypass.totem-of-undying+Allows the player to bypass the totem of undying restrictions.
-DeluxeCombat+deluxecombat.bypasscommand+Allows the player to use blocked commands during combat.
-DeluxeCombat+deluxecombat.bypasshitdelay+Allows the player to bypass the hit delay (not the weapon cooldown).
-DeluxeCombat+deluxecombat.bypassquit+Allows the player to leave the server during combat without punishment.
-DeluxeCombat+deluxecombat.deathback+Allows the player to use the deathback command.
-DeluxeCombat+deluxecombat.grace.disable+Allows the player to disable their grace.
-DeluxeCombat+deluxecombat.grace+Allows the player to check their grace status.
-DeluxeCombat+deluxecombat.sellhead.redeem+Allows the player to use the sellhead command.
-DeluxeCombat+deluxecombat.stats.check.other+Allows the player to check the combat statistics of other players.
-DeluxeCombat+deluxecombat.stats.check+Allows the player to check their combat statistics.
-DeluxeCombat+deluxecombat.stats.reset.other+Allows the player to reset the combat statistics of other players.
-DeluxeCombat+deluxecombat.stats.reset+Allows the player to reset their combat statistics.
-DeluxeCombat+deluxecombat.status.check.other+Allows the player to check the combat status of other players.
-DeluxeCombat+deluxecombat.status.check+Allows the player to check their combat status.
-DeluxeCombat+deluxecombat.togglepvp+Allows the player to use the togglepvp command.
-DeluxeCombat+deluxecombat.view.kill-recaps+Allows the player to view kill recaps.+/dc viewrecap <id>
-DeluxeCombat+deluxecombat.view.leaderboards+Allows the player to view the leaderboards.+/dc leaderboard [stats]
+DeluxeCombat+deluxecombat.bypasscommand+Lets you still use blocked commands while in combat.
+DeluxeCombat+deluxecombat.bypasshitdelay+Lets you exceed the limit of the hit delay to maximum.
+DeluxeCombat+deluxecombat.bypassquit+Lets you quit while in combat without any bad punishments.
+DeluxeCombat+deluxecombat.bypassworld+Lets you still combat tag someone else in a disabled world.
+DeluxeCombat+deluxecombat.secretmeme+Memes are included, who knows what this permission will do...
 DeluxePlayerOptions+playeroptions.chat+Enable/Disable chat/radio mode.+/Chat,/radio
 DeluxePlayerOptions+playeroptions.doublejump+Enable/Disable doublejump mode.+/DoubleJump
 DeluxePlayerOptions+playeroptions.fly+Enable/Disable fly mode.+/Fly
@@ -1954,17 +1936,16 @@ EpicDispensers+EpicDispensers.admin+Gives the player access to all commands
 EpicDispensers+EpicDispensers.Upgrade.ECO+Allows the player to upgrade the dispensers level with economy
 EpicDispensers+EpicDispensers.Upgrade.XP+Allows the player to upgrade the dispensers level with XP
 EpicDispensers+EpicDispensers.view+Lets the player view the EpicDispensers GUI
-EpicEnchants+epicenchants.list+List all enchants with their description.+/ee list [chat]
-EpicEnchants+epicenchants.givebook+Gives the specified player a specific enchantment book.+/ee givebook <player> <enchant> [level] [success-rate] [destroy-rate]
-EpicEnchants+epicenchants.giverandombook+Give random enchant books to players.+/ee giverandombook <player> <group>
-EpicEnchants+epicenchants.givescroll+Give enchant scrolls to players.+/ee givescroll <whitescroll/blackscroll> <player> [amount] [success-rate]
-EpicEnchants+epicenchants.apply+Apply an enchant to the item in hand.+/ee apply <enchant> <level> [success-rate] [destroy-rate]
-EpicEnchants+epicenchants.giveitemdust+Gives the specified player a piece of dust.+/ee giveitemdust <player> <group> [type] [percentage]
-EpicEnchants+epicenchants.admin+Edit the EpicEnchants Settings.+/ee settings
-EpicEnchants+epicenchants.admin+Reload EpicEnchants and it's configurations.+/ee reload
-EpicEnchants+epicenchants.enchanter+Allows the user to open the enchanter menu.+/enchanter
-EpicEnchants+epicenchants.tinkerer+Allows the user to open the tinkerer menu.+/tinkerer
+EpicEnchants+epicenchants.admin+Allows the player to edit the plugin's settings and reload it.+/ee settings,/ee reload
 EpicEnchants+epicenchants.alchemist+Allows the player to open the alchemist menu.+/alchemist
+EpicEnchants+epicenchants.apply+Allows the player to apply an enchantment to the item held in the hand.+/ee apply <enchant> <level> [success-rate] [destroy-rate]
+EpicEnchants+epicenchants.enchanter+Allows the player to open the enchanter menu.+/enchanter
+EpicEnchants+epicenchants.givebook+Allows the player to give a player a specific enchantment book.+/ee givebook <player> <enchant> [level] [success-rate] [destroy-rate]
+EpicEnchants+epicenchants.giveitemdust+Allows the player to give a player a piece of dust.+/ee giveitemdust <player> <group> [type] [percentage]
+EpicEnchants+epicenchants.giverandombook+Allows the player to a player a random enchanted book.+/ee giverandombook <player> <group>
+EpicEnchants+epicenchants.givescroll+Allows the player to give a player an enchant scroll.+/ee givescroll <whitescroll|blackscroll> <player> [amount] [success-rate]
+EpicEnchants+epicenchants.list+Allows the player to see all all enchants with their description.+/ee list [chat]
+EpicEnchants+epicenchants.tinkerer+Allows the player to open the tinkerer menu.+/tinkerer
 EpicFarming+epicfarming.admin+Allows use of admin commands
 EpicFarming+epicfarming.upgrade.eco+Allows upgrading using economy
 EpicFarming+epicfarming.upgrade.xp+Allows upgrading using exp
@@ -5497,10 +5478,6 @@ StarterKit+starterkit.load.self+Allow a player to give themselves the kit.+/sk l
 StarterKit+starterkit.load+Allow a player to give a kit to anyone.
 StarterKit+starterkit.save+Allow a player save a copy of their inventory as the kit+/sk save
 StarterKit+starterkit+Allows access to everything in the plugin.
-StatusNPC+statusnpc.command.help+Allows the player to view all commands.+/snpc help
-StatusNPC+statusnpc.command.list+Allows the player to see all linked NPCs.+/snpc list
-StatusNPC+statusnpc.command.remove+Allows the player to remove a link between a Player and an NPC.+/snpc remove <player>
-StatusNPC+statusnpc.command.set+Allows the player to link a Player with an NPC.+/snpc set <player> <npc id>
 StripArmor+strip.use+Allows the user to remove player's armor.+/strip
 SuperLobby+superlobby.admin+To use administrative commands+/sl reload,/sl remspawn,/sl setspawn
 SuperLobby+superlobby.menu+To be able to use the menu
