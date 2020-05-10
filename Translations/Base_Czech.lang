@@ -1,0 +1,55 @@
+#
+# Official Language File
+# To make your own language file, copy this file and edit the copy
+#
+# Changes made to this file will be reset!
+# Do not edit it!
+#
+
+ENABLE: zapnout
+ENABLED: zapnuto
+DISABLE: vypnout
+DISABLED: vypnuto
+SETTINGS: Nastavení
+DAY: Den
+DAYS: Dní
+HOUR: Hodina
+HOURS: Hodin
+MINUTE: Minuta
+MINUTES: Minut
+SECOND: Sekunda
+SECONDS: Sekundy
+NONE: Nic
+COMMAND_NOPERMISSION: Nemáš **přístup** k tomuto příkazu
+COMMAND_NOCONSOLE: This command cannot be run through the console
+GUI_SETTINGS_SELECTPAGE: Klikni pro zobrazení nastavení
+GUI_SETTINGS_PAGESELECTED: **Zobrazéná** stránka
+GUI_SETTINGS_LANGUAGE_NAME: Jazyk
+GUI_SETTINGS_MYSQL_NAME: MYSQL databáze
+GUI_SETTINGS_MYSQL_EDITVALUE_ACTION: Klikni pro upravení hodnoty
+GUI_SETTINGS_MYSQL_CURRENTVALUE: Aktuální hodnota:
+GUI_SETTINGS_MYSQL_SETUP_TITLE_FIELDNAME: MySQL - %1
+GUI_SETTINGS_MYSQL_SETUP_TITLE_TYPEINVALUE: Napište hodnotu
+GUI_SETTINGS_MYSQL_SETUP_TITLE: Nastavit MySQL
+GUI_SETTINGS_MYSQL_SETUP_ACTION: Klikni pro zapnutí MySQL
+GUI_SETTINGS_MYSQL_SETUP_INFO: Tato funkce požaduje aktivní MySQL Databázi pro připojení
+GUI_SETTINGS_MYSQL_DISABLE_TITLE: Vypnout MYSQL
+GUI_SETTINGS_MYSQL_DISABLE_ACTION: Klikni pro vypnutí MySQL
+GUI_SETTINGS_MYSQL_RESTARTREQUIRED: Bude potřeba restart serveru pro aklikování změn
+GUI_SETTINGS_MYSQL_CANTCONNECT: Nepodařilo se připojit do vaší MYSQL databáze
+GUI_SETTINGS_MYSQL_SAVE_TITLE: Otestovat a uložit
+GUI_SETTINGS_MYSQL_SAVE_ACTION: Klikni pro **test** a **uložení**
+GUI_SETTINGS_LANG_ACTION: Klikni pro **výběr** tohoto jazyka
+GUI_SETTINGS_LANG_SELECTED: Tento jazyk je momentálně **zvolen**
+GUI_SETTINGS_LANG_PHRASES: Fráze
+GUI_SETTINGS_LANG_COVERAGE: Pokrytí
+GUI_PAGEABLE_SEARCH_TITLE: Vyhledávání
+GUI_PAGEABLE_SEARCH_ACTION: Klikni pro vyhledávání
+GUI_PAGEABLE_NEXT_TITLE: Další
+GUI_PAGEABLE_NEXT_ACTION: Klikni pro další stránku
+GUI_PAGEABLE_PREVIOUS_TITLE: Předchozí
+GUI_PAGEABLE_PREVIOUS_ACTION: Klikni pro předchozí stránku
+GUI_PAGEABLE_SEARCH_CLOSE_ACTION: Klikni pro **zrušení** vyhledávání
+GUI_PAGEABLE_SEARCH_TYPEIN: Napište hledaní termín
+GUI_BACK_NAME: Zpět
+GUI_BACK_ACTION: Klikni pro krok zpět
