@@ -2,14 +2,14 @@
 # Github: https://github.com/TechsCode/PluginResources
 # Format: https://github.com/TechsCode/PluginResources/blob/master/README.md#format
 #
-AAC+AAC.admin+View the admin control panel.(view the admin GUI)(Text-based reload without the GUI)+/aacadmin,/aacreload
-AAC+AAC.ban+Ban players.
-AAC+AAC.bypass+Bypass AAC's checks.
-AAC+AAC.debug+Debug a player's actions. (Save a detailed log file of what that player is doing)+/aacdebug
-AAC+AAC.kick+Kill, kick and broadcast a message.+/aackick
-AAC+AAC.notify+Send/recieve staff chat and aac's notifications. ( Send a message to all people with the AAC.notify permission. Will be called by the staff chat prefix.)+/aacstaffnotify
-AAC+AAC.unban+Unban players banned by AAC.+/aacunban
-AAC+AAC.verbose+Receive detailed information on suspected players.
+AAC+AAC.bypass+Bypass AAC's checks
+AAC+AAC.reload+Reload all of configuration file+/aac reload
+AAC+AAC.verbose+Receive detailed information on suspected players+/aac verbose
+AAC+AAC.status+Viev general information about AAC's status
+AAC+AAC.manage+Enable or disable checks, mitigations, and actions in real timie.+/aac manage
+AAC+AAC.notify+Send and receive AAC notifications+/aac notify
+AAC+AAC.moderator+View violation levels of players+/aac moderator
+AAC+AAC.verbose+View AAC's debug messages.
 Actionbar+actionbar.announcer.list+Allows you to list all messages of the announcer +/actionbarannouncer list
 Actionbar+actionbar.announcer.send+Allows you to send a line of the announcers messages +/actionbarannouncer send
 Actionbar+actionbar.announcer.start+Allows you to start the announcer+/actionbarannouncer start
@@ -123,42 +123,47 @@ AdvancedAFK+advancedafk.commands.afk.others+Allows the player to toggle the afk 
 AdvancedAFK+advancedafk.commands.afk+Allows the player to toggle their afk mode.+/afk [reason]
 AdvancedAFK+advancedafk.commands.checkafk+Allows the player to check another player's afk status.+/checkafk <player>
 AdvancedAFK+advancedafk.commands.main+Allows the player to reload the plugin and to set the teleport location.+/advancedafk [reload|set]
-AdvancedBan+ab.all.undo+Delete a punishment.+/unpunish
-AdvancedBan+ab.ban.ip+To use the command.+/banip
-AdvancedBan+ab.ban.notify+To get notified.
-AdvancedBan+ab.ban.perma+To use the command.+/ban
-AdvancedBan+ab.ban.temp+To use the command.+/tempban
-AdvancedBan+ab.ban.undo+To use the command.+/unban
-AdvancedBan+ab.ban+An unknown description
-AdvancedBan+ab.banlist+See all currently active punishments.+/banlist
-AdvancedBan+ab.check+Get player-status UUID/IP/Country/Ban-Status/Mute-Status/Warn-Count.+/check
-AdvancedBan+ab.help+Shows a list of all commands and a brief explanation .+/advancedban help
-AdvancedBan+ab.history+See all currently active punishments.+/history
-AdvancedBan+ab.ipban.notify+To get notified.
-AdvancedBan+ab.ipban+An unknown description
-AdvancedBan+ab.kick.exempt+To not be able to get kicked.
-AdvancedBan+ab.kick.notify+To get notified.
-AdvancedBan+ab.kick+An unknown description
-AdvancedBan+ab.mute.exempt+To not be able to get muted.
-AdvancedBan+ab.mute.notify+To get notified.
-AdvancedBan+ab.mute.perma+To use the command.+/mute
-AdvancedBan+ab.mute.temp+To use the command.+/tempmute
-AdvancedBan+ab.mute.undo+To use the command.+/unmute
-AdvancedBan+ab.reload+Reloads the messages from file and "some" settings.+/advancedban reload
-AdvancedBan+ab.systemprefs+Displays some System-Information which are useful for the configuration.+/systemprefs
-AdvancedBan+ab.tempban.exempt+To not be able to get tempbanned.
-AdvancedBan+ab.tempban.notify+To get notified.
-AdvancedBan+ab.tempmute.exempt+To not be able to get tempmuted.
-AdvancedBan+ab.tempmute.notify+To get notified.
-AdvancedBan+ab.tempwarn.exempt+To not be able to get tempwarned.
-AdvancedBan+ab.tempwarn.notify+To get notified.
-AdvancedBan+ab.warn.exempt+To not be able to get warned.
-AdvancedBan+ab.warn.notify+To get notified.
-AdvancedBan+ab.warn.perma+To use the command.+/warn
-AdvancedBan+ab.warn.temp+To use the command.+/tempwarn
-AdvancedBan+ab.warn.undo+To use the command.+/unwarn
-AdvancedBan+ab.warns.other+See your own or a player's warnings.+/warns
-AdvancedBan+ab.warns.own+See your own warnings.+/warns
+AdvancedBan+ab.kick.use+/kick
+AdvancedBan+ab.kick.exempt+Immune to kicking
+AdvancedBan+ab.notify.kick+Receives notification
+AdvancedBan+ab.ban.perma+/ban
+AdvancedBan+ab.ban.temp+/tempban
+AdvancedBan+ab.ban.undo+/unban
+AdvancedBan+ab.ban.exempt+Immune to ban
+AdvancedBan+ab.notify.ban+Receives notification
+AdvancedBan+ab.tempban.exempt+Immune to tempban
+AdvancedBan+ab.notify.tempban+Receives notification[/SPOILER]
+AdvancedBan+ab.ipban.perma+/ipban
+AdvancedBan+ab.ipban.temp+/tempipban
+AdvancedBan+ab.ipban.exempt+Immune to ipban
+AdvancedBan+ab.notify.ipban+Receives notification
+AdvancedBan+ab.tempipban.exempt+Immune to tempipban
+AdvancedBan+ab.notify.tempipban+Receives notification
+AdvancedBan+ab.mute.perma+/mute
+AdvancedBan+ab.mute.temp+/tempmute
+AdvancedBan+ab.mute.undo+/unmute
+AdvancedBan+ab.mute.exempt+Immune to mute
+AdvancedBan+ab.notify.mute+Receives notification
+AdvancedBan+ab.tempmute.exempt+Immune to tempmute
+AdvancedBan+ab.notify.tempmute+Receives notification
+AdvancedBan+ab.warn.perma+/warn
+AdvancedBan+ab.warn.temp+/tempwarn
+AdvancedBan+ab.warn.undo+/unwarn
+AdvancedBan+ab.warn.exempt+Immune to warn
+AdvancedBan+ab.notify.warn+Receives notification
+AdvancedBan+ab.tempwarn.exempt+Immune to tempwarn
+AdvancedBan+ab.notify.tempwarn+Receives notification
+AdvancedBan+ab.all.undo+/unpunish
+AdvancedBan+ab.warns.own+/warns
+AdvancedBan+ab.warns.other+/warns
+AdvancedBan+ab.check+/check
+AdvancedBan+ab.check.ip+Also shows IP
+AdvancedBan+ab.changeReason+/change-reason
+AdvancedBan+ab.banlist+/banlist
+AdvancedBan+ab.history+/history
+AdvancedBan+ab.reload+/advancedban reload
+AdvancedBan+ab.help+/advancedban help
+AdvancedBan+ab.systemprefs+/systemprefs
 AdvancedCraftingTable+advancedcraftingtable.admin+to maintain the base Command /advancedcraftingtable+/advancedcraftingtable
 AdvancedEnchantments+ae.admin+Allows a player to use the commands reload, add and delete and also receiving update notifications
 AdvancedEnchantments+ae.curse.*+Allows a player to use all curses (curses will not work without this permission node)
