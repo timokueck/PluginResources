@@ -122,22 +122,22 @@ GUI_PERMEDITOR_PLUGIN_ACTION: Clicca per vedere i permessi di **%1**
 #GUI_PERMEDITOR_AVAILABILITY_ALLSERVERS: Available on **all** Servers
 #GUI_PERMEDITOR_AVAILABILITY_INWORLD: in the World **%1**
 #GUI_PERMEDITOR_AVAILABILITY_APPLICABLEIN: Permission applicable in %1
-#GUI_PERMEDITOR_AVAILABILITY_ONLYTHISSERVER: Only available on **this** Server
+#GUI_PERMEDITOR_AVAILABILITY_ONLYTHISSERVER: Disponibile solo su questo server **this** Server
 #GUI_PERMEDITOR_AVAILABILITY_SPECIFICSERVER: Available on **%1** Server
 #GUI_PERMEDITOR_ADD_LEFTACTION: **Left Click** to add Permission
-#GUI_PERMEDITOR_ADD_RIGHTACTION: **Right Click** to add **Bungee Permission**
-#GUI_PERMEDITOR_ADD_TYPEIN: Type in a permission
+#GUI_PERMEDITOR_ADD_RIGHTACTION: **Right Click** per aggiungere **Bungee Permission**
+#GUI_PERMEDITOR_ADD_TYPEIN: Scrivi un permesso
 #GUI_PERMEDITOR_EDIT_TITLE: Edit %1
 #GUI_PERMEDITOR_EDIT_ACTION: Click to edit **%1**
-#GUI_PERMVIEW_EDITPERM_TITLE: Edit Permission
-#GUI_PERMVIEW_EDITPERM_ACTION: Click to edit Permission
-#GUI_PERMVIEW_EDITPERM_TYPEIN: Type in the new permission
+#GUI_PERMVIEW_EDITPERM_TITLE: Modifica i permessi
+#GUI_PERMVIEW_EDITPERM_ACTION: Premi per modificare i permessi
+#GUI_PERMVIEW_EDITPERM_TYPEIN: Scrivi il nuovo permesso
 #GUI_PERMVIEW_COPY_ACTION: Click to select a **target**
 #GUI_PERMVIEW_NOMULTINAMEEDIT: you cannot rename multiple permissions at once
-#GUI_STORAGESETTINGS_TITLE: Storage Settings
-#GUI_STORAGESETTINGS_TYPEINWORLD: Type in a world name
+#GUI_STORAGESETTINGS_TITLE: Impostazioni dello storage
+#GUI_STORAGESETTINGS_TYPEINWORLD: Scrivi il nome di un mondo
 #GUI_STORAGESETTINGS_NOWORLD_ACTION: Click to **restrict** this group to a specific World
-#GUI_STORAGESETTINGS_WORLD_ACTION: Click to allow this group in all Worlds
+#GUI_STORAGESETTINGS_WORLD_ACTION: Premi per permettere questo gruppo in tutti i mondi
 #GUI_STORAGESETTINGS_NOSERVER_ACTION: Click to **restrict** this group to this Server
 #GUI_STORAGESETTINGS_SERVER_ACTION: Click to allow this group on all Servers
 #GUI_STORAGESETTINGS_RESTRICTED_TO: Restricted to **%1**
@@ -155,7 +155,7 @@ GUI_CHANGEORDER_DECREASE: Tasto sinistro** per decrementare
 GUI_PERMISSIONLOG_ACTION: Clicca per aggiungere questo permesso a un **gruppo **o  un **utente
 GUI_PERMISSIONLOG_RESULT: Risultato: %1
 GUI_SETTINGS_FORMAT_NAME: Formato Chat & Tab
-GUI_SETTINGS_MISC_NAME: Miscellaneous
+GUI_SETTINGS_MISC_NAME: Miscellanee
 EDITING_PREFIX_EDIT: **Modifica il Prefisso
 EDITING_PREFIX_TYPEIN: Digita il nuovo prefisso
 EDITING_PREFIX_TYPEINNONE: Non digitare **niente** per non avere il prefisso
