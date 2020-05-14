@@ -1,0 +1,172 @@
+OVERVIEW: Podgląd
+PERMISSION: Permisje
+POSITIVE: Pozytywne
+NEGATIVE: Negatywne
+MIXED: Mieszane
+BUNGEE_PERMISSION: Permisja Bungee
+PERMISSION_NODES: Permisja Nodes
+PERMISSIONS: Permisje
+DEFAULT_PERMISSIONS: Podstawowe permisje
+GROUP: Grupa
+GROUPS: Grupy
+DEFAULT_GROUP: Podstawowa Grupa
+INHERITED_GROUPS: Odziedziczone Grupy
+PLAYER: Gracz
+SERVER: Serwer
+SELECTED: Wybrane
+WORLD: Świat
+USERS: Urzytkownicy
+USER: Urzytkownik
+TIME: Czas
+PREFIX: Przedrostek
+SUFFIX: Przyrostek
+OPTIONS: Opcje
+SERVERNAME: Nazwa serwera
+DONATIONS: Dotacje
+ADVANTAGES: Zalety
+RECOMMENDED: Polecane
+SETTINGS: Ustawienia
+PERMISSIONLOG: Logi permisji
+EDITING: Edycja
+ADD: Dodaj
+TIME_FOR: na
+NONE: Brak
+DURATION: Okres
+COPY: Kopiuj
+PASSED: Przeszedł
+FAILED: Nie powiodło się
+SOURCE: Źródło
+TIME_TILL_REMOVAL: Czas do usunięcia:
+COMMAND_INVALID_ARGS: Nieprawidłowe argumenty
+COMMAND_NOTFOUND: Nie odnaleziono wpisanej komendy
+COMMAND_HINT_HELP: Wpisz komende **/upc** aby wyświetlić liste dostępnych komend
+COMMAND_HELP_TITLE: Komendy Ultra Permission
+COMMAND_HELP_FOOTER: Odwiedź **%1** aby uzyskać więcej informacji
+COMMAND_GROUP_NOTFOUND: Nie odnaleziono grupy **%1**
+COMMAND_PLAYER_NOTFOUND: Nie odnaleziono gracza **%1**
+COMMAND_PLAYER_NOTSUPERADMIN: **%1** nie jest super adminem
+COMMAND_PLAYER_INGROUP: Gracz **%1** jest już w tej grupie
+COMMAND_PLAYER_SUPERADMIN_ALREADY: **%1** jest już super adminem
+COMMAND_PLAYER_SUPERADMIN_ADD: Pomyślnie dodano **%1** do grupy super adminów
+COMMAND_PLAYER_SUPERADMIN_REMOVE: Pomyślnie usunięto **%1** z grupy super adminów
+COMMAND_PLAYER_ADD_GROUP: Dodano **%1** do **%2**
+COMMAND_PLAYER_ADD_GROUP_TIMED: Dodano grupe **%1** do **%2** na **%3**
+COMMAND_PERMISSION_ADD: Dodano permisje **%1** do **%2**
+GUI_OVERVIEW_USERS_ACTION: Kliknij aby wyświetlić wszytkich **Graczy**
+GUI_OVERVIEW_GROUPS_ACTION: Kliknij aby wyświetlić wszytkie **Grupy**
+GUI_OVERVIEW_DONATIONS_ACTION: Kliknij aby wyświetlić datki
+GUI_OVERVIEW_REDUCE_TITLE: Redukować
+GUI_OVERVIEW_REDUCE_ACTION: Kliknij, aby ukryć zaawansowane funkcje
+GUI_OVERVIEW_REDUCE_EXPLANATION: To ukryje zaawansowane opcje
+GUI_OVERVIEW_EXPAND_TITLE: Rozwiń
+GUI_OVERVIEW_EXPAND_ACTION: **Kliknij** aby wyświetlić więcej
+GUI_OVERVIEW_EXPAND_EXPLANATION: To pokaże ci zaawanowane opcje
+GUI_OVERVIEW_PERMISSIONLOG_ACTION: **Kliknij** aby wyświetlić logi permisji
+GUI_OVERVIEW_PERMISSIONLOG_EXPLANATION: Tu możesz zobaczyć niedawno sprawdzane permisjie
+GUI_OVERVIEW_SETTINGS_ACTION: **Kliknij** aby wyświetlić opcje
+GUI_OVERVIEW_SETTINGS_EXPLANATION: Dostosuj wszystkie ustawienia pluginu
+GUI_GROUPBROWSER_TITLE_LIST: Lista
+GUI_GROUPBROWSER_TITLE_ALL: Wyświetl wszytkie grupy
+GUI_GROUPBROWSER_TITLE_RANGE: Pokazuje %1 / %2 Grup
+GUI_GROUPBROWSER_ADD_ACTION: Kliknij aby stworzyć grupe
+GUI_GROUPBROWSER_REORDER_TITLE: Zmień kolejność grup
+GUI_GROUPBROWSER_REORDER_ACTION: Kliknij aby zmienić kolejność grup.
+GUI_GROUPBROWSER_LEFTCLICK_ACTION: **Kliknij LPM** aby otworzyć
+GUI_GROUPBROWSER_Q_ACTION: **Kliknij Q** aby wyświetlić charakter grupy
+GUI_GROUPBROWSER_DEFAULT_GROUP_INDICATOR: To jest podstawowa grupa
+GUI_GROUPBROWSER_SHOWALL_TITLE: Pokaż wszystkie
+GUI_GROUPBROWSER_SHOWALL_ACTION: Kliknij aby wyświetlić wszykie grupy z Serwera i Świata
+GUI_USERBROWSER_ACTION: **Kliknij** aby wyświetlić
+GUI_USERBROWSER_DELETE_ACTION: **Kliknij Q** aby **usunąć**
+GUI_USERBROWSER_SUPERADMIN_INDICATOR: Ten urzytkownik jest super adminem
+GUI_USERBROWSER_SHOWOFFLINE_TITLE: Wyświetlanie nieaktywnych użytkowników
+GUI_USERBROWSER_HIDEOFFLINE_TITLE: Ukryj nieaktywnych użytkowników
+GUI_USERBROWSER_SHOWOFFLINE_ACTION: Kliknij aby wyświetlić **nieaktywnych użytkowników**
+GUI_USERBROWSER_HIDEOOFFLINE_ACTION: Kliknij aby uryć **nieaktywnych użytkowników**
+GUI_USERVIEW_VIEWPERMISSIONS_TITLE: Wyświetl permisje
+GUI_USERVIEW_VIEWPERMISSIONS_ACTION: **Kliknij** aby zobaczyć permisje
+GUI_USERVIEW_VIEWGROUPS_ACTION: **Kliknij** aby wyświetlić grupy
+GUI_USERVIEW_EDITPREFIXSUFFIX_TITLE: Edytuj przyrostek i przedrostek
+GUI_USERVIEW_EDITPREFIXSUFFIX_LEFTCLICK: **Kliknij LPM** aby edytować przedrostek
+GUI_USERVIEW_EDITPREFIXSUFFIX_RIGHTCLICK: **Kliknij PPM** aby edytować przyrostek
+GUI_GROUPVIEW_VIEWPERMISSIONS_TITLE: Wyświetl permisje
+GUI_GROUPVIEW_VIEWPERMISSIONS_ACTION: **Kliknij** aby wyświetlić permisje
+GUI_GROUPVIEW_CHANGEICON_TITLE: Zmiana Ikonyy
+GUI_GROUPVIEW_CHANGEICON_ACTION: **Kliknij** aby zmienić
+GUI_GROUPVIEW_EDITPREFIXSUFFIX_TITLE: Edytuj przedrostek i przyrostek
+GUI_GROUPVIEW_EDITPREFIXSUFFIX_LEFTCLICK: **Kliknij LPM** aby edytować przedrostek
+GUI_GROUPVIEW_EDITPREFIXSUFFIX_RIGHTCLICK: **Kliknij PPM** aby edytować przyrostek
+GUI_GROUPVIEW_RENAME_ACTION: **Kliknij** aby zmienić nazwę grupy
+GUI_GROUPVIEW_DELETE_TITLE: Usuń grupe
+GUI_GROUPVIEW_DELETE_ACTION: **Kliknij** aby **usunąć** tą grupe
+GUI_GROUPVIEW_DELETE_PERMANENT: Ta akcja jest **pernamentna**
+GUI_GROUPVIEW_DEFAULT_TITLE: Podstawowa Grupa
+GUI_GROUPVIEW_DEFAULT_ACTION: **Kliknij** aby ta grupa była grupą **podstawową**
+GUI_GROUPVIEW_DEFAULT_UNDEFAULT_ACTION: **Kliknij** aby ta grupa nie była **podstawową** grupą
+GUI_GROUPVIEW_DEFAULT_EXPLANATION: Jeśli ta opcja jest włączona, każdy nowy gracz otrzyma tę grupę przy pierwszym dołączeniu
+GUI_GROUPVIEW_INHERITANCE_TITLE: Dziedzictwo Grup
+GUI_GROUPVIEW_INHERITANCE_ACTION: **Kliknij** aby edytować dziedzictwo grup 
+GUI_PERMEDITOR_SELECTALL_TITLE: Zaznacz wszystko
+GUI_PERMEDITOR_SELECTALL_ACTION: Kliknij aby **zaznaczyć** wszytkie permisje
+GUI_PERMEDITOR_INHERITED_NEGATE_ACTION: **Kliknij LPM** aby **zanegować** permisje
+GUI_PERMEDITOR_INHERITED_JUMP_ACTION: **Kliknij PPM** aby przejść do **%1**
+GUI_PERMEDITOR_INHERITED_EXPLANATION: Permisje dodana z **%1**
+GUI_PERMEDITOR_SELECTED_ACTION: **Kliknij** aby **odznaczyć**
+GUI_PERMEDITOR_SELECTED_EXPLANATION: **Zaznaczyłeś** tą permisje
+GUI_PERMEDITOR_NORMAL_LEFTCLICK: **Kliknij LPM** aby edytować
+GUI_PERMEDITOR_NORMAL_RIGHTCLICK: **Kliknij PPM** aby **zaznaczyć**
+GUI_PERMEDITOR_NORMAL_PRESSQ: **Kliknij Q** aby usunąć
+GUI_PERMEDITOR_ADDPERMISSION_TITLE: Dodaj permisje
+GUI_PERMEDITOR_PLUGIN_ACTION: Kliknij aby wyświetlić permisje z **%1**
+GUI_PERMEDITOR_BUNGEEINDICATOR: To jest permisja z **BungeeCord**
+GUI_PERMEDITOR_AVAILABILITY_ALLSERVERS: Dostępne na **każdym** serwerze
+GUI_PERMEDITOR_AVAILABILITY_INWORLD: w świecie **%1**
+GUI_PERMEDITOR_AVAILABILITY_APPLICABLEIN: Ta permijsa obowiązujące w %1
+GUI_PERMEDITOR_AVAILABILITY_ONLYTHISSERVER: Ta permijsa obowiązujące jedynie na **tym** serwerze
+GUI_PERMEDITOR_AVAILABILITY_SPECIFICSERVER: Ta permisja obowiązuje na **%1** 
+GUI_PERMEDITOR_ADD_LEFTACTION: **Kliknij LPM** aby dodać permisje
+GUI_PERMEDITOR_ADD_RIGHTACTION: **Kliknij PPM** aby dodać **Permisje Bungee**
+GUI_PERMEDITOR_ADD_TYPEIN: Wpisz permisje
+GUI_PERMEDITOR_EDIT_TITLE: Edytuj %1
+GUI_PERMEDITOR_EDIT_ACTION: Kliknij aby edytować **%1**
+GUI_PERMVIEW_EDITPERM_TITLE: Edycja permisji
+GUI_PERMVIEW_EDITPERM_ACTION: Kliknij aby edytować permisje
+GUI_PERMVIEW_EDITPERM_TYPEIN: Wpisz nową permisje
+GUI_PERMVIEW_COPY_ACTION: Kliknij aby wybrać **cel**
+GUI_PERMVIEW_NOMULTINAMEEDIT: Nie możesz zmieniać nazwy kilku permisji na raz
+GUI_STORAGESETTINGS_TITLE: Rodzaje Grup
+GUI_STORAGESETTINGS_TYPEINWORLD: Wpisz nazwę świata
+GUI_STORAGESETTINGS_NOWORLD_ACTION: Kliknij aby **ograniczyć** tą grupe do wybranego świata
+GUI_STORAGESETTINGS_WORLD_ACTION: Kliknij aby dodać tą grupe do wszytkich światów
+GUI_STORAGESETTINGS_NOSERVER_ACTION: Kliknij aby **ograniczyć** tą grupe do tego serwera
+GUI_STORAGESETTINGS_SERVER_ACTION: Kliknij aby **ograniczyć** tą grupe do wszytkich serwerów
+GUI_STORAGESETTINGS_RESTRICTED_TO: Ograniczony do **%1**
+GUI_PASTESELECTION_PASTE_ACTION: Kliknij aby **wkleić** %1
+GUI_PERMEDITOR_MANUAL_TITLE: Wpisz na czacie
+GUI_PERMEDITOR_MANUAL_ACTION: **Kliknij** aby wpisać permisjie
+GUI_PERMEDITOR_MANUAL_DIALOG_SUBTITLE: Wpisz permisjie
+GUI_INHERITVIEW_ADD_ACTION: Kliknij aby **dodać**
+GUI_INHERITVIEW_ADD_EXPLANATION: To doda wszytkie permisje z **%1** do **%2**
+GUI_INHERITVIEW_REMOVE_ACTION: Kliknij aby **usunąć**
+GUI_INHERITVIEW_REMOVE_EXPLANATION: Wszytkie permisje z **%1** zostały dodane do **%2**
+GUI_CHANGEORDER_TITLE: Edytuj kolejność
+GUI_CHANGEORDER_INCREASE: **Kliknij PPM** aby zwiększyć
+GUI_CHANGEORDER_DECREASE: **Kliknij LPM** aby zmniejszyć
+GUI_PERMISSIONLOG_ACTION: Kliknij aby dodać tą permsije do **urzytkownika** albo **grupy**
+GUI_PERMISSIONLOG_RESULT: Rezultat: %1
+GUI_SETTINGS_FORMAT_NAME: Edycja Czatu i tab listy
+GUI_SETTINGS_MISC_NAME: Różne
+EDITING_PREFIX_EDIT: **Edytuj przedrostek
+EDITING_PREFIX_TYPEIN: Wpisz nowy przedrostek
+EDITING_PREFIX_TYPEINNONE: Wpisz **nic** jeśli nie chcesz mieć przedrostka
+EDITING_SUFFIX_EDIT: **Edytuj przyrostek
+EDITING_SUFFIX_TYPEIN: Wpisz nowy przyrostek
+EDITING_SUFFIX_TYPEINNONE: Wpisz **nic** jeśli nie chcesz mieć przyrostka
+CREATE_GROUP_TITLE: Stwórz Grupę
+CREATE_GROUP_SUBTITLE: Wpisz nazwę grupy
+CREATE_GROUP_NOSPACES: Nazwa grupy nie powinna zawierać spacji
+CREATE_GROUP_NOCOLORS: Nie używaj systemu kolorów w nazwach grup
+CREATE_GROUP_NAMETAKEN: Podana nazwa jest już używana przez inną grupe
+RENAME_GROUP_TITLE: Zmień nazwę grupy
+RENAME_GROUP_SUBTITLE: Wpisz nową nazwę grupy
+CONFIRM_DELETION_OF: Potwierdź usunięcie %1

@@ -1,0 +1,47 @@
+ENABLE: Włączyć
+ENABLED: Włączone
+DISABLE: Wyłączyć
+DISABLED: Wyłączone
+SETTINGS: Ustawienia
+DAY: Dzień
+DAYS: Dni
+HOUR: Godzina
+HOURS: Godziny
+MINUTE: Minuta
+MINUTES: Minuty
+SECOND: Sekunda
+SECONDS: Sekundy
+NONE: Brak
+COMMAND_NOPERMISSION: Nie masz **dostępu** do tej komendy
+COMMAND_NOCONSOLE: Ta komenda nie może być uruchomiona z poziomu konsoli
+GUI_SETTINGS_SELECTPAGE: Kliknij, aby wyświetlić Ustawienia
+GUI_SETTINGS_PAGESELECTED: Ta strona już jest **zaznaczona**
+GUI_SETTINGS_LANGUAGE_NAME: Język
+GUI_SETTINGS_MYSQL_NAME: Baza Danych MYSQL
+GUI_SETTINGS_MYSQL_EDITVALUE_ACTION: Kliknij aby zmienić zawartość
+GUI_SETTINGS_MYSQL_CURRENTVALUE: Aktualna zawartość:
+GUI_SETTINGS_MYSQL_SETUP_TITLE_FIELDNAME: MySQL - %1
+GUI_SETTINGS_MYSQL_SETUP_TITLE_TYPEINVALUE: Wpisz wartość
+GUI_SETTINGS_MYSQL_SETUP_TITLE: Skonfiguruj MySQL
+GUI_SETTINGS_MYSQL_SETUP_ACTION: Kliknij, aby włączyć MySQL
+GUI_SETTINGS_MYSQL_SETUP_INFO: Wymaga to zewnętrznej bazy danych MySQL do połączenia
+GUI_SETTINGS_MYSQL_DISABLE_TITLE: Wyłączono MySQL
+GUI_SETTINGS_MYSQL_DISABLE_ACTION: Kliknij aby wyłączyć MySQL
+GUI_SETTINGS_MYSQL_RESTARTREQUIRED: Zostaniesz poproszony o ponowne uruchomienie w celu zastosowania zmian
+GUI_SETTINGS_MYSQL_CANTCONNECT: Nie mogę połączyć się z twoją bazą MySQL
+GUI_SETTINGS_MYSQL_SAVE_TITLE: Przetestuj i zapisz
+GUI_SETTINGS_MYSQL_SAVE_ACTION: Kliknij aby **Przetestować** i **zapisać**
+GUI_SETTINGS_LANG_ACTION: Kliknij aby **wybrać** ten język
+GUI_SETTINGS_LANG_SELECTED: Ten język **aktualnie** jest wybrany
+GUI_SETTINGS_LANG_PHRASES: Zwroty Językowe
+GUI_SETTINGS_LANG_COVERAGE: Pokrycie Językowe
+GUI_PAGEABLE_SEARCH_TITLE: Szukaj
+GUI_PAGEABLE_SEARCH_ACTION: Kliknij aby wyszukać
+GUI_PAGEABLE_NEXT_TITLE: Kolejny
+GUI_PAGEABLE_NEXT_ACTION: Kliknij, aby przejść do następnej strony
+GUI_PAGEABLE_PREVIOUS_TITLE: Poprzedni
+GUI_PAGEABLE_PREVIOUS_ACTION: Kliknij aby powrócić do wcześniejszej strony.
+GUI_PAGEABLE_SEARCH_CLOSE_ACTION: Kliknij aby **zamknąć** wyszukiwanie
+GUI_PAGEABLE_SEARCH_TYPEIN: Wpisz wyszukiwane hasło
+GUI_BACK_NAME: Wstecz
+GUI_BACK_ACTION: Kliknij aby wrócić
