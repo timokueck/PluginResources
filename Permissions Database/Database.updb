@@ -1963,8 +1963,8 @@ EpicEnchants+epicenchants.giveitemdust+Allows the player to give a player a piec
 EpicEnchants+epicenchants.giverandombook+Allows the player to a player a random enchanted book.+/ee giverandombook <player> <group>
 EpicEnchants+epicenchants.givescroll+Allows the player to give a player an enchant scroll.+/ee givescroll <whitescroll|blackscroll> <player> [amount] [success-rate]
 EpicEnchants+epicenchants.list+Allows the player to see all all enchants with their description.+/ee list [chat]
-EpicEnchants+epicenchants.tinkerer+Allows the player to open the tinkerer menu.+/tinkerer
 EpicEnchants+epicenchants.maxapply.[max_amount]+Defines the maximum amount of enchants the player is allowed to apply on a given item.
+EpicEnchants+epicenchants.tinkerer+Allows the player to open the tinkerer menu.+/tinkerer
 EpicFarming+epicfarming.admin+Allows use of admin commands
 EpicFarming+epicfarming.upgrade.eco+Allows upgrading using economy
 EpicFarming+epicfarming.upgrade.xp+Allows upgrading using exp
