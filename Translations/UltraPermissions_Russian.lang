@@ -1,9 +1,9 @@
 OVERVIEW: Обзор
 PERMISSION: Право
-#POSITIVE: Positive
-#NEGATIVE: Negative
-#MIXED: Mixed
-#BUNGEE_PERMISSION: Bungee Permission
+#POSITIVE: Отрицательный
+#NEGATIVE: Отрицательный
+#MIXED: Смешанный
+#BUNGEE_PERMISSION: Права Bungee
 PERMISSION_NODES: Узлы прав
 PERMISSIONS: Права
 DEFAULT_PERMISSIONS: Стандартные права
@@ -31,12 +31,12 @@ EDITING: Изменение
 ADD: Добавить
 TIME_FOR: на
 #NONE: None
-#DURATION: Duration
-#COPY: Copy
+#DURATION: Продолжительность
+#COPY: Копирование
 #PASSED: Passed
-#FAILED: Failed
-#SOURCE: Source
-#TIME_TILL_REMOVAL: Time till removal:
+#FAILED: Ошибка
+#SOURCE: Источник
+#TIME_TILL_REMOVAL: Время до удаления:
 COMMAND_INVALID_ARGS: Неверные агрументы
 COMMAND_NOTFOUND: Команда не найдена
 COMMAND_HINT_HELP: Введите **/upc**, чтобы получить список команд
@@ -44,11 +44,11 @@ COMMAND_HELP_TITLE: Команды плагина Ultra Permissions
 COMMAND_HELP_FOOTER: Посетите **%1**, для получения большей информации
 COMMAND_GROUP_NOTFOUND: Не удалось найти группу **%1**
 COMMAND_PLAYER_NOTFOUND: Не удалось найти игрока **%1**
-COMMAND_PLAYER_NOTSUPERADMIN: **%1** не является суперадминистратором
+COMMAND_PLAYER_NOTSUPERADMIN: **%1** не является супер-администратором
 COMMAND_PLAYER_INGROUP: The player **%1** уже в данной группе
-COMMAND_PLAYER_SUPERADMIN_ALREADY: **%1** уже суперадминистратор
-COMMAND_PLAYER_SUPERADMIN_ADD: Игрок **%1** теперь суперадминистратор
-COMMAND_PLAYER_SUPERADMIN_REMOVE: Игрок **%1** больше не суперадминистратор
+COMMAND_PLAYER_SUPERADMIN_ALREADY: **%1** уже супер-администратор
+COMMAND_PLAYER_SUPERADMIN_ADD: Игрок **%1** теперь супер-администратор
+COMMAND_PLAYER_SUPERADMIN_REMOVE: Игрок **%1** больше не супер-администратор
 COMMAND_PLAYER_ADD_GROUP: Группа **%1** добавлена **%2**
 COMMAND_PLAYER_ADD_GROUP_TIMED: Группа **%1** добавлена **%2** на **%3**
 COMMAND_PERMISSION_ADD: Право **%1** добавлено **%2**
@@ -59,7 +59,7 @@ GUI_OVERVIEW_REDUCE_TITLE: Скрыть
 GUI_OVERVIEW_REDUCE_ACTION: Щёлкните, чтобы скрыть расширенные функции
 GUI_OVERVIEW_EXPAND_ACTION: **Щёлкните**, чтобы показать расширенные функции
 #GUI_OVERVIEW_EXPAND_TITLE: Expand
-#GUI_OVERVIEW_EXPAND_ACTION: **Click** to show more
+#GUI_OVERVIEW_EXPAND_ACTION: **Щёлините**, чтобы посмотреть
 GUI_OVERVIEW_EXPAND_EXPLANATION: Показать расширенные функции
 GUI_OVERVIEW_PERMISSIONLOG_ACTION: **Щёлкните**, чтобы открыть журнал прав
 GUI_OVERVIEW_PERMISSIONLOG_EXPLANATION: Здесь вы можете увидеть все недавние проверки прав
@@ -78,7 +78,7 @@ GUI_GROUPBROWSER_SHOWALL_TITLE: Просмотреть все
 GUI_GROUPBROWSER_SHOWALL_ACTION: Щёлкните, чтобы просмотреть все группы со всех серверов и миров
 GUI_USERBROWSER_ACTION: **Щёлкните**, чтобы просмотреть
 GUI_USERBROWSER_DELETE_ACTION: **Нажмите Q**, чтобы **удалить**
-GUI_USERBROWSER_SUPERADMIN_INDICATOR: Суперадминистратор
+GUI_USERBROWSER_SUPERADMIN_INDICATOR: Супер-администратор
 GUI_USERBROWSER_SHOWOFFLINE_TITLE: Показать игроков не в сети
 GUI_USERBROWSER_HIDEOFFLINE_TITLE: Скрыть игроков не в сети
 GUI_USERBROWSER_SHOWOFFLINE_ACTION: Щёлкните, чтобы показать **игроков не в сети**
@@ -118,30 +118,30 @@ GUI_PERMEDITOR_NORMAL_RIGHTCLICK: **ПКМ**, чтобы **выбрать**
 GUI_PERMEDITOR_NORMAL_PRESSQ: **Нажмите Q** удалить
 GUI_PERMEDITOR_ADDPERMISSION_TITLE: Добавить право
 GUI_PERMEDITOR_PLUGIN_ACTION: Щёлкните, чтобы просмотреть права **%1**
-#GUI_PERMEDITOR_BUNGEEINDICATOR: This is a **BungeeCord** Permission
-#GUI_PERMEDITOR_AVAILABILITY_ALLSERVERS: Available on **all** Servers
-#GUI_PERMEDITOR_AVAILABILITY_INWORLD: in the World **%1**
-#GUI_PERMEDITOR_AVAILABILITY_APPLICABLEIN: Permission applicable in %1
-#GUI_PERMEDITOR_AVAILABILITY_ONLYTHISSERVER: Only available on **this** Server
-#GUI_PERMEDITOR_AVAILABILITY_SPECIFICSERVER: Available on **%1** Server
-#GUI_PERMEDITOR_ADD_LEFTACTION: **Left Click** to add Permission
-#GUI_PERMEDITOR_ADD_RIGHTACTION: **Right Click** to add **Bungee Permission**
-#GUI_PERMEDITOR_ADD_TYPEIN: Type in a permission
-#GUI_PERMEDITOR_EDIT_TITLE: Edit %1
-#GUI_PERMEDITOR_EDIT_ACTION: Click to edit **%1**
-#GUI_PERMVIEW_EDITPERM_TITLE: Edit Permission
-#GUI_PERMVIEW_EDITPERM_ACTION: Click to edit Permission
-#GUI_PERMVIEW_EDITPERM_TYPEIN: Type in the new permission
-#GUI_PERMVIEW_COPY_ACTION: Click to select a **target**
-#GUI_PERMVIEW_NOMULTINAMEEDIT: you cannot rename multiple permissions at once
-#GUI_STORAGESETTINGS_TITLE: Storage Settings
-#GUI_STORAGESETTINGS_TYPEINWORLD: Type in a world name
-#GUI_STORAGESETTINGS_NOWORLD_ACTION: Click to **restrict** this group to a specific World
-#GUI_STORAGESETTINGS_WORLD_ACTION: Click to allow this group in all Worlds
-#GUI_STORAGESETTINGS_NOSERVER_ACTION: Click to **restrict** this group to this Server
-#GUI_STORAGESETTINGS_SERVER_ACTION: Click to allow this group on all Servers
-#GUI_STORAGESETTINGS_RESTRICTED_TO: Restricted to **%1**
-#GUI_PASTESELECTION_PASTE_ACTION: Click to **paste** %1
+#GUI_PERMEDITOR_BUNGEEINDICATOR: Это **BungeeCord** Права
+#GUI_PERMEDITOR_AVAILABILITY_ALLSERVERS: Имеется в наличии на **всех** Серверах
+#GUI_PERMEDITOR_AVAILABILITY_INWORLD: во всём мире **%1**
+#GUI_PERMEDITOR_AVAILABILITY_APPLICABLEIN: Права, действующие в %1
+#GUI_PERMEDITOR_AVAILABILITY_ONLYTHISSERVER: Доступно только на **данном** Сервере
+#GUI_PERMEDITOR_AVAILABILITY_SPECIFICSERVER: Имеется в налии на **%1** Сервере
+#GUI_PERMEDITOR_ADD_LEFTACTION: **Левая кнопка мыши** чтобы добавить Права
+#GUI_PERMEDITOR_ADD_RIGHTACTION: **Правая кнопка мыши** чтобы добавить **Права Bungee**
+#GUI_PERMEDITOR_ADD_TYPEIN: Введите право
+#GUI_PERMEDITOR_EDIT_TITLE: Отредактировать %1
+#GUI_PERMEDITOR_EDIT_ACTION: Щёлкните, чтобы отредаткировать **%1**
+#GUI_PERMVIEW_EDITPERM_TITLE: Отредактировать Права
+#GUI_PERMVIEW_EDITPERM_ACTION: Щёлкните, чтобы отредактировать Права
+#GUI_PERMVIEW_EDITPERM_TYPEIN: Введите новое право
+#GUI_PERMVIEW_COPY_ACTION: Щёлкните, чтобы выбрать **target**
+#GUI_PERMVIEW_NOMULTINAMEEDIT: вы не можете переименовать несколько Прав одновременно
+#GUI_STORAGESETTINGS_TITLE: Настройки хранения
+#GUI_STORAGESETTINGS_TYPEINWORLD: Введите имя Мира
+#GUI_STORAGESETTINGS_NOWORLD_ACTION: Щёлкните, чтобы **ограничить** эту группу в конкретном Мире
+#GUI_STORAGESETTINGS_WORLD_ACTION: Щёлкните, чтобы разрешить эту группу во всех Мирах.
+#GUI_STORAGESETTINGS_NOSERVER_ACTION: Щёлкните, чтобы **ограничить** эту группу на этом Сервере
+#GUI_STORAGESETTINGS_SERVER_ACTION: Кликните, чтобы разрешить эту группу на всех Серверах
+#GUI_STORAGESETTINGS_RESTRICTED_TO: Ограничить **%1**
+#GUI_PASTESELECTION_PASTE_ACTION: Щёлкните, чтобы **вставить** %1
 GUI_PERMEDITOR_MANUAL_TITLE: Введите в чат
 GUI_PERMEDITOR_MANUAL_ACTION: **Щёлкните**, чтобы ввести право
 GUI_PERMEDITOR_MANUAL_DIALOG_SUBTITLE: Введите право
@@ -153,7 +153,7 @@ GUI_CHANGEORDER_TITLE: Изменить порядок
 GUI_CHANGEORDER_INCREASE: **ПКМ**, чтобы повысить
 GUI_CHANGEORDER_DECREASE: **ЛКМ**, чтобы понизить
 GUI_PERMISSIONLOG_ACTION: Щёлкните, чтобы добавить это право **группе** или **игроку**
-#GUI_PERMISSIONLOG_RESULT: Result: %1
+#GUI_PERMISSIONLOG_RESULT: Результат: %1
 GUI_SETTINGS_FORMAT_NAME: Формат чата и списка игроков
 GUI_SETTINGS_MISC_NAME: Смешанный
 EDITING_PREFIX_EDIT: **Изменить префикс
