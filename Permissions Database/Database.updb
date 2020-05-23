@@ -1825,7 +1825,7 @@ DiscordMinecraft+discordminecraft.tdc+Toggles whether you see chat syncing with 
 Duels+duels.duel+Allows players to duel.+/duel
 Duels+duels.stats+Allows player to see their own stats.+/duel stats
 Duels+duels.stats.others+Allows players to see other players stats.+/duel stats [username]
-Duels+duels.toggle+Enables/Disables receiving duel requests. Players with duels.admin bypass this.+duel toggle
+Duels+duels.toggle+Enables/Disables receiving duel requests. Players with duels.admin bypass this.+/duel toggle
 Duels+duels.top+Displays the top 10 players with the most wins, losses, or elo rating for kit.+/duel top [-|wins|losses|kit]
 Duels+duels.queue+Allows opening the queues GUI.+/queue
 Duels+duels.spectate+Allows spectating of a player in a duel.+/spectate [username]
