@@ -1,6 +1,6 @@
 OVERVIEW: Обзор
 PERMISSION: Право
-#POSITIVE: Отрицательный
+#POSITIVE: Положительный
 #NEGATIVE: Отрицательный
 #MIXED: Смешанный
 #BUNGEE_PERMISSION: Права Bungee
@@ -30,7 +30,7 @@ PERMISSIONLOG: Журнал прав
 EDITING: Изменение
 ADD: Добавить
 TIME_FOR: на
-#NONE: None
+#NONE: Нет
 #DURATION: Продолжительность
 #COPY: Копирование
 #PASSED: Passed
