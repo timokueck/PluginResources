@@ -1822,6 +1822,20 @@ DiscordMinecraft+discordminecraft.discordsay+Sends a message to the specified ch
 DiscordMinecraft+discordminecraft.discordunlink+Unlinks your account from Discord.
 DiscordMinecraft+discordminecraft.sdc+Sends a chat message to Discord.
 DiscordMinecraft+discordminecraft.tdc+Toggles whether you see chat syncing with Discord.
+Duels+duels.duel+Allows players to duel.+/duel
+Duels+duels.stats+Allows player to see their own stats.+/duel stats
+Duels+duels.stats.others+Allows players to see other players stats.+/duel stats [username]
+Duels+duels.toggle+Enables/Disables receiving duel requests. Players with duels.admin bypass this.+duel toggle
+Duels+duels.top+Displays the top 10 players with the most wins, losses, or elo rating for kit.+/duel top [-|wins|losses|kit]
+Duels+duels.queue+Allows opening the queues GUI.+/queue
+Duels+duels.spectate+Allows spectating of a player in a duel.+/spectate [username]
+Duels+duels.spectate.anonymously+Allows spectating without notifying the players in arena.
+Duels+duels.admin+Allows use of admin commands.+/duels
+Duels+duels.kits.[kit name]+If a kit has usePermission option enabled, this permission is required to use the kit.
+Duels+duels.kits.*+Allows access to all kits with usePermission option enabled.
+Duels+duels.teleport.bypass+Allows teleporting to players in duel even if prevent-teleport-to-match-players is enabled in config.
+Duels+duels.use.[setting]+If a request setting has use-permission option enabled, this permission is required to access the setting.
+Duels+duels.use.*Allows access to all request settings with use-permission option enabled.
 dynmap+dynmap.add_id_for_ip+allows /dynmap add-id-for-ip.+/dynmap add-id-for-ip
 dynmap+dynmap.cancelrender+allows /dynmap cancelrender.+/dynmap cancelrender
 dynmap+dynmap.del_id_for_ip+allows /dynmap del-id-for-ip.+/dynmap del-id-for-ip
