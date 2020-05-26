@@ -1,58 +1,172 @@
-OVERVIEW: Overzicht
-REPORT: Aangeven
-SERVER: Server
-PLAYERS: Spelers
-REPORTS: Reports
-SETTINGS: instellingen
-TEMPLATE: Sjabloon
-PERMANENT: Permanent
-DURATION: Looptijd
-REASON: Reden
-TEMPLATES: sjablonen
-PUNISH: Straffen
-WARNINGS: Waarschuwingen
-PUNISHMENTS: Straffen
-MESSAGE: Bericht
-EVIDENCE: Bewijsmateriaal
-BAN: Ban
-MUTE: Dempen
-OR: Of
-NONE: Geen
-#ISSUER: Issuer
-#CREATE_REPORT: Create Report
-GUI_OVERVIEW_PLAYERS_ACTION: Klik om spelers te tonen
-GUI_OVERVIEW_REPORTS_ACTION: Klik om geopende rapporten weer te geven
-GUI_OVERVIEW_SETTINGS_ACTION: Klik om Instellingen weer te geven
-GUI_OVERVIEW_TEMPLATES_ACTION: Klik om sjablonen weer te geven
-GUI_OVERVIEW_TEMPLATES_BANTEMPLATES: Ban Sjablonen
-GUI_OVERVIEW_TEMPLATES_MUTETEMPLATES: Dempen Sjablonen
-TYPE_IN_REASON: Voer een reden in
-TYPE_IN_MESSAGE: Typ een bericht in
-SET_A_REASON: Klik om de reden in te stellen
-SET_A_DURATION: Klik om de duur in te stellen
-#GUI_REPORTCREATION_ADDMESSAGE_TITLE: Add Message
-#GUI_REPORTCREATION_ADDMESSAGE_ACTION: Click to add **message** and **continue**
-#GUI_REPORTCREATION_ADDMESSAGE_EXPLANATION: Add a detailed message to the report
-#GUI_REPORTCREATION_ADDEVIDENCE_TITLE: Add Evidence
-#GUI_REPORTCREATION_ADDEVIDENCE_ACTION: Click to add **evidence** and **continue**
-#GUI_REPORTCREATION_ADDEVIDENCE_EXPLANATION: Add **Chat Messages**, **Kill Feed** and other actions to the report
-GUI_PLAYERBROWSER_ACTION: Klik om de speler te bekijken
-#GUI_WARNINGSBROWSER_ACTION: Click to **remove**
-#GUI_WARNINGSBROWSER_NOPERM: You dont have permissions to remove this warning
-GUI_PLAYERVIEW_PUNISH_LEFTACTION: **Klik met de linkermuisknop** op %1
-GUI_PLAYERVIEW_PUNISH_RIGHTACTION: **Klik met de rechtermuisknop** om **Waarschuwen (+ Kick)**
-GUI_PLAYERVIEW_PUNISH_UNPUNISHABLE: Straffen voor deze speler zijn uitgeschakeld.
-GUI_PLAYERVIEW_WARNINGS_ACTION: Klik om waarschuwingen te tonen
-GUI_PLAYERVIEW_WARNINGS_NOWARNING: Speler is nooit gewaarschuwd
-GUI_PLAYERVIEW_PUNISHMENTS_ACTION: Klik om straffen te tonen
-GUI_PLAYERVIEW_PUNISHMENTS_ACTIVE: Actieve straffen
-GUI_PLAYERVIEW_PUNISHMENTS_PREVIOUS: Vorige straffen
-GUI_PLAYERVIEW_PUNISHMENTS_NOPUNISHMENT: Speler is nooit gestraft
-GUI_PLAYERVIEW_REPORTS_ACTION: Klik om rapporten te tonen
-GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS: Actieve rapporten door
-GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS_ENTRY: %1 op **%2** met **%3
-GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS_NONE: Speler heeft geen actieve rapporten
-GUI_PLAYERVIEW_EXCLUDE_TITLE: Uitsluiten van straffen
-GUI_PLAYERVIEW_EXCLUDE_ACTION: Klik om %1 straffen voor deze speler
-GUI_PLAYERVIEW_EXCLUDE_EXPLANATION: Deze speler kan door niemand worden gestraft
-#MESSAGE_CREATED_REPORT: Thanks for reporting **%1**
+  OVERVIEW: Overzicht
+	PERMISSION: Machtiging
+	POSITIVE: Positief
+	NEGATIVE: Negatief 
+	#MIXED: Mixed
+	BUNGEE_PERMISSION: Bungee permissie
+	PERMISSION_NODES: permissie Nodes
+	PERMISSIONS: Permissie
+	DEFAULT_PERMISSIONS: Standaard machtigingen
+	GROUP: Groep
+	GROUPS: Groepen
+	DEFAULT_GROUP: Standaard Groep
+	INHERITED_GROUPS: Groepen die onder andere groepen vallen
+	PLAYER: Speler
+	SERVER: Server
+	SELECTED: Selecteren
+	WORLD: Wereld
+	USERS: Gebruikers
+	USER: Gebruiker
+	TIME: Tijd
+	PREFIX: Voorvoegsel
+	SUFFIX: Achtervoegsel
+	OPTIONS: Opties
+	SERVERNAME: Server Naam
+	DONATIONS: Donaties
+	ADVANTAGES: Voordelen
+	RECOMMENDED: Aangeraden
+	SETTINGS: Instellingen
+	PERMISSIONLOG: Permissie Logboek
+	EDITING: Aanpassen
+	ADD: Toevoegen
+	TIME_FOR: tijd voor
+	NONE: Geen
+	DURATION: Duur
+	COPY: Copy
+	PASSED: Geslaagd
+	FAILED: Mislukt
+	SOURCE: Source
+	TIME_TILL_REMOVAL: Tijd tot verwijdering:
+	COMMAND_INVALID_ARGS: Ongeldige argumenten
+	COMMAND_NOTFOUND: Commando niet gevonden
+	COMMAND_HINT_HELP: Type **/upc** voor een lijst met commando's
+	COMMAND_HELP_TITLE: Ultra Permissions Commando's
+	COMMAND_HELP_FOOTER: Ga naar **%1** voor meer info
+	COMMAND_GROUP_NOTFOUND: Kan de groep **%1** niet vinden
+	COMMAND_PLAYER_NOTFOUND: Kan de speler **%1** niet vinden
+	COMMAND_PLAYER_NOTSUPERADMIN: **%1** is geen superadmin
+	COMMAND_PLAYER_INGROUP: De speler**%1** zit al in deze groep
+	COMMAND_PLAYER_SUPERADMIN_ALREADY: **%1** is al een superadmin
+	COMMAND_PLAYER_SUPERADMIN_ADD: **%1** toegevoegd als superadmin
+	COMMAND_PLAYER_SUPERADMIN_REMOVE: **%1** met succes verwijderd uit de superadmins
+	COMMAND_PLAYER_ADD_GROUP: Groep **%1** toegevoegd aan **%2**
+	COMMAND_PLAYER_ADD_GROUP_TIMED: Groep **%1** toegevoegd aan **%2** voor **%3**
+	COMMAND_PERMISSION_ADD_TIMED: Toegevoegde machtiging van **%1** naar **%2** voor **%3**
+	GUI_OVERVIEW_USERS_ACTION: Klik om alle **Gebruikers** te bekijken
+	GUI_OVERVIEW_GROUPS_ACTION: Klik om alle **Groepen** te bekijken
+	GUI_OVERVIEW_DONATIONS_ACTION: Klik om donaties te tonen
+	GUI_OVERVIEW_REDUCE_TITLE: Verminderen
+	GUI_OVERVIEW_REDUCE_ACTION: Klik om geavanceerde functies te verbergen
+	GUI_OVERVIEW_REDUCE_EXPLANATION: Dit verbergt de geavanceerde opties
+	GUI_OVERVIEW_EXPAND_TITLE: Uitbreiden
+	GUI_OVERVIEW_EXPAND_ACTION: **Klik** om meer te tonen
+	GUI_OVERVIEW_EXPAND_EXPLANATION: Dit toont u meer geavanceerde opties
+	GUI_OVERVIEW_PERMISSIONLOG_ACTION: **Klik** om het machtigingslogboek te openen
+	GUI_OVERVIEW_PERMISSIONLOG_EXPLANATION: Hier kunt u alle recente machtigingscontroles bekijken
+	GUI_OVERVIEW_SETTINGS_ACTION: **Klik** om Instellingen te bekijken
+	GUI_OVERVIEW_SETTINGS_EXPLANATION: Pas alle instellingen van de plugin aan
+	GUI_GROUPBROWSER_TITLE_LIST: Lijst
+	GUI_GROUPBROWSER_TITLE_ALL: Alle groepen weergeven
+	GUI_GROUPBROWSER_TITLE_RANGE: %1/%2 groepen weergeven
+	GUI_GROUPBROWSER_ADD_ACTION: Klik om groep te maken
+	GUI_GROUPBROWSER_REORDER_TITLE: Verander volgorde
+	GUI_GROUPBROWSER_REORDER_ACTION: Klik om de volgorde te wijzigen
+	GUI_GROUPBROWSER_LEFTCLICK_ACTION: **Klik met de linkermuisknop** om te openen
+	GUI_GROUPBROWSER_Q_ACTION: **Druk op Q** om Opslaginstellingen te bekijken
+	GUI_GROUPBROWSER_DEFAULT_GROUP_INDICATOR: Dit is een standaardgroep
+	GUI_GROUPBROWSER_SHOWALL_TITLE: Toon alles
+	GUI_GROUPBROWSER_SHOWALL_ACTION: Klik om alle groepen van alle servers en werelden te tonen
+	GUI_USERBROWSER_ACTION: **Klik** om te bekijken
+	GUI_USERBROWSER_DELETE_ACTION: **Druk op Q** om **te verwijderen**
+	GUI_USERBROWSER_SUPERADMIN_INDICATOR: Deze gebruiker is een superadmin
+	GUI_USERBROWSER_SHOWOFFLINE_TITLE: Toon offline gebruikers
+	GUI_USERBROWSER_HIDEOFFLINE_TITLE: Offline gebruikers verbergen
+	GUI_USERBROWSER_SHOWOFFLINE_ACTION: Klik om **offline gebruikers** te tonen
+	GUI_USERBROWSER_HIDEOOFFLINE_ACTION: Klik om **offline gebruikers** te verbergen
+	GUI_USERVIEW_VIEWPERMISSIONS_TITLE: Bekijk machtigingen
+	GUI_USERVIEW_VIEWPERMISSIONS_ACTION: **Klik** om machtigingen te bekijken
+	GUI_USERVIEW_VIEWGROUPS_ACTION: **Klik** om groepen te bekijken
+	GUI_USERVIEW_EDITPREFIXSUFFIX_TITLE: Voorvoegsel en Achtervoegsel bewerken
+	GUI_USERVIEW_EDITPREFIXSUFFIX_LEFTCLICK: **Klik met de linkermuisknop** om het voorvoegsel te bewerken
+	GUI_USERVIEW_EDITPREFIXSUFFIX_RIGHTCLICK: **Klik met de rechtermuisknop** om het achtervoegsel te bewerken
+	GUI_GROUPVIEW_VIEWPERMISSIONS_TITLE: Bekijk machtigingen
+	GUI_GROUPVIEW_VIEWPERMISSIONS_ACTION: **Klik** om de machtigingen te bekijken
+	GUI_GROUPVIEW_CHANGEICON_TITLE: Verander icoon
+	GUI_GROUPVIEW_CHANGEICON_ACTION: **Klik** om te wijzigen
+	GUI_GROUPVIEW_EDITPREFIXSUFFIX_TITLE: Voorvoegsel en Achtervoegsel bewerken
+	GUI_GROUPVIEW_EDITPREFIXSUFFIX_LEFTCLICK: **Klik met de linkermuisknop** om het voorvoegsel te bewerken
+	GUI_GROUPVIEW_EDITPREFIXSUFFIX_RIGHTCLICK: **Klik met de rechtermuisknop** om het achtervoegsel te bewerken
+	GUI_GROUPVIEW_RENAME_ACTION: **Klik** om de naam van de groep te wijzigen
+	GUI_GROUPVIEW_DELETE_TITLE: Groep verwijderen
+	GUI_GROUPVIEW_DELETE_ACTION: **Klik** om **deze groep** te verwijderen
+	GUI_GROUPVIEW_DELETE_PERMANENT: Deze actie is **permanent**
+	GUI_GROUPVIEW_DEFAULT_TITLE: Standaard groep
+	GUI_GROUPVIEW_DEFAULT_ACTION: **Klik** om deze groep **standaard** te maken
+	GUI_GROUPVIEW_DEFAULT_UNDEFAULT_ACTION: **Klik** om deze groep **niet meer standaard** te maken
+	GUI_GROUPVIEW_DEFAULT_EXPLANATION: Indien ingeschakeld, ontvangt elke nieuwe speler deze groep bij de eerste keer toetreden
+	GUI_GROUPVIEW_INHERITANCE_TITLE: Overerving
+	GUI_GROUPVIEW_INHERITANCE_ACTION: **Klik** om overerving te bewerken
+	GUI_PERMEDITOR_SELECTALL_TITLE: Selecteer alles
+	GUI_PERMEDITOR_SELECTALL_ACTION: Klik om **alle rechten** te selecteren
+	GUI_PERMEDITOR_INHERITED_NEGATE_ACTION: **Klik met de linkermuisknop** om **toestemming** te weigeren
+	GUI_PERMEDITOR_INHERITED_JUMP_ACTION: **Klik met de rechtermuisknop** om naar **%1** te springen
+	GUI_PERMEDITOR_INHERITED_EXPLANATION: Toestemming toegevoegd vanaf **%1**
+	GUI_PERMEDITOR_SELECTED_ACTION: **Klik** om **de selectie ongedaan te maken**
+	GUI_PERMEDITOR_SELECTED_EXPLANATION: U **heeft** deze toestemming geselecteerd
+	GUI_PERMEDITOR_NORMAL_LEFTCLICK: **Klik met de linkermuisknop** om te bewerken
+	GUI_PERMEDITOR_NORMAL_RIGHTCLICK: **Klik met de rechtermuisknop** om **selecteren**
+	GUI_PERMEDITOR_NORMAL_PRESSQ: **Klik Q** om te verwijderen
+	GUI_PERMEDITOR_ADDPERMISSION_TITLE: Voeg Permissie toe
+	GUI_PERMEDITOR_PLUGIN_ACTION: Klik om de Permissies van **%1** te zien
+	GUI_PERMEDITOR_BUNGEEINDICATOR: Dit is een **BungeeCord** Permissie
+	GUI_PERMEDITOR_AVAILABILITY_ALLSERVERS: Beschikbaar in **alle** Servers
+	GUI_PERMEDITOR_AVAILABILITY_INWORLD: in de Wereld **%1**
+	GUI_PERMEDITOR_AVAILABILITY_APPLICABLEIN: Permissie toepasselijk in %1
+	GUI_PERMEDITOR_AVAILABILITY_ONLYTHISSERVER: Alleen beschikbaar op **deze** Server
+	GUI_PERMEDITOR_AVAILABILITY_SPECIFICSERVER: Beschikbaar op **%1** Server
+	GUI_PERMEDITOR_ADD_LEFTACTION: **Klik met de linkermuisknop** om Permissie toe te voegen
+	GUI_PERMEDITOR_ADD_RIGHTACTION: **Klik met de rechtermuisknop** to add **Bungee Permissie**
+	GUI_PERMEDITOR_ADD_TYPEIN: Type een Permissie in
+	GUI_PERMEDITOR_EDIT_TITLE: Bewerk %1
+	GUI_PERMEDITOR_EDIT_ACTION: Klik om te bewerken **%1**
+	GUI_PERMVIEW_EDITPERM_TITLE: Bewerk Permissie
+	GUI_PERMVIEW_EDITPERM_ACTION: klik om deze Permissie te bewerken
+	GUI_PERMVIEW_EDITPERM_TYPEIN: Type in een nieuwe Permissie
+	GUI_PERMVIEW_COPY_ACTION: Klik om het **doel** te selecteren
+	GUI_PERMVIEW_NOMULTINAMEEDIT: Je kan geen meerdere Permissies bewerken op hetzelfde moment
+	GUI_STORAGESETTINGS_TITLE: Opslag instellingen
+	GUI_STORAGESETTINGS_TYPEINWORLD: Type in een wereld naam
+	GUI_STORAGESETTINGS_NOWORLD_ACTION: Klik om deze groep te **beperken** tot een specifieke Wereld
+	GUI_STORAGESETTINGS_WORLD_ACTION: Klik om deze groep toe te staan in alle Werelden
+	GUI_STORAGESETTINGS_NOSERVER_ACTION: klik om deze groep te **beperken ** tot deze Server
+	GUI_STORAGESETTINGS_SERVER_ACTION: Klik om deze  groep toe te staan op alle Servers
+	GUI_STORAGESETTINGS_RESTRICTED_TO: Beperkt tot **%1**
+	GUI_PASTESELECTION_PASTE_ACTION: Klik om te**plakken** %1
+	GUI_PERMEDITOR_MANUAL_TITLE: Type in Chat
+	GUI_PERMEDITOR_MANUAL_ACTION: **Klik** om de machtiging te typen
+	GUI_PERMEDITOR_MANUAL_DIALOG_SUBTITLE: Type een machtiging
+	GUI_INHERITVIEW_ADD_ACTION: Klik om **toe te voegen**
+	GUI_INHERITVIEW_ADD_EXPLANATION: Hiermee worden alle machtigingen toegevoegd van **%1** tot **%2**
+	GUI_INHERITVIEW_REMOVE_ACTION: Klik om **te verwijderen**
+	GUI_INHERITVIEW_REMOVE_EXPLANATION: Alle machtigingen van **%1** worden toegevoegd aan **%2**
+	GUI_CHANGEORDER_TITLE: Volgorde bewerken
+	GUI_CHANGEORDER_INCREASE: **Klik met de rechtermuisknop** om te vergroten
+	GUI_CHANGEORDER_DECREASE: **Klik met de linkermuisknop** om te verlagen
+	GUI_PERMISSIONLOG_ACTION: Klik om deze toestemming toe te voegen aan een **groep** of **gebruiker**
+	GUI_PERMISSIONLOG_RESULT: Resultaat: %1
+	GUI_SETTINGS_FORMAT_NAME: Chat- en tab lijstindeling
+	GUI_SETTINGS_MISC_NAME: Diversen
+	EDITING_PREFIX_EDIT: **Voorvoegsel bewerken
+	EDITING_PREFIX_TYPEIN: Type een nieuw voorvoegsel
+	EDITING_PREFIX_TYPEINNONE: Type **geen** om geen voorvoegsel te hebben
+	EDITING_SUFFIX_EDIT: **Achtervoegsel bewerken
+	EDITING_SUFFIX_TYPEIN: Typ een nieuw achtervoegsel
+	EDITING_SUFFIX_TYPEINNONE: Type **geen** om geen achtervoegsel te hebben
+	CREATE_GROUP_TITLE: Groep maken
+	CREATE_GROUP_SUBTITLE: Voer een groepsnaam in
+	CREATE_GROUP_NOSPACES: De groepsnaam mag geen spaties bevatten
+	CREATE_GROUP_NOCOLORS: Gebruik geen chatkleuren in de groepsnaam
+	CREATE_GROUP_NAMETAKEN: Deze groepsnaam is al in gebruik
+	RENAME_GROUP_TITLE: Naam van groep wijzigen
+	RENAME_GROUP_SUBTITLE: Voer een nieuwe naam in
+	CONFIRM_DELETION_OF: Bevestig verwijdering van %1
