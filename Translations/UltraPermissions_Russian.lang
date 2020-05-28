@@ -59,7 +59,6 @@ GUI_OVERVIEW_REDUCE_TITLE: Скрыть
 GUI_OVERVIEW_REDUCE_ACTION: Щёлкните, чтобы скрыть расширенные функции
 GUI_OVERVIEW_EXPAND_ACTION: **Щёлкните**, чтобы показать расширенные функции
 GUI_OVERVIEW_EXPAND_TITLE: Expand
-GUI_OVERVIEW_EXPAND_ACTION: **Щёлините**, чтобы посмотреть
 GUI_OVERVIEW_EXPAND_EXPLANATION: Показать расширенные функции
 GUI_OVERVIEW_PERMISSIONLOG_ACTION: **Щёлкните**, чтобы открыть журнал прав
 GUI_OVERVIEW_PERMISSIONLOG_EXPLANATION: Здесь вы можете увидеть все недавние проверки прав
