@@ -1,58 +1,58 @@
-#OVERVIEW: Обзор
-#REPORT: Жалоба
-#SERVER: Сервер
-#PLAYERS: Игроки
-#REPORTS: Жалобы
-#SETTINGS: Настройки
-#TEMPLATE: Шаблон
-#PERMANENT: Навсегда
-#DURATION: Продолжительность
-#REASON: Причина
-#TEMPLATES: Шаблоны
-#PUNISH: Наказание
-#WARNINGS: Предупреждения
-#PUNISHMENTS: Наказания
-#MESSAGE: Сообщение
-#EVIDENCE: Доказательства
-#BAN: Бан
-#MUTE: Мут
-#OR: или
-#NONE: нет
-#ISSUER: Администратор
-#CREATE_REPORT: Создать Жалобу
-#GUI_OVERVIEW_PLAYERS_ACTION: Щёлкните, чтобы посмотреть список игроков
-#GUI_OVERVIEW_REPORTS_ACTION: Щёлкните, чтобы посмотреть открытые жалобы
-#GUI_OVERVIEW_SETTINGS_ACTION: Щёлкните, чтобы открыть настройки
-#GUI_OVERVIEW_TEMPLATES_ACTION: Щёлкните, чтобы посмотреть Шаблоны
-#GUI_OVERVIEW_TEMPLATES_BANTEMPLATES: Бан по шаблону
-#GUI_OVERVIEW_TEMPLATES_MUTETEMPLATES: Мут по шаблону
-#TYPE_IN_REASON: Введите причину
-#TYPE_IN_MESSAGE: Введите сообщение
-#SET_A_REASON: Щёлкните, чтобы установить причину
-#SET_A_DURATION: Щёлкните, чтобы установить продолжительность
-#GUI_REPORTCREATION_ADDMESSAGE_TITLE: Добавить Сообщение
-#GUI_REPORTCREATION_ADDMESSAGE_ACTION: Щёлкните, чтобы добавить **сообщение** и **продолжить**
-#GUI_REPORTCREATION_ADDMESSAGE_EXPLANATION: Добавить подробное сообщение в отчёт
-#GUI_REPORTCREATION_ADDEVIDENCE_TITLE: Добавить доказательства
-#GUI_REPORTCREATION_ADDEVIDENCE_ACTION: Щёлкните, чтобы добавить **доказательства** и **продолжить**
-#GUI_REPORTCREATION_ADDEVIDENCE_EXPLANATION: Добавить **Chat Messages**, **Kill Feed** и другие открытые жалобы
-#GUI_PLAYERBROWSER_ACTION: Щёлкните, чтобы посмотреть игроков
-#GUI_WARNINGSBROWSER_ACTION: Щёлкните, чтобы **удалить**
-#GUI_WARNINGSBROWSER_NOPERM: У вас нет прав, для удаления этого предупреждения
-#GUI_PLAYERVIEW_PUNISH_LEFTACTION: **ЛКМ** для %1
-#GUI_PLAYERVIEW_PUNISH_RIGHTACTION: **ПКМ** для **Warn (+ Kick)**
-#GUI_PLAYERVIEW_PUNISH_UNPUNISHABLE: Наказания, этого игрока были отключены
-#GUI_PLAYERVIEW_WARNINGS_ACTION: Щёлкните, чтобы посмотреть Предупреждения
-#GUI_PLAYERVIEW_WARNINGS_NOWARNING: Игрок никогда не был предупреждён
-#GUI_PLAYERVIEW_PUNISHMENTS_ACTION: Щёлкните, чтобы посмотреть Наказания
-#GUI_PLAYERVIEW_PUNISHMENTS_ACTIVE: Активные Наказания
-#GUI_PLAYERVIEW_PUNISHMENTS_PREVIOUS: Предыдущие Наказания
-#GUI_PLAYERVIEW_PUNISHMENTS_NOPUNISHMENT: Игрок никогда не был наказан
-#GUI_PLAYERVIEW_REPORTS_ACTION: Щёлкните, чтобы посмотреть Жалобы
-#GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS: Активные Жалобы от
-#GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS_ENTRY: %1 на **%2** с **%3
-#GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS_NONE: Игрок не имеет активных жалоб
-#GUI_PLAYERVIEW_EXCLUDE_TITLE: Исключить из Наказаний
-#GUI_PLAYERVIEW_EXCLUDE_ACTION: Щёлкните, чтобы %1 этого игрока
-#GUI_PLAYERVIEW_EXCLUDE_EXPLANATION: Этот игрок не может быть наказан кем либо
-#MESSAGE_CREATED_REPORT: Спасибо за жалобу **%1**
+OVERVIEW: Обзор
+REPORT: Жалоба
+SERVER: Сервер
+PLAYERS: Игроки
+REPORTS: Жалобы
+SETTINGS: Настройки
+TEMPLATE: Шаблон
+PERMANENT: Навсегда
+DURATION: Продолжительность
+REASON: Причина
+TEMPLATES: Шаблоны
+PUNISH: Наказание
+WARNINGS: Предупреждения
+PUNISHMENTS: Наказания
+MESSAGE: Сообщение
+EVIDENCE: Доказательства
+BAN: Бан
+MUTE: Мут
+OR: или
+NONE: нет
+ISSUER: Администратор
+CREATE_REPORT: Создать Жалобу
+GUI_OVERVIEW_PLAYERS_ACTION: Щёлкните, чтобы посмотреть список игроков
+GUI_OVERVIEW_REPORTS_ACTION: Щёлкните, чтобы посмотреть открытые жалобы
+GUI_OVERVIEW_SETTINGS_ACTION: Щёлкните, чтобы открыть настройки
+GUI_OVERVIEW_TEMPLATES_ACTION: Щёлкните, чтобы посмотреть Шаблоны
+GUI_OVERVIEW_TEMPLATES_BANTEMPLATES: Бан по шаблону
+GUI_OVERVIEW_TEMPLATES_MUTETEMPLATES: Мут по шаблону
+TYPE_IN_REASON: Введите причину
+TYPE_IN_MESSAGE: Введите сообщение
+SET_A_REASON: Щёлкните, чтобы установить причину
+SET_A_DURATION: Щёлкните, чтобы установить продолжительность
+GUI_REPORTCREATION_ADDMESSAGE_TITLE: Добавить Сообщение
+GUI_REPORTCREATION_ADDMESSAGE_ACTION: Щёлкните, чтобы добавить **сообщение** и **продолжить**
+GUI_REPORTCREATION_ADDMESSAGE_EXPLANATION: Добавить подробное сообщение в отчёт
+GUI_REPORTCREATION_ADDEVIDENCE_TITLE: Добавить доказательства
+GUI_REPORTCREATION_ADDEVIDENCE_ACTION: Щёлкните, чтобы добавить **доказательства** и **продолжить**
+GUI_REPORTCREATION_ADDEVIDENCE_EXPLANATION: Добавить **Chat Messages**, **Kill Feed** и другие открытые жалобы
+GUI_PLAYERBROWSER_ACTION: Щёлкните, чтобы посмотреть игроков
+GUI_WARNINGSBROWSER_ACTION: Щёлкните, чтобы **удалить**
+GUI_WARNINGSBROWSER_NOPERM: У вас нет прав, для удаления этого предупреждения
+GUI_PLAYERVIEW_PUNISH_LEFTACTION: **ЛКМ** для %1
+GUI_PLAYERVIEW_PUNISH_RIGHTACTION: **ПКМ** для **Warn (+ Kick)**
+GUI_PLAYERVIEW_PUNISH_UNPUNISHABLE: Наказания, этого игрока были отключены
+GUI_PLAYERVIEW_WARNINGS_ACTION: Щёлкните, чтобы посмотреть Предупреждения
+GUI_PLAYERVIEW_WARNINGS_NOWARNING: Игрок никогда не был предупреждён
+GUI_PLAYERVIEW_PUNISHMENTS_ACTION: Щёлкните, чтобы посмотреть Наказания
+GUI_PLAYERVIEW_PUNISHMENTS_ACTIVE: Активные Наказания
+GUI_PLAYERVIEW_PUNISHMENTS_PREVIOUS: Предыдущие Наказания
+GUI_PLAYERVIEW_PUNISHMENTS_NOPUNISHMENT: Игрок никогда не был наказан
+GUI_PLAYERVIEW_REPORTS_ACTION: Щёлкните, чтобы посмотреть Жалобы
+GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS: Активные Жалобы от
+GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS_ENTRY: %1 на **%2** с **%3
+GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS_NONE: Игрок не имеет активных жалоб
+GUI_PLAYERVIEW_EXCLUDE_TITLE: Исключить из Наказаний
+GUI_PLAYERVIEW_EXCLUDE_ACTION: Щёлкните, чтобы %1 этого игрока
+GUI_PLAYERVIEW_EXCLUDE_EXPLANATION: Этот игрок не может быть наказан кем либо
+MESSAGE_CREATED_REPORT: Спасибо за жалобу **%1**
