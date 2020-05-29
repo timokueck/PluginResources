@@ -1,16 +1,16 @@
 OVERVIEW: Overzicht
 PERMISSION: Machtiging
-#POSITIVE: Positive
-#NEGATIVE: Negative
-#MIXED: Mixed
-#BUNGEE_PERMISSION: Bungee Permission
-PERMISSION_NODES: Permission Nodes
-PERMISSIONS: Machtigingen
+POSITIVE: Positief
+NEGATIVE: Negatief
+MIXED: Mixed
+BUNGEE_PERMISSION: Bungee permissie
+PERMISSION_NODES: permissie Nodes
+PERMISSIONS: Permissie
 DEFAULT_PERMISSIONS: Standaard machtigingen
 GROUP: Groep
-GROUPS: Groeps
+GROUPS: Groepen
 DEFAULT_GROUP: Standaard Groep
-INHERITED_GROUPS: Groepen die onder groepen vallen
+INHERITED_GROUPS: Groepen die onder andere groepen vallen
 PLAYER: Speler
 SERVER: Server
 SELECTED: Selecteren
@@ -20,26 +20,26 @@ USER: Gebruiker
 TIME: Tijd
 PREFIX: Voorvoegsel
 SUFFIX: Achtervoegsel
-OPTIONS: optie's
+OPTIONS: Opties
 SERVERNAME: Server Naam
 DONATIONS: Donaties
 ADVANTAGES: Voordelen
 RECOMMENDED: Aangeraden
 SETTINGS: Instellingen
-PERMISSIONLOG: Machtiging Logboek
+PERMISSIONLOG: Permissie Logboek
 EDITING: Aanpassen
 ADD: Toevoegen
-TIME_FOR: voor
-#NONE: None
-#DURATION: Duration
-#COPY: Copy
-#PASSED: Passed
-#FAILED: Failed
-#SOURCE: Source
-#TIME_TILL_REMOVAL: Time till removal:
+TIME_FOR: tijd voor
+NONE: Geen
+DURATION: Duur
+COPY: Copy
+PASSED: Geslaagd
+FAILED: Mislukt
+SOURCE: Source
+TIME_TILL_REMOVAL: Tijd tot verwijdering:
 COMMAND_INVALID_ARGS: Ongeldige argumenten
 COMMAND_NOTFOUND: Commando niet gevonden
-COMMAND_HINT_HELP: Typ **/upc** voor een lijst met commando's
+COMMAND_HINT_HELP: Type **/upc** voor een lijst met commando's
 COMMAND_HELP_TITLE: Ultra Permissions Commando's
 COMMAND_HELP_FOOTER: Ga naar **%1** voor meer info
 COMMAND_GROUP_NOTFOUND: Kan de groep **%1** niet vinden
@@ -103,7 +103,7 @@ GUI_GROUPVIEW_DELETE_PERMANENT: Deze actie is **permanent**
 GUI_GROUPVIEW_DEFAULT_TITLE: Standaard groep
 GUI_GROUPVIEW_DEFAULT_ACTION: **Klik** om deze groep **standaard** te maken
 GUI_GROUPVIEW_DEFAULT_UNDEFAULT_ACTION: **Klik** om deze groep **niet meer standaard** te maken
-GUI_GROUPVIEW_DEFAULT_EXPLANATION: Indien ingeschakeld, ontvangt elke nieuwe speler deze groep bij de eerste join
+GUI_GROUPVIEW_DEFAULT_EXPLANATION: Indien ingeschakeld, ontvangt elke nieuwe speler deze groep bij de eerste keer toetreden
 GUI_GROUPVIEW_INHERITANCE_TITLE: Overerving
 GUI_GROUPVIEW_INHERITANCE_ACTION: **Klik** om overerving te bewerken
 GUI_PERMEDITOR_SELECTALL_TITLE: Selecteer alles
@@ -114,37 +114,37 @@ GUI_PERMEDITOR_INHERITED_EXPLANATION: Toestemming toegevoegd vanaf **%1**
 GUI_PERMEDITOR_SELECTED_ACTION: **Klik** om **de selectie ongedaan te maken**
 GUI_PERMEDITOR_SELECTED_EXPLANATION: U **heeft** deze toestemming geselecteerd
 GUI_PERMEDITOR_NORMAL_LEFTCLICK: **Klik met de linkermuisknop** om te bewerken
-#GUI_PERMEDITOR_NORMAL_RIGHTCLICK: **Right Click** to **select**
-#GUI_PERMEDITOR_NORMAL_PRESSQ: **Press Q** to delete
-#GUI_PERMEDITOR_ADDPERMISSION_TITLE: Add Permission
-#GUI_PERMEDITOR_PLUGIN_ACTION: Click to view Permissions of **%1**
-#GUI_PERMEDITOR_BUNGEEINDICATOR: This is a **BungeeCord** Permission
-#GUI_PERMEDITOR_AVAILABILITY_ALLSERVERS: Available on **all** Servers
-#GUI_PERMEDITOR_AVAILABILITY_INWORLD: in the World **%1**
-#GUI_PERMEDITOR_AVAILABILITY_APPLICABLEIN: Permission applicable in %1
-#GUI_PERMEDITOR_AVAILABILITY_ONLYTHISSERVER: Only available on **this** Server
-#GUI_PERMEDITOR_AVAILABILITY_SPECIFICSERVER: Available on **%1** Server
-#GUI_PERMEDITOR_ADD_LEFTACTION: **Left Click** to add Permission
-#GUI_PERMEDITOR_ADD_RIGHTACTION: **Right Click** to add **Bungee Permission**
-#GUI_PERMEDITOR_ADD_TYPEIN: Type in a permission
-#GUI_PERMEDITOR_EDIT_TITLE: Edit %1
-#GUI_PERMEDITOR_EDIT_ACTION: Click to edit **%1**
-#GUI_PERMVIEW_EDITPERM_TITLE: Edit Permission
-#GUI_PERMVIEW_EDITPERM_ACTION: Click to edit Permission
-#GUI_PERMVIEW_EDITPERM_TYPEIN: Type in the new permission
-#GUI_PERMVIEW_COPY_ACTION: Click to select a **target**
-#GUI_PERMVIEW_NOMULTINAMEEDIT: you cannot rename multiple permissions at once
-#GUI_STORAGESETTINGS_TITLE: Storage Settings
-#GUI_STORAGESETTINGS_TYPEINWORLD: Type in a world name
-#GUI_STORAGESETTINGS_NOWORLD_ACTION: Click to **restrict** this group to a specific World
-#GUI_STORAGESETTINGS_WORLD_ACTION: Click to allow this group in all Worlds
-#GUI_STORAGESETTINGS_NOSERVER_ACTION: Click to **restrict** this group to this Server
-#GUI_STORAGESETTINGS_SERVER_ACTION: Click to allow this group on all Servers
-#GUI_STORAGESETTINGS_RESTRICTED_TO: Restricted to **%1**
-#GUI_PASTESELECTION_PASTE_ACTION: Click to **paste** %1
-GUI_PERMEDITOR_MANUAL_TITLE: Typ in Chat
+GUI_PERMEDITOR_NORMAL_RIGHTCLICK: **Klik met de rechtermuisknop** om **selecteren**
+GUI_PERMEDITOR_NORMAL_PRESSQ: **Klik Q** om te verwijderen
+GUI_PERMEDITOR_ADDPERMISSION_TITLE: Voeg Permissie toe
+GUI_PERMEDITOR_PLUGIN_ACTION: Klik om de Permissies van **%1** te zien
+GUI_PERMEDITOR_BUNGEEINDICATOR: Dit is een **BungeeCord** Permissie
+GUI_PERMEDITOR_AVAILABILITY_ALLSERVERS: Beschikbaar in **alle** Servers
+GUI_PERMEDITOR_AVAILABILITY_INWORLD: in de Wereld **%1**
+GUI_PERMEDITOR_AVAILABILITY_APPLICABLEIN: Permissie toepasselijk in %1
+GUI_PERMEDITOR_AVAILABILITY_ONLYTHISSERVER: Alleen beschikbaar op **deze** Server
+GUI_PERMEDITOR_AVAILABILITY_SPECIFICSERVER: Beschikbaar op **%1** Server
+GUI_PERMEDITOR_ADD_LEFTACTION: **Klik met de linkermuisknop** om Permissie toe te voegen
+GUI_PERMEDITOR_ADD_RIGHTACTION: **Klik met de rechtermuisknop** to add **Bungee Permissie**
+GUI_PERMEDITOR_ADD_TYPEIN: Type een Permissie in
+GUI_PERMEDITOR_EDIT_TITLE: Bewerk %1
+GUI_PERMEDITOR_EDIT_ACTION: Klik om te bewerken **%1**
+GUI_PERMVIEW_EDITPERM_TITLE: Bewerk Permissie
+GUI_PERMVIEW_EDITPERM_ACTION: klik om deze Permissie te bewerken
+GUI_PERMVIEW_EDITPERM_TYPEIN: Type in een nieuwe Permissie
+GUI_PERMVIEW_COPY_ACTION: Klik om het **doel** te selecteren
+GUI_PERMVIEW_NOMULTINAMEEDIT: Je kan geen meerdere Permissies bewerken op hetzelfde moment
+GUI_STORAGESETTINGS_TITLE: Opslag instellingen
+GUI_STORAGESETTINGS_TYPEINWORLD: Type in een wereld naam
+GUI_STORAGESETTINGS_NOWORLD_ACTION: Klik om deze groep te **beperken** tot een specifieke Wereld
+GUI_STORAGESETTINGS_WORLD_ACTION: Klik om deze groep toe te staan in alle Werelden
+GUI_STORAGESETTINGS_NOSERVER_ACTION: klik om deze groep te **beperken ** tot deze Server
+GUI_STORAGESETTINGS_SERVER_ACTION: Klik om deze  groep toe te staan op alle Servers
+GUI_STORAGESETTINGS_RESTRICTED_TO: Beperkt tot **%1**
+GUI_PASTESELECTION_PASTE_ACTION: Klik om te**plakken** %1
+GUI_PERMEDITOR_MANUAL_TITLE: Type in Chat
 GUI_PERMEDITOR_MANUAL_ACTION: **Klik** om de machtiging te typen
-GUI_PERMEDITOR_MANUAL_DIALOG_SUBTITLE: Typ een machtiging
+GUI_PERMEDITOR_MANUAL_DIALOG_SUBTITLE: Type een machtiging
 GUI_INHERITVIEW_ADD_ACTION: Klik om **toe te voegen**
 GUI_INHERITVIEW_ADD_EXPLANATION: Hiermee worden alle machtigingen toegevoegd van **%1** tot **%2**
 GUI_INHERITVIEW_REMOVE_ACTION: Klik om **te verwijderen**
@@ -154,14 +154,14 @@ GUI_CHANGEORDER_INCREASE: **Klik met de rechtermuisknop** om te vergroten
 GUI_CHANGEORDER_DECREASE: **Klik met de linkermuisknop** om te verlagen
 GUI_PERMISSIONLOG_ACTION: Klik om deze toestemming toe te voegen aan een **groep** of **gebruiker**
 GUI_PERMISSIONLOG_RESULT: Resultaat: %1
-GUI_SETTINGS_FORMAT_NAME: Chat- en tablijstindeling
+GUI_SETTINGS_FORMAT_NAME: Chat- en tab lijstindeling
 GUI_SETTINGS_MISC_NAME: Diversen
 EDITING_PREFIX_EDIT: **Voorvoegsel bewerken
-EDITING_PREFIX_TYPEIN: Typ een nieuw voorvoegsel
-EDITING_PREFIX_TYPEINNONE: Typ **geen** om geen voorvoegsel te hebben
+EDITING_PREFIX_TYPEIN: Type een nieuw voorvoegsel
+EDITING_PREFIX_TYPEINNONE: Type **geen** om geen voorvoegsel te hebben
 EDITING_SUFFIX_EDIT: **Achtervoegsel bewerken
 EDITING_SUFFIX_TYPEIN: Typ een nieuw achtervoegsel
-EDITING_SUFFIX_TYPEINNONE: Typ **geen** om geen achtervoegsel te hebben
+EDITING_SUFFIX_TYPEINNONE: Type **geen** om geen achtervoegsel te hebben
 CREATE_GROUP_TITLE: Groep maken
 CREATE_GROUP_SUBTITLE: Voer een groepsnaam in
 CREATE_GROUP_NOSPACES: De groepsnaam mag geen spaties bevatten
