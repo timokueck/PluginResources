@@ -56,6 +56,7 @@ COMMAND_PERMISSION_ADD_TIMED: Право **%1** добавлено **%2** на *
 GUI_OVERVIEW_USERS_ACTION: Щёлкните, чтобы просмотреть всех **Игроков**
 GUI_OVERVIEW_GROUPS_ACTION: Щёлкните, чтобы просмотреть все **Группы**
 GUI_OVERVIEW_REDUCE_TITLE: Скрыть
+GUI_OVERVIEW_REDUCE_ACTION: Щёлкните, чтобы скрыть расширенные функции
 GUI_OVERVIEW_EXPAND_ACTION: **Щёлкните**, чтобы показать расширенные функции
 GUI_OVERVIEW_EXPAND_TITLE: Expand
 GUI_OVERVIEW_EXPAND_EXPLANATION: Показать расширенные функции
