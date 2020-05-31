@@ -1,171 +1,172 @@
 OVERVIEW: Обзор
-PERMISSION: Право
-POSITIVE: Положительный
-NEGATIVE: Отрицательный
-MIXED: Смешанный
-BUNGEE_PERMISSION: Права Bungee
+PERMISSION: право
+POSITIVE: Положительн.
+NEGATIVE: Отрицательн.
+MIXED: Смешанн.
+BUNGEE_PERMISSION: Bungee-права
 PERMISSION_NODES: Узлы прав
-PERMISSIONS: Права
-DEFAULT_PERMISSIONS: Стандартные права
+PERMISSIONS: прав(а)
+DEFAULT_PERMISSIONS: Права по умолчанию
 GROUP: Группа
 GROUPS: Группы
 DEFAULT_GROUP: Стандартная группа
 INHERITED_GROUPS: Унаследованные группы
 PLAYER: Игрок
 SERVER: Сервер
-SELECTED: Выбран
+SELECTED: Выбрано
 WORLD: Мир
 USERS: Игроки
 USER: Игрок
 TIME: Время
 PREFIX: Префикс
 SUFFIX: Суффикс
-OPTIONS: Настройки
+OPTIONS: Параметры
 SERVERNAME: Название сервера
 DONATIONS: Пожертвования
-ADVANTAGES: Приемущества
+ADVANTAGES: Преимущества
 RECOMMENDED: Рекомендован
 SETTINGS: Настройки
 PERMISSIONLOG: Журнал прав
 EDITING: Изменение
 ADD: Добавить
 TIME_FOR: на
-NONE: Нет
+NONE: нет
 DURATION: Продолжительность
-COPY: Копирование
-PASSED: Passed
+COPY: Копировать
+PASSED: Успешно
 FAILED: Ошибка
 SOURCE: Источник
 TIME_TILL_REMOVAL: Время до удаления:
-COMMAND_INVALID_ARGS: Неверные агрументы
+COMMAND_INVALID_ARGS: Недопустимые аргументы
 COMMAND_NOTFOUND: Команда не найдена
-COMMAND_HINT_HELP: Введите **/upc**, чтобы получить список команд
-COMMAND_HELP_TITLE: Команды плагина Ultra Permissions
-COMMAND_HELP_FOOTER: Посетите **%1**, для получения большей информации
+COMMAND_HINT_HELP: Введите **/upc** для списка команд
+COMMAND_HELP_TITLE: Команды Ultra Permissions
+COMMAND_HELP_FOOTER: Посетите **%1** для подробностей
 COMMAND_GROUP_NOTFOUND: Не удалось найти группу **%1**
 COMMAND_PLAYER_NOTFOUND: Не удалось найти игрока **%1**
 COMMAND_PLAYER_NOTSUPERADMIN: **%1** не является супер-администратором
-COMMAND_PLAYER_INGROUP: The player **%1** уже в данной группе
+COMMAND_PLAYER_INGROUP: Игрок **%1** уже в данной группе
 COMMAND_PLAYER_SUPERADMIN_ALREADY: **%1** уже супер-администратор
 COMMAND_PLAYER_SUPERADMIN_ADD: Игрок **%1** теперь супер-администратор
 COMMAND_PLAYER_SUPERADMIN_REMOVE: Игрок **%1** больше не супер-администратор
 COMMAND_PLAYER_ADD_GROUP: Группа **%1** добавлена **%2**
 COMMAND_PLAYER_ADD_GROUP_TIMED: Группа **%1** добавлена **%2** на **%3**
 COMMAND_PERMISSION_ADD: Право **%1** добавлено **%2**
-COMMAND_PERMISSION_ADD_TIMED: Право **%1** добавлено **%2** на **%3**
-GUI_OVERVIEW_USERS_ACTION: Щёлкните, чтобы просмотреть всех **Игроков**
-GUI_OVERVIEW_GROUPS_ACTION: Щёлкните, чтобы просмотреть все **Группы**
-GUI_OVERVIEW_REDUCE_TITLE: Скрыть
-GUI_OVERVIEW_REDUCE_ACTION: Щёлкните, чтобы скрыть расширенные функции
-GUI_OVERVIEW_EXPAND_ACTION: **Щёлкните**, чтобы показать расширенные функции
-GUI_OVERVIEW_EXPAND_TITLE: Expand
+GUI_OVERVIEW_USERS_ACTION: Нажмите для просмотра **игроков**
+GUI_OVERVIEW_GROUPS_ACTION: Нажмите для просмотра **групп**
+GUI_OVERVIEW_DONATIONS_ACTION: Нажмите для просмотра пожертвований
+GUI_OVERVIEW_REDUCE_TITLE: Свернуть
+GUI_OVERVIEW_REDUCE_ACTION: Нажмите для скрытия доп. функций
+GUI_OVERVIEW_REDUCE_EXPLANATION: Скрыть расширенные функции
+GUI_OVERVIEW_EXPAND_TITLE: Развернуть
+GUI_OVERVIEW_EXPAND_ACTION: **Нажмите** для показа доп. функций
 GUI_OVERVIEW_EXPAND_EXPLANATION: Показать расширенные функции
-GUI_OVERVIEW_PERMISSIONLOG_ACTION: **Щёлкните**, чтобы открыть журнал прав
-GUI_OVERVIEW_PERMISSIONLOG_EXPLANATION: Здесь вы можете увидеть все недавние проверки прав
-GUI_OVERVIEW_SETTINGS_ACTION: **Щёлкните**, чтобы просмотреть настройки
-GUI_OVERVIEW_SETTINGS_EXPLANATION: Установите настройки плагина
+GUI_OVERVIEW_PERMISSIONLOG_ACTION: **Нажмите** для открытия журнала прав
+GUI_OVERVIEW_PERMISSIONLOG_EXPLANATION: Недавние проверки прав
+GUI_OVERVIEW_SETTINGS_ACTION: **Нажмите** для просмотра настроек
+GUI_OVERVIEW_SETTINGS_EXPLANATION: Регулировка настроек плагина
 GUI_GROUPBROWSER_TITLE_LIST: Список
 GUI_GROUPBROWSER_TITLE_ALL: Просмотр всех групп
 GUI_GROUPBROWSER_TITLE_RANGE: Просмотр %1 / %2 групп
-GUI_GROUPBROWSER_ADD_ACTION: Щёлкните, чтобы создать группу
+GUI_GROUPBROWSER_ADD_ACTION: Нажмите для создания группы
 GUI_GROUPBROWSER_REORDER_TITLE: Изменить порядок
-GUI_GROUPBROWSER_REORDER_ACTION: Щёлкните, чтобы изменить порядок
+GUI_GROUPBROWSER_REORDER_ACTION: Нажмите для изменения порядка
 GUI_GROUPBROWSER_LEFTCLICK_ACTION: **ЛКМ** для открытия
-GUI_GROUPBROWSER_Q_ACTION: **Нажмите Q**, чтобы просмотреть настройки хранилища
+GUI_GROUPBROWSER_Q_ACTION: **Q** для просмотра настроек хранилища
 GUI_GROUPBROWSER_DEFAULT_GROUP_INDICATOR: Стандартная группа
-GUI_GROUPBROWSER_SHOWALL_TITLE: Просмотреть все
-GUI_GROUPBROWSER_SHOWALL_ACTION: Щёлкните, чтобы просмотреть все группы со всех серверов и миров
-GUI_USERBROWSER_ACTION: **Щёлкните**, чтобы просмотреть
-GUI_USERBROWSER_DELETE_ACTION: **Нажмите Q**, чтобы **удалить**
+GUI_GROUPBROWSER_SHOWALL_TITLE: Показать все
+GUI_GROUPBROWSER_SHOWALL_ACTION: Нажмите для просмотра групп всех серверов и миров
+GUI_USERBROWSER_ACTION: **Нажмите** для просмотра
+GUI_USERBROWSER_DELETE_ACTION: **Q** для **удаления**
 GUI_USERBROWSER_SUPERADMIN_INDICATOR: Супер-администратор
-GUI_USERBROWSER_SHOWOFFLINE_TITLE: Показать игроков не в сети
-GUI_USERBROWSER_HIDEOFFLINE_TITLE: Скрыть игроков не в сети
-GUI_USERBROWSER_SHOWOFFLINE_ACTION: Щёлкните, чтобы показать **игроков не в сети**
-GUI_USERBROWSER_HIDEOOFFLINE_ACTION: Щёлкните, чтобы скрыть **игроков не в сети**
-GUI_USERVIEW_VIEWPERMISSIONS_TITLE: Просмотреть права
-GUI_USERVIEW_VIEWPERMISSIONS_ACTION: **Щёлкните**, чтобы просмотреть права
-GUI_USERVIEW_VIEWGROUPS_ACTION: **Щёлкните**, чтобы просмотреть группы
+GUI_USERBROWSER_SHOWOFFLINE_TITLE: Показать оффлайн игроков
+GUI_USERBROWSER_HIDEOFFLINE_TITLE: Скрыть оффлайн игроков
+GUI_USERBROWSER_SHOWOFFLINE_ACTION: Нажмите для показа **оффлайн игроков**
+GUI_USERBROWSER_HIDEOOFFLINE_ACTION: Нажмите для скрытия **оффлайн игроков**
+GUI_USERVIEW_VIEWPERMISSIONS_TITLE: Просмотр прав
+GUI_USERVIEW_VIEWPERMISSIONS_ACTION: **Нажмите** для просмотра прав
+GUI_USERVIEW_VIEWGROUPS_ACTION: **Нажмите** для просмотра групп
 GUI_USERVIEW_EDITPREFIXSUFFIX_TITLE: Изменить префикс и суффикс
-GUI_USERVIEW_EDITPREFIXSUFFIX_LEFTCLICK: **ЛКМ**, чтобы изменить префикс
-GUI_USERVIEW_EDITPREFIXSUFFIX_RIGHTCLICK: **ПКМ**, чтобы изменить суффикс
-GUI_GROUPVIEW_VIEWPERMISSIONS_TITLE: Просмотреть права
-GUI_GROUPVIEW_VIEWPERMISSIONS_ACTION: **Щёлкните**, чтобы просмотреть права
+GUI_USERVIEW_EDITPREFIXSUFFIX_LEFTCLICK: **ЛКМ** для изменения префикса
+GUI_USERVIEW_EDITPREFIXSUFFIX_RIGHTCLICK: **ПКМ** для изменения суффикса
+GUI_GROUPVIEW_VIEWPERMISSIONS_TITLE: Просмотр прав
+GUI_GROUPVIEW_VIEWPERMISSIONS_ACTION: **Нажмите** для просмотра прав
 GUI_GROUPVIEW_CHANGEICON_TITLE: Изменить иконку
-GUI_GROUPVIEW_CHANGEICON_ACTION: **Щёлкните**, чтобы изменить
+GUI_GROUPVIEW_CHANGEICON_ACTION: **Нажмите** для изменения
 GUI_GROUPVIEW_EDITPREFIXSUFFIX_TITLE: Изменить префикс и суффикс
-GUI_GROUPVIEW_EDITPREFIXSUFFIX_LEFTCLICK: **ЛКМ**, чтобы изменить префикс
-GUI_GROUPVIEW_EDITPREFIXSUFFIX_RIGHTCLICK: **ПКМ**, чтобы изменить суффикс
-GUI_GROUPVIEW_RENAME_ACTION: **Щёлкните**, чтобы переименовать группу
+GUI_GROUPVIEW_EDITPREFIXSUFFIX_LEFTCLICK: **ЛКМ** для изменения префикса
+GUI_GROUPVIEW_EDITPREFIXSUFFIX_RIGHTCLICK: **ПКМ** для изменения суффикса
+GUI_GROUPVIEW_RENAME_ACTION: **Нажмите** для переименования группы
 GUI_GROUPVIEW_DELETE_TITLE: Удалить группу
-GUI_GROUPVIEW_DELETE_ACTION: **Щёлкните**, чтобы **удалить** данную группу
+GUI_GROUPVIEW_DELETE_ACTION: **Нажмите** для **удаления** группы
 GUI_GROUPVIEW_DELETE_PERMANENT: Данное действие **необратимо**
-GUI_GROUPVIEW_DEFAULT_TITLE: Стандартная группа
-GUI_GROUPVIEW_DEFAULT_ACTION: **Щёлкните**, чтобы сделать данную группу **стандартной**
-GUI_GROUPVIEW_DEFAULT_UNDEFAULT_ACTION: **Щёлкните**, чтобы сделать данную группу **обычной**
-GUI_GROUPVIEW_DEFAULT_EXPLANATION: Если включено, каждый новый игрок будет получать эту группу при первом входе
+GUI_GROUPVIEW_DEFAULT_TITLE: Группа по умолчанию
+GUI_GROUPVIEW_DEFAULT_ACTION: **Нажмите**, чтобы сделать группу **по умолчанию**
+GUI_GROUPVIEW_DEFAULT_UNDEFAULT_ACTION: **Нажмите**, чтобы сделать группу **обычной**
+GUI_GROUPVIEW_DEFAULT_EXPLANATION: Если включено, каждый новый игрок получит эту группу при первом входе
 GUI_GROUPVIEW_INHERITANCE_TITLE: Наследование
-GUI_GROUPVIEW_INHERITANCE_ACTION: **Щёлкните**, чтобы изменить наследование групп
-GUI_PERMEDITOR_SELECTALL_TITLE: Выбрать все
-GUI_PERMEDITOR_SELECTALL_ACTION: Щёлкните, чтобы **выбрать** все права
-GUI_PERMEDITOR_INHERITED_NEGATE_ACTION: **ЛКМ**, чтобы **отозвать** право
-GUI_PERMEDITOR_INHERITED_JUMP_ACTION: **ПКМ**, чтобы перейти к **%1**
-GUI_PERMEDITOR_INHERITED_EXPLANATION: Добавлены права из **%1**
-GUI_PERMEDITOR_SELECTED_ACTION: **Щёлкните**, чтобы **отменить выделение**
-GUI_PERMEDITOR_SELECTED_EXPLANATION: Вы **выбрали** данное право
-GUI_PERMEDITOR_NORMAL_LEFTCLICK: **ЛКМ**, чтобы изменить
-GUI_PERMEDITOR_NORMAL_RIGHTCLICK: **ПКМ**, чтобы **выбрать**
-GUI_PERMEDITOR_NORMAL_PRESSQ: **Нажмите Q** удалить
+GUI_GROUPVIEW_INHERITANCE_ACTION: **Нажмите** для изменения наследований
+GUI_PERMEDITOR_SELECTALL_TITLE: Выбрать всё
+GUI_PERMEDITOR_SELECTALL_ACTION: Нажмите для **выбора** всех прав
+GUI_PERMEDITOR_INHERITED_NEGATE_ACTION: **ЛКМ** для **отрицания** права
+GUI_PERMEDITOR_INHERITED_JUMP_ACTION: **ПКМ** для перехода к **%1**
+GUI_PERMEDITOR_INHERITED_EXPLANATION: Право из группы **%1**
+GUI_PERMEDITOR_SELECTED_ACTION: **Нажмите** для **отмены выделения**
+GUI_PERMEDITOR_SELECTED_EXPLANATION: **Выбранное** право
+GUI_PERMEDITOR_NORMAL_LEFTCLICK: **ЛКМ** для изменения
+GUI_PERMEDITOR_NORMAL_RIGHTCLICK: **ПКМ** для **выбора**
+GUI_PERMEDITOR_NORMAL_PRESSQ: **Q** для удаления
 GUI_PERMEDITOR_ADDPERMISSION_TITLE: Добавить право
-GUI_PERMEDITOR_PLUGIN_ACTION: Щёлкните, чтобы просмотреть права **%1**
-GUI_PERMEDITOR_BUNGEEINDICATOR: Это **BungeeCord** Права
-GUI_PERMEDITOR_AVAILABILITY_ALLSERVERS: Имеется в наличии на **всех** Серверах
-GUI_PERMEDITOR_AVAILABILITY_INWORLD: во всём мире **%1**
-GUI_PERMEDITOR_AVAILABILITY_APPLICABLEIN: Права, действующие в %1
-GUI_PERMEDITOR_AVAILABILITY_ONLYTHISSERVER: Доступно только на **данном** Сервере
-GUI_PERMEDITOR_AVAILABILITY_SPECIFICSERVER: Имеется в налии на **%1** Сервере
-GUI_PERMEDITOR_ADD_LEFTACTION: **Левая кнопка мыши** чтобы добавить Права
-GUI_PERMEDITOR_ADD_RIGHTACTION: **Правая кнопка мыши** чтобы добавить **Права Bungee**
+GUI_PERMEDITOR_PLUGIN_ACTION: Нажмите для просмотра прав **%1**
+GUI_PERMEDITOR_BUNGEEINDICATOR: Это **BungeeCord**-право
+GUI_PERMEDITOR_AVAILABILITY_ALLSERVERS: Действует на **всех** серверах
+GUI_PERMEDITOR_AVAILABILITY_INWORLD: в мире **%1**
+GUI_PERMEDITOR_AVAILABILITY_APPLICABLEIN: Право действует в %1
+GUI_PERMEDITOR_AVAILABILITY_ONLYTHISSERVER: Действует только на **этом** сервере
+GUI_PERMEDITOR_AVAILABILITY_SPECIFICSERVER: Действует на сервере **%1**
+GUI_PERMEDITOR_ADD_LEFTACTION: **ЛКМ** для добавления права
+GUI_PERMEDITOR_ADD_RIGHTACTION: **ПКМ** для добавления **Bungee-права**
 GUI_PERMEDITOR_ADD_TYPEIN: Введите право
-GUI_PERMEDITOR_EDIT_TITLE: Отредактировать %1
-GUI_PERMEDITOR_EDIT_ACTION: Щёлкните, чтобы отредаткировать **%1**
-GUI_PERMVIEW_EDITPERM_TITLE: Отредактировать Права
-GUI_PERMVIEW_EDITPERM_ACTION: Щёлкните, чтобы отредактировать Права
+GUI_PERMEDITOR_EDIT_TITLE: Изменить %1
+GUI_PERMEDITOR_EDIT_ACTION: Нажмите для изменения **%1**
+GUI_PERMVIEW_EDITPERM_TITLE: Изменить право
+GUI_PERMVIEW_EDITPERM_ACTION: Нажмите для изменения права
 GUI_PERMVIEW_EDITPERM_TYPEIN: Введите новое право
-GUI_PERMVIEW_COPY_ACTION: Щёлкните, чтобы выбрать **target**
-GUI_PERMVIEW_NOMULTINAMEEDIT: вы не можете переименовать несколько Прав одновременно
-GUI_STORAGESETTINGS_TITLE: Настройки хранения
-GUI_STORAGESETTINGS_TYPEINWORLD: Введите имя Мира
-GUI_STORAGESETTINGS_NOWORLD_ACTION: Щёлкните, чтобы **ограничить** эту группу в конкретном Мире
-GUI_STORAGESETTINGS_WORLD_ACTION: Щёлкните, чтобы разрешить эту группу во всех Мирах.
-GUI_STORAGESETTINGS_NOSERVER_ACTION: Щёлкните, чтобы **ограничить** эту группу на этом Сервере
-GUI_STORAGESETTINGS_SERVER_ACTION: Кликните, чтобы разрешить эту группу на всех Серверах
-GUI_STORAGESETTINGS_RESTRICTED_TO: Ограничить **%1**
-GUI_PASTESELECTION_PASTE_ACTION: Щёлкните, чтобы **вставить** %1
+GUI_PERMVIEW_COPY_ACTION: Нажмите для выбора **цели**
+GUI_PERMVIEW_NOMULTINAMEEDIT: нельзя переименовать несколько прав одновременно
+GUI_STORAGESETTINGS_TITLE: Настройки хранилища
+GUI_STORAGESETTINGS_TYPEINWORLD: Введите название мира
+GUI_STORAGESETTINGS_NOWORLD_ACTION: Нажмите для **ограничения** группы в конретном мире
+GUI_STORAGESETTINGS_WORLD_ACTION: Нажмите для использования группы во всех мирах
+GUI_STORAGESETTINGS_NOSERVER_ACTION: Нажмите для **ограничения** группы на этом сервере
+GUI_STORAGESETTINGS_SERVER_ACTION: Нажмите для использования группы на всех серверах
+GUI_STORAGESETTINGS_RESTRICTED_TO: Ограничено для **%1**
+GUI_PASTESELECTION_PASTE_ACTION: Нажмите, чтобы **вставить** %1
 GUI_PERMEDITOR_MANUAL_TITLE: Введите в чат
-GUI_PERMEDITOR_MANUAL_ACTION: **Щёлкните**, чтобы ввести право
+GUI_PERMEDITOR_MANUAL_ACTION: **Нажмите** для ввода права
 GUI_PERMEDITOR_MANUAL_DIALOG_SUBTITLE: Введите право
-GUI_INHERITVIEW_ADD_ACTION: Щёлкните, чтобы **добавить**
-GUI_INHERITVIEW_ADD_EXPLANATION: Добавить все права от **%1** до **%2**
-GUI_INHERITVIEW_REMOVE_ACTION: Щёлкните, чтобы **удалить**
-GUI_INHERITVIEW_REMOVE_EXPLANATION: Все права от **%1** будут добавлены **%2**
+GUI_INHERITVIEW_ADD_ACTION: Нажмите для **добавления**
+GUI_INHERITVIEW_ADD_EXPLANATION: Добавить все права из **%1** в **%2**
+GUI_INHERITVIEW_REMOVE_ACTION: Нажмите для **удаления**
+GUI_INHERITVIEW_REMOVE_EXPLANATION: Все права из **%1** будут добавлены в **%2**
 GUI_CHANGEORDER_TITLE: Изменить порядок
-GUI_CHANGEORDER_INCREASE: **ПКМ**, чтобы повысить
-GUI_CHANGEORDER_DECREASE: **ЛКМ**, чтобы понизить
-GUI_PERMISSIONLOG_ACTION: Щёлкните, чтобы добавить это право **группе** или **игроку**
+GUI_CHANGEORDER_INCREASE: **ПКМ** для увеличения
+GUI_CHANGEORDER_DECREASE: **ЛКМ** для уменьшения
+GUI_PERMISSIONLOG_ACTION: Нажмите для добавления права **группе** или **игроку**
 GUI_PERMISSIONLOG_RESULT: Результат: %1
-GUI_SETTINGS_FORMAT_NAME: Формат чата и списка игроков
-GUI_SETTINGS_MISC_NAME: Смешанный
+GUI_SETTINGS_FORMAT_NAME: Формат чата и таблиста
+GUI_SETTINGS_MISC_NAME: Прочие
 EDITING_PREFIX_EDIT: **Изменить префикс
 EDITING_PREFIX_TYPEIN: Введите новый префикс
-EDITING_PREFIX_TYPEINNONE: Введите **none**, если не хотите добавлять префикс
+EDITING_PREFIX_TYPEINNONE: Введите **none** для удаление префикса
 EDITING_SUFFIX_EDIT: **Изменить суффикс
 EDITING_SUFFIX_TYPEIN: Введите новый суффикс
-EDITING_SUFFIX_TYPEINNONE: Введите **none**, если не хотите добавлять суффикс
+EDITING_SUFFIX_TYPEINNONE: Введите **none** для удаление суффикса
 CREATE_GROUP_TITLE: Создать группу
 CREATE_GROUP_SUBTITLE: Введите название группы
-CREATE_GROUP_NOSPACES: Название группы не может иметь пробелов
-CREATE_GROUP_NOCOLORS: Название группы не может содержать цветовые коды
-CREATE_GROUP_NAMETAKEN: Название группы занято
+CREATE_GROUP_NOSPACES: Название группы не должно содержать пробелов
+CREATE_GROUP_NOCOLORS: Название группы не должно содержать цветовые коды
+CREATE_GROUP_NAMETAKEN: Название группы уже используется
 RENAME_GROUP_TITLE: Переименовать группу
 RENAME_GROUP_SUBTITLE: Введите новое название
 CONFIRM_DELETION_OF: Подтвердите удаление %1
