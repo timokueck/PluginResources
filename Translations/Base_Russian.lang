@@ -3,37 +3,45 @@ ENABLED: включено
 DISABLE: отключить
 DISABLED: отключено
 SETTINGS: Настройки
-NONE: Нет
-COMMAND_NOPERMISSION: У вас нет **доступа** к данной команде
-COMMAND_NOCONSOLE: Данная команда не может быть выполнена через консоль
-GUI_SETTINGS_SELECTPAGE: Щёлкните, чтобы просмотреть настройки
-GUI_SETTINGS_PAGESELECTED: Данная страница **выбрана**
+DAY: день
+DAYS: дней
+HOUR: час
+HOURS: часов
+MINUTE: минуту
+MINUTES: минут
+SECOND: сукунду
+SECONDS: секунд
+NONE: нет
+COMMAND_NOPERMISSION: У вас нет **доступа** к этой команде
+COMMAND_NOCONSOLE: Команда не может быть выполнена через консоль
+GUI_SETTINGS_SELECTPAGE: Нажмите для просмотра настроек
+GUI_SETTINGS_PAGESELECTED: **Выбранная** страница
 GUI_SETTINGS_LANGUAGE_NAME: Язык
 GUI_SETTINGS_MYSQL_NAME: База данных MySQL
-GUI_SETTINGS_MYSQL_EDITVALUE_ACTION: Щёлкните, чтобы изменить данное значение
+GUI_SETTINGS_MYSQL_EDITVALUE_ACTION: Нажмите для изменения значения
 GUI_SETTINGS_MYSQL_CURRENTVALUE: Текущее значение:
 GUI_SETTINGS_MYSQL_SETUP_TITLE_FIELDNAME: MySQL - %1
 GUI_SETTINGS_MYSQL_SETUP_TITLE_TYPEINVALUE: Введите значение
-GUI_SETTINGS_MYSQL_SETUP_TITLE: Установить MySQL
-GUI_SETTINGS_MYSQL_SETUP_ACTION: Щёлкните, чтобы включить MySQL
-GUI_SETTINGS_MYSQL_SETUP_INFO: Требуется внешняя база данных MySQL, чтобы подключиться к
+GUI_SETTINGS_MYSQL_SETUP_TITLE: Настроить MySQL
+GUI_SETTINGS_MYSQL_SETUP_ACTION: Нажмите для подключения к MySQL
+GUI_SETTINGS_MYSQL_SETUP_INFO: Требуется внешняя база данных MySQL
 GUI_SETTINGS_MYSQL_DISABLE_TITLE: Отключить MySQL
-GUI_SETTINGS_MYSQL_DISABLE_ACTION: Щёлкните, чтобы отключить MySQL
-GUI_SETTINGS_MYSQL_RESTARTREQUIRED: Вам будет предложено перезагрузить сервер, чтобы применить изменения
-GUI_SETTINGS_MYSQL_CANTCONNECT: Не удалось подключиться MySQL
-GUI_SETTINGS_MYSQL_SAVE_TITLE: Проверить & Сохранить
-GUI_SETTINGS_MYSQL_SAVE_ACTION: Щёлкните, чтобы **проверить** и **сохранить**
-GUI_SETTINGS_LANG_ACTION: Щёлкните, чтобы **выбрать **данный язык
-GUI_SETTINGS_LANG_SELECTED: Данный язык **выбран**
+GUI_SETTINGS_MYSQL_DISABLE_ACTION: Нажмите для отключения MySQL
+GUI_SETTINGS_MYSQL_RESTARTREQUIRED: Потребуется перезагрузка сервера для применения изменений
+GUI_SETTINGS_MYSQL_CANTCONNECT: Не удалось подключиться к MySQL
+GUI_SETTINGS_MYSQL_SAVE_TITLE: Проверить и сохранить
+GUI_SETTINGS_MYSQL_SAVE_ACTION: Нажмите для **проверки** и **сохранения**
+GUI_SETTINGS_LANG_ACTION: Нажмите для **выбора** языка
+GUI_SETTINGS_LANG_SELECTED: **Выбранный** язык
 GUI_SETTINGS_LANG_PHRASES: Фразы
-GUI_SETTINGS_LANG_COVERAGE: Охват
+GUI_SETTINGS_LANG_COVERAGE: Готово
 GUI_PAGEABLE_SEARCH_TITLE: Поиск
-GUI_PAGEABLE_SEARCH_ACTION: Щёлкните, чтобы начать поиск
-GUI_PAGEABLE_NEXT_TITLE: Дальше
-GUI_PAGEABLE_NEXT_ACTION: Щёлкните, чтобы перейти на следующую страницу
-GUI_PAGEABLE_PREVIOUS_TITLE: Назад
-GUI_PAGEABLE_PREVIOUS_ACTION: Щёлкните, чтобы перейти на предыдущую страницу
-GUI_PAGEABLE_SEARCH_CLOSE_ACTION: Щёлкните, чтобы **закрыть** поиск
-GUI_PAGEABLE_SEARCH_TYPEIN: Введите текст для поиска
+GUI_PAGEABLE_SEARCH_ACTION: Нажмите для поиска
+GUI_PAGEABLE_NEXT_TITLE: Следующая
+GUI_PAGEABLE_NEXT_ACTION: Нажмите для перехода на следующую страницу
+GUI_PAGEABLE_PREVIOUS_TITLE: Предыдущая
+GUI_PAGEABLE_PREVIOUS_ACTION: Нажмите для перехода на предыдущую страницу
+GUI_PAGEABLE_SEARCH_CLOSE_ACTION: Нажмите для **завершения** поиска
+GUI_PAGEABLE_SEARCH_TYPEIN: Введите поисковый запрос
 GUI_BACK_NAME: Назад
-GUI_BACK_ACTION: Щёлкните, чтобы вернуться
+GUI_BACK_ACTION: Нажмите, чтобы вернуться
