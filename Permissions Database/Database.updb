@@ -5804,6 +5804,10 @@ UHC+uhc.joinInGame.bypass+for join with arena in game.
 UHC+uhc.poswl.bypass+for join PosWL (Only the first 15 minutes of play!).
 UHC+uhc.teamName.color+for add colors to your team name!
 UHC+uhc.whitelist.bypass+Bypass whitelist.
+UltimateKite2+ultimatekits.preview.<kitname>+Preview the specified kit.+/pk <kitname> 
+UltimateKite2+ultimatekits.admin+Gives the specified kit to the specified player. Reloads the Configuration and Language files for UltimateKits. Edit the specified kit. Make the block you are looking at display a specified kit. Remove a kit from the block you are looking at. Opens the in-game settings GUI for Ultimate Kits. Give a kit-specific key to a player or all players. These keys can be redeemed for kits. Ultra keys give all items, regular keys give some items. Opens the category editor. Give a specific kit key to one player or all players.+/kit <kitname> [player/all], /uk reload , /uk edit <kitname>, /uk set <kitname>, /uk remove, /uk settings, /uk key <kitname> <Ultra/Regular> <Player/All> <amount>, /kitadmin categories, /kitadmin crate <player/all> <kit> <crate> (amount) 
+UltimateKite2+ultimatekits.buy.<kitname>+Allows the user to purchase the specified kit.
+UltimateKite2+ultimatekits.claim.<kitname>+Allows the user to claim the specified kit.
 Ultimate_Name_Color+chat.*+Allow the player to change there Name in every color in Chat.
 Ultimate_Name_Color+chat.aqua+Allow to change there Chat name in aqua.
 Ultimate_Name_Color+chat.black+Allow to change there Chat name in black.
