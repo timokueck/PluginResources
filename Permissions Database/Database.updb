@@ -3797,6 +3797,7 @@ LockettePro+lockettepro.lockothers+Lock a block for other people
 LockettePro+lockettepro.noexpire+No lock expire for specific player
 LockettePro+lockettepro.reload+Reload configuration+/lock reload
 LockettePro+lockettepro.towny.wilds+Towny permission to protect chest in wilderness
+Loginsecurity2+loginsecurity.admin+View command help, Import data from another plugin, Reset a player's password, Update the plugin.+/lac help, /lac dbimport, /lac rmpass [player], /lac update 
 LongerMessages+longermessages.use+Permission to write longer messages
 Lovey+lovey.admin+Allow to reload the config and turn on/off the hearts.+/lovey admin reload,/lovey admin on,/lovey admin off
 MakeYourOwnCommands+myoc.list+Permission to list the commands+/myoc list
