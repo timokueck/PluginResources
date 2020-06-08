@@ -6174,37 +6174,33 @@ Warps+warps.setwarp.private+Allows player to set private warps+/setwarp
 Warps+warps.setwarp+Allows player to set warp+/setwarp
 Warps+warps.warp+Allows players to warp+/warp
 Warps+warps.warpsreload+Allows player to reload WarpsGUI+/warpsreload
-WarpSystem+warpsystem.bypass.teleport.costs+Bypass teleport costs
-WarpSystem+WarpSystem.Use.WarpGUI+Permission to use Gui of warps.+/warps 
-WarpSystem+WarpSystem.Modify.WarpGUI+Permission to modify the GUI.+/warps
-WarpSystem+WarpSystem.WarpGUI.Other+Let other players open the GUI.
-WarpSystem+WarpSystem.Use.Portals+Permission to use portals.
-WarpSystem+WarpSystem.Modify.Portals+Permission to modify,create or edit a Portal.+/portals <create, edit, delete>
-WarpSystem+WarpSystem.Use.PlayerWarps+Permission for use player warps.+/playerwarp <warp>
-WarpSystem+WarpSystem.Modify.PlayerWarps+Permission to creat, delete ,edit and see list of player warps.+/playerwarps <create, delete, edit, list>
-WarpSystem+WarpSystem.PlayerWarps.0+Add a maximum warp creation for player.
-WarpSystem+WarpSystem.Use.WarpSigns+Permission to use warp signs.
-WarpSystem+WarpSystem.Modify.WarpSigns+Permission to modify warp signs.
-WarpSystem+WarpSystem.Use.shortcuts+Use Shortcuts in general.
-WarpSystem+WarpSystem.Modify.shortcuts+Create, edit and delete shortcuts.+/shortcuts
-WarpSystem+WarpSystem.Use.spawn+permission to Use the /spawn in general.+/spawn
-WarpSystem+WarpSystem.Modify.spawn+permission to Set and edit a spawn.+/setspawn [edit]
-WarpSystem+WarpSystem.Use.SimpleWarps+permission to Warp to a specific SimpleWarp.+/warp <warp> [player]
-WarpSystem+WarpSystem.Modify.SimpleWarps+Permission to create Delete or Edit a SimpleWarp.+/setwarp, /delwarp, /editwarp  
-WarpSystem+Warpsystem.simplewarp.directteleport+
-WarpSystem+WarpSystem.Use.GlobalWarps+permission to Warp to a specific GlobalWarps.+/gwarp <warp> [player]
-WarpSystem+WarpSystem.Modify.GlobalWarps+PErmission to Edit, Delete or list for GlobalWarps.+/gwarps create, /gwarps delte, /gwarps list
-WarpSystem+warpsystem.globalwarp.directteleport+
-WarpSystem+WarpSystem.Use.teleportcommand.<command>+Permission for all command tp, tpall, tptoggle, back, tpaall, tpa, tpahere, tpaccept, tpdeny, tpatoggle.+/tp, /tpall, /tptoggle, /back, /tpaall, /tpa, /tpahere, /tpaccept, /tpdeny, /tpatoggle
-WarpSystem+WarpSystem.Use.RandomTeleporters+Permission to Use rtp in general.+/randomtp <buy, go, info>
-WarpSystem+WarpSystem.Modify.RandomTeleporters+Add, edit and remove interactable rtp blocks.+/randomtp
-WarpSystem+WarpSystem.randomteleporters.free.99+Number of free Random teleport for player
-WarpSystem+WarpSystem.randomteleporters.max.99+max random teleport for player.
-WarpSystem+WarpSystem.ByPass.Maintenance+Use GUI while in maintenance mode
-WarpSystem+WarpSystem.ByPass.Teleport.Delay+Bypass teleport delay
-WarpSystem+WarpSystem.Modify.Portals+Edit the Portals
-WarpSystem+WarpSystem.Modify+Edit the GUI and Portals
-WarpSystem+WarpSystem.Notify+Notify for updates
+WarpSystem+warpsystem.bypass.teleport.costs+Allows the player to bypass the teleport costs.
+WarpSystem+warpsystem.bypass.teleport.delay+Allows the player to bypass the teleport delay.
+WarpSystem+warpsystem.globalwarps.directteleport+Allows the player to global warp another player.+/gwarp <warp> <player>
+WarpSystem+warpsystem.modify.globalwarps+Allows the player to modify global warps.+/gwarps create,/gwarps delete,/gwarps list
+WarpSystem+warpsystem.modify.playerwarps+Allows the player to modify player warps.+/playerwarps create,/playerwarps delete,/playerwarps edit
+WarpSystem+warpsystem.modify.portals+Allows the player to modify warp portals.+/portals create,/portals edit,/portals delete
+WarpSystem+warpsystem.modify.randomteleporters+Allows the player to modify random teleports.+/randomtp add,/randomtp edit,/randomtp remove
+WarpSystem+warpsystem.modify.shortcuts+Allows the player to modify warp shortcuts.+/shortcuts create,/shortcuts edit,/shortcuts delete
+WarpSystem+warpsystem.modify.simplewarps+Allows the player to modify simple warps.+/setwarp,/delwarp,/editwarp
+WarpSystem+warpsystem.modify.spawn+Allows the player to modify spawns.+/setspawn,/setspawn edit
+WarpSystem+warpsystem.modify.warpgui+Allows the player to modify the warp GUI.
+WarpSystem+warpsystem.modify.warpsigns+Allows the player to modify warp signs.
+WarpSystem+warpsystem.notify+Allows the player to receive update notifications of the plugin.
+WarpSystem+warpsystem.playerwarps.[max_amount]+Defines the maximum amount of player warps the player can have.
+WarpSystem+warpsystem.randomteleporters.free.[amount]+Defines the amount of free random teleports the player has.
+WarpSystem+warpsystem.randomteleporters.max.[amount]+Defines the maximum amount of random teleports the player has.
+WarpSystem+warpsystem.simplewarp.directteleport+Allows the player to simple warp another player.+/warp <warp> <player>
+WarpSystem+warpsystem.use.globalwarps+Allows the player to use global warps.+/gwarp <warp>
+WarpSystem+warpsystem.use.playerwarps+Allows the player to use player warps.+/playerwarp <warp>
+WarpSystem+warpsystem.use.portals+Allows the player to use warp portals.
+WarpSystem+warpsystem.use.randomteleporters+Allows the player to randomly teleport.+/randomtp <buy|go|info>
+WarpSystem+warpsystem.use.shortcuts+Allows the player to use warp shortcuts.
+WarpSystem+warpsystem.use.simplewarps+Allows the player to use simple warps.+/warp <warp>
+WarpSystem+warpsystem.use.spawn+Allows the player to use spawn.+/spawn
+WarpSystem+warpsystem.use.warpgui+Allows the player to access the warp GUI.+/warps
+WarpSystem+warpsystem.use.warpsigns+Allows the player to use warp signs.
+WarpSystem+warpsystem.warpgui.other+Allows the player to open the warp GUI for another player.+/warps <player>
 WorldBorder+worldborder.use+Allow the player to set the worldborder radius.+/wb <Radius>
 WorldEdit+worldedit.*+Grants a user all WorldEdit permissions
 WorldEdit+worldedit.analysis.count+Counts the number of a certain type of block+//count
