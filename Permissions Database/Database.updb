@@ -5804,10 +5804,6 @@ UHC+uhc.joinInGame.bypass+for join with arena in game.
 UHC+uhc.poswl.bypass+for join PosWL (Only the first 15 minutes of play!).
 UHC+uhc.teamName.color+for add colors to your team name!
 UHC+uhc.whitelist.bypass+Bypass whitelist.
-UltimateKite2+ultimatekits.preview.<kitname>+Preview the specified kit.+/pk <kitname> 
-UltimateKite2+ultimatekits.admin+Gives the specified kit to the specified player. Reloads the Configuration and Language files for UltimateKits. Edit the specified kit. Make the block you are looking at display a specified kit. Remove a kit from the block you are looking at. Opens the in-game settings GUI for Ultimate Kits. Give a kit-specific key to a player or all players. These keys can be redeemed for kits. Ultra keys give all items, regular keys give some items. Opens the category editor. Give a specific kit key to one player or all players.+/kit <kitname> [player/all], /uk reload , /uk edit <kitname>, /uk set <kitname>, /uk remove, /uk settings, /uk key <kitname> <Ultra/Regular> <Player/All> <amount>, /kitadmin categories, /kitadmin crate <player/all> <kit> <crate> (amount) 
-UltimateKite2+ultimatekits.buy.<kitname>+Allows the user to purchase the specified kit.
-UltimateKite2+ultimatekits.claim.<kitname>+Allows the user to claim the specified kit.
 Ultimate_Name_Color+chat.*+Allow the player to change there Name in every color in Chat.
 Ultimate_Name_Color+chat.aqua+Allow to change there Chat name in aqua.
 Ultimate_Name_Color+chat.black+Allow to change there Chat name in black.
@@ -5853,6 +5849,11 @@ Ultimate_Name_Color+tab.red+Allow to change there Tab name in red.
 Ultimate_Name_Color+tab.white+Allow to change there Tab name in white.
 Ultimate_Name_Color+tab.yellow+Allow to change there Tab name in yellow.
 Ultimate_Name_Color+UNC.admin+Allow to Reload the plugin and reset players.+/name reload,/name reset
+UltimateKits+ultimatekits.admin+Allows the player to use admin commands.+/kit <kit> [player|all],/uk reload,/uk edit <kit>,/uk set <kit>,/uk remove,/uk settings,/uk key <kit> <ultra|regular> <player|all> <amount>,/kitadmin categories,/kitadmin crate <player|all> <kit> <crate> [amount]
+UltimateKits+ultimatekits.buy.[kit]+Allows the player to buy the specific kit.
+UltimateKits+ultimatekits.claim.[kit]+Allows the player to claim the specified kit.
+UltimateKits+ultimatekits.preview.[kit]+Allows the player to preview the specific kit.+/pk <kit>
+UltimateKits+ultimatekits.use+Allows the player to open the kits menu.+/kits
 UltimateModeration+um.admin+Allows the player to configure the settings from an in-game GUI.+/um settings
 UltimateModeration+um.admin+Allows the player to reload the configuration and language files.+/um reload
 UltimateModeration+um.ban.exempt+Allows the player to bypass being banned.
