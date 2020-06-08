@@ -5849,6 +5849,11 @@ Ultimate_Name_Color+tab.red+Allow to change there Tab name in red.
 Ultimate_Name_Color+tab.white+Allow to change there Tab name in white.
 Ultimate_Name_Color+tab.yellow+Allow to change there Tab name in yellow.
 Ultimate_Name_Color+UNC.admin+Allow to Reload the plugin and reset players.+/name reload,/name reset
+UltimateKits+ultimatekits.admin+Allows the player to use admin commands.+/kit <kit> [player|all],/uk reload,/uk edit <kit>,/uk set <kit>,/uk remove,/uk settings,/uk key <kit> <ultra|regular> <player|all> <amount>,/kitadmin categories,/kitadmin crate <player|all> <kit> <crate> [amount]
+UltimateKits+ultimatekits.buy.[kit]+Allows the player to buy the specific kit.
+UltimateKits+ultimatekits.claim.[kit]+Allows the player to claim the specified kit.
+UltimateKits+ultimatekits.preview.[kit]+Allows the player to preview the specific kit.+/pk <kit>
+UltimateKits+ultimatekits.use+Allows the player to open the kits menu.+/kits
 UltimateModeration+um.admin+Allows the player to configure the settings from an in-game GUI.+/um settings
 UltimateModeration+um.admin+Allows the player to reload the configuration and language files.+/um reload
 UltimateModeration+um.ban.exempt+Allows the player to bypass being banned.
