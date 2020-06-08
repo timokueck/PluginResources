@@ -5920,13 +5920,13 @@ UltimatePets+ultimatepets.commands.info+With this permission the player can use 
 UltimatePets+ultimatepets.commands.name+With this permission the player can use "/pet name" command
 UltimatePets+ultimatepets.commands.shop+With this permission the player can use "/pet shop" command
 UltimatePets+ultimatepets.pets.[Pet-Type]+With this permission the player can buy the pet
-UltimateRepairing+ultimaterepairing.rpanvil+Opens the repair interface.+/uranvil
-UltimateRepairing+ultimaterepairing.admin+Reloads the Configuration and Language files for UltimateRepairing, Opens the in-game settings GUI for UltimateRepairing.+/ur reload, /ur settings 
-UltimateRepairing+ultimaterepairing.use.xp+Allows players to repair items with XP levels. 
-UltimateRepairing+ultimaterepairing.use.eco+Allows players to repair items with ECO balance. 
-UltimateRepairing+ultimaterepairing.use.item+Allows players to repair items in exchange for other items.
-UltimateRepairing+ultimaterepairing.mode Allows players to toggle an anvil between eco and levels.
-UltimateRepairing+ultimaterepairing.permplace+Gives the ability to create UltimateRepairing anvils
+UltimateRepairing+ultimaterepairing.admin+Allows the player to reload the configuration and language files of the plugin and to open the in-game settings GUI.+/ur reload,/ur settings
+UltimateRepairing+ultimaterepairing.mode+Allows the player to toggle an anvil between economy and levels mode.
+UltimateRepairing+ultimaterepairing.permplace+Allows the player to create anvils of the plugin.
+UltimateRepairing+ultimaterepairing.rpanvil+Allows the player to open the repair interface.+/uranvil
+UltimateRepairing+ultimaterepairing.use.eco+Allows the player to repair items with economy balance.
+UltimateRepairing+ultimaterepairing.use.item+Allows the player to repair items in exchange for other items.
+UltimateRepairing+ultimaterepairing.use.xp+Allows the player to repair items with xp.
 UltimateShops+ushops.admin+Gives perms for admin features
 UltimateShops+ushops.make+Gives perms to make shops
 UltimateShops+ushops.makeshops.[number]+Gives perms to make a maximum of # shops (requires ushops.make). Without this permission users can make unlimited shops.
