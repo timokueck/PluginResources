@@ -164,6 +164,50 @@ AdvancedBan+ab.warn.temp+Allows the player to temp-warn other players.+/tempwarn
 AdvancedBan+ab.warn.undo+Allows the player to unwarn other players.+/unwarn
 AdvancedBan+ab.warns.other+Allows the player to see other player's warnings.+/warns
 AdvancedBan+ab.warns.own+Allows the player to see their own warnings.+/warns
+AdvancedChatTorch+act.group.admin+Add player in the Admin group.
+AdvancedChatTorch+act.group.builder+Add player in the Builder group.
+AdvancedChatTorch+act.group.donor+Add player in the Donator group.
+AdvancedChatTorch+act.group.gm+Add player in the Guild Master Group.
+AdvancedChatTorch+act.group.member+Add player in the Member group.
+AdvancedChatTorch+act.group.modo+Add player in the Moderator group.
+AdvancedChatTorch+act.group.owner+Add player in the Owner group.
+AdvancedChatTorch+act.group.streamer+Add player in the Streamer group.
+AdvancedChatTorch+act.group.vipa+Add player in the VIP A group.
+AdvancedChatTorch+act.group.vipb+Add player in the VIP B group.
+AdvancedChatTorch+act.group.vipc+Add player in the VIP C group.
+AdvancedChatTorch+act.group.vipd+Add player in the VIP D group.
+AdvancedChatTorch+act.group.vipe+Add player in the VIP E group.
+AdvancedChatTorch+act.group.vipf+Add player in the VIP F group.
+AdvancedChatTorch+act.prefix.admin+Give permission for Admin Prefix.
+AdvancedChatTorch+act.prefix.builder+Give permission for Builder Prefix.
+AdvancedChatTorch+act.prefix.donor+Give permission for Donator Prefix.
+AdvancedChatTorch+act.prefix.gm+Give permission for Guild Master Prefix.
+AdvancedChatTorch+act.prefix.member+Give permission for Member Prefix.
+AdvancedChatTorch+act.prefix.modo+Give permission for Moderator Prefix.
+AdvancedChatTorch+act.prefix.owner+Give permission for Owner Prefix.
+AdvancedChatTorch+act.prefix.staff+Give permission for Staff Prefix.
+AdvancedChatTorch+act.prefix.streamer+Give permission for Stream Prefix.
+AdvancedChatTorch+act.prefix.vipa+Give permission for VIP A Prefix.
+AdvancedChatTorch+act.prefix.vipb+Give permission for VIP B Prefix.
+AdvancedChatTorch+act.prefix.vipc+Give permission for VIP C Prefix.
+AdvancedChatTorch+act.prefix.vipd+Give permission for VIP D Prefix.
+AdvancedChatTorch+act.prefix.vipe+Give permission for VIP E Prefix.
+AdvancedChatTorch+act.prefix.vipf+Give permission for VIP F Prefix.
+AdvancedChatTorch+act.suffix.admin+Give permission for Admin Suffix.
+AdvancedChatTorch+act.suffix.builder+Give permission for Builder Suffix.
+AdvancedChatTorch+act.suffix.donor++Give permission for Donator Suffix.
+AdvancedChatTorch+act.suffix.gm+Give permission for Guild Master Suffix.
+AdvancedChatTorch+act.suffix.member+Give permission for Member Suffix.
+AdvancedChatTorch+act.suffix.modo+Give permission for Moderator Suffix.
+AdvancedChatTorch+act.suffix.owner+Give permission for Owner Suffix.
+AdvancedChatTorch+act.suffix.staff+Give permission for Staff Suffix.
+AdvancedChatTorch+act.suffix.streamer+Give permission for Stream Suffix.
+AdvancedChatTorch+act.suffix.vipa+Give permission for VIP A Suffix.
+AdvancedChatTorch+act.suffix.vipb+Give permission for VIP B Suffix.
+AdvancedChatTorch+act.suffix.vipc+Give permission for VIP C Suffix.
+AdvancedChatTorch+act.suffix.vipd+Give permission for VIP D Suffix.
+AdvancedChatTorch+act.suffix.vipe+Give permission for VIP E Suffix.
+AdvancedChatTorch+act.suffix.vipf+Give permission for VIP F Suffix.
 AdvancedCraftingTable+advancedcraftingtable.admin+to maintain the base Command /advancedcraftingtable+/advancedcraftingtable
 AdvancedEnchantments+ae.admin+Allows a player to use the commands reload, add and delete and also receiving update notifications
 AdvancedEnchantments+ae.curse.*+Allows a player to use all curses (curses will not work without this permission node)
