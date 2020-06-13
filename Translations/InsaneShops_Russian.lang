@@ -46,7 +46,7 @@ GUI_MONEYSELECTOR_TYPEIN: Введите цену в чат
 GUI_SHOP_NAV_SELECT_ACTION: Нажмите для выбора опции
 GUI_SHOP_NAV_SELECTED: Выбранная опция
 GUI_SHOP_NOSELLABLEITEMS_TITLE: Товары не найдены
-GUI_SHOP_NOSELLABLEITEMS_EXPLANATION: Не удалось найти предмета для продажи в инвентаре
+GUI_SHOP_NOSELLABLEITEMS_EXPLANATION: Не удалось найти предмет для продажи в инвентаре
 GUI_SHOP_OUTOFSTOCK_TITLE: Нет в наличии
 GUI_SHOP_OUTOFSTOCK_EXPLANATION: Подождите, пока **%1** пополнит магазин
 GUI_SHOP_REDUCE_TITLE: Уменьшить кол-во
