@@ -1,91 +1,91 @@
-#SHOP: Shop
-#SHOPS: Shops
-#BUY: Buy
-#TYPEIN: Type in
-#ITEMS: Items
-#SELL: Sell
-#REVENUE: Revenue
-#TRANSACTIONS: Transactions
-#PURCHASING: Purchasing
-#BUYING: Buying
-#SELLING: Selling
-#PRICE: Price
-#UNITS: Units
-#AMOUNT: Amount
-#BUY_FOR: Buy for
-#SELL_FOR: Sell for
-#AVAILABLE: Available
-#PRICE_PER_ITEM: Price per Item
-#STOCKED_ITEMS: Stocked Items
-#INCREASE: Increase
-#DECREASE: Decrease
-#QUANTITY: Quantity
-#CONFIRM: Confirm
-#FOR: for
-#YOU_WILL_RECEIVE: You will receive
-#ENCHANTED: Enchanted
-#ITEMS_AVAILABLE: Items available
-#CONTINUE: Continue
-#MONEY_PAID: Money Paid
-#GUI_OVERVIEW_OPENSHOPS_ACTION: Click to open Shops
-#GUI_OVERVIEW_OPENSETTINGS_ACTION: Click to open Settings
-#GUI_SHOPSETTINGS_BUY_LEFTACTION: **Left Click** to **change** buy price
-#GUI_SHOPSETTINGS_BUY_QACTION: **Press Q** to disable buying
-#GUI_SHOPSETTINGS_BUY_OTHERACTION: **Click** to enable **buying**
-#GUI_SHOPSETTINGS_BUY_EXPLANATION: Will buy at **%1** each
-#GUI_SHOPSETTINGS_SELL_LEFTACTION: **Left Click** to **change** sell price
-#GUI_SHOPSETTINGS_SELL_QACTION: **Press Q** to disable selling
-#GUI_SHOPSETTINGS_SELL_OTHERACTION: **Click** to enable **selling**
-#GUI_SHOPSETTINGS_SELL_EXPLANATION: Will sell for **%1** each
-#GUI_MONEYSELECTOR_TYPEIN_ACTION: **Click** to type in a price
-#GUI_MONEYSELECTOR_INCREASE_ACTION: **Left Click **to add **%1**
-#GUI_MONEYSELECTOR_DECREASE_ACTION: **Left Click **to remove **%1**
-#GUI_MONEYSELECTOR_SWITCHUNIT: **Press **[**Drop Key**]** to switch unit
-#GUI_MONEYSELECTOR_CONFIRM_ACTION: Click to confirm
-#GUI_MONEYSELECTOR_TYPEIN: Type in a price in chat
-#GUI_SHOP_NAV_SELECT_ACTION: Click to select this option
-#GUI_SHOP_NAV_SELECTED: This option is currently selected
-#GUI_SHOP_NOSELLABLEITEMS_TITLE: No Items Found
-#GUI_SHOP_NOSELLABLEITEMS_EXPLANATION: Could not find any item to sell in your inventory
-#GUI_SHOP_OUTOFSTOCK_TITLE: Out of Stock
-#GUI_SHOP_OUTOFSTOCK_EXPLANATION: Please wait until **%1** has restocked the shop
-#GUI_SHOP_REDUCE_TITLE: Reduce Quantity
-#GUI_SHOP_REDUCE_LEFTACTION: **Left Click** to remove **1**
-#GUI_SHOP_REDUCE_RIGHTACTION: **Right Click** to remove **10**
-#GUI_SHOP_REDUCE_LIMIT: You cant **decrease** the amount further
-#GUI_SHOP_INCREASE_TITLE: Increase Quantity
-#GUI_SHOP_INCREASE_LEFTACTION: **Left Click** to add **1**
-#GUI_SHOP_INCREASE_RIGHTACTION: **Right Click** to add **10**
-#GUI_SHOP_INCREASE_LIMIT: You cant **increase** the amount further
-#GUI_SHOP_PURCHASE_TITLE: Purchase
-#GUI_SHOP_PURCHASE_ACTION: Click to **purchase**
-#GUI_SHOP_PURCHASE_NOFUNDS: You dont have enough funds to purchase it
-#GUI_SHOPBROWSER_SETTINGSACTION: **Click** to view Settings
-#GUI_SHOPBROWSER_LEFTACTION: **Left Click** to **purchase**
-#GUI_SHOPBROWSER_RIGHTACTION: **Right Click** to view Settings
-#GUI_SHOPBROWSER_YOURSHOPINDICATOR: You are selling this item
-#GUI_SHOPCREATION_TITLE: Create a Shop
-#GUI_SHOPCREATION_TITLEWITHAMOUNT: Sell %1x this Item
-#GUI_SHOPCREATION_INCREASE_ACTION: Click to increase amount
-#GUI_SHOPCREATION_REDUCE_ACTION: Click to reduce amount
-#GUI_SHOPCREATION_UNAVAILABLE_EXPLANATION: This option is not available
-#GUI_SHOPCREATION_CONTINUE_EXPLANATION: Click to continue
-#GUI_SHOPSETTINGS_CONVERTADMINSHOP_TITLE: Convert to Admin Shop
-#GUI_SHOPSETTINGS_CONVERTADMINSHOP_ACTION: **Click** to convert
-#GUI_SHOPSETTINGS_STOCK_ACTION: Click to **manage** items
-#GUI_SHOPSETTINGS_STOCK_REVENUE_IF_SOLD: Total revenue if sold
-#GUI_SHOPSETTINGS_TRANSACTIONS_ACTION: Click to **view** transactions
-#GUI_SHOPSETTINGS_DELETE_TITLE: Close Shop
-#GUI_SHOPSETTINGS_DELETE_ACTION: Click to close shop
-#GUI_SHOPSETTINGS_DELETE_NEEDWITHDRAWING: Please withdraw all stocked items first
-#GUI_STOCKEDVIEW_TITLE: Items in Stock
-#GUI_STOCKEDVIEW_ACTION: Click to **move** into your Inventory
-#GUI_STOCKEDVIEW_INSTRUCTION: Add items by clicking on them in your Inventory
-#GUI_TRANSACTIONS_PURCHASETIME: Purchased **%1** ago
-#SHOP_CREATION_NOPERMISSION: You are not allowed to create a Shop
-#SHOP_CREATION_INVALID_ITEM: You cant sell this item
-#SHOP_CREATION_REACHED_LIMIT: You are not allowed to create more than **%1** Shops
-#ACTIONBAR_NOTICES_OPENSHOP: **Right Click** to open this **Shop**
-#ACTIONBAR_NOTICES_CREATESHOP: **Sneak + Left Click** to create a new Shop
-#MESSAGE_BUY_INVFULL: Could not buy **%1**. Your inventory is full.
-#MESSAGE_BUY_COMPLETED: Successfully bought **%1x %2 **for **%3
+SHOP: Магазин
+SHOPS: Магазины
+BUY: Покупка
+TYPEIN: Ввести
+ITEMS: товара(ов)
+SELL: Продать
+REVENUE: Прибыль
+TRANSACTIONS: Транзакции
+PURCHASING: Покупка
+BUYING: Покупка
+SELLING: Продажа
+PRICE: Цена
+UNITS: Единицы
+AMOUNT: Количество
+BUY_FOR: Покупка:
+SELL_FOR: Продажа:
+AVAILABLE: В наличии
+PRICE_PER_ITEM: Цена за штуку
+STOCKED_ITEMS: Товары
+INCREASE: Увеличить
+DECREASE: Уменьшить
+QUANTITY: Количество
+CONFIRM: Подтвердить
+FOR: за
+YOU_WILL_RECEIVE: Вы получите
+ENCHANTED: Enchanted
+ITEMS_AVAILABLE: В наличии
+CONTINUE: Продолжить
+MONEY_PAID: Выплачено
+GUI_OVERVIEW_OPENSHOPS_ACTION: Нажмите для открытия магазинов
+GUI_OVERVIEW_OPENSETTINGS_ACTION: Нажмите для открытия настроек
+GUI_SHOPSETTINGS_BUY_LEFTACTION: **ЛКМ** для **изменения** цены покупки
+GUI_SHOPSETTINGS_BUY_QACTION: **Q** для выключения покупки
+GUI_SHOPSETTINGS_BUY_OTHERACTION: **Нажмите** для включения **покупки**
+GUI_SHOPSETTINGS_BUY_EXPLANATION: Покупка **%1**/штуку
+GUI_SHOPSETTINGS_SELL_LEFTACTION: **ЛКМ** для **изменения** цены продажи
+GUI_SHOPSETTINGS_SELL_QACTION: **Q** для выключения продажи
+GUI_SHOPSETTINGS_SELL_OTHERACTION: **Нажмите** для включения **продажи**
+GUI_SHOPSETTINGS_SELL_EXPLANATION: Продажа **%1**/штуку
+GUI_MONEYSELECTOR_TYPEIN_ACTION: **Нажмите** для ввода цены
+GUI_MONEYSELECTOR_INCREASE_ACTION: **ЛКМ** для добавления **%1**
+GUI_MONEYSELECTOR_DECREASE_ACTION: **ЛКМ** для удаления **%1**
+GUI_MONEYSELECTOR_SWITCHUNIT: **Q******** для переключения единиц
+GUI_MONEYSELECTOR_CONFIRM_ACTION: Нажмите для подтверждения
+GUI_MONEYSELECTOR_TYPEIN: Введите цену в чат
+GUI_SHOP_NAV_SELECT_ACTION: Нажмите для выбора опции
+GUI_SHOP_NAV_SELECTED: Выбранная опция
+GUI_SHOP_NOSELLABLEITEMS_TITLE: Товары не найдены
+GUI_SHOP_NOSELLABLEITEMS_EXPLANATION: Не удалось найти предмета для продажи в инвентаре
+GUI_SHOP_OUTOFSTOCK_TITLE: Нет в наличии
+GUI_SHOP_OUTOFSTOCK_EXPLANATION: Подождите, пока **%1** пополнит магазин
+GUI_SHOP_REDUCE_TITLE: Уменьшить кол-во
+GUI_SHOP_REDUCE_LEFTACTION: **ЛКМ** для удаления **1**
+GUI_SHOP_REDUCE_RIGHTACTION: **ПКМ** для удаления **10**
+GUI_SHOP_REDUCE_LIMIT: Невозможно **уменьшить** количество
+GUI_SHOP_INCREASE_TITLE: Увеличить кол-во
+GUI_SHOP_INCREASE_LEFTACTION: **ЛКМ** для добавления **1**
+GUI_SHOP_INCREASE_RIGHTACTION: **ПКМ** для добавления **10**
+GUI_SHOP_INCREASE_LIMIT: Невозможно **увеличить** количество
+GUI_SHOP_PURCHASE_TITLE: Купить
+GUI_SHOP_PURCHASE_ACTION: Нажмите для **покупки**
+GUI_SHOP_PURCHASE_NOFUNDS: У вас нет достаточно средств для покупки
+GUI_SHOPBROWSER_SETTINGSACTION: **Нажмите** для просмотра настроек
+GUI_SHOPBROWSER_LEFTACTION: **ЛКМ** для **покупки**
+GUI_SHOPBROWSER_RIGHTACTION: **ПКМ** для просмотра настроек
+GUI_SHOPBROWSER_YOURSHOPINDICATOR: Вы продаете этот товар
+GUI_SHOPCREATION_TITLE: Создать магазин
+GUI_SHOPCREATION_TITLEWITHAMOUNT: Продавать %1 товара(ов)
+GUI_SHOPCREATION_INCREASE_ACTION: Нажмите для увеличения кол-ва
+GUI_SHOPCREATION_REDUCE_ACTION: Нажмите для уменьшения кол-ва
+GUI_SHOPCREATION_UNAVAILABLE_EXPLANATION: Эта опция недоступна
+GUI_SHOPCREATION_CONTINUE_EXPLANATION: Нажмите для продолжения
+GUI_SHOPSETTINGS_CONVERTADMINSHOP_TITLE: Превратить в админ-магазин
+GUI_SHOPSETTINGS_CONVERTADMINSHOP_ACTION: **Нажмите** для превращения
+GUI_SHOPSETTINGS_STOCK_ACTION: Нажмите для **управления** товарами
+GUI_SHOPSETTINGS_STOCK_REVENUE_IF_SOLD: Общая прибыль за продажу:
+GUI_SHOPSETTINGS_TRANSACTIONS_ACTION: Нажмите для **просмотра** транзакций
+GUI_SHOPSETTINGS_DELETE_TITLE: Закрыть магазин
+GUI_SHOPSETTINGS_DELETE_ACTION: Нажмите для закрытия магазина
+GUI_SHOPSETTINGS_DELETE_NEEDWITHDRAWING: Сначала заберите все товары
+GUI_STOCKEDVIEW_TITLE: Товары в наличии
+GUI_STOCKEDVIEW_ACTION: Нажмите для **перемещения** в инвентарь
+GUI_STOCKEDVIEW_INSTRUCTION: Добавьте товары, нажимая на них в инвентаре
+GUI_TRANSACTIONS_PURCHASETIME: Куплено **%1** назад
+SHOP_CREATION_NOPERMISSION: Вы не можете создать магазин
+SHOP_CREATION_INVALID_ITEM: Невозможно продать этот товар
+SHOP_CREATION_REACHED_LIMIT: Вы не можете создать более **%1** магазинов
+ACTIONBAR_NOTICES_OPENSHOP: **ПКМ** для открытия **магазина**
+ACTIONBAR_NOTICES_CREATESHOP: **Shift + ЛКМ** для создания магазина
+MESSAGE_BUY_INVFULL: Невозможно купить **%1**. Ваш инвентарь полон.
+MESSAGE_BUY_COMPLETED: Вы купили **%2 x%1** за **%3
