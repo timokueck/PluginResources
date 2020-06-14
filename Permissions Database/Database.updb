@@ -2,14 +2,14 @@
 # Github: https://github.com/TechsCode/PluginResources
 # Format: https://github.com/TechsCode/PluginResources/blob/master/README.md#format
 #
-AAC+AAC.banvl+Allows the player to cahnge another players banvl.+/aac banvl
-AAC+AAC.bypass+Allows the player to be exempt from all AAC checks.
-AAC+AAC.manage+Allows the player to enable and disable checks, mitigations and actions in real time.+/aac manage
-AAC+AAC.moderator+Allows the player to view violation levels of another player.+/aac moderator
-AAC+AAC.notify+Allows the player to send and receive AAC notifications.+/aac notify
-AAC+AAC.reload+Allows the player to reload all of the plugin's components from the configuration file.+/aac reload
-AAC+AAC.status+Allows the player to see general information about the status of AAC.+/aac status
-AAC+AAC.verbose+Allows the player to see debug messages of AAC.+/aac verbose
+AAC+AAC.banvl+Permet au joueur de changer le Banvl d'un autre joueur.+/aac banvl
+AAC+AAC.bypass+Permet au joueur d'etre exempte de tous les controles AAC.
+AAC+AAC.manage+Permet au joueur d'activer et de desactiver les verifications, les attenuations et les actions en temps reel.+/aac manage
+AAC+AAC.moderator+Permet au joueur de voir les niveaux de violation d'un autre joueur.+/aac moderator
+AAC+AAC.notify+Permet au joueur d'envoyer et de recevoir des notifications AAC.+/aac notify
+AAC+AAC.reload+Permet au joueur de recharger tous les composants du plugin a partir du fichier de configuration.+/aac reload
+AAC+AAC.status+Permet au joueur de voir des informations générales sur l'état de l'AAC.+/aac status
+AAC+AAC.verbose+Permet au joueur de voir les messages de debugage d'AAC.+/aac verbose
 Actionbar+actionbar.announcer.list+Allows you to list all messages of the announcer +/actionbarannouncer list
 Actionbar+actionbar.announcer.send+Allows you to send a line of the announcers messages +/actionbarannouncer send
 Actionbar+actionbar.announcer.start+Allows you to start the announcer+/actionbarannouncer start
