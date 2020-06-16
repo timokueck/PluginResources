@@ -168,6 +168,7 @@ AdvancedChatTorch+act.group.admin+Add player in the Admin group.
 AdvancedChatTorch+act.group.builder+Add player in the Builder group.
 AdvancedChatTorch+act.group.donor+Add player in the Donator group.
 AdvancedChatTorch+act.group.gm+Add player in the Guild Master Group.
+AdvancedChatTorch+act.group.mg+Add player in the Guild Member Group.
 AdvancedChatTorch+act.group.member+Add player in the Member group.
 AdvancedChatTorch+act.group.modo+Add player in the Moderator group.
 AdvancedChatTorch+act.group.owner+Add player in the Owner group.
@@ -182,6 +183,7 @@ AdvancedChatTorch+act.prefix.admin+Give permission for Admin Prefix.
 AdvancedChatTorch+act.prefix.builder+Give permission for Builder Prefix.
 AdvancedChatTorch+act.prefix.donor+Give permission for Donator Prefix.
 AdvancedChatTorch+act.prefix.gm+Give permission for Guild Master Prefix.
+AdvancedChatTorch+act.prefix.mg+Give permission for the Guild Member Prefix.
 AdvancedChatTorch+act.prefix.member+Give permission for Member Prefix.
 AdvancedChatTorch+act.prefix.modo+Give permission for Moderator Prefix.
 AdvancedChatTorch+act.prefix.owner+Give permission for Owner Prefix.
