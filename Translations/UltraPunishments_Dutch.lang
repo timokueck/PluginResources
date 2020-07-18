@@ -18,8 +18,8 @@ BAN: Ban
 MUTE: Dempen
 OR: Of
 NONE: Geen
-#ISSUER: Issuer
-#CREATE_REPORT: Maak een rapport
+ISSUER: Uitgever
+CREATE_REPORT: Maak een rapport
 GUI_OVERVIEW_PLAYERS_ACTION: Klik om spelers te tonen
 GUI_OVERVIEW_REPORTS_ACTION: Klik om geopende rapporten weer te geven
 GUI_OVERVIEW_SETTINGS_ACTION: Klik om Instellingen weer te geven
@@ -30,15 +30,15 @@ TYPE_IN_REASON: Voer een reden in
 TYPE_IN_MESSAGE: Typ een bericht in
 SET_A_REASON: Klik om de reden in te stellen
 SET_A_DURATION: Klik om de duur in te stellen
-#GUI_REPORTCREATION_ADDMESSAGE_TITLE: Bericht toevoegen
-#GUI_REPORTCREATION_ADDMESSAGE_ACTION: Klik om **bericht** toe te voegen en **door te gaan**
-#GUI_REPORTCREATION_ADDMESSAGE_EXPLANATION: Voeg een gedetailleerd bericht toe aan het rapport
-#GUI_REPORTCREATION_ADDEVIDENCE_TITLE: Voeg bewijs toe
-#GUI_REPORTCREATION_ADDEVIDENCE_ACTION: Klik om **bewijs** toe te voegen en **door te gaan**
-#GUI_REPORTCREATION_ADDEVIDENCE_EXPLANATION: Voeg **Chatberichten**, **Kill Feed** en andere acties toe aan het rapport
+GUI_REPORTCREATION_ADDMESSAGE_TITLE: Bericht toevoegen
+GUI_REPORTCREATION_ADDMESSAGE_ACTION: Klik om **bericht** toe te voegen en **door te gaan**
+GUI_REPORTCREATION_ADDMESSAGE_EXPLANATION: Voeg een gedetailleerd bericht toe aan het rapport
+GUI_REPORTCREATION_ADDEVIDENCE_TITLE: Voeg bewijs toe
+GUI_REPORTCREATION_ADDEVIDENCE_ACTION: Klik om **bewijs** toe te voegen en **door te gaan**
+GUI_REPORTCREATION_ADDEVIDENCE_EXPLANATION: Voeg **Chatberichten**, **Kill Feed** en andere acties toe aan het rapport
 GUI_PLAYERBROWSER_ACTION: Klik om de speler te bekijken
-#GUI_WARNINGSBROWSER_ACTION: Klik om **te verwijderen**
-#GUI_WARNINGSBROWSER_NOPERM: Je hebt geen toestemming om deze waarschuwing te verwijderen
+GUI_WARNINGSBROWSER_ACTION: Klik om **te verwijderen**
+GUI_WARNINGSBROWSER_NOPERM: Je hebt geen toestemming om deze waarschuwing te verwijderen
 GUI_PLAYERVIEW_PUNISH_LEFTACTION: **Klik met de linkermuisknop** op %1
 GUI_PLAYERVIEW_PUNISH_RIGHTACTION: **Klik met de rechtermuisknop** om **Waarschuwen (+ Kick)**
 GUI_PLAYERVIEW_PUNISH_UNPUNISHABLE: Straffen voor deze speler zijn uitgeschakeld.
@@ -55,4 +55,4 @@ GUI_PLAYERVIEW_REPORTS_ACTIVEREPORTS_NONE: Speler heeft geen actieve rapporten
 GUI_PLAYERVIEW_EXCLUDE_TITLE: Uitsluiten van straffen
 GUI_PLAYERVIEW_EXCLUDE_ACTION: Klik om %1 straffen voor deze speler
 GUI_PLAYERVIEW_EXCLUDE_EXPLANATION: Deze speler kan door niemand worden gestraft
-#MESSAGE_CREATED_REPORT: Bedankt voor het melden **%1**
+MESSAGE_CREATED_REPORT: Bedankt voor het melden **%1**
