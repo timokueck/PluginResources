@@ -11,7 +11,7 @@ MINUTE: Minuut
 MINUTES: Minuten
 SECOND: Seconde
 SECONDS: Secondes
-NONE: None
+NONE: Geen
 COMMAND_NOPERMISSION: Je hebt geen **toegang** tot dat command
 COMMAND_NOCONSOLE: Dit command kan niet uitgevoerd worden via de console
 GUI_SETTINGS_SELECTPAGE: Klik voor de Instellingen
