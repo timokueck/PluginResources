@@ -4981,6 +4981,59 @@ ReportPlus+ReportPlus.vanish+Allows to use command /invs.+/invs
 Reputation+reputation.admin+Show help, give/take/reset points, reload plugin
 ReWorld+reworld.admin+Allows a player to use the GUI of ReWorld.+/reworld
 ReWorld+reworld.bypass.build+Allows a player to bypass the build flag in ReWorld.
+RoyaleEconomy+rec.admin.help+Help command.
+RoyaleEconomy+rec.admin.purse+Allow player to see purse balance.+/royaleeconomy purse
+RoyaleEconomy+rec.admin.bank+Allow player to edit balance in player bank.+/royaleeconomy bank
+RoyaleEconomy+rec.admin.sharedbank+Allow player to have access to shared bank.+/royaleeconomy sharedbank
+RoyaleEconomy+rec.admin.shops+Allow player to edit and manage shops.+/royaleeconomy shops
+RoyaleEconomy+rec.admin.reload+Reloads the config files and static values.+/royaleeconomy reload
+RoyaleEconomy+rec.balance+Allow player to see own balance.+/balance
+RoyaleEconomy+rec.balance.other+Allow player to se other player balance.+/balance <Player>
+RoyaleEconomy+rec.shop.help+Allow player to see help commands for shops.+/reshop
+RoyaleEconomy+rec.shop.open+Allow player to open a specific shop by name.+/reshop open <Shop>
+RoyaleEconomy+rec.admin.shop.forceopen+Allow player to forcefully open a specific shop by name to a player.+/reshop forceopen <Shop> <Player>
+RoyaleEconomy+rec.pay+Allow player to give ather player money+/pay <Player> <Amount>
+RoyaleEconomy+rec.balancetop.help+Allow player to see help commands for balancetop+/balancetop
+RoyaleEconomy+rec.balancetop.purse+Allow player to see the top regarding purse coins.+/balancetop purse
+RoyaleEconomy+rec.balancetop.bank+Allow player to see the top regarding bank coins.+/balancetop bank
+RoyaleEconomy+rec.balancetop.sharedbank+Allow player to see the top regarding sharedbank coins.+/balancetop sharedbank
+RoyaleEconomy+rec.bank.help+Allow player to see help commands for bank.+/bank help
+RoyaleEconomy+rec.bank.command+Allow player to open bank menu.+/bank
+RoyaleEconomy+rec.bank.balance+Allow player to see own bank balance.+/bank balance
+RoyaleEconomy+rec.bank.balance.other+Allow player to see other player bank balance.+/bank balance <Player>
+RoyaleEconomy+rec.bank.withdraw+Allow player to opens the withdraw menu.+/bank withdraw
+RoyaleEconomy+rec.bank.deposit+Allow player to opens the deposit menu.+/bank deposit
+RoyaleEconomy+rec.sharedbank.help+Allow player to see help commands for sharedbank+/sharedbank help
+RoyaleEconomy+rec.sharedbank.balance+Allow player to see the bank balance you have/other player has.+/sharedbank balance
+RoyaleEconomy+rec.sharedbank.balance.other+Allow player to see other's sharedbank balance.
+RoyaleEconomy+rec.sharedbank.withdraw+Allow player to opens the withdraw menu.+/sharedbank withdraw
+RoyaleEconomy+rec.bank.deposit+Allow player to opens the deposit menu.+/sharedbank deposit
+RoyaleEconomy+rec.sharedbank.create+Allow player to create a sharedbank+/sharedbank create
+RoyaleEconomy+rec.sharedbank.transfer+Allow owner of shardbank transfers the bank ownership to another member of the bank.+/sharedbank transfer
+RoyaleEconomy+rec.sharedbank.disband+Allow owner of sharedbank to delete a shared bank.+/sharedbank [delete, disband]
+RoyaleEconomy+rec.sharedbank.leave+Allow member in a sharedbank to leave sharedbank.+/sharedbank leave
+RoyaleEconomy+rec.sharedbank.invite+Allow owner of shardbank to invite a player to sharedbank.+/sharedbank invite
+RoyaleEconomy+rec.sharedbank.accept+Allow player to accept an invitation to a shared bank.+/sharedbank accept
+RoyaleEconomy+rec.sharedbank.kick+Allow owner of shardbank to kick a member out of shardbank.+/sharedbank kick
+RoyaleEconomy+rec.sharedbank.info+Get info about a player's shared bank.+/sharedbank info
+RoyaleEconomy+rec.talismans.help+Allow player to display tailsmans commands+/talismans help
+RoyaleEconomy+rec.talismans.open+Allow player to open the talisman list+/tailsmans
+RoyaleEconomy+rec.talismans.give+Allow player to give tailsmans+/talismans give
+RoyaleEconomy+rec.killcoins.bypass.limit+Allow player to bypass killcoins
+RoyaleEconomy+rec.killcoins.command+Allow access to /killcoins command+/killcoins
+RoyaleEconomy+rec.piggybank.help+Allow player to see help commands for piggybank+/piggybank help
+RoyaleEconomy+rec.piggybank.get+Allow player to get piggybank+/piggybank get
+RoyaleEconomy+rec.piggybank.give+Allow player to give other player a piggybank+/piggybank give <Player>
+RoyaleEconomy+rec.moneybag.help+Allow player to see help commands for moneybag+/moneybag help
+RoyaleEconomy+rec.moneybag.get+Allow player to transforms a specific amount of coins from the purse to a coins bag and gives it to player.+/coinsbag get <Amount>
+RoyaleEconomy+rec.moneybag.adminget+Allow player to spawn in a moneybag+/coinsbag adminget <Amount>
+RoyaleEconomy+rec.moneybag.give+Allow player to give a coins bag to someone else.+/coinsbag give 
+RoyaleEconomy+rec.interest.help+Allow player to see help commands for interest+/interest help
+RoyaleEconomy+rec.interest.speedup+Allow player to speeds up the interest by removing some hours from the remaining time until interest.+/interest speedup
+RoyaleEconomy+rec.interest.slowdown+Allow player to slow down the interest by adding some hours to the remaining time until interest.+/interest slowdown
+RoyaleEconomy+rec.interest.reset+Allow player to resets the interest remaining time to the specified config value without triggering the interest.+/interest reset
+RoyaleEconomy+rec.interest.force+Allow player to triggers an interest without affecting the remaning time.+/interest force
+RoyaleEconomy+rec.interest+Command for checking remaining time until interest.+/interest
 RunAsConsole+rac.info+Allow Use Of The /runasconsole command+/runasconsole
 RunAsConsole+rac.use+Allow Use Of The /console command+/console
 Secrets+secret.admin+Needed for sign creation.
