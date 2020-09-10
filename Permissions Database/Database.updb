@@ -4988,11 +4988,11 @@ RoyaleEconomy+rec.admin.sharedbank+Allow player to have access to shared bank.+/
 RoyaleEconomy+rec.admin.shops+Allow player to edit and manage shops.+/royaleeconomy shops
 RoyaleEconomy+rec.admin.reload+Reloads the config files and static values.+/royaleeconomy reload
 RoyaleEconomy+rec.balance+Allow player to see own balance.+/balance
-RoyaleEconomy+rec.balance.other+Allow player to se other player balance.+/balance <Player>
+RoyaleEconomy+rec.balance.other+Allow player to see other player balance.+/balance <Player>
 RoyaleEconomy+rec.shop.help+Allow player to see help commands for shops.+/reshop
 RoyaleEconomy+rec.shop.open+Allow player to open a specific shop by name.+/reshop open <Shop>
 RoyaleEconomy+rec.admin.shop.forceopen+Allow player to forcefully open a specific shop by name to a player.+/reshop forceopen <Shop> <Player>
-RoyaleEconomy+rec.pay+Allow player to give ather player money+/pay <Player> <Amount>
+RoyaleEconomy+rec.pay+Allow player to give other player money+/pay <Player> <Amount>
 RoyaleEconomy+rec.balancetop.help+Allow player to see help commands for balancetop+/balancetop
 RoyaleEconomy+rec.balancetop.purse+Allow player to see the top regarding purse coins.+/balancetop purse
 RoyaleEconomy+rec.balancetop.bank+Allow player to see the top regarding bank coins.+/balancetop bank
@@ -5010,7 +5010,7 @@ RoyaleEconomy+rec.sharedbank.withdraw+Allow player to opens the withdraw menu.+/
 RoyaleEconomy+rec.bank.deposit+Allow player to opens the deposit menu.+/sharedbank deposit
 RoyaleEconomy+rec.sharedbank.create+Allow player to create a sharedbank+/sharedbank create
 RoyaleEconomy+rec.sharedbank.transfer+Allow owner of shardbank transfers the bank ownership to another member of the bank.+/sharedbank transfer
-RoyaleEconomy+rec.sharedbank.disband+Allow owner of sharedbank to delete a shared bank.+/sharedbank [delete, disband]
+RoyaleEconomy+rec.sharedbank.disband+Allow owner of sharedbank to delete a shared bank.+/sharedbank delete,/sharedbank disband
 RoyaleEconomy+rec.sharedbank.leave+Allow member in a sharedbank to leave sharedbank.+/sharedbank leave
 RoyaleEconomy+rec.sharedbank.invite+Allow owner of shardbank to invite a player to sharedbank.+/sharedbank invite
 RoyaleEconomy+rec.sharedbank.accept+Allow player to accept an invitation to a shared bank.+/sharedbank accept
