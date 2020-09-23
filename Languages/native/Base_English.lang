@@ -37,7 +37,7 @@ mysqlPane.connectionLimits.setting.maximumActiveConnections: "Maximum Active Con
 mysqlPane.connectionLimits.setting.minimumIdleConnections: "Minimum Idle Connections"
 mysqlPane.connectionLimits.switchAction: "**Press Q** to switch option"
 mysqlPane.connectionLimits.title: "Connection Limits"
-mysqlPane.couldNotConnect.connectionError: "Connection Error: "
+mysqlPane.couldNotConnect.connectionError: "Connection Error:"
 mysqlPane.couldNotConnect.desc: "Check if your settings are correct & if the database is accessible"
 mysqlPane.couldNotConnect.title: "Could not connect"
 mysqlPane.credentials.clearAction: "**Click** to **clear** MySQL Credentials"
