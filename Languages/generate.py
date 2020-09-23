@@ -33,7 +33,7 @@ for templateFile in templateFiles:
         try:
             fileReader = open(fileName, "r+")
             for line in fileReader.readlines():
-                split = line.split(": ",1);
+                split = line.split("== ",1);
                 existingPhrases.append(split[0].replace("#", ""));
 
                 if "#" in line:
@@ -48,7 +48,7 @@ for templateFile in templateFiles:
         fileWriter = open(fileName, "w+");
 
         for line in templateLines:
-            split = line.split(": ",1);
+            split = line.split("== ",1);
 
             if len(split) != 2:
                 continue;
@@ -58,12 +58,12 @@ for templateFile in templateFiles:
 
             if phraseName in phrases:
                 value = phrases[phraseName];
-                fileWriter.write(phraseName+": "+value);
+                fileWriter.write(phraseName+"== "+value);
             else:
                 if (phraseName in existingPhrases) == False:
                     print("["+fileName+"] Created Phrase '"+phraseName+"'");
 
-                fileWriter.write("#"+phraseName+": "+value);
+                fileWriter.write("#"+phraseName+"== "+value);
 
         fileWriter.close();
         print("["+fileName+"] Done!");

@@ -1,119 +1,121 @@
-#command.noConsole: This command cannot be run through the console
-#command.noPermission: You don't have **access** to that command
-#command.usage.title: Usage:
-#confirmationView.confirm.action: Click to confirm
-#confirmationView.confirm.title: Confirm
-#confirmationView.deny.action: Click to abort
-#confirmationView.deny.title: Abort
-#day: day
-#days: days
-#disable: disable
-#disabled: disabled
-enable: aktivieren
-#enabled: enabled
-hour: stunde
-hours: stunden
-#languagePane.coverage: Coverage: **%**
-#languagePane.name: Language
-#languagePane.phrases: Phrases: **%**
-#languagePane.select.action: Click to **select** this language
-#languagePane.select.indicator: This language is **currently** selected
-#minute: minute
-#minutes: minutes
-#mysqlPane.connectionLimits.decreaseAction: **Right Click** to **decrease**
-#mysqlPane.connectionLimits.desc: Do not change these limits if you do not know what they are!
-#mysqlPane.connectionLimits.increaseAction: **Left Click** to **increase**
-#mysqlPane.connectionLimits.setting.maximumActiveConnections: Maximum Active Connections
-#mysqlPane.connectionLimits.setting.minimumIdleConnections: Minimum Idle Connections
-#mysqlPane.connectionLimits.switchAction: **Press Q** to switch option
-#mysqlPane.connectionLimits.title: Connection Limits
-#mysqlPane.couldNotConnect.connectionError: Connection Error:
-#mysqlPane.couldNotConnect.desc: Check if your settings are correct & if the database is accessible
-#mysqlPane.couldNotConnect.title: Could not connect
-#mysqlPane.credentials.clearAction: **Click** to **clear** MySQL Credentials
-#mysqlPane.credentials.connectionsUrl: Connection Url:
-#mysqlPane.credentials.desc: These must be the same for **every** Server
-#mysqlPane.credentials.enterAction: **Click** to enter MySQL Credentials
-#mysqlPane.credentials.password: Password: **%**
-#mysqlPane.credentials.title: Credentials
-#mysqlPane.credentials.username: Username: **%**
-#mysqlPane.database: database
-#mysqlPane.disable.action: Click to disable MySQL
-#mysqlPane.disable.desc: You will be asked to restart to apply the changes
-#mysqlPane.disable.title: Deactivate
-#mysqlPane.encryption.disableAction: Click to **disable** §7encryption
-#mysqlPane.encryption.enableAction: Click to **enable** encryption
-#mysqlPane.encryption.ssl: SSL: **%**
-#mysqlPane.encryption.title: SSL
-#mysqlPane.everythingSaved.desc: There are no changes to be saved
-#mysqlPane.everythingSaved.title: Everything Saved
-#mysqlPane.hostname: hostname
-#mysqlPane.loading.desc: Please wait while the plugin runs all connection tests
-#mysqlPane.loading.title: Testing Connection
-#mysqlPane.name: MySQL Database
-#mysqlPane.password: password
-mysqlPane.port: port
-#mysqlPane.save.action: Click to **save** changes
-mysqlPane.save.title: Speichern
-#mysqlPane.setup.action: Click to enable MySQL
-#mysqlPane.setup.desc: This requires an external MySQL Database to connect to
-#mysqlPane.setup.title: Setup MySQL
-#mysqlPane.test.action: Click to test **changes**
-#mysqlPane.test.database: Database: **%**
-#mysqlPane.test.hostname: Hostname: **%**
-#mysqlPane.test.maximumPoolSize: Maximum Pool Size: **%**
-#mysqlPane.test.minimumIdle: Minimum Idle: **%**
-#mysqlPane.test.password: Password: **%**
-#mysqlPane.test.port: Port: **%**
-#mysqlPane.test.ssl: SSL: **%**
-#mysqlPane.test.title: Test Changes
-#mysqlPane.test.username: Username: **%**
-#mysqlPane.username: username
-#mysqlSetup.actionBar: Default: **%**
-#mysqlSetup.subtitle: Type in **%** into Chat
-#mysqlSetup.title: MySQL Setup
-#pageableView.basicSearch.action: Click to search
-#pageableView.basicSearch.title: Search
-#pageableView.next.action: Click to go to the next page
-#pageableView.next.title: Next
-#pageableView.previous.action: Click to go to the previous page
-#pageableView.previous.title: Previous
-#pageableView.search.closeAction: Click to **close** the search
-#pageableView.search.subtitle: Type in a search term
-#pageableView.search.title: Search
-#restartView.button.action: §7Click to restart the Server
-#restartView.button.title: Restart
-#restartView.restarting: Restarting...
-#restartView.title: Restart the Server
-#second: second
-#seconds: seconds
-#settings: settings
-#settingsView.select.action: Click to show Settings
-#settingsView.select.indicator: This page is currently **selected**
-#settingsView.title: Settings > %
-#timePickerView.addDay: Add 1 Day
-#timePickerView.addHour: Add 1 Hour
-#timePickerView.addMinute: Add 1 Minute
-#timePickerView.addSecond: Add 1 Second
-#timePickerView.confirm.action: Click to confirm
-#timePickerView.confirm.title: Confirm
-#timePickerView.decrementAction: Click to remove
-#timePickerView.incrementAction: Click to add
-#timePickerView.removeDay: Remove 1 Day
-#timePickerView.removeHour: Remove 1 Hour
-#timePickerView.removeMinute: Remove 1 Minute
-#timePickerView.removeSecond: Remove 1 Second
-#update.clickToAuthenticate: Click the link below to authenticate using **Discord**:
-#update.serverOffline: There was an error communicating with our update Server
-#update.updatedPlugin: Updated the plugin to **%**, reloading..
-#update.youAreNotVerified: You are not verified on our **Discord**
-#update.youNotOwnPlugin: You do not own this plugin. **Purchase it** to unlock this feature
-#updateView.no.action: Click to stay on this Version
-#updateView.no.desc.newVersion: New Version: **%**
-#updateView.no.desc.yourVersion: Your Version: **%**
-#updateView.no.title: Stay on this Version
-#updateView.title: Update from %from% to %to%
-#updateView.yes.action: Click to load **update**
-#updateView.yes.desc: This feature requires **Discord** to verify your purchase
-#updateView.yes.title: Update
-#userInput.leftClickClose: **Left Click** to close
+backButton.action: "Klicke um zurück zu kommen"
+backButton.title: "Zurück"
+command.noConsole: "Dieser Befehl kann nicht mit Console ausgeführt werden"
+command.noPermission: "Du hast kein **Zugriff** auf diesen Befehl"
+command.usage.title: "Benutzung:"
+confirmationView.confirm.action: "Klicke um zu bestätigen"
+confirmationView.confirm.title: "Bestätigen"
+confirmationView.deny.action: "Klicke um abzubrechen"
+confirmationView.deny.title: "Abbrechen"
+day: "tag"
+days: "tage"
+disable: "deaktivieren"
+disabled: "deaktiviert"
+enable: "aktivieren"
+enabled: "aktiviert"
+hour: "stunde"
+hours: "stunden"
+languagePane.coverage: "Abdeckung: **%**"
+languagePane.name: "Sprache"
+languagePane.phrases: "Sätze: **%**"
+languagePane.select.action: "Klicke um diese Sprache **auszuwählen**"
+languagePane.select.indicator: "Diese Sprache ist zurzeit **ausgewählt**"
+minute: "minute"
+minutes: "minuten"
+mysqlPane.connectionLimits.decreaseAction: "**Rechtsklick** um zu **verringern**"
+mysqlPane.connectionLimits.desc: "Ändere diese Limits nicht, wenn du sie nicht kennst"
+mysqlPane.connectionLimits.increaseAction: "**Linksklick** um zu **erhöhen**"
+mysqlPane.connectionLimits.setting.maximumActiveConnections: "Maximum aktive Verbindungen"
+mysqlPane.connectionLimits.setting.minimumIdleConnections: "Minimum inaktive Verbindungen"
+mysqlPane.connectionLimits.switchAction: "**Drücke Q** um die Option zu ändern"
+mysqlPane.connectionLimits.title: "Verbindungs Limits"
+mysqlPane.couldNotConnect.connectionError: "Verbindungsfehler:"
+mysqlPane.couldNotConnect.desc: "Überprüfe die Einstellungen & die Erreichbarkeit der Datenbank"
+mysqlPane.couldNotConnect.title: "Konnte nicht verbinden"
+mysqlPane.credentials.clearAction: "**Klicke** um MySQL Informationen zu **löschen**"
+mysqlPane.credentials.connectionsUrl: "Verbindungs Url:"
+mysqlPane.credentials.desc: "Müssen für **alle** Server gleich sein"
+mysqlPane.credentials.enterAction: "**Klicke** um MySQL Informationen anzugeben"
+mysqlPane.credentials.password: "Passwort: **%**"
+mysqlPane.credentials.title: "MySQL Informationen"
+mysqlPane.credentials.username: "Username: **%**"
+mysqlPane.database: "datenbank"
+mysqlPane.disable.action: "Klicke um MySQL zu deaktivieren"
+mysqlPane.disable.desc: "Ein Restart ist hierfür notwendig"
+mysqlPane.disable.title: "Deaktivieren"
+mysqlPane.encryption.disableAction: "Klicke um Verschlüsselung zu **deaktivieren**"
+mysqlPane.encryption.enableAction: "Klicke um Verschlüsselung zu **aktivieren**"
+mysqlPane.encryption.ssl: "SSL: **%**"
+mysqlPane.encryption.title: "SSL"
+mysqlPane.everythingSaved.desc: "Keine ungespeicherten Änderungen vorhanden"
+mysqlPane.everythingSaved.title: "Alles Gespeichert"
+mysqlPane.hostname: "hostname"
+mysqlPane.loading.desc: "Bitte warte bis alle Verbindungstests abgeschlossen sind"
+mysqlPane.loading.title: "Teste Verbindung"
+mysqlPane.name: "MySQL Datenbank"
+mysqlPane.password: "passwort"
+mysqlPane.port: "port"
+mysqlPane.save.action: "Klicke um Änderungen zu **speichern**"
+mysqlPane.save.title: "Speichern"
+mysqlPane.setup.action: "Klicke um MySQL einzurichen"
+mysqlPane.setup.desc: "Dies benötigt eine externe MySQL Datenbank"
+mysqlPane.setup.title: "MySQL Einrichten"
+mysqlPane.test.action: "Klicke um **Änderungen** zu testen"
+mysqlPane.test.database: "Datenbank: **%**"
+mysqlPane.test.hostname: "Hostname: **%**"
+mysqlPane.test.maximumPoolSize: "Maximum Pool Größe: **%**"
+mysqlPane.test.minimumIdle: "Minimum Idle: **%**"
+mysqlPane.test.password: "Passwort: **%**"
+mysqlPane.test.port: "Port: **%**"
+mysqlPane.test.ssl: "SSL: **%**"
+mysqlPane.test.title: "Teste Änderungen"
+mysqlPane.test.username: "Username: **%**"
+mysqlPane.username: "username"
+mysqlSetup.actionBar: "Standard: **%**"
+mysqlSetup.subtitle: "Gebe **%** in den Chat ein"
+mysqlSetup.title: "MySQL Einrichtung"
+pageableView.basicSearch.action: "Klicke um zu Suchen"
+pageableView.basicSearch.title: "Suche"
+pageableView.next.action: "Klicke um umzublättern"
+pageableView.next.title: "Nächste Seite"
+pageableView.previous.action: "Klicke um zurück zu blättern"
+pageableView.previous.title: "Vorherige Seite"
+pageableView.search.closeAction: "Klicke um die Suche zu **schließen**"
+pageableView.search.subtitle: "Tippe eine Suchanfrage ein"
+pageableView.search.title: "Suchen"
+restartView.button.action: "Klicke um den Server neuzustarten"
+restartView.button.title: "Neustarten"
+restartView.restarting: "Startet neu..."
+restartView.title: "Starte den Server neu"
+second: "sekunde"
+seconds: "sekunden"
+settings: "einstellungen"
+settingsView.select.action: "Klicke um Einstellung zu öffnen"
+settingsView.select.indicator: "Diese Seite ist gerade **gewählt**"
+settingsView.title: "Einstellungen > %"
+timePickerView.addDay: "Füge 1 Tag hinzu"
+timePickerView.addHour: "Füge 1 Stunde hinzu"
+timePickerView.addMinute: "Füge 1 Minute hinzu"
+timePickerView.addSecond: "Füge 1 Sekunde hinzu"
+timePickerView.confirm.action: "Klicke um zu Bestätigen"
+timePickerView.confirm.title: "Bestätigen"
+timePickerView.decrementAction: "Klicke um zu verringern"
+timePickerView.incrementAction: "Klicke um zu erhöhen"
+timePickerView.removeDay: "Verringere um 1 Tag"
+timePickerView.removeHour: "Verringere um 1 Stunde"
+timePickerView.removeMinute: "Verringere um 1 Minute"
+timePickerView.removeSecond: "Verringere um 1 Sekunde"
+update.clickToAuthenticate: "Klicke auf den Link um dich mit **Discord** einzuloggen:"
+update.serverOffline: "Es gab ein Problem beim Verbinden mit dem Update Server"
+update.updatedPlugin: "Plugin wurde auf Version **%** geupdatet, lade plugin neu.."
+update.youAreNotVerified: "Du bist nicht auf unserem **Discord** verifiziert"
+update.youNotOwnPlugin: "Du besitzt dieses Plugin nicht. **Kaufe es** um dieses feature zu nutzen"
+updateView.no.action: "Klicke um auf dieser Version zu bleiben"
+updateView.no.desc.newVersion: "Neue Version: **%**"
+updateView.no.desc.yourVersion: "Deine Version: **%**"
+updateView.no.title: "Bleibe auf der Version"
+updateView.title: "Update von %from% auf %to%"
+updateView.yes.action: "Klicke um das **update** zu laden"
+updateView.yes.desc: "Dieses Feature benötigt **Discord** um dein Kauf zu bestätigen"
+updateView.yes.title: "Lade Update"
+userInput.leftClickClose: "**Linksklick** um zu schließen"
