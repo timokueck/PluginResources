@@ -10,8 +10,8 @@
 #mysqlPane.connectionLimits.setting.minimumIdleConnections: Minimum Idle Connections
 #mysqlPane.credentials.clearAction: **Click** to **clear** MySQL Credentials
 #userInput.leftClickClose: **Left Click** to close
-#mysqlPane.port: port
-#enable: enable
+mysqlPane.port: port
+enable: aktivieren
 #updateView.yes.desc: This feature requires **Discord** to verify your purchase
 #mysqlPane.encryption.ssl: SSL: **%**
 #mysqlPane.name: MySQL Database
@@ -96,13 +96,13 @@
 #pageableView.search.closeAction: Click to **close** the search
 #pageableView.search.subtitle: Type in a search term
 #restartView.button.action: §7Click to restart the Server
-#hour: hour
+hour: stunde
 #updateView.no.action: Click to stay on this Version
 #timePickerView.addHour: Add 1 Hour
-#mysqlPane.save.title: Save
+mysqlPane.save.title: Speichern
 #timePickerView.removeHour: Remove 1 Hour
 #update.clickToAuthenticate: Click the link below to authenticate using **Discord**:
-#hours: hours
+hours: stunden
 #confirmationView.deny.title: Abort
 #mysqlPane.connectionLimits.increaseAction: **Left Click** to **increase**
 #mysqlPane.couldNotConnect.connectionError: Connection Error:
