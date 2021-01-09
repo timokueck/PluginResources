@@ -6009,7 +6009,7 @@ UltraPunishments+ultrapunishments.mute.revoke+Allows a player to unmute someone
 UltraPunishments+ultrapunishments.report.respond+Allows a player to view and respond reports
 UltraPunishments+ultrapunishments.warning.execute+Allows a player to issue a warning
 UltraPunishments+ultrapunishments.warning.revoke+Allows a player to remove a warning
-UltraPunishments+ultrapunishments.access.details+Allows a player to access the Player Details in a specific Player View
+UltraPunishments+ultrapunishments.access.details+Allows a player to access the Player Details of a specific Player
 UltraRegions+region.[region].all-damage.allow+Allows the player to be immune to all kinds of damage in a specific region no matter of the flag.
 UltraRegions+region.[region].all-damage.disallow+Prevents the player from being immune to all kinds of damage in a specific region no matter of the flag.
 UltraRegions+region.[region].block-breaking.allow+Allows the player to break blocks in a specific region no matter of the flag.
