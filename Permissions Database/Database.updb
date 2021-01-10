@@ -761,6 +761,7 @@ Bukkit+minecraft.command.tp+[before version 1.15] Ability to use the tp command 
 Bukkit+minecraft.command.weather+Ability to use the weather command (changes the weather in-game)+/weather
 Bukkit+minecraft.command.whitelist+Ability to use the whitelist command (complex command to manage the whitelist)+/whitelist on,/whitelist off,/whitelist list,/whitelist reload
 Bukkit+minecraft.command.xp+Ability to use the xp command (gives the specified player a certain amount of experience)+/xp
+BungeeHub+bungeehub.hub+Allows people to do /hub+/hub
 BuycraftX+buycraft.admin+This is the only permission of Buycraft and give you permission to al these commands. (the last permission is only able to use in the console!)+/buycraft refresh,/buycraft forcecheck,/buycraft report,/buycraft signupdate,/buycraft coupon,/buycraft secret
 Captcha+captcha.notify+Allowed you to get notified when someone fails the Captcha
 Captcha+captcha.open.others+Opens a Captcha to a certain player+/captcha PLAYER
@@ -6438,4 +6439,3 @@ Wormholes+wormholes.use+Grants the permission to enter portals (actually use the
 YouTubeBridge+youtubebridge.admin+Access to all administrative features+/panel
 YT+box.set+Zum Box-setzen
 YT+yt.box+Zum Box-joinen
-BungeeHub+bungeehub.hub+Allows people to do /hub+/hub
