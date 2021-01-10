@@ -2490,7 +2490,7 @@ FabledSkyBlock+fabledskyblock.island.visit+Opens GUI to visit islands.+/island v
 FabledSkyBlock+fabledskyblock.island.visitors+Opens the island menu for visitors.+/island visitors
 FabledSkyBlock+fabledskyblock.island.vote+Allows the user to vote or remove a vote.+/island vote
 FabledSkyBlock+fabledskyblock.island.weather+Allows user to change weather on island.+/island weather
-FabledSkyBlock+fabledskyblock.island*+Grants access to every default island permission.
+FabledSkyBlock+fabledskyblock.island.*+Grants access to every default island permission.
 FabledSkyBlock+fabledskyblock.limit.block.*+Allows player to bypass all block limits.
 FabledSkyBlock+fabledskyblock.stackable+Allows players to create stacks from stackables if permission is required.
 FabledSkyBlock+fabledskyblock.top.exempt+Exempts user from appearing on top list.
