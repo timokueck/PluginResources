@@ -6011,6 +6011,9 @@ UltraPunishments+ultrapunishments.report.respond+Allows a player to view and res
 UltraPunishments+ultrapunishments.warning.execute+Allows a player to issue a warning
 UltraPunishments+ultrapunishments.warning.revoke+Allows a player to remove a warning
 UltraPunishments+ultrapunishments.access.details+Allows a player to access the Player Details of a specific Player
+UltraPunishments+ultrapunishments.broadcaster.receive+Allows a player to receive the broadcasted Punishments Messages
+UltraPunishments+ultrapunishments.mutechat.execute+Allows a player to mute the whole local chat
+UltraPunishments+ultrapunishments.mutechat.bypass+Allows a player to bypass the muted local chat
 UltraRegions+region.[region].all-damage.allow+Allows the player to be immune to all kinds of damage in a specific region no matter of the flag.
 UltraRegions+region.[region].all-damage.disallow+Prevents the player from being immune to all kinds of damage in a specific region no matter of the flag.
 UltraRegions+region.[region].block-breaking.allow+Allows the player to break blocks in a specific region no matter of the flag.
