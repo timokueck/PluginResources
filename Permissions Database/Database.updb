@@ -2,14 +2,17 @@
 # Github: https://github.com/TechsCode/PluginResources
 # Format: https://github.com/TechsCode/PluginResources/blob/master/README.md#format
 #
-AAC+AAC.banvl+Allows the player to cahnge another players banvl.+/aac banvl
-AAC+AAC.bypass+Allows the player to be exempt from all AAC checks.
-AAC+AAC.manage+Allows the player to enable and disable checks, mitigations and actions in real time.+/aac manage
-AAC+AAC.moderator+Allows the player to view violation levels of another player.+/aac moderator
-AAC+AAC.notify+Allows the player to send and receive AAC notifications.+/aac notify
-AAC+AAC.reload+Allows the player to reload all of the plugin's components from the configuration file.+/aac reload
-AAC+AAC.status+Allows the player to see general information about the status of AAC.+/aac status
-AAC+AAC.verbose+Allows the player to see debug messages of AAC.+/aac verbose
+AAC+AAC.bypass+Allows the player to bypass all of AAC's checks.
+AAC+AAC.reload+Allows the player to reload AAC's checks and configuration file.+/aac reload
+AAC+AAC.status+Allows the player to view information about online players.+/aac status,/aac status<player>
+AAC+AAC.exempt+Allows the player to manually disable AAC checking for certain players.+/aac exempt <player>
+AAC+AAC.spectate+Allows the player to teleport to players in spectator mode.+/aac spectate <player>,/aac spectate
+AAC+AAC.sudo+Allows the player to run commands as another player.+/aac sudo <player> <command>
+AAC+AAC.reset+Allows the player to clear all information about a player from AAC's database.+/aac reset <player>
+AAC+AAC.check+Allows the player to force AAC to analyse a particular player.+
+AAC+AAC.alerts+Allows the player to receive alerts from AAC's checks.+/aac alerts <off|normal|reduced>,/aac alerts
+AAC+AAC.debug+Allows the player to turn on debug messages for specific players.+/aac debug,/aac debug <player|players>
+
 Actionbar+actionbar.announcer.list+Allows you to list all messages of the announcer +/actionbarannouncer list
 Actionbar+actionbar.announcer.send+Allows you to send a line of the announcers messages +/actionbarannouncer send
 Actionbar+actionbar.announcer.start+Allows you to start the announcer+/actionbarannouncer start
