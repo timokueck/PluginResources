@@ -3,16 +3,16 @@
 # Format: https://github.com/TechsCode/PluginResources/blob/master/README.md#format
 #
 AAC+aac.*+Grants the player all permissions of the plugin.
-AAC+aac.bypass+Allows the player to bypass all checks.
-AAC+aac.status+Allows the player to view information about online players.+/aac status [player]
-AAC+aac.exempt+Allows the player to manually disable a specific check for another player.+/aac exempt <player>
-AAC+aac.spectate+Allows the player to teleport to another player in spectator mode.+/aac spectate [player]
-AAC+aac.sudo+Allows the player to run commands as another player.+/aac sudo <player> <command>
-AAC+aac.reset+Allows the player to clear all database entries for another player.+/aac reset <player>
-AAC+aac.check+Allows the player to force an analyzis for another player.+/aac check <player>
 AAC+aac.alerts+Allows the player to receive alerts from checks and to set the alert level.+/aac alerts [off|normal|reduced]
+AAC+aac.bypass+Allows the player to bypass all checks.
+AAC+aac.check+Allows the player to force an analyzis for another player.+/aac check <player>
 AAC+aac.debug+Allows the player to turn on debug mode for the detections.+/aac debug [player]
+AAC+aac.exempt+Allows the player to manually disable a specific check for another player.+/aac exempt <player>
 AAC+aac.reload+Allows the player to reload the checks and the configuration of the plugin.+/aac reload
+AAC+aac.reset+Allows the player to clear all database entries for another player.+/aac reset <player>
+AAC+aac.spectate+Allows the player to teleport to another player in spectator mode.+/aac spectate [player]
+AAC+aac.status+Allows the player to view information about online players.+/aac status [player]
+AAC+aac.sudo+Allows the player to run commands as another player.+/aac sudo <player> <command>
 Actionbar+actionbar.announcer.list+Allows you to list all messages of the announcer +/actionbarannouncer list
 Actionbar+actionbar.announcer.send+Allows you to send a line of the announcers messages +/actionbarannouncer send
 Actionbar+actionbar.announcer.start+Allows you to start the announcer+/actionbarannouncer start
@@ -2451,6 +2451,7 @@ FabledSkyBlock+fabledskyblock.bypass.cooldown+Permission to bypass biome, island
 FabledSkyBlock+fabledskyblock.bypass+Permission to access a closed island.
 FabledSkyBlock+fabledskyblock.fly.*+Gives permission to fly at any island.
 FabledSkyBlock+fabledskyblock.fly+Gives permission to fly at their island.
+FabledSkyBlock+fabledskyblock.island.*+Grants access to every default island permission.
 FabledSkyBlock+fabledskyblock.island.accept+Allows the user to accept island invites.+/island accept
 FabledSkyBlock+fabledskyblock.island.ban+Allows the user to ban a specific person on their island.+/island ban
 FabledSkyBlock+fabledskyblock.island.bank+Opens the bank of your island.+/island bank
@@ -2494,7 +2495,6 @@ FabledSkyBlock+fabledskyblock.island.visit+Opens GUI to visit islands.+/island v
 FabledSkyBlock+fabledskyblock.island.visitors+Opens the island menu for visitors.+/island visitors
 FabledSkyBlock+fabledskyblock.island.vote+Allows the user to vote or remove a vote.+/island vote
 FabledSkyBlock+fabledskyblock.island.weather+Allows user to change weather on island.+/island weather
-FabledSkyBlock+fabledskyblock.island.*+Grants access to every default island permission.
 FabledSkyBlock+fabledskyblock.limit.block.*+Allows player to bypass all block limits.
 FabledSkyBlock+fabledskyblock.stackable+Allows players to create stacks from stackables if permission is required.
 FabledSkyBlock+fabledskyblock.top.exempt+Exempts user from appearing on top list.
@@ -4985,59 +4985,59 @@ ReportPlus+ReportPlus.vanish+Allows to use command /invs.+/invs
 Reputation+reputation.admin+Show help, give/take/reset points, reload plugin
 ReWorld+reworld.admin+Allows a player to use the GUI of ReWorld.+/reworld
 ReWorld+reworld.bypass.build+Allows a player to bypass the build flag in ReWorld.
+RoyaleEconomy+rec.admin.bank+Allow player to edit balance in player bank.+/royaleeconomy bank
 RoyaleEconomy+rec.admin.help+Help command.
 RoyaleEconomy+rec.admin.purse+Allow player to see purse balance.+/royaleeconomy purse
-RoyaleEconomy+rec.admin.bank+Allow player to edit balance in player bank.+/royaleeconomy bank
-RoyaleEconomy+rec.admin.sharedbank+Allow player to have access to shared bank.+/royaleeconomy sharedbank
-RoyaleEconomy+rec.admin.shops+Allow player to edit and manage shops.+/royaleeconomy shops
 RoyaleEconomy+rec.admin.reload+Reloads the config files and static values.+/royaleeconomy reload
-RoyaleEconomy+rec.balance+Allow player to see own balance.+/balance
-RoyaleEconomy+rec.balance.other+Allow player to see other player balance.+/balance <Player>
-RoyaleEconomy+rec.shop.help+Allow player to see help commands for shops.+/reshop
-RoyaleEconomy+rec.shop.open+Allow player to open a specific shop by name.+/reshop open <Shop>
+RoyaleEconomy+rec.admin.sharedbank+Allow player to have access to shared bank.+/royaleeconomy sharedbank
 RoyaleEconomy+rec.admin.shop.forceopen+Allow player to forcefully open a specific shop by name to a player.+/reshop forceopen <Shop> <Player>
-RoyaleEconomy+rec.pay+Allow player to give other player money+/pay <Player> <Amount>
+RoyaleEconomy+rec.admin.shops+Allow player to edit and manage shops.+/royaleeconomy shops
+RoyaleEconomy+rec.balance.other+Allow player to see other player balance.+/balance <Player>
+RoyaleEconomy+rec.balance+Allow player to see own balance.+/balance
+RoyaleEconomy+rec.balancetop.bank+Allow player to see the top regarding bank coins.+/balancetop bank
 RoyaleEconomy+rec.balancetop.help+Allow player to see help commands for balancetop+/balancetop
 RoyaleEconomy+rec.balancetop.purse+Allow player to see the top regarding purse coins.+/balancetop purse
-RoyaleEconomy+rec.balancetop.bank+Allow player to see the top regarding bank coins.+/balancetop bank
 RoyaleEconomy+rec.balancetop.sharedbank+Allow player to see the top regarding sharedbank coins.+/balancetop sharedbank
-RoyaleEconomy+rec.bank.help+Allow player to see help commands for bank.+/bank help
-RoyaleEconomy+rec.bank.command+Allow player to open bank menu.+/bank
-RoyaleEconomy+rec.bank.balance+Allow player to see own bank balance.+/bank balance
 RoyaleEconomy+rec.bank.balance.other+Allow player to see other player bank balance.+/bank balance <Player>
-RoyaleEconomy+rec.bank.withdraw+Allow player to opens the withdraw menu.+/bank withdraw
+RoyaleEconomy+rec.bank.balance+Allow player to see own bank balance.+/bank balance
+RoyaleEconomy+rec.bank.command+Allow player to open bank menu.+/bank
 RoyaleEconomy+rec.bank.deposit+Allow player to opens the deposit menu.+/bank deposit
-RoyaleEconomy+rec.sharedbank.help+Allow player to see help commands for sharedbank+/sharedbank help
-RoyaleEconomy+rec.sharedbank.balance+Allow player to see the bank balance you have/other player has.+/sharedbank balance
-RoyaleEconomy+rec.sharedbank.balance.other+Allow player to see other's sharedbank balance.
-RoyaleEconomy+rec.sharedbank.withdraw+Allow player to opens the withdraw menu.+/sharedbank withdraw
 RoyaleEconomy+rec.bank.deposit+Allow player to opens the deposit menu.+/sharedbank deposit
-RoyaleEconomy+rec.sharedbank.create+Allow player to create a sharedbank+/sharedbank create
-RoyaleEconomy+rec.sharedbank.transfer+Allow owner of shardbank transfers the bank ownership to another member of the bank.+/sharedbank transfer
-RoyaleEconomy+rec.sharedbank.disband+Allow owner of sharedbank to delete a shared bank.+/sharedbank delete,/sharedbank disband
-RoyaleEconomy+rec.sharedbank.leave+Allow member in a sharedbank to leave sharedbank.+/sharedbank leave
-RoyaleEconomy+rec.sharedbank.invite+Allow owner of shardbank to invite a player to sharedbank.+/sharedbank invite
-RoyaleEconomy+rec.sharedbank.accept+Allow player to accept an invitation to a shared bank.+/sharedbank accept
-RoyaleEconomy+rec.sharedbank.kick+Allow owner of shardbank to kick a member out of shardbank.+/sharedbank kick
-RoyaleEconomy+rec.sharedbank.info+Get info about a player's shared bank.+/sharedbank info
-RoyaleEconomy+rec.talismans.help+Allow player to display tailsmans commands+/talismans help
-RoyaleEconomy+rec.talismans.open+Allow player to open the talisman list+/tailsmans
-RoyaleEconomy+rec.talismans.give+Allow player to give tailsmans+/talismans give
+RoyaleEconomy+rec.bank.help+Allow player to see help commands for bank.+/bank help
+RoyaleEconomy+rec.bank.withdraw+Allow player to opens the withdraw menu.+/bank withdraw
+RoyaleEconomy+rec.interest.force+Allow player to triggers an interest without affecting the remaning time.+/interest force
+RoyaleEconomy+rec.interest.help+Allow player to see help commands for interest+/interest help
+RoyaleEconomy+rec.interest.reset+Allow player to resets the interest remaining time to the specified config value without triggering the interest.+/interest reset
+RoyaleEconomy+rec.interest.slowdown+Allow player to slow down the interest by adding some hours to the remaining time until interest.+/interest slowdown
+RoyaleEconomy+rec.interest.speedup+Allow player to speeds up the interest by removing some hours from the remaining time until interest.+/interest speedup
+RoyaleEconomy+rec.interest+Command for checking remaining time until interest.+/interest
 RoyaleEconomy+rec.killcoins.bypass.limit+Allow player to bypass killcoins
 RoyaleEconomy+rec.killcoins.command+Allow access to /killcoins command+/killcoins
-RoyaleEconomy+rec.piggybank.help+Allow player to see help commands for piggybank+/piggybank help
+RoyaleEconomy+rec.moneybag.adminget+Allow player to spawn in a moneybag+/coinsbag adminget <Amount>
+RoyaleEconomy+rec.moneybag.get+Allow player to transforms a specific amount of coins from the purse to a coins bag and gives it to player.+/coinsbag get <Amount>
+RoyaleEconomy+rec.moneybag.give+Allow player to give a coins bag to someone else.+/coinsbag give
+RoyaleEconomy+rec.moneybag.help+Allow player to see help commands for moneybag+/moneybag help
+RoyaleEconomy+rec.pay+Allow player to give other player money+/pay <Player> <Amount>
 RoyaleEconomy+rec.piggybank.get+Allow player to get piggybank+/piggybank get
 RoyaleEconomy+rec.piggybank.give+Allow player to give other player a piggybank+/piggybank give <Player>
-RoyaleEconomy+rec.moneybag.help+Allow player to see help commands for moneybag+/moneybag help
-RoyaleEconomy+rec.moneybag.get+Allow player to transforms a specific amount of coins from the purse to a coins bag and gives it to player.+/coinsbag get <Amount>
-RoyaleEconomy+rec.moneybag.adminget+Allow player to spawn in a moneybag+/coinsbag adminget <Amount>
-RoyaleEconomy+rec.moneybag.give+Allow player to give a coins bag to someone else.+/coinsbag give
-RoyaleEconomy+rec.interest.help+Allow player to see help commands for interest+/interest help
-RoyaleEconomy+rec.interest.speedup+Allow player to speeds up the interest by removing some hours from the remaining time until interest.+/interest speedup
-RoyaleEconomy+rec.interest.slowdown+Allow player to slow down the interest by adding some hours to the remaining time until interest.+/interest slowdown
-RoyaleEconomy+rec.interest.reset+Allow player to resets the interest remaining time to the specified config value without triggering the interest.+/interest reset
-RoyaleEconomy+rec.interest.force+Allow player to triggers an interest without affecting the remaning time.+/interest force
-RoyaleEconomy+rec.interest+Command for checking remaining time until interest.+/interest
+RoyaleEconomy+rec.piggybank.help+Allow player to see help commands for piggybank+/piggybank help
+RoyaleEconomy+rec.sharedbank.accept+Allow player to accept an invitation to a shared bank.+/sharedbank accept
+RoyaleEconomy+rec.sharedbank.balance.other+Allow player to see other's sharedbank balance.
+RoyaleEconomy+rec.sharedbank.balance+Allow player to see the bank balance you have/other player has.+/sharedbank balance
+RoyaleEconomy+rec.sharedbank.create+Allow player to create a sharedbank+/sharedbank create
+RoyaleEconomy+rec.sharedbank.disband+Allow owner of sharedbank to delete a shared bank.+/sharedbank delete,/sharedbank disband
+RoyaleEconomy+rec.sharedbank.help+Allow player to see help commands for sharedbank+/sharedbank help
+RoyaleEconomy+rec.sharedbank.info+Get info about a player's shared bank.+/sharedbank info
+RoyaleEconomy+rec.sharedbank.invite+Allow owner of shardbank to invite a player to sharedbank.+/sharedbank invite
+RoyaleEconomy+rec.sharedbank.kick+Allow owner of shardbank to kick a member out of shardbank.+/sharedbank kick
+RoyaleEconomy+rec.sharedbank.leave+Allow member in a sharedbank to leave sharedbank.+/sharedbank leave
+RoyaleEconomy+rec.sharedbank.transfer+Allow owner of shardbank transfers the bank ownership to another member of the bank.+/sharedbank transfer
+RoyaleEconomy+rec.sharedbank.withdraw+Allow player to opens the withdraw menu.+/sharedbank withdraw
+RoyaleEconomy+rec.shop.help+Allow player to see help commands for shops.+/reshop
+RoyaleEconomy+rec.shop.open+Allow player to open a specific shop by name.+/reshop open <Shop>
+RoyaleEconomy+rec.talismans.give+Allow player to give tailsmans+/talismans give
+RoyaleEconomy+rec.talismans.help+Allow player to display tailsmans commands+/talismans help
+RoyaleEconomy+rec.talismans.open+Allow player to open the talisman list+/tailsmans
 RunAsConsole+rac.info+Allow Use Of The /runasconsole command+/runasconsole
 RunAsConsole+rac.use+Allow Use Of The /console command+/console
 Secrets+secret.admin+Needed for sign creation.
@@ -6004,19 +6004,19 @@ UltimateStatistics+ultimatestatistics.view+Allows the player to see their own st
 UltraCustomizer+ultracustomizer.admin+Ability to access the main GUI of the plugin+/customizer
 UltraCustomizerPlus+ucplus.command+Allows the player to use the main command of the plugin to open the GUI.
 UltraCustomizerPlus+ucplus.update-join+Allows the player to see if the plugin needs an update.
+UltraPunishments+ultrapunishments.access.details+Allows a player to access the Player Details of a specific Player
 UltraPunishments+ultrapunishments.ban.execute+Allows a player to ban someone
 UltraPunishments+ultrapunishments.ban.revoke+Allows a player to unban someone
+UltraPunishments+ultrapunishments.broadcaster.receive+Allows a player to receive the broadcasted Punishments Messages
 UltraPunishments+ultrapunishments.manage.settings+Allows a player to view and edit settings
 UltraPunishments+ultrapunishments.manage.templates+Allows a player to edit punishment templates
 UltraPunishments+ultrapunishments.mute.execute+Allows a player to mute someone
 UltraPunishments+ultrapunishments.mute.revoke+Allows a player to unmute someone
+UltraPunishments+ultrapunishments.mutechat.bypass+Allows a player to bypass the muted local chat
+UltraPunishments+ultrapunishments.mutechat.execute+Allows a player to mute the whole local chat
 UltraPunishments+ultrapunishments.report.respond+Allows a player to view and respond reports
 UltraPunishments+ultrapunishments.warning.execute+Allows a player to issue a warning
 UltraPunishments+ultrapunishments.warning.revoke+Allows a player to remove a warning
-UltraPunishments+ultrapunishments.access.details+Allows a player to access the Player Details of a specific Player
-UltraPunishments+ultrapunishments.broadcaster.receive+Allows a player to receive the broadcasted Punishments Messages
-UltraPunishments+ultrapunishments.mutechat.execute+Allows a player to mute the whole local chat
-UltraPunishments+ultrapunishments.mutechat.bypass+Allows a player to bypass the muted local chat
 UltraRegions+region.[region].all-damage.allow+Allows the player to be immune to all kinds of damage in a specific region no matter of the flag.
 UltraRegions+region.[region].all-damage.disallow+Prevents the player from being immune to all kinds of damage in a specific region no matter of the flag.
 UltraRegions+region.[region].block-breaking.allow+Allows the player to break blocks in a specific region no matter of the flag.
