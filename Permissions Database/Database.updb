@@ -2,6 +2,7 @@
 # Github: https://github.com/TechsCode/PluginResources
 # Format: https://github.com/TechsCode/PluginResources/blob/master/README.md#format
 #
+AAC+aac.*+Grants the player all permissions of the plugin.
 AAC+aac.bypass+Allows the player to bypass all checks.
 AAC+aac.status+Allows the player to view information about online players.+/aac status [player]
 AAC+aac.exempt+Allows the player to manually disable a specific check for another player.+/aac exempt <player>
