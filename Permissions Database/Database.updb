@@ -12,7 +12,6 @@ AAC+aac.check+Allows the player to force an analyzis for another player.+/aac ch
 AAC+aac.alerts+Allows the player to receive alerts from checks and to set the alert level.+/aac alerts [off|normal|reduced]
 AAC+aac.debug+Allows the player to turn on debug mode for the detections.+/aac debug [player]
 AAC+aac.reload+Allows the player to reload the checks and the configuration of the plugin.+/aac reload
-
 Actionbar+actionbar.announcer.list+Allows you to list all messages of the announcer +/actionbarannouncer list
 Actionbar+actionbar.announcer.send+Allows you to send a line of the announcers messages +/actionbarannouncer send
 Actionbar+actionbar.announcer.start+Allows you to start the announcer+/actionbarannouncer start
